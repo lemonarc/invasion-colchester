@@ -1,0 +1,42 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+		
+	<a class="scroll" href="#top">Back To The Top</a>
+    
+    <h2 class="footer-heading" alt="{{ site.title }}">
+			<img src="/assets/ic-logo-full.svg" alt="{{ site.title }}" />
+		</h2>
+    
+    <p class="social">
+      <a href="https://www.facebook.com/invasioncolchester/?ref=website" alt="Follow us on Facebook" rel="nofollow noopener noreferrer" target="_blank">
+      	<i class="fa fa-facebook" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/InvColchester?lang=en" alt="Follow us on Twitter" rel="nofollow noopener noreferrer" target="_blank">
+      	<i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/invasion_colchester/" alt="Follow us on Instagram" rel="nofollow noopener noreferrer" target="_blank">
+      	<i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+    </p>
+		<small>
+		  <p>
+				<a href="/privacy-policy/" alt="Privacy Policy">Privacy Policy</a> | 
+          {% if page.layout == 'home' %}
+            <a class="page-link scroll" href="#contact">Contact</a>
+          {% else %}
+            <a class="page-link" href="{{ site.url }}/#contact">Contact</a>
+          {% endif %}
+		  </p><p>
+				All planned items may be subject to change
+			</p><p>
+				&copy; <script type="text/javascript">
+				  document.write(new Date().getFullYear());
+				</script>, Invasion Colchester
+			</p>
+		</small>
+
+  </div>
+
+</footer>

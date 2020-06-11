@@ -1,0 +1,60 @@
+/* Flex Slider
+--------------------------------------------------*/
+
+.guests .flexslider {
+	background: $black;
+	border: none;
+	border-radius: 0;
+	margin: 0;
+	line-height: 1;
+	overflow: hidden;
+	position: relative;
+	
+	a {
+		position: absolute;
+		left: 0;
+	    right: 0;
+	    bottom: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+		max-width: 350px;
+	    z-index: 1;
+		
+		@include media-query($on-800) {
+			max-width: 240px;
+		}
+	}
+}
+.flexhero li {
+	height: 80vh;
+	width: 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+		
+	&.hero1 {
+		background-image: url('/images/guests/clem-so-3.jpg');
+	}
+	&.hero2 {
+		background-image: url('/images/guests/nick-joseph-1.jpg');
+	}
+	&.hero3 {
+		background-image: url('/images/guests/mike-edmonds-2.jpg');
+	}
+	&.hero4 {
+		background-image: url('/images/guests/sandeep-mohan-2.jpg');
+	}
+	&.hero5 {
+		background-image: url('/images/guests/martin-ballantyne-1.jpg');
+	}
+	@include media-query($on-800) {
+		height: 60vh;
+	}
+	@include media-query($on-600) {
+		height: 40vh;
+	}
+}
+.flex-control-nav,
+.flex-direction-nav {
+	display: none;
+}

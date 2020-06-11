@@ -1,0 +1,190 @@
+/**
+ * Page content
+ */
+.page-content {
+  flex: 1;
+}
+
+.page-heading {
+  @include relative-font-size(2);
+}
+
+.post {
+	margin-bottom: $spacing-unit*6;
+	
+	@include media-query($on-1200) {
+		padding: 0 $spacing-unit;
+	}
+	.button {
+		display: inline-block;
+	}
+}
+
+.post-list-heading {
+  @include relative-font-size(1.75);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+  margin: $spacing-unit*4 0;
+}
+.post-header-image {
+	height: 0;
+  width: 0;
+  opacity: 0;
+	margin: 0;
+}
+
+.post-title {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+}
+
+
+
+.about-page,
+.charities-page {
+	.post-content {
+		h2 {
+			@include relative-font-size(2);
+			font-family: "Anton", sans-serif;
+			font-weight: 100;
+		}
+		h3 {
+			@include relative-font-size(1);
+			font-family: "Anton", sans-serif;
+			font-weight: 100;
+		}
+		div {
+			border-bottom: 4px solid $brand-color;
+			margin-bottom: $spacing-unit*3;
+			width:100%;
+		}
+		.charity-logo {
+			background: $white;
+			border: 4px solid $brand-color;
+			margin-bottom: -4px;
+			max-width: 300px;
+			padding: 12px 18px;
+			width: 100%;
+		}
+	}
+}
+.contact-success-page {
+	.post-content {
+		text-align: center;
+		
+		a {
+			display: inline-block;
+			margin: 40px auto;
+		}
+	}
+}
+.privacy-page {
+	h1 {
+		@include relative-font-size(2);
+		font-family: "Anton", sans-serif;
+		font-weight: 100;
+	}
+	h3 {
+		@include relative-font-size(1.2);
+		font-family: "Anton", sans-serif;
+		font-weight: 100;
+	}
+}
+
+.shade {
+  background-color: rgba(0,0,0,0.8);
+  height: 100%;
+  width: 100%;
+}
+.fade {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.5+0,1+100 */
+	background: rgba(0,0,0,0.8); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+  height: 100%;
+  width: 100%;
+}
+
+/**
+ * Title Cards
+ */
+
+.title-card {
+//		background-image: url('/images/logo/fade.png');
+//		background-repeat: repeat-x;
+//		background-size: contain;
+	margin: $spacing-unit*2 0 $spacing-unit*6;
+	
+	@include media-query($on-500) {
+		margin: $spacing-unit*3 0;
+	}
+	
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+
+/**
+ * Gallery & Images
+ */
+ 
+.gallery img {
+  max-width: calc(25% - #{$spacing-unit*2});
+	padding: ($spacing-unit / 2) $spacing-unit;
+  float: left;
+	
+	@include media-query($on-laptop) {
+    max-width: calc(50% - #{$spacing-unit*2});
+  }		
+}
+
+.guest-feature {
+	float: left;
+	margin: 0 $spacing-unit*2 $spacing-unit*2 0;
+	width: 50%;
+	
+	@include media-query($on-tablet) {
+		float: none;
+		margin: 0 0 $spacing-unit*2;
+		width: 100%;
+	}
+}
+

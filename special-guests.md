@@ -1,0 +1,174 @@
+---
+layout: page
+title: "Invasion Colchester's Special Guests"
+excerpt: "Keep an eye out for our list of Special Guests for Invasion Colchester in 2020, which will be announced later in the year."
+permalink: /special-guests/
+featured-image: guests-2019.png
+socialimage: social-image-logo.png
+lightbox: guests
+redirect_to: https://invasioncolchester.co.uk
+---
+
+<p>
+	In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
+</p><p>
+	For 2019, we are delighted to introduce actor Clem So, who has featured in such films as 'Pokémon: Detective Pikachu', 'Fantastic Beasts: The Crimes of Grindelwald', 'Jurassic World: Fallen Kingdom', 'Solo: A Star Wars Story', 'Justice League', 'Doctor Strange', 'Muppets Most Wanted' and 'Skyfall', and TV series including 'Doctor Who', 'Fortitude', 'Sherlock' and 'Luther'. We will also be welcoming back actors Nick Joseph, Mike Edmonds, Sandeep Mohan, and Martin Ballantyne.
+</p>
+<br /><br />
+
+<div class="container">
+
+	<img src="/images/guests/clem-so.jpg" alt="Clem So" class="guest-feature" />
+
+	<h2>Clem So</h2>
+
+	<p>
+		Clem initially began working as a background actor on the Japanese historic fantasy film '47 Ronin' in 2011 and has gone on to build invaluable experience in the film industry. Clem has become a featured and in demand face, having worked on over thirty major feature films to date and numerous TV shows including 'Sherlock', 'Being Human' and ten episodes of 'Doctor Who', notably as the Mandarin Clockwork Droid in Peter Capaldi’s first episode as the Doctor, "Deep Breath", and more recently as a Space Corpse (affectionately known as the 'Kill Bill' Zombie by his colleagues) in the series 10 episode "Oxygen".
+	</p><p>
+		Other appearances include a Kyln prisoner in Marvel Studios popular hit 'Guardians Of The Galaxy', a Spectre crime boss in the James Bond film 'Spectre' and a Resistance Trooper in 'Star Wars: The Force Awakens'. Clem also featured in the highly regarded Marvel Studios blockbuster 'Doctor Strange' as one of the protectors of the Hong Kong Sanctum and an Animus patient in 'Assassin’s Creed'.
+	</p><p>	
+		Clem has also worked on many other films including 'Star Wars: The Last Jedi', 'Ready Player One', 'Jurassic World: Fallen Kingdom', 'Solo: A Star Wars Story' and 'Fantastic Beasts: The Crimes of Grindelwald'. 
+	</p>
+	
+	<h4>Where can I find Clem?</h4>
+	
+	<p>
+		Clem will be signing autographs and meeting people in <strong>Lion Walk</strong>.
+	</p>
+	
+</div>
+
+<div class="container">
+
+	<img src="/images/guests/nick-joseph.jpg" alt="Nick Joseph" class="guest-feature" />
+
+	<h2>Nick Joseph</h2>
+
+	<p>
+		Nick became an actor by chance when when a friend of his who ran an agency for extras asked for help when she had been let her down at the last moment. He got the job, went home with £10 in his pocket and decided to enroll in a performing arts school.
+	</p><p>
+		In 1976, Nick's agent called to see if he would be interested in a low budget film called 'Star Wars' - the role was for the Medal Bearer in the final throneroom scene. Nick said yes, won the part and has forever been associated with it since.
+	</p><p>
+		In his career, Nick has worked on 'Doctor Who' with three different Doctors (Tom Baker, Peter Davidson and Colin Baker) as well as two episodes of 'Blakes 7', first as the Android in "Head Hunter" and then in "The Animals". He was the Armoury Officer in the James Bond film 'The Spy Who Loved Me', the Milkman in East Enders for the first three years and has also worked on 'The Incredible Sarah', 'We'll Meet Again', 'Secret Army' and 'The Manageress'. He has appeared in on many TV commercials, the best of which he says was working with Ayrton Senna (Nick played the role of Alain Prost and drove the F1 car as, at the time, he was an F3 race driver!).
+	</p><p>
+		Aside from acting, Nick also used to be a long distance runner, taking part in more than fifty marathons and many other long distance races!
+	</p>
+	
+	<h4>Where can I find Nick?</h4>
+	
+	<p>
+		Nick will be signing autographs and meeting people in <strong>Lion Walk</strong>.
+	</p>
+	
+</div>
+
+<div class="container">
+
+	<img src="/images/guests/mike-edmonds.jpg" alt="Mike Edmonds" class="guest-feature" />
+
+	<h2>Mike Edmonds</h2>
+
+	<p>
+		Mike Edmonds is an English actor with dwarfism, best known for his role as Little Ron in the children's television show 'Maid Marian and Her Merry Men' from 1989-1994.
+	</p><p>
+		After appearing uncredited as an Ugnaught in 'The Empire Strikes Back' in 1980, Mike went on to feature in several films, including 'Flash Gordon', 'The Dark Crystal' and 'Who Framed Roger Rabbit'.
+	</p><p>
+		Mike played the role of Og in the Terry Gilliam film 'Time Bandits' and returned to 'Star Wars' performing as the Ewok Logray as well as the operator for Jabba the Hutt's tail in 'Return of the Jedi'.
+	</p>
+	
+	<h4>Where can I find Mike?</h4>
+	
+	<p>
+		Mike will be signing autographs and meeting people in <strong>Lion Walk</strong>.
+	</p>
+	
+</div>
+
+<div class="container">
+
+	<img src="/images/guests/sandeep-mohan.jpg" alt="Sandeep Mohan" class="guest-feature" />
+
+	<h2>Sandeep Mohan</h2>
+
+	<p>
+		Sandeep Mohan, also known as Sandy, is a business-owner, entrepreneur, TV / film performer and model.
+	</p><p>
+		Despite developing an interest in performance during his informative years at school, Sandeep entered the manufacturing industry after his education and used his knowledge and technical skills to work in the US and the UK, and travel extensively throughout Europe as a trouble-shooter.
+	</p><p>
+		In 2008, Sandeep was given the opportunity to play a small role in Eastenders and thereafter other opportunities in TV dramas. This reaffirmed his passion for acting and he left the manufacturing industry to pursue business interests, thus allowing him the flexibility to have a larger involvement in TV and film projects.
+	</p><p>
+		To date, Sandeep has appeared in a number of TV dramas and comedies including 'East Enders', 'Silent Witness', 'Holby', 'Law and Order UK', 'Sherlock', 'Luther', 'Goodness Gracious Me' and 'The Keith Lemon Sketch Show'.
+	</p><p>
+		Sandeep has also appeared on the big screen in major films such as 'Prince of Persia', 'Skyfall', 'Spectre', 'World War Z', 'Edge of Tomorrow', 'Burnt' and 'The Program'. In 'Star Wars: The Force Awakens' he is the Stormtrooper that man-handles Lor San Tekka (Max Von Sydow) to Kylo Ren (Adam Driver) for interrogation, as well as one of the two Stormtroopers in the comic corridor scene (the one that stops his fellow trooper), the Stormtrooper that interrogates the alien as the village is overtaken by troopers, the Stormtrooper that lies dead at the feet of Harrison Ford in the control room and the First Order Stormtrooper Squad Leader that marches with Kylo Ren in parts of the film.
+	</p><p>
+		Recently, Sandeep has appeared as a surgeon with Benedict Cumberbatch in 'Doctor Strange', a Scarif Trooper in 'Star Wars: Rogue One', a Policeman in 'Jason Bourne', a British Army Officer in 'Wonder Woman', a Snowtrooper Officer in 'Star Wars: The Last Jedi' and as Government Officials in both 'The Hitman’s Bodyguard' and 'Justice League'.
+	</p><p>
+		More excitingly, you might spot Sandeep in the titles to the BBC comedy 'This Time... with Alan Partridge', sitting next to a certain Alan Partridge!
+	</p><p>
+		Sandeep has also appeared in Britney Spears' 'Criminal' music video as well as providing voice-work for Channel 4 News.
+	</p>
+	
+	<h4>Where can I find Sandeep?</h4>
+	
+	<p>
+		Sandeep will be signing autographs and meeting people in <strong>Lion Walk</strong>.
+	</p>
+	
+</div>
+
+<div class="container">
+
+	<img src="/images/guests/martin-ballantyne.jpg" alt="Martin Ballantyne" class="guest-feature" />
+
+	<h2>Martin Ballantyne</h2>
+
+	<p>
+		Martin was born in Norwich, England in 1972, where he grew up and still lives. He has always had a great interest in film and television.
+	</p><p>
+		After leaving Norwich City College and a succession of dead end jobs, he attended a film making course in 1997. He wrote and directed a short black and white film, using friends as actors.
+	</p><p>
+		A keen collector of film memorabilia, in 2000 he was approached by the BBC to take part in a documentary called 'The Price of Fame'.
+	</p><p>
+		At the beginning of 2005 a work colleague asked Martin if he would be interested in appearing in a local theatre stage production. Martin agreed, and went on to play 7 different parts in a production of Vanity Fair.
+	</p><p>
+		In 2005, Martin was given a small role in the British film 'Cashback', written and directed by Sean Ellis, which starred, among others, Sean Biggerstaff from the 'Harry Potter' films. This appearance led to further small roles in films, including 'Heroes and Villains', 'Gasoline Blood', 'The Golden Compass' and 'The Bourne Ultimatum'.
+	</p><p>
+		In 2008, Martin worked on Christopher Nolan's second Batman film, 'The Dark Knight' in which he plays one of the Joker's Henchman, alongside the late Heath Ledger. After having worked with Warner Brother on the 'The Dark Knight', they requested Martin for 'Harry Potter and the Half-Blood Prince', in which he plays 'Scary Face'. He later played Mundungus Fletcher's friend in 'Harry Potter and the Deathly Hallows (Part 1)'.
+	</p><p>
+		In addition to his film work, Martin appreared regularly in the first, second and third series of TV show 'Kingdom'.
+	</p>
+	
+	<h4>Where can I find Martin?</h4>
+	
+	<p>
+		Martin will be signing autographs and meeting people in <strong>Lion Walk</strong>.
+	</p>
+	
+</div>
+	
+<ul class="list">
+	<li class="quarter">
+		<a class="fancybox" rel="group" href="/images/guests/clem-so-1.jpg" title="Clem So in 'Doctor Who'"><img src="/images/guests/clem-so-1.jpg" alt="Clem So in 'Doctor Who'"></a>
+	</li>
+	<li class="quarter">
+		<a class="fancybox" rel="group" href="/images/guests/clem-so-2.jpg" title="Clem So in 'Star Wars'"><img src="/images/guests/clem-so-2.jpg" alt="Clem So in 'Star Wars'"></a>
+	</li>
+	<li class="quarter">
+		<a class="fancybox" rel="group" href="/images/guests/clem-so-3.jpg" title="Clem So in 'Doctor Strange'"><img src="/images/guests/clem-so-3.jpg" alt="Clem So in 'Doctor Strange'"></a>
+	</li>
+	<li class="quarter">
+		<a class="fancybox" rel="group" href="/images/guests/nick-joseph-1.jpg" title="Nick Joseph in 'Star Wars'"><img src="/images/guests/nick-joseph-1.jpg" alt="Nick Joseph in 'Star Wars'"></a>
+	</li>
+	<li class="quarter">
+		<a class="fancybox" rel="group" href="/images/guests/mike-edmonds-2.jpg" title="Mike Edmonds (left) in 'Time Bandits'"><img src="/images/guests/mike-edmonds-2.jpg" alt="Mike Edmonds (left) in 'Time Bandits'"></a>
+	</li>
+	<li class="quarter">
+		<a class="fancybox" rel="group" href="/images/guests/sandeep-mohan-2.jpg" title="Sandeep Mohan in 'This Time... with Alan Partridge'"><img src="/images/guests/sandeep-mohan-2.jpg" alt="Sandeep Mohan in 'This Time... with Alan Partridge'"></a>
+	</li>
+	<li class="quarter">
+		<a class="fancybox" rel="group" href="/images/guests/sandeep-mohan-1.jpg" title="Sandeep Mohan on set"><img src="/images/guests/sandeep-mohan-1.jpg" alt="Sandeep Mohan on set"></a>
+	</li>
+	<li class="quarter">
+		<a class="fancybox" rel="group" href="/images/guests/martin-ballantyne-1.jpg" title="Martin Ballantyne with Heath Ledger in 'The Dark Knight'"><img src="/images/guests/martin-ballantyne-1.jpg" alt="Martin Ballantyne with Heath Ledger in 'The Dark Knight'"></a>
+	</li>
+</ul>

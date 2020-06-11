@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: 'Roboto', sans-serif;
+$base-header-font-family:		'wood_stampregular', 'Anton', sans-serif;
+$base-font-size:   18px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.4 !default;
+
+$spacing-unit:     10px !default;
+
+$h1:                $spacing-unit*3.2;
+$h2:                $spacing-unit*2.8;
+$h3:                $spacing-unit*2.4;
+$h4:                $spacing-unit*2;
+$h5:                $spacing-unit*1.8;
+
+$white:             #fff;
+$black:             #000;
+$blue:              #2828A0;
+$blue-2:            #006EBE;
+$pale-blue:         #cadef2;
+$light-gold:        #FFFBCC;
+$gold:              #FBC926;
+$dark-gold:         #C3922E;
+$grey:              #939598;
+$mid-grey:          #535456;
+$pale-grey:         #ebebeb;
+$dark-grey:         #252525;
+$turq:  			      #00645E;
+$light-turq:        #00A79D;
+$dark-turq:     	  #002c2c;
+$pale-turq:         #70e8e1;
+$light-green:       #55A987;
+$green:             #1B7C55;
+$dark-green:        #00492C;
+
+$brand-color:       $green;
+$brand-color-2:     $light-green;
+$brand-color-3:     $dark-green;
+
+$brand-light:		    lighten($brand-color, 33%);
+$brand-dark:		    darken($brand-color, 33%);
+
+$text-color:		    $white;
+$background-color:  $dark-grey;
+$preheader-color:   $black;
+$header-color:      $black;
+$prefooter-color:   $black;
+$footer-color:      $black;
+
+$link-color:        $brand-color-2;
+$link-hover:        $brand-color;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+$table-text-align: left !default;
+
+$on-1200:           1200px;
+$on-1100:           1100px;
+$on-1040:           1040px;
+$on-1000:           1000px;
+$on-900:            900px;
+$on-800:            800px;
+$on-700:            700px;
+$on-600:            600px;
+$on-500:            500px;
+$on-400:            400px;
+$on-300:            300px;
+$on-200:            200px;
+$on-100:            100px;
+
+// Width of the content area
+$content-width:    $on-1200 !default;
+
+$on-laptop:        $on-800 !default;
+$on-tablet:        $on-600 !default;
+$on-palm:          $on-400 !default;
+$on-mobile:        $on-300 !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "invasion/base",
+  "invasion/header",
+  "invasion/footer",
+  "invasion/layout",
+  "invasion/logo",
+  "invasion/slider",
+  "invasion/blocks",
+  "invasion/pages",
+  "invasion/syntax-highlighting"
+;

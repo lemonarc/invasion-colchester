@@ -1,0 +1,94 @@
+.logo-area {
+	//background-image: url('/images/logo/fade2020.png');
+	//background-repeat: repeat-x;
+	//background-size: contain;
+	height: 600px;
+	
+	@include media-query($on-700) {
+		height: 450px;
+	}
+	@include media-query($on-600) {
+		height: 350px;
+	}
+	@include media-query($on-500) {
+		height: 250px;
+	}
+	.logo-content {
+		margin: 0 auto;
+		max-width: 1100px;
+		position: relative;
+	}
+	.logo-left {
+		position: absolute;
+		left: 0;
+		z-index: 1;
+		
+		@include media-query($on-700) {
+			height: 450px;
+		}
+		@include media-query($on-600) {
+			height: 350px;
+		}
+		@include media-query($on-500) {
+			height: 250px;
+		}
+	}
+	.logo-right {
+		position: absolute;
+		right: 0;
+		z-index: 1;
+		
+		@include media-query($on-700) {
+			height: 450px;
+		}
+		@include media-query($on-600) {
+			height: 350px;
+		}
+		@include media-query($on-500) {
+			height: 250px;
+		}
+	}
+	.logo-center {
+		margin: 0 auto;
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+	.logo-hero {
+		z-index: 2;
+	}
+	.logo-base {		
+		@include media-query($on-700) {
+			height: 450px;
+		}
+		@include media-query($on-600) {
+			height: 350px;
+		}
+		@include media-query($on-500) {
+			height: 250px;
+		}
+	}
+	.logo-large {
+		display: block;
+		
+		@include media-query($content-width) {
+		display: none;			
+		}
+	}
+	.logo-small {
+		display: none;
+		
+		@include media-query($content-width) {
+		display: block;			
+		}
+		@include media-query($on-700) {
+			height: 450px;
+		}
+		@include media-query($on-600) {
+			height: 350px;
+		}
+		@include media-query($on-500) {
+			height: 250px;
+		}
+	}
+}

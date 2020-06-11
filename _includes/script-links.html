@@ -1,0 +1,50 @@
+		<!--Scripts-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
+		<!--fancybox-->
+		<script type="text/javascript" src="/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+		<link rel="stylesheet" href="/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<!-- Optionally add helpers - button, thumbnail and/or media -->
+		<link rel="stylesheet" href="/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="/js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<script type="text/javascript" src="/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+		<link rel="stylesheet" href="/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<script type="text/javascript" src="/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+		<!--scroll-->
+		<script src="/js/easing/jquery.easing.1.3.js"></script>
+		<script>
+			$(function() {
+				$('a.scroll').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+				}, 1500,'easeInOutExpo');
+			event.preventDefault();
+				});
+			});
+		</script>
+		<!--flexslider-->
+		<link rel="stylesheet" href="/js/flexslider/flexslider.css" type="text/css">
+		<script src="/js/flexslider/jquery.flexslider.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+				$('.flexslider').flexslider({
+					slideshowSpeed:4500,
+					animation:"slide",
+				    controlNav:true,
+					directionNav:false,
+					pauseOnHover:false,
+					direction:"horizontal",
+					reverse:false,
+					animationSpeed:600,
+					prevText:"&lt;",
+					nextText:"&gt;",
+					easing:"linear",
+					slideshow:true
+				});
+			});
+		</script>
+		<!--oLoader-->
+		<script type="text/javascript" src="/js/oLoader/js/jquery.oLoader.min.js"></script>
