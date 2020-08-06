@@ -569,7 +569,7 @@ li img { min-width: 100%; }
 
 .contact #contact-form { color: #fff; margin: 40px auto 0; max-width: 600px; width: calc(100% - 40px); }
 
-.contact #contact-form input, .contact #contact-form textarea { background-color: #000; border: none; border-bottom: 1px solid #fff; max-width: calc(100% - 40px); }
+.contact #contact-form input, .contact #contact-form textarea { background-color: #000; border: none; border-bottom: 1px solid #fff; color: #fff; max-width: calc(100% - 40px); }
 
 .contact #contact-form input::placeholder, .contact #contact-form textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */ color: #fff; opacity: 1; /* Firefox */ }
 

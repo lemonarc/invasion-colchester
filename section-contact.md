@@ -12,5 +12,15 @@
 	<input type="email" name="_replyto" placeholder="Your Email" required>
 	<textarea name="Message" placeholder="Your Message" required></textarea>
 	<p><input type="checkbox" name="checkbox" value="check" id="agree" required /> I have read and agree to the <a href="/privacy-policy/" alt="Privacy Policy" rel="noopener" target="_blank">Privacy Policy</a></p>
-	<input type="submit" value="Send">
+	
+	<script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
+	
+	<input type="submit" value="Send" class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>
 </form>
