@@ -425,6 +425,7 @@
 			background-color: $black;
 			border: none;
 			border-bottom: 1px solid $white;
+			color: $white;
 			max-width: calc(100% - 40px);
 			
 			&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
