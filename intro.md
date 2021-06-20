@@ -36,7 +36,7 @@
 </p><p>
 	We would like to take this opportunity to thank everyone who give up their time to be part of Invasion Colchester, as well as all of you lovely folk who visit Colchester, donate to our fantastic charities, and have been joining in the fun for the last ten years!
 </p><p>
-	Bear with us, because when we return - <em>and we will return</em> - <strong>Invasion Colchester will be awesome!!</strong>
+	When we have a fixed date, you'll be the first to know. Bear with us, because when we return - <em>and we will return</em> - <strong>Invasion Colchester will be awesome!!</strong>
 </p><h3>
 	Come and join in the fun... in 2022!
 </h3>
