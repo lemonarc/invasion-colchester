@@ -1,8 +1,7 @@
 <img src="/images/logo/meet.svg" class="heroes" alt="Meet Your Heroes" />
 	
 <h2>
-	SATURDAY, 4 SEPTEMBER 2021<br />
-	10.00AM - 4.00PM
+	Coming in 2022
 </h2>
 <h3>
 	CHARACTERS & THEMED AREAS &middot; SHOW CARS &middot; SPECIAL GUESTS &middot; COMPETITIONS &middot; REFRESHMENTS &middot; LIVE MUSIC & ENTERTAINMENT
@@ -31,11 +30,13 @@
 </p>-->
 
 <p>
-	It's been a crazy year so far, from the highs of the record-breaking Invasion Colchester 2019, to the unprecedented situation the entire world is in right now. As we move into the immediate future with a cautious approach, we have taken the difficult decision to postpone Invasion Colchester's 10th Anniversary Celebrations originally planned for 5 September 2020. The new date for the tenth Invasion Colchester event is 4 SEPTEMBER 2021, so make a note in your diaries! This was not a decision taken lightly, and we're very sorry for everyone who was looking forward to it this year, but with the social distancing measures required to keep everyone safe in place for the foreseeable future, there was no way we could hold Invasion Colchester safely in 2020.
+	It's been a crazy time for us recently, from the highs of the record-breaking Invasion Colchester 2019, to the unique situation the entire world is in right now.
 </p><p>
-	While we won't be able to raise funds for our charities at the event this year (£20k was our intended target!), we are, however, hoping to raise what we can through alternate means. To kick-off with, we are joining forces with the wonderful Chris Hunt of <a href="https://www.facebook.com/filmtvandmusicquiz/" alt="FILM, TV & MUSIC QUIZ" rel="nofollow noopener noreferrer" target="_blank">FILM, TV & MUSIC QUIZ</a> who is hosting a special online MARVEL MOVIES QUIZ on THURSDAY, 18 JUNE at 7:20PM on Facebook. Colchester and Ipswich Hospitals Charity will be receiving every penny donated through a JustGiving link on the night, so please show your support by joining us for the quiz!
+	As the country (hopefully) moves into the early stages of it's return to normaility, it is still a time of great uncertainty for everyone. Therefore, we have taken the difficult decision to move Invasion Colchester's 10th Anniversary Celebrations into 2022. This was not a decision taken lightly, and we're very sorry for everyone who was looking forward to it this year, but we want to make sure the event not only continues to be a successful celebration of all the great sci-fi and fantasy genres we love, but also remains a place where people can feel safe and secure interacting with the awesome sights and sounds available, as well as meeting their heroes in close proximity.
 </p><p>
 	We would like to take this opportunity to thank everyone who give up their time to be part of Invasion Colchester, as well as all of you lovely folk who visit Colchester, donate to our fantastic charities, and have been joining in the fun for the last ten years!
 </p><p>
-	We will keep everyone updated on our future fundraising plans, and are already looking forward to seeing you all for our rescheduled 10th Anniversary Birthday Party on 4 September 2021!
-</p>
+	Bear with us, because when we return - <em>and we will return</em> - <strong>Invasion Colchester will be awesome!!</strong>
+</p><h3>
+	Come and join in the fun... in 2022!
+</h3>
