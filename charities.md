@@ -43,7 +43,7 @@ socialimage: promo-charities.jpg
 <p>
 	(Registered Charity No. 1048827)
 </p><p>
-	The other share of the monies raised by Invasion Colchester goes to <strong>Colchester & Ipswich Hospitals Charity's Cancer Centre Campaign</strong>.
+	A share of the monies raised by Invasion Colchester goes to <strong>Colchester & Ipswich Hospitals Charity's Cancer Centre Campaign</strong>.
 </p><p><em>
 	"Our vision is a place where our patients and their loved ones are supported and cared for by experts throughout their cancer journey.  All cancer services will be centralised in a single complex so we can care for everyone, regardless of cancer type, severity or prognosis. Chemotherapy, haematology and radiotherapy will be brought together under one roof for the first time in an environment which is welcoming, comfortable and efficient. To complete our holistic approach, a unique Wellbeing Centre will provide complementary therapies, counselling, advice and support for patients and their loved ones.
 </em></p><p><em>
@@ -63,6 +63,27 @@ socialimage: promo-charities.jpg
 </em></p>
 <p>
 	<a href="http://www.colchesteripswichcharity.org.uk/cancercentrecampaign/" class="button" rel="nofollow noopener noreferrer" target="_blank" alt="Find out more">Find out more</a>
+</p>
+
+<br /><br />
+
+<div><img src="/images/charities/mind-mnee-logo-web.jpg" class="charity-logo" alt="Mind (Mid & North East Essex)"></div>
+<h2>
+	Mind (Mid & North East Essex)
+</h2>
+<p>
+	(Registered Charity No. 1064309)
+</p><p>
+	A share of the monies raised by Invasion Colchester goes to <strong>Mind (Mid & North East Essex)</strong>.
+</p><p><em>
+	"We are your local mental health charity.
+</em></p><p><em>
+	At Mid and North East Essex Mind we believe no one should have to face a mental health problem alone. We’re here for you. Whether you’re stressed, depressed or in crisis.
+</em></p><p><em>
+	We are an independent charity with Registered Charity Number 1064309 and part of a network of 130 local Mind’s affiliated with the national charity Mind."
+</em></p>
+<p>
+	<a href="https://mnessexmind.org/" class="button" rel="nofollow noopener noreferrer" target="_blank" alt="Find out more">Find out more</a>
 </p>
 
 <br /><br />
