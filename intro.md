@@ -23,7 +23,7 @@
 	<strong>Food and drink</strong> will be available throughout the town centre from a selection of recommended vendors.
 </p><p>
 	All of this is organised to encourage our fabulous supporters to give some money to our charities...<br/>
-	<span class="intro-charities"><a href="/charities/" alt="Our Charities"><strong>St Helena Hospice</strong> and <strong>Colchester & Ipswich Hospitals Charity</strong></a></span><br/>
+	<span class="intro-charities"><a href="/charities/" alt="Our Charities"><strong>St Helena Hospice</strong>, <strong>Colchester & Ipswich Hospitals Charity</strong> and <strong>Mind (Mid & North East Essex)</strong></a></span><br/>
 	...who provide essential services to the community.
 </p><h3>
 	Come and join in the fun... in 2022!
