@@ -440,13 +440,14 @@
 			}
 		}
 		input[type="submit"]{
-			border: 1px solid $link-color;
+			border: 2px solid $link-color;
+			border-radius: 100px;
+			color: $link-color;
 			margin: $spacing-unit*4 0 0;
 			
 			&:hover,
 			&:focus {
-				border-color: $link-hover;
-				color: $link-hover;
+				background: $brand-color-3;
 			}
 		}
 	}

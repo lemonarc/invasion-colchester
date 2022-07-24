@@ -152,7 +152,7 @@ a {
   }
 
   &:hover {
-    color: $link-hover;
+    text-decoration: underline;
   }
 
   .social-media-list &:hover {
@@ -171,10 +171,12 @@ submitbutton,
 input.button,
 input[type=submit] {
   background: rgba(0,0,0,0);
-	border: 1px solid $link-color;
+	border: 2px solid $link-color;
+  border-radius: 100px;
   color: $link-color;
   font-family: $base-font-family;
   padding: ($spacing-unit * 1) ($spacing-unit * 2);
+  text-decoration: none;
 	text-transform: uppercase;
 	width: initial;
 }
@@ -192,14 +194,13 @@ submit:focus,
 submitbutton:focus,
 input.button:focus,
 input[type=submit]:focus {
-	border: 1px solid $link-hover;
-  color: $link-hover;
+  background: $brand-color-3;
 }
 .link-box {
 	margin: $spacing-unit*4 $spacing-unit*2;
 	
 	a,span {
-		border: 1px solid $brand-color;
+		border: 2px solid $brand-color;
 		padding: $spacing-unit*2;
 		
 		&:visited {
