@@ -1,20 +1,41 @@
 ---
 layout: page
 title: "Invasion Colchester's Special Guests"
-excerpt: "Keep an eye out for our list of Special Guests for Invasion Colchester in 2020, which will be announced later in the year."
+excerpt: "Keep an eye out for our list of Special Guests for Invasion Colchester in 2022, which will be announced later in the year."
 permalink: /special-guests/
-featured-image: guests-2019.png
+featured-image: guests-2022.png
 socialimage: social-image-logo.png
 lightbox: guests
-redirect_to: https://invasioncolchester.co.uk
 ---
 
 <p>
-	In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
+	In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn, Clem So, and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
 </p><p>
-	For 2019, we are delighted to introduce actor Clem So, who has featured in such films as 'Pokémon: Detective Pikachu', 'Fantastic Beasts: The Crimes of Grindelwald', 'Jurassic World: Fallen Kingdom', 'Solo: A Star Wars Story', 'Justice League', 'Doctor Strange', 'Muppets Most Wanted' and 'Skyfall', and TV series including 'Doctor Who', 'Fortitude', 'Sherlock' and 'Luther'. We will also be welcoming back actors Nick Joseph, Mike Edmonds, Sandeep Mohan, and Martin Ballantyne.
+	For 2022, we are delighted to introduce actor Ross Sambridge, who worked as a body double for Andy Serkis in 'Star Wars: The Last Jedi' and played a Wookiee Slave in 'Solo: A Star Wars Story'. We will also be welcoming back actors Chris Bunn, Clem So, Nick Joseph, Sandeep Mohan, and Martin Ballantyne.
 </p>
 <br /><br />
+
+<div class="container">
+
+	<img src="/images/guests/ross-sambridge.jpg" alt="Ross Sambridge" class="guest-feature" />
+
+	<h2>Ross Sambridge</h2>
+
+	<p>
+		Standing at over 7ft tall, Ross Sambridge has been successful in landing various height related roles within film and television.
+	</p><p>
+		Ross' recent credits include Disney's 'Artemis Fowl' and 'Via DOLO'. Ross has worked with Andy Serkis to bring the evil Supreme Leader Snoke alive in 'Star Wars: The Last Jedi' and - as a personal dream come true - featured as a Wookiee in 'Solo: A Star Wars Story'.
+	</p><p>
+		Ross has also appeared in horror films, as well as Andy Serkis' debut directorial film 'Breathe', and is very much looking forward to meeting everyone at Invasion Colchester.
+	</p>
+	
+	<!--<h4>Where can I find Ross?</h4>
+	
+	<p>
+		Ross will be signing autographs and meeting people in <strong>Lion Walk</strong>.
+	</p>-->
+	
+</div>
 
 <div class="container">
 
@@ -23,18 +44,40 @@ redirect_to: https://invasioncolchester.co.uk
 	<h2>Clem So</h2>
 
 	<p>
-		Clem initially began working as a background actor on the Japanese historic fantasy film '47 Ronin' in 2011 and has gone on to build invaluable experience in the film industry. Clem has become a featured and in demand face, having worked on over thirty major feature films to date and numerous TV shows including 'Sherlock', 'Being Human' and ten episodes of 'Doctor Who', notably as the Mandarin Clockwork Droid in Peter Capaldi’s first episode as the Doctor, "Deep Breath", and more recently as a Space Corpse (affectionately known as the 'Kill Bill' Zombie by his colleagues) in the series 10 episode "Oxygen".
+		Clem initially began working as a background actor on the Japanese historic fantasy film '47 Ronin' in 2011 and has gone on to build invaluable experience in the film industry. Clem has become a featured and in demand face, having worked on major feature films and numerous TV shows including 'Sherlock', 'Being Human' and eleven episodes of 'Doctor Who', notably as the Mandarin Clockwork Droid in Peter Capaldi’s first episode as the Doctor, "Deep Breath", as a Space Corpse (affectionately known as the 'Kill Bill' Zombie by his colleagues) in the series 10 episode "Oxygen", and most recently as a Ji-Hun Pirate in 2022's "Legend of the Sea Devils".
 	</p><p>
-		Other appearances include a Kyln prisoner in Marvel Studios popular hit 'Guardians Of The Galaxy', a Spectre crime boss in the James Bond film 'Spectre' and a Resistance Trooper in 'Star Wars: The Force Awakens'. Clem also featured in the highly regarded Marvel Studios blockbuster 'Doctor Strange' as one of the protectors of the Hong Kong Sanctum and an Animus patient in 'Assassin’s Creed'.
+		Other appearances include a Kyln prisoner in Marvel Studios popular hit 'Guardians Of The Galaxy', a Spectre crime boss in the James Bond film 'Spectre' and a Resistance Trooper in 'Star Wars: The Force Awakens'. Clem has featured in the highly regarded Marvel Studios blockbusters 'Doctor Strange', 'Black Widow', and 'Doctor Strange in the Multiverse of Madness', as well as appearing as an Animus patient in 'Assassin’s Creed'.
 	</p><p>	
-		Clem has also worked on many other films including 'Star Wars: The Last Jedi', 'Ready Player One', 'Jurassic World: Fallen Kingdom', 'Solo: A Star Wars Story' and 'Fantastic Beasts: The Crimes of Grindelwald'. 
+		Clem has also worked on many other films including 'Star Wars: The Last Jedi', 'Ready Player One', 'Jurassic World: Fallen Kingdom', 'Solo: A Star Wars Story', 'Fantastic Beasts: The Crimes of Grindelwald' and 'Zack Snyder's Justice League'. 
 	</p>
 	
-	<h4>Where can I find Clem?</h4>
+	<!--<h4>Where can I find Clem?</h4>
 	
 	<p>
 		Clem will be signing autographs and meeting people in <strong>Lion Walk</strong>.
+	</p>-->
+	
+</div>
+
+<div class="container">
+
+	<img src="/images/guests/chris-bunn.jpg" alt="Chris Bunn" class="guest-feature">
+
+	<h2>Chris Bunn</h2>
+
+	<p>
+		Chris Bunn has worked in TV and film since 1974, featuring in some of the most popular TV shows and movies of all time. Following his first film work on 'The Slipper and the Rose' in 1971, Chris has worked on three James Bond films ('The Spy Who Loved Me', 'Moonraker' and 'The Living Daylights') and two Superman movies ('Superman I' and 'II' - Chris played a policeman in the first film) as well as apperaing in 'Force 10 from Navarone', 'The Eagle Has Landed' and many of the 'Carry On' films. Chris was a body double for Kirk Douglas and a hand double for Harvey Keitel in the science fiction film 'Saturn 3'.
+	</p><p>
+		Chris has worked on all three of the 'Star Wars' original trilogy films, appearing as both a Stormtrooper and a Cantina astronaut in 'A New Hope'.
+	</p><p>
+		In addition to all of this, Chris has worked on some very popular TV shows over the years including 'The Sweeney', 'Minder' and 'The Avengers'. He was a body double for Lewis Collins in 'The Professionals' and has performed stand-in work also for Timothy Dalton in 'Agatha'.  
 	</p>
+	
+	<!--<h4>Where can I find Chris?</h4>
+	
+	<p>
+		Chris will be signing autographs and meeting people in <strong>Lion Walk</strong>.
+	</p>-->
 	
 </div>
 
@@ -54,33 +97,11 @@ redirect_to: https://invasioncolchester.co.uk
 		Aside from acting, Nick also used to be a long distance runner, taking part in more than fifty marathons and many other long distance races!
 	</p>
 	
-	<h4>Where can I find Nick?</h4>
+	<!--<h4>Where can I find Nick?</h4>
 	
 	<p>
 		Nick will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-	</p>
-	
-</div>
-
-<div class="container">
-
-	<img src="/images/guests/mike-edmonds.jpg" alt="Mike Edmonds" class="guest-feature" />
-
-	<h2>Mike Edmonds</h2>
-
-	<p>
-		Mike Edmonds is an English actor with dwarfism, best known for his role as Little Ron in the children's television show 'Maid Marian and Her Merry Men' from 1989-1994.
-	</p><p>
-		After appearing uncredited as an Ugnaught in 'The Empire Strikes Back' in 1980, Mike went on to feature in several films, including 'Flash Gordon', 'The Dark Crystal' and 'Who Framed Roger Rabbit'.
-	</p><p>
-		Mike played the role of Og in the Terry Gilliam film 'Time Bandits' and returned to 'Star Wars' performing as the Ewok Logray as well as the operator for Jabba the Hutt's tail in 'Return of the Jedi'.
-	</p>
-	
-	<h4>Where can I find Mike?</h4>
-	
-	<p>
-		Mike will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-	</p>
+	</p>-->
 	
 </div>
 
@@ -108,11 +129,11 @@ redirect_to: https://invasioncolchester.co.uk
 		Sandeep has also appeared in Britney Spears' 'Criminal' music video as well as providing voice-work for Channel 4 News.
 	</p>
 	
-	<h4>Where can I find Sandeep?</h4>
+	<!--<h4>Where can I find Sandeep?</h4>
 	
 	<p>
 		Sandeep will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-	</p>
+	</p>-->
 	
 </div>
 
@@ -138,29 +159,29 @@ redirect_to: https://invasioncolchester.co.uk
 		In addition to his film work, Martin appreared regularly in the first, second and third series of TV show 'Kingdom'.
 	</p>
 	
-	<h4>Where can I find Martin?</h4>
+	<!--<h4>Where can I find Martin?</h4>
 	
 	<p>
 		Martin will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-	</p>
+	</p>-->
 	
 </div>
 	
 <ul class="list">
 	<li class="quarter">
-		<a class="fancybox" rel="group" href="/images/guests/clem-so-1.jpg" title="Clem So in 'Doctor Who'"><img src="/images/guests/clem-so-1.jpg" alt="Clem So in 'Doctor Who'"></a>
+		<a class="fancybox" rel="group" href="/images/guests/ross-01.jpg" title="Ross Sambridge in 'Star Wars: The Last Jedi'"><img src="/images/guests/ross-01.jpg" alt="Ross Sambridge in 'Star Wars: The Last Jedi'"></a>
 	</li>
 	<li class="quarter">
-		<a class="fancybox" rel="group" href="/images/guests/clem-so-2.jpg" title="Clem So in 'Star Wars'"><img src="/images/guests/clem-so-2.jpg" alt="Clem So in 'Star Wars'"></a>
+		<a class="fancybox" rel="group" href="/images/guests/ross-02.jpg" title="Ross Sambridge on set"><img src="/images/guests/ross-02.jpg" alt="Ross Sambridge on set"></a>
+	</li>
+	<li class="quarter">
+		<a class="fancybox" rel="group" href="/images/guests/clem-so-1.jpg" title="Clem So in 'Doctor Who'"><img src="/images/guests/clem-so-1.jpg" alt="Clem So in 'Doctor Who'"></a>
 	</li>
 	<li class="quarter">
 		<a class="fancybox" rel="group" href="/images/guests/clem-so-3.jpg" title="Clem So in 'Doctor Strange'"><img src="/images/guests/clem-so-3.jpg" alt="Clem So in 'Doctor Strange'"></a>
 	</li>
 	<li class="quarter">
 		<a class="fancybox" rel="group" href="/images/guests/nick-joseph-1.jpg" title="Nick Joseph in 'Star Wars'"><img src="/images/guests/nick-joseph-1.jpg" alt="Nick Joseph in 'Star Wars'"></a>
-	</li>
-	<li class="quarter">
-		<a class="fancybox" rel="group" href="/images/guests/mike-edmonds-2.jpg" title="Mike Edmonds (left) in 'Time Bandits'"><img src="/images/guests/mike-edmonds-2.jpg" alt="Mike Edmonds (left) in 'Time Bandits'"></a>
 	</li>
 	<li class="quarter">
 		<a class="fancybox" rel="group" href="/images/guests/sandeep-mohan-2.jpg" title="Sandeep Mohan in 'This Time... with Alan Partridge'"><img src="/images/guests/sandeep-mohan-2.jpg" alt="Sandeep Mohan in 'This Time... with Alan Partridge'"></a>

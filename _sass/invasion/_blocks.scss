@@ -539,6 +539,18 @@
 	}
 }
 
+.othermonkey {
+	background-image: url('/images/backgrounds/beer-base.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+
+	img {
+		display: block;
+		margin: 0 auto 60px;
+		max-width: 400px;
+	}
+}
+
 .prize-draw {
 	background-color: $text-color;
 	color: $green;
