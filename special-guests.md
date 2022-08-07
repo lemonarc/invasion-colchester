@@ -11,7 +11,7 @@ lightbox: guests
 <p>
 	In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn, Clem So, and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
 </p><p>
-	For 2022, we are delighted to introduce actor Ross Sambridge, who worked as a body double for Andy Serkis in 'Star Wars: The Last Jedi' and played a Wookiee Slave in 'Solo: A Star Wars Story'. We will also be welcoming back actors Chris Bunn, Clem So, Nick Joseph, Sandeep Mohan, and Martin Ballantyne.
+	For 2022, we are delighted to introduce actor Ross Sambridge, who worked as a body double for Andy Serkis in 'Star Wars: The Last Jedi' and played a Wookiee Slave in 'Solo: A Star Wars Story'. We will also be welcoming back actors Chris Bunn, Clem So, Nick Joseph, Sandeep Mohan, Martin Ballantyne, and Ralph Morse.
 </p>
 <br /><br />
 
@@ -44,9 +44,9 @@ lightbox: guests
 	<h2>Clem So</h2>
 
 	<p>
-		Clem initially began working as a background actor on the Japanese historic fantasy film '47 Ronin' in 2011 and has gone on to build invaluable experience in the film industry. Clem has become a featured and in demand face, having worked on major feature films and numerous TV shows including 'Sherlock', 'Being Human' and eleven episodes of 'Doctor Who', notably as the Mandarin Clockwork Droid in Peter Capaldi’s first episode as the Doctor, "Deep Breath", as a Space Corpse (affectionately known as the 'Kill Bill' Zombie by his colleagues) in the series 10 episode "Oxygen", and most recently as a Ji-Hun Pirate in 2022's "Legend of the Sea Devils".
+		Clem initially began working as a background actor on the Japanese historic fantasy film '47 Ronin' in 2011 and has gone on to build invaluable experience in the film industry. Clem has become a featured and in demand face, having worked on major feature films and numerous TV shows including 'Sherlock', 'Being Human' and eleven episodes of 'Doctor Who', notably as the Mandarin Clockwork Droid in Peter Capaldi's first episode as the Doctor, "Deep Breath", as a Space Corpse (affectionately known as the 'Kill Bill' Zombie by his colleagues) in the series 10 episode "Oxygen", and most recently as a Ji-Hun Pirate in 2022's "Legend of the Sea Devils".
 	</p><p>
-		Other appearances include a Kyln prisoner in Marvel Studios popular hit 'Guardians Of The Galaxy', a Spectre crime boss in the James Bond film 'Spectre' and a Resistance Trooper in 'Star Wars: The Force Awakens'. Clem has featured in the highly regarded Marvel Studios blockbusters 'Doctor Strange', 'Black Widow', and 'Doctor Strange in the Multiverse of Madness', as well as appearing as an Animus patient in 'Assassin’s Creed'.
+		Other appearances include a Kyln prisoner in Marvel Studios popular hit 'Guardians Of The Galaxy', a Spectre crime boss in the James Bond film 'Spectre' and a Resistance Trooper in 'Star Wars: The Force Awakens'. Clem has featured in the highly regarded Marvel Studios blockbusters 'Doctor Strange', 'Black Widow', and 'Doctor Strange in the Multiverse of Madness', as well as appearing as an Animus patient in 'Assassin's Creed'.
 	</p><p>	
 		Clem has also worked on many other films including 'Star Wars: The Last Jedi', 'Ready Player One', 'Jurassic World: Fallen Kingdom', 'Solo: A Star Wars Story', 'Fantastic Beasts: The Crimes of Grindelwald' and 'Zack Snyder's Justice League'. 
 	</p>
@@ -70,7 +70,7 @@ lightbox: guests
 	</p><p>
 		Chris has worked on all three of the 'Star Wars' original trilogy films, appearing as both a Stormtrooper and a Cantina astronaut in 'A New Hope'.
 	</p><p>
-		In addition to all of this, Chris has worked on some very popular TV shows over the years including 'The Sweeney', 'Minder' and 'The Avengers'. He was a body double for Lewis Collins in 'The Professionals' and has performed stand-in work also for Timothy Dalton in 'Agatha'.  
+		In addition to all of this, Chris has worked on some very popular TV shows over the years including 'The Sweeney', 'Minder' and 'The Avengers'. He was a body double for Lewis Collins in 'The Professionals' and has performed stand-in work also for Timothy Dalton in 'Agatha'. 
 	</p>
 	
 	<!--<h4>Where can I find Chris?</h4>
@@ -122,7 +122,7 @@ lightbox: guests
 	</p><p>
 		Sandeep has also appeared on the big screen in major films such as 'Prince of Persia', 'Skyfall', 'Spectre', 'World War Z', 'Edge of Tomorrow', 'Burnt' and 'The Program'. In 'Star Wars: The Force Awakens' he is the Stormtrooper that man-handles Lor San Tekka (Max Von Sydow) to Kylo Ren (Adam Driver) for interrogation, as well as one of the two Stormtroopers in the comic corridor scene (the one that stops his fellow trooper), the Stormtrooper that interrogates the alien as the village is overtaken by troopers, the Stormtrooper that lies dead at the feet of Harrison Ford in the control room and the First Order Stormtrooper Squad Leader that marches with Kylo Ren in parts of the film.
 	</p><p>
-		Recently, Sandeep has appeared as a surgeon with Benedict Cumberbatch in 'Doctor Strange', a Scarif Trooper in 'Star Wars: Rogue One', a Policeman in 'Jason Bourne', a British Army Officer in 'Wonder Woman', a Snowtrooper Officer in 'Star Wars: The Last Jedi' and as Government Officials in both 'The Hitman’s Bodyguard' and 'Justice League'.
+		Recently, Sandeep has appeared as a surgeon with Benedict Cumberbatch in 'Doctor Strange', a Scarif Trooper in 'Star Wars: Rogue One', a Policeman in 'Jason Bourne', a British Army Officer in 'Wonder Woman', a Snowtrooper Officer in 'Star Wars: The Last Jedi' and as Government Officials in both 'The Hitman's Bodyguard' and 'Justice League'.
 	</p><p>
 		More excitingly, you might spot Sandeep in the titles to the BBC comedy 'This Time... with Alan Partridge', sitting next to a certain Alan Partridge!
 	</p><p>
@@ -163,6 +163,28 @@ lightbox: guests
 	
 	<p>
 		Martin will be signing autographs and meeting people in <strong>Lion Walk</strong>.
+	</p>-->
+	
+</div>
+
+<div class="container">
+
+	<img src="/images/guests/ralph-morse-22.jpg" alt="Ralph Morse" class="guest-feature" />
+
+	<h2>Ralph Morse / Johnny Cashbox</h2>
+
+	<p>
+		With a career spanning over fifty years, Ralph is a multi-disciplined arts professional. He is an award winning theatre actor, (1980 – London Theatre Associates Best Actor), a playwright, director, singer-songwriter and teacher. His play 'Who is Leonard Jones' was premiered at the Headgate Theatre in Colchester, before touring East Anglia in 2007. In 2017 he began an association with Elysium Productions in America, as the writer/narrator of 'The Secret – A Star Wars Story', storywriter on 'Volkov' (2019) and as the movie screenwriter for 'Volkov Origin' (2022).
+	</p><p>
+		Ralph's film and television appearances include 'The Empire Strikes Back', 'Return of the Jedi', 'Moonraker', 'Flash Gordon', 'Blake's Seven', 'Doctor Who', and 'The Hitchhikers Guide to the Galaxy' - and those are just the sci-fi productions.
+	</p><p>
+		From 2003, Ralph's main stage persona has been the comical guitar-slinging, time-travelling space cowboy, Johnny Cashbox, whose appearances at Invasion Colchester are as legendary as the man himself. Johnny's sci-fi themed songs are very much part of the 'Star Wars' universe and you may very well see him mingling and entertaining everyone during the event. 
+	</p>
+	
+	<!--<h4>Where can I find Ralph?</h4>
+	
+	<p>
+		Ralph will be signing autographs and meeting people in <strong>Lion Walk</strong>.
 	</p>-->
 	
 </div>
