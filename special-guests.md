@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Invasion Colchester's Special Guests"
-excerpt: "Keep an eye out for our list of Special Guests for Invasion Colchester in 2022, which will be announced later in the year."
+excerpt: "For 2022, we are delighted to introduce Ross Sambridge, and welcome back Chris Bunn, Clem So, Nick Joseph, Sandeep Mohan, Martin Ballantyne, and Ralph Morse."
 permalink: /special-guests/
 featured-image: guests-2022.png
 socialimage: social-image-logo.png
