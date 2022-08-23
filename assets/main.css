@@ -611,6 +611,8 @@ li img { min-width: 100%; }
 
 .justgiving li img:hover, .justgiving li img:focus { box-shadow: none; }
 
+.lightsaber-training { color: #55A987; }
+
 .othermonkey { background-image: url("/images/backgrounds/beer-base.jpg"); background-attachment: fixed; background-size: cover; }
 
 .othermonkey img { display: block; margin: 0 auto 60px; max-width: 400px; }
