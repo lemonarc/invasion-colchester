@@ -4,7 +4,7 @@ title: "Invasion Colchester's Prize Draw"
 excerpt: "Get your tickets for the great Invasion Colchester 2022 Prize Draw to be in with a chance of winning an amazing prize!"
 permalink: /prize-draw/
 featured-image: title-draw-2022.png
-socialimage: social-draw-fb.png
+socialimage: social-draw-fb.jpg
 ---
 
 
