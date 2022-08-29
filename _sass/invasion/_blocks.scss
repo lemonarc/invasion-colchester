@@ -505,10 +505,20 @@
 .fancy-dress {
 	background-color: $green;
 	
+	h2 {
+		text-align: center;
+	}
+	img {
+		display: block;
+		margin: 0 auto 40px;
+		max-width: 900px;
+		width: 100%;
+	}
+	
 	table {
 		border-color: $text-color;
 		color: $text-color;
-		margin: $spacing-unit*4 0;
+		margin: 0 0 $spacing-unit*4;
 
 		th,td {
 			background: none;
