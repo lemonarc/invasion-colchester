@@ -1,17 +1,17 @@
 ---
 layout: page
 title: "Invasion Colchester's Special Guests"
-excerpt: "For 2022, we are delighted to introduce Ross Sambridge, and welcome back Chris Bunn, Clem So, Nick Joseph, Sandeep Mohan, Martin Ballantyne, and Ralph Morse."
+excerpt: "For 2022, we are delighted to introduce Ross Sambridge, and welcome back Chris Bunn, Clem So, Nick Joseph, Martin Ballantyne, and Ralph Morse."
 permalink: /special-guests/
 featured-image: title-guests-2022.png
-socialimage: soc-guests-fb.jpg
+socialimage: soc-guests-fb-2.jpg
 lightbox: guests
 ---
 
 <p>
 	In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn, Clem So, and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
 </p><p>
-	For 2022, we are delighted to introduce actor Ross Sambridge, who worked as a body double for Andy Serkis in 'Star Wars: The Last Jedi' and played a Wookiee Slave in 'Solo: A Star Wars Story'. We will also be welcoming back actors Chris Bunn, Clem So, Nick Joseph, Sandeep Mohan, Martin Ballantyne, and Ralph Morse.
+	For 2022, we are delighted to introduce actor Ross Sambridge, who worked as a body double for Andy Serkis in 'Star Wars: The Last Jedi' and played a Wookiee Slave in 'Solo: A Star Wars Story'. We will also be welcoming back actors Chris Bunn, Clem So, Nick Joseph, Martin Ballantyne, and Ralph Morse.
 </p>
 <br /><br />
 
@@ -105,7 +105,7 @@ lightbox: guests
 	
 </div>
 
-<div class="container">
+<!--<div class="container">
 
 	<img src="/images/guests/sandeep-mohan.jpg" alt="Sandeep Mohan" class="guest-feature" />
 
@@ -129,13 +129,13 @@ lightbox: guests
 		Sandeep has also appeared in Britney Spears' 'Criminal' music video as well as providing voice-work for Channel 4 News.
 	</p>
 	
-	<!--<h4>Where can I find Sandeep?</h4>
+	<h4>Where can I find Sandeep?</h4>
 	
 	<p>
 		Sandeep will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-	</p>-->
+	</p>
 	
-</div>
+</div>-->
 
 <div class="container">
 
