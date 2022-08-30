@@ -36,7 +36,7 @@ socialimage: soc-draw-fb.jpg
 </p><p>
 	Physical tickets are available from ACE Comics in Colchester before the event, and from our team of volunteers on the day.
 </p><p>
-	All proceeds will be donated to the Cancer Centre Campaign at Colchester & Ipswich Hospitals Charity
+	All proceeds will be donated to Mind (Mid & North East Essex).
 </p><p>
 	The draw will take place on Friday, 23 September 2022 at ACE Comics. Winning ticket numbers will be published on the website after the draw.
 </p>
