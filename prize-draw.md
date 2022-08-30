@@ -32,8 +32,6 @@ socialimage: soc-draw-fb.jpg
 </ul>
 
 <p>
-	There will be other pizes added to the list as we get nearer to Invasion Colchester 2022.
-</p><p>
 	Physical tickets are available from ACE Comics in Colchester before the event, and from our team of volunteers on the day.
 </p><p>
 	All proceeds will be donated to Mind (Mid & North East Essex).
