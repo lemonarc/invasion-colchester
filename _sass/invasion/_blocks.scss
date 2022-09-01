@@ -555,7 +555,7 @@
 }
 
 .othermonkey {
-	background-image: url('/images/backgrounds/beer-base.jpg');
+	background-image: url('/images/backgrounds/obeer-wan-bar.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 
@@ -563,6 +563,22 @@
 		display: block;
 		margin: 0 auto 60px;
 		max-width: 400px;
+	}
+	table,
+	table td {
+		border: none;
+		margin-bottom: 0;
+
+		&.beer-can {
+			padding-right: 20px;
+
+			@include media-query($on-500) {
+				display: none;
+			}
+		}
+		img {
+			max-width: 100%;
+		}
 	}
 }
 
