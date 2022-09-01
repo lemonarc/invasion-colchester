@@ -555,7 +555,7 @@ li img { min-width: 100%; }
 
 .map img { display: block; margin: 40px auto; }
 
-.contact { background-color: #000; color: #fff; }
+.contact { background-color: #252525; color: #fff; }
 
 .contact img { display: block; max-width: 400px; margin: 0 auto 40px; width: -webkit-fill-available; }
 
@@ -569,7 +569,7 @@ li img { min-width: 100%; }
 
 .contact #contact-form { color: #fff; margin: 40px auto 0; max-width: 600px; width: calc(100% - 40px); }
 
-.contact #contact-form input, .contact #contact-form textarea { background-color: #000; border: none; border-bottom: 1px solid #fff; color: #fff; max-width: calc(100% - 40px); }
+.contact #contact-form input, .contact #contact-form textarea { background-color: #252525; border: none; border-bottom: 1px solid #fff; color: #fff; max-width: calc(100% - 40px); }
 
 .contact #contact-form input::placeholder, .contact #contact-form textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */ color: #fff; opacity: 1; /* Firefox */ }
 
