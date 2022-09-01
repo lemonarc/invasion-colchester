@@ -389,7 +389,7 @@
 }
 
 .contact {
-	background-color: $black;
+	background-color: $background-color;
 	color: $white;
 	
 	img {
@@ -422,7 +422,7 @@
 		width: calc(100% - 40px);
 		
 		input, textarea {
-			background-color: $black;
+			background-color: $background-color;
 			border: none;
 			border-bottom: 1px solid $white;
 			color: $white;
