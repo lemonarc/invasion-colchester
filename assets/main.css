@@ -617,9 +617,17 @@ li img { min-width: 100%; }
 
 .lightsaber-training { color: #55A987; }
 
-.othermonkey { background-image: url("/images/backgrounds/beer-base.jpg"); background-attachment: fixed; background-size: cover; }
+.othermonkey { background-image: url("/images/backgrounds/obeer-wan-bar.jpg"); background-attachment: fixed; background-size: cover; }
 
 .othermonkey img { display: block; margin: 0 auto 60px; max-width: 400px; }
+
+.othermonkey table, .othermonkey table td { border: none; margin-bottom: 0; }
+
+.othermonkey table.beer-can, .othermonkey table td.beer-can { padding-right: 20px; }
+
+@media screen and (max-width: 500px) { .othermonkey table.beer-can, .othermonkey table td.beer-can { display: none; } }
+
+.othermonkey table img, .othermonkey table td img { max-width: 100%; }
 
 .prize-draw { color: #BDD530; }
 
