@@ -16,7 +16,7 @@ The suit will be on display in Lion Walk during Invasion Colchester, opposite Mr
 </p><p>
 We are accepting any bids over £400 for this incredible item. Just use the form below to enter your maximum bid on the lifesize Boba Fett Brick Figure Suit, and the highest bid accepted by 8 September 2022 will win it!
 </p><p>
-The winner will be announced on 9 September 2022, will all proceeds are going to our charities.
+The winner will be announced on 9 September 2022, with all proceeds going to our charities.
 </p><br/><br/>
 <img src="/images/soc-lego-suit-fb.jpg" alt="Boba Fett Brick Figure Suit" />
 <br/><br/>
