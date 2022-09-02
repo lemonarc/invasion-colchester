@@ -4,7 +4,7 @@ title: "Invasion Colchester's Special Guests"
 excerpt: "For 2022, we are delighted to introduce Ross Sambridge and Andrew Lawden, and welcome back Chris Bunn, Clem So, Nick Joseph, Martin Ballantyne, and Ralph Morse."
 permalink: /special-guests/
 featured-image: title-guests-2022.png
-socialimage: soc-guests-fb-2.jpg
+socialimage: soc-guests-fb-3.jpg
 lightbox: guests
 ---
 
