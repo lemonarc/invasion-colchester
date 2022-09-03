@@ -55,7 +55,7 @@
 				5-8 year olds
 			</td>
 			<td>
-				2.30pm
+				12.30pm
 			</td>
 			<td>
 				Culver Square
