@@ -5,6 +5,8 @@ excerpt: "Place your bid for a fanstastic, one-of-a-kind lifesize Boba Fett Bric
 permalink: /auction/
 featured-image: title-bid-2022.png
 socialimage: soc-lego-suit-fb.jpg
+redirect_to:
+  - https://invasioncolchester.co.uk/
 ---
 
 <p>

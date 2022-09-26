@@ -9,7 +9,3 @@ We have a fantastic opportunity for you to bid to win a unique, one-of-a-kind, l
 </p><p>
 Follow the link to place your bid on the giant 193cm tall square-shaped bounty hunter!
 </p>
-<br/><br/>
-<a href="/auction/" class="button">
-	Bid Now
-</a>
