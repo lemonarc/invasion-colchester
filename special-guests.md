@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Invasion Colchester's Special Guests"
-excerpt: "For 2022, we are delighted to introduce Ross Sambridge and Andrew Lawden, and welcome back Chris Bunn, Clem So, Nick Joseph, Martin Ballantyne, and Ralph Morse."
+excerpt: "For 2022, we were delighted to introduce Ross Sambridge and Andrew Lawden, and welcome back Chris Bunn, Clem So, Nick Joseph, Martin Ballantyne, and Ralph Morse."
 permalink: /special-guests/
 featured-image: title-guests-2022.png
 socialimage: soc-guests-fb-3.jpg
@@ -11,7 +11,7 @@ lightbox: guests
 <p>
 In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn, Clem So, and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
 </p><p>
-For 2022, we are delighted to introduce actor Ross Sambridge, who worked as a body double for Andy Serkis in 'Star Wars: The Last Jedi' and played a Wookiee Slave in 'Solo: A Star Wars Story', and Andrew Lawden, an actor who has appered in, among other things, 'Star Wars: The Phantom Menace', and 'Pennyworth', as well as running the Jedi Fight Academy. We will also be welcoming back actors Chris Bunn, Clem So, Nick Joseph, Martin Ballantyne, and Ralph Morse.
+For 2022, we were delighted to introduce actor Ross Sambridge, who worked as a body double for Andy Serkis in 'Star Wars: The Last Jedi' and played a Wookiee Slave in 'Solo: A Star Wars Story', and Andrew Lawden, an actor who has appered in, among other things, 'Star Wars: The Phantom Menace', and 'Pennyworth', as well as running the Jedi Fight Academy. We also welcomed back actors Chris Bunn, Clem So, Nick Joseph, Martin Ballantyne, and Ralph Morse.
 </p>
 <br /><br />
 

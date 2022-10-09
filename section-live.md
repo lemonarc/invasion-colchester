@@ -4,7 +4,7 @@
 <p>
 	Live music has always been something that Invasion Colchester is keen to promote, showcasing some amazing artists from the local area.
 </p><p>
-	This year's line-up will yet again feature a brilliant mix of musical talent to entertain your ears throughout the afternoon in Lion Walk.
+	2022's line-up featured a brilliant mix of musical talent to entertain your ears throughout the afternoon in Lion Walk.
 </p>
 
 <table>
