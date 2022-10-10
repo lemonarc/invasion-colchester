@@ -3,7 +3,7 @@
 </div>
 
 <div class="block-left">
-	<h2>Prize Draw</h2>
+	<h2>2022 Prize Draw Winners</h2>
 
 	<p>
 		This year, 1571 tickets were sold, raising £1571 directly for Mind (Mid & North East Essex). This amount will be added to the overall Invasion Colchester 2022 total.

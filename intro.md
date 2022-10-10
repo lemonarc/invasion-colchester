@@ -1,19 +1,20 @@
 <img src="/images/logo/meet.svg" class="heroes" alt="Meet Your Heroes" />
 	
 <h2>
-	3 September 2022
+	September 2023
 </h2>
 <h3>
 	CHARACTERS & THEMED AREAS &middot; SHOW CARS &middot; SPECIAL GUESTS &middot; COMPETITIONS &middot; LIVE MUSIC
 </h3>
 
 <h2 class="anni-header">
-	Join us for INVASION COLCHESTER's <span>10th</span> Anniversary!
+	Join us for INVASION COLCHESTER 2023!
 </h2>
 
-<p>
+<!--<p>
 	Come to Colchester Town Centre between 10am and 4pm on Saturday 3 September 2022 and meet your heroes!
-</p><p>
+</p>-->
+<p>
 	There will be characters from <strong>Star Wars, Ghostbusters, Doctor Who, Predators, Jurassic Park, Disney Princesses</strong> and more, as well as your favourite <strong>Comic Book and Movie Superheroes</strong>, plus <strong>Show Cars</strong> from TV and film!
 </p><p>
 	You can see amazing <strong>live performances</strong> from some supremely talented local musicians.
@@ -24,5 +25,6 @@
 	<span class="intro-charities"><a href="/charities/" alt="Our Charities"><strong>St Helena Hospice</strong>, <strong>Colchester & Ipswich Hospitals Charity</strong> and <strong>Mind (Mid & North East Essex)</strong></a></span><br/>
 	...who provide essential services to the community.
 </p><h3>
-	Come and join in the fun... in 2022!
+	Come and join in the fun... in 2023!
 </h3>
+<p>(Date to be revealed)</p>
