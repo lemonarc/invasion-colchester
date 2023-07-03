@@ -1,3 +1,6 @@
+@import url("/assets/fonts/font.css");
+
+
 /**
  * Reset some basic elements
  */
@@ -92,10 +95,18 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  color: $white;
   font-family: $base-header-font-family;
-  font-weight: $base-font-weight;
+  font-weight: normal;
   line-height: 0.8;
+  margin-bottom: $spacing-unit*2.1;
+  text-transform: uppercase;
+}
+h2, h3, h4, h5, h6 {
+  font-family: $base-header-font-family-alt;
+  font-weight: 700;
+  line-height: 1.2;
   margin-bottom: $spacing-unit*2.1;
 }
 h1 {
@@ -107,22 +118,6 @@ h1 {
 }
 
 h2 {
-  @include relative-font-size(5);
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(3.5);
-  }
-}
-
-h3 {
-  @include relative-font-size(4);
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(3);
-  }
-}
-
-h4 {
   @include relative-font-size(3);
 
   @include media-query($on-laptop) {
@@ -130,11 +125,35 @@ h4 {
   }
 }
 
-h5 {
-  @include relative-font-size(2);
+h3 {
+  @include relative-font-size(2.5);
 
   @include media-query($on-laptop) {
     @include relative-font-size(2);
+  }
+}
+
+h4 {
+  @include relative-font-size(2);
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(1.5);
+  }
+}
+
+h5 {
+  @include relative-font-size(1.5);
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(1);
+  }
+}
+
+h6 {
+  @include relative-font-size(1);
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(0.85);
   }
 }
 
@@ -152,6 +171,7 @@ a {
   }
 
   &:hover {
+    color: $link-hover;
     text-decoration: none;
   }
 
@@ -159,6 +179,27 @@ a {
     text-decoration: none;
   }
 }
+
+
+
+/**
+ * Custom Paragraphs
+ */
+.woodstamp {
+  font-family: $base-header-font-family;
+
+  @include relative-font-size(2);
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2);
+  }
+}
+p.focus {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
 
 /**
  * Buttons
@@ -170,31 +211,30 @@ submit,
 submitbutton,
 input.button,
 input[type=submit] {
-  background: rgba(0,0,0,0);
-	border: 2px solid $link-color;
+  background: $blue23;
+	border: none;
   border-radius: 100px;
-  color: $link-color;
+  color: $white;
   font-family: $base-font-family;
   padding: ($spacing-unit * 1) ($spacing-unit * 2);
   text-decoration: none;
 	text-transform: uppercase;
 	width: initial;
-}
-button:hover,
-a.button:hover,
-button.button:hover,
-submit:hover,
-submitbutton:hover,
-input.button:hover,
-input[type=submit]:hover,
-button:focus,
-a.button:focus,
-button.button:focus,
-submit:focus,
-submitbutton:focus,
-input.button:focus,
-input[type=submit]:focus {
-  background: $brand-color-3;
+
+  &:hover,
+  &:focus {
+    background: $navy23;
+  }
+
+  // &.overimage {
+  //   border: 2px solid $brand-color-2;
+  //   color: $brand-color-2;
+
+  //   &:hover,
+  //   &:focus {
+  //     background: $link-color;
+  //   }
+  // }
 }
 .link-box {
 	margin: $spacing-unit*4 $spacing-unit*2;
@@ -299,15 +339,15 @@ pre {
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: $spacing-unit*4;
+  padding-left: $spacing-unit*4;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit*2;
+    padding-left: $spacing-unit*2;
   }
 }
 
@@ -470,4 +510,38 @@ li.last {
 }
 li img {
 	min-width:100%;
+}
+
+
+.deepsea {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#005fad+0,002253+99 */
+  background: #005fad; /* Old browsers */
+  background: -moz-linear-gradient(top,  #005fad 0%, #002253 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #005fad 0%,#002253 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #005fad 0%,#002253 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005fad', endColorstr='#002253',GradientType=0 ); /* IE6-9 */
+}
+.tequila {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f15f24+0,fff200+100 */
+  background: #f15f24; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f15f24 0%, #fff200 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f15f24 0%,#fff200 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f15f24 0%,#fff200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f15f24', endColorstr='#fff200',GradientType=0 ); /* IE6-9 */
+}
+.tequila-reverse {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff200+0,f15f24+100 */
+  background: #fff200; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fff200 0%, #f15f24 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #fff200 0%,#f15f24 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #fff200 0%,#f15f24 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff200', endColorstr='#f15f24',GradientType=0 ); /* IE6-9 */
+
+}
+.gradient-text {
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }

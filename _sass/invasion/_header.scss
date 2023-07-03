@@ -57,15 +57,15 @@
  * Site header
  */
 .site-header {
-	background: $header-color;
+	background: none;
 	min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
 	position: relative;
 	
-	&.home-header {
-		background: initial;	
-	}
+	// &.home-header {
+	// 	background: initial;	
+	// }
 }
 
 .site-title {

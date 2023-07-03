@@ -3,8 +3,9 @@
 // Define defaults for each variable.
 
 $base-font-family: 'Roboto', sans-serif;
-$base-header-font-family:		'wood_stampregular', 'Anton', sans-serif;
-$base-font-size:   18px !default;
+$base-header-font-family:		'wood_stampregular', sans-serif;
+$base-header-font-family-alt:		'Roboto Slab', serif;
+$base-font-size:   21px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.4 !default;
@@ -36,23 +37,28 @@ $pale-turq:         #70e8e1;
 $light-green:       #55A987;
 $green:             #1B7C55;
 $dark-green:        #00492C;
+$orange23:          #f15f24;
+$yellow23:          #FFF200;
+$cream:             #FFFBAA;
+$navy23:            #002253;
+$blue23:            #005FAE;
 
-$brand-color:       $green;
-$brand-color-2:     $light-green;
-$brand-color-3:     $dark-green;
+$brand-color:       $navy23;
+$brand-color-2:     $yellow23;
+$brand-color-3:     $orange23;
 
 $brand-light:		    lighten($brand-color, 33%);
 $brand-dark:		    darken($brand-color, 33%);
 
-$text-color:		    $white;
-$background-color:  $dark-grey;
-$preheader-color:   $black;
+$text-color:		    $navy23;
+$background-color:  $orange23;
+$preheader-color:   $navy23;
 $header-color:      $black;
 $prefooter-color:   $black;
 $footer-color:      $black;
 
-$link-color:        $brand-color-2;
-$link-hover:        $brand-color;
+$link-color:        $blue23;
+$link-hover:        $navy23;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -101,6 +107,7 @@ $on-mobile:        $on-300 !default;
 
 // Import partials.
 @import
+  "invasion/fonts",
   "invasion/base",
   "invasion/header",
   "invasion/footer",

@@ -4,6 +4,7 @@
 
 .prefooter {
 	background: $prefooter-color;
+	color: $white;
 	border-top: 1px solid $dark-grey;
     border-bottom: 1px solid $dark-grey;
 	
@@ -81,9 +82,9 @@
 
 
 .site-footer {
-  background: $footer-color;
-  color: $white;
-  padding: ($spacing-unit*4) 0;
+	background: $footer-color;
+	color: $white;
+	padding: ($spacing-unit*4) 0;
 	text-align: center;
 	
 	img {
@@ -95,7 +96,7 @@
 		color: $white;
 	}
 	a:hover {
-		color: $brand-color;
+		color: $yellow23;
 		text-decoration: none;
 	}
 	.social {

@@ -18,6 +18,10 @@
 	.button {
 		display: inline-block;
 	}
+
+	.photos img {
+		border-radius: $spacing-unit;
+	}
 }
 
 .post-list-heading {
@@ -51,22 +55,21 @@
 .post-header {
   margin: $spacing-unit*4 0;
 }
-.post-header-image {
-	height: 0;
-  width: 0;
-  opacity: 0;
-	margin: 0;
-}
+// .post-header-image {
+// 	height: 0;
+//   width: 0;
+//   opacity: 0;
+// 	margin: 0;
+// }
 
-.post-title {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1;
+// .post-title {
+//   @include relative-font-size(2.625);
+//   line-height: 1;
 
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
-}
+//   @include media-query($on-laptop) {
+//     @include relative-font-size(2.25);
+//   }
+// }
 
 .post-content {
   margin-bottom: $spacing-unit;
@@ -79,45 +82,29 @@
 	.post-content {
 		h2 {
 			@include relative-font-size(2);
-			font-family: "Anton", sans-serif;
-			font-weight: 100;
 		}
 		h3 {
 			@include relative-font-size(1);
-			font-family: "Anton", sans-serif;
-			font-weight: 100;
 		}
 		div {
-			border-bottom: 4px solid $brand-color;
+			// border-bottom: 4px solid $brand-color;
 			margin-bottom: $spacing-unit*3;
 			width:100%;
 		}
 		.charity-logo {
-			background: $white;
-			border: 4px solid $brand-color;
-			margin-bottom: -4px;
 			max-width: 300px;
-			padding: 12px 18px;
 			width: 100%;
 		}
 	}
 }
-.contact-success-page {
-	.post-content {
-		text-align: center;
-		
-		a {
-			display: inline-block;
-			margin: 40px auto;
-		}
+.contact-success-page {		
+	a {
+		display: inline-block;
+		margin: 40px auto;
 	}
+
 }
 .privacy-page {
-	h1 {
-		@include relative-font-size(2);
-		font-family: "Anton", sans-serif;
-		font-weight: 100;
-	}
 	h3 {
 		@include relative-font-size(1.2);
 		font-family: "Anton", sans-serif;
@@ -149,7 +136,7 @@
 //		background-image: url('/images/logo/fade.png');
 //		background-repeat: repeat-x;
 //		background-size: contain;
-	margin: $spacing-unit*2 0 $spacing-unit*6;
+	margin: 0 0 $spacing-unit*6;
 	
 	@include media-query($on-500) {
 		margin: $spacing-unit*3 0;
@@ -158,6 +145,19 @@
 	img {
 		display: block;
 		margin: 0 auto;
+	}
+}
+article header div {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	justify-content: center;
+
+	img {
+		margin-right: $spacing-unit*3;
+		width: auto;
+		height: 100%;
+		max-height: $spacing-unit*60;
 	}
 }
 

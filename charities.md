@@ -4,11 +4,11 @@ layout: page
 title: Invasion Colchester Charities
 excerpt: Invasion Colchester was created to raise awarenes and help local charities. PLease take a look at the brilliant causes that benefit from our efforts.
 permalink: /charities/
-featured-image: charities-2019.png
+featured-image: title-moana.png
 socialimage: soc-charities-fb-1.jpg
 ---
 
-<div><img src="/images/charities/st-helena-2019.jpg" class="charity-logo" alt="St Helena Hospice"></div>
+<div><img src="/images/charities/st-helena-logo-mono.png" class="charity-logo" alt="St Helena Hospice"></div>
 <h2>
 	St Helena Hospice
 </h2>
@@ -36,7 +36,7 @@ socialimage: soc-charities-fb-1.jpg
 
 <br /><br />
 
-<div><img src="/images/charities/cihc-2019.jpg" class="charity-logo" alt="Colchester & Ipswich Hospitals Charity"></div>
+<div><img src="/images/charities/cohoc-logo-mono.png" class="charity-logo" alt="Colchester & Ipswich Hospitals Charity"></div>
 <h2>
 	Colchester & Ipswich Hospitals Charity
 </h2>
@@ -67,7 +67,7 @@ socialimage: soc-charities-fb-1.jpg
 
 <br /><br />
 
-<div><img src="/images/charities/mind-mnee-logo-web.jpg" class="charity-logo" alt="Mind (Mid & North East Essex)"></div>
+<div><img src="/images/charities/mind-logo-mono.png" class="charity-logo" alt="Mind (Mid & North East Essex)"></div>
 <h2>
 	Mind (Mid & North East Essex)
 </h2>
@@ -85,7 +85,3 @@ socialimage: soc-charities-fb-1.jpg
 <p>
 	<a href="https://mnessexmind.org/" class="button" rel="nofollow noopener noreferrer" target="_blank" alt="Find out more">Find out more</a>
 </p>
-
-<br /><br />
-
-<img src="/images/charities/charities-main.jpg" alt="Invasion Colchester Charities">

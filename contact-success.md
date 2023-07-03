@@ -1,14 +1,15 @@
 ---
 pageclass: contact-success-page
 layout: page
-title: Thanks for your message
+title: We Heard Your Call
 excerpt: Thanks for contacting Invasion Colchester. We've recieved your message and will get back in touch with you shortly!
 permalink: /contact-success/
-featured-image: contacted-2019.png
+featured-image: title-batman.png
 socialimage: social-image-contact.jpg
 nofollow: nofollow
 ---
 
+<p>Thanks for contacting us.</p>
 <p>We've recieved your message and will get back in touch with you shortly!</p>
 
 <a href="/" class="button">Home</a>

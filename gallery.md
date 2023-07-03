@@ -3,12 +3,13 @@ layout: page
 title: Invasion Colchester Gallery
 excerpt: Take a look through our gallery of images from Invasion Colchester over the years. Who knows, you might even spot yourself in there somewhere!
 permalink: /gallery/
-featured-image: photos-2019.png
+featured-image: title-spidey.png
+titlecard: right
 socialimage: social-image-gallery.jpg
 lightbox: gallery
 ---
 
-<ul class="list random">
+<ul class="list random photos">
 
 	<li class="quarter">
 		<a class="fancybox" rel="group" href="/images/gallery/invasion-colchester-001.jpg">

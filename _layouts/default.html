@@ -3,17 +3,12 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="tequila">
 
     {%- include preheader.html -%}
     {%- include header.html -%}
 
     <main class="page-content{% if page.pageclass %} {{ page.pageclass }}{% endif %}" aria-label="Content">
-      {% if page.featured-image %}
-        <div class="title-card">
-          <img src="/images/titles/{{ page.featured-image }}" alt="{{ page.title }}" />
-        </div>
-      {% endif %}
         {{ content }}
     </main>
 
