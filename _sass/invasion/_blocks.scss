@@ -188,6 +188,10 @@
 			padding: $spacing-unit*8 $spacing-unit*2;
 		}
 	}
+	@include media-query($on-600){
+		background-attachment: initial;
+	}
+
 }
 
 .guide {
