@@ -1,4 +1,4 @@
-<img src="/images/batsignal.png" alt="Get in Touch" />
+<img src="/images/titles/2023/title-batsignal.png" alt="Batsignal Image" />
 
 <h2>Get in Touch</h2>
 
@@ -6,11 +6,14 @@
 
 <form action="https://formzest.lemonarc.com/8fc21011-c1d5-40ac-b11f-1ea224b3b207" method="post" id="contact-form" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Privacy Policy'); return false; }">
 	<input type="text" name="_gotcha" style="display:none" />
-	<input type="hidden" name="_next" value="https://invasioncolchester.co.uk/contact-success">
+	<input type="hidden" name="_next" value="/contact-success">
 	<input type="hidden" name="_subject" value="Invasion Colchester Contact Form" />
-	<input type="text" name="Name" placeholder="Your Name" required>
-	<input type="email" name="_replyto" placeholder="Your Email" required>
-	<textarea name="Message" placeholder="Your Message" required></textarea>
+	<label>Your Name</label>
+	<input type="text" name="Name" required>
+	<label>Your Email</label>
+	<input type="email" name="_replyto" required>
+	<label>Your Message</label>
+	<textarea name="Message" required></textarea>
 	<p><input type="checkbox" name="checkbox" value="check" id="agree" required /> I have read and agree to the <a href="/privacy-policy/" alt="Privacy Policy" rel="noopener" target="_blank">Privacy Policy</a></p>
 	
 	<script>
@@ -19,7 +22,7 @@
    }
  </script>
 	
-	<input type="submit" value="Send" class="g-recaptcha" 
+	<input type="submit" value="Send Us A Message" class="g-recaptcha" 
         data-sitekey="reCAPTCHA_site_key" 
         data-callback='onSubmit' 
         data-action='submit'>
