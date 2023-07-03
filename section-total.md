@@ -1,6 +1,6 @@
 <div class="total">
 
-<h2>2022 Grand Total</h2>
+<h2>Last Year's Grand Total</h2>
 <p class="total anni-header">£14,524.60</p>
 <br/><br/>
 
