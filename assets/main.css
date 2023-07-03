@@ -500,6 +500,8 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 1040px) { .gallery .wrapper { padding: 80px 20px; } }
 
+@media screen and (max-width: 600px) { .gallery { background-attachment: initial; } }
+
 .guide { background-color: #002253; padding: 40px 0; text-align: center; }
 
 @media only screen and (max-width: 600px) { .guide { padding: 40px 0 0; } }
