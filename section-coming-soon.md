@@ -1,5 +1,5 @@
 <div class="block-right">
-	<img src="/images/titles/2023/title-gb3.png" alt="Ghostbusters" />
+	<img src="/images/characters/silhouette-ghostbusters.svg" alt="Deadpool" />
 </div>
 
 <div class="block-left">

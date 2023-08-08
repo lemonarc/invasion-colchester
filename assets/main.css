@@ -378,11 +378,11 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 500px) { .logo-area .logo-base { height: 250px; } }
 
-.logo-area .logo-large { display: block; }
+.logo-area .logo-large { display: block; max-width: 870px; height: auto; }
 
 @media screen and (max-width: 900px) { .logo-area .logo-large { display: none; } }
 
-.logo-area .logo-small { display: none; }
+.logo-area .logo-small { display: none; max-width: 720px; height: auto; }
 
 @media screen and (max-width: 900px) { .logo-area .logo-small { display: block; } }
 
@@ -662,7 +662,7 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .othermonkey table img, .othermonkey table td img { max-width: 100%; }
 
-.prize-draw { color: #BDD530; }
+.prize-draw { color: #002253; }
 
 .prize-draw table { border-color: #1B7C55; color: #1B7C55; margin: 40px 0; }
 
