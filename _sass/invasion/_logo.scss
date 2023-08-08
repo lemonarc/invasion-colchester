@@ -73,6 +73,8 @@
 	}
 	.logo-large {
 		display: block;
+		max-width: 870px;
+		height: auto;
 		
 		@include media-query($on-900) {
 		display: none;			
@@ -80,6 +82,8 @@
 	}
 	.logo-small {
 		display: none;
+		max-width: 720px;
+		height: auto;
 		
 		@include media-query($on-900) {
 		display: block;			

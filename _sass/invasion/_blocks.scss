@@ -11,6 +11,7 @@
 		padding-top: $spacing-unit*12;
 		padding-bottom: $spacing-unit*12;
 		
+		
 		@include media-query($on-1040){
 			padding-top: $spacing-unit*8;
 			padding-bottom: $spacing-unit*8;
@@ -612,7 +613,7 @@
 }
 
 .prize-draw {
-	color: #BDD530;
+	color: $brand-color;
 	
 	table {
 		border-color: $green;
