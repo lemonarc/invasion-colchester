@@ -103,7 +103,7 @@ pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Container */
-.container { border: 1px solid #b0b0b0; padding: 30px; margin-bottom: 30px; }
+.container { border: 1px solid #fff; padding: 30px; margin-bottom: 30px; }
 
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(1200px - (10px * 2)); max-width: calc(1200px - (10px * 2)); margin-right: auto; margin-left: auto; padding-right: 40px; padding-left: 40px; }
