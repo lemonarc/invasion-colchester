@@ -1,43 +1,49 @@
 ---
 layout: page
 title: "Invasion Colchester's Special Guests"
-excerpt: "For 2022, we were delighted to introduce Ross Sambridge and Andrew Lawden, and welcome back Chris Bunn, Clem So, Nick Joseph, Martin Ballantyne, and Ralph Morse."
+excerpt: "For 2023, we were delighted to introduce Ross Mullan and Bern Collaço, and welcome back Clem So, Nick Joseph, Sandeep Mohan, Martin Ballantyne, and Ralph Morse."
 permalink: /special-guests/
-featured-image: title-guests-2022.png
+featured-image: title-trooper.png
 socialimage: soc-guests-fb-3.jpg
 lightbox: guests
 ---
 
 <p>
-In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn, Clem So, and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
+In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn, Clem So, Ross Sambridge, Andrew Lawden, and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
 </p><p>
-For 2022, we were delighted to introduce actor Ross Sambridge, who worked as a body double for Andy Serkis in 'Star Wars: The Last Jedi' and played a Wookiee Slave in 'Solo: A Star Wars Story', and Andrew Lawden, an actor who has appered in, among other things, 'Star Wars: The Phantom Menace', and 'Pennyworth', as well as running the Jedi Fight Academy. We also welcomed back actors Chris Bunn, Clem So, Nick Joseph, Martin Ballantyne, and Ralph Morse.
+For 2023, we were delighted to introduce actor, creature performer and puppeteer Ross Mullan, who was the original Whitewalker on 'Game of Thrones', and played The Silence and The Teller on 'Doctor Who' among other roles, and Bern Collaço, an actor who has appeared in 'The Batman', 'Morbius', 'Wonder Woman', 'Star Wars: The Force Awakens', 'Skyfall', 'Doctor Who', and more. We also welcomed back actors Clem So, Nick Joseph, Sandeep Mohan, Martin Ballantyne, and Ralph Morse.
 </p>
 <br /><br />
 
 <div class="container">
 
-<img src="/images/guests/ross-sambridge.jpg" alt="Ross Sambridge" class="guest-feature" />
+<img src="/images/guests/ross-mullan.jpg" alt="Ross Mullan" class="guest-feature" />
 
-<h2>Ross Sambridge</h2>
+<h2>Ross Mullan</h2>
 
 <p>
-Standing at over 7ft tall, Ross Sambridge has been successful in landing various height related roles within film and television.
+Ross Mullan is a Canadian-British actor, creature performer and puppeteer. Ross was the original Whitewalker on the HBO television series 'Game of Thrones' in it's second to fourth seasons, and also played The Silence and The Teller on 'Doctor Who'. In 'Sharknado 5: Global Swarming' he was the ill fated Dr. Wobegone, and in 'Ant-Man and The Wasp: Quantumania' he could be seen as the Maitre D'. As well as playing one of the three stygian witches in Warner Bros' 'Clash of the Titans', Ross also played the Numbertaker on BBC's 'Numberjacks', and puppeteered and voiced Nev the bear on 'Bear Behaving Badly'.
 </p><p>
-Ross' recent credits include Disney's 'Artemis Fowl' and 'Via DOLO'. Ross has worked with Andy Serkis to bring the evil Supreme Leader Snoke alive in 'Star Wars: The Last Jedi' and - as a personal dream come true - featured as a Wookiee in 'Solo: A Star Wars Story'.
-</p><p>
-Ross has also appeared in horror films, as well as Andy Serkis' debut directorial film 'Breathe', and is very much looking forward to meeting everyone at Invasion Colchester.
+In additon, Ross has also played countless werewolves, demons and space aliens in horror films and commercials, and motion captured and voiced on many games and documentaries.
 </p>
-	
-<!--<h4>Where can I find Ross?</h4>
-	
-<p>
-Ross will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-</p>-->
 	
 </div>
 
 <div class="container">
+
+<img src="/images/guests/bern-collaco.jpg" alt="Bern Collaço" class="guest-feature" />
+
+<h2>Bern Collaço</h2>
+
+<p>
+Bern Collaço is a film and TV actor based in London. He has appeared in many movies and shows including 'The Batman', 'Morbius', 'Poledark', 'Wonder Woman', 'Star Wars: The Force Awakens' (as a General), 'Rogue One', 'Star Wars: The Last Jedi', 'Skyfall', 'Spectre', and 'Doctor Who', to name a few.
+</p><p>
+Bern is popular with his fans, who he loves to meet and talk to about the various films he has appeared in.
+</p>
+	
+</div>
+
+<!--<div class="container">
 
 <img src="/images/guests/andrew-lawden.jpg" alt="Andrew Lawden" class="guest-feature" />
 
@@ -51,13 +57,7 @@ In addition to 'Star Wars', Andrew's credits include 'Robin Hood', 'Firepower', 
 Andrew also runs the Jedi Fight Academy fitness class in Theatro Technis, Camden.
 </p>
 	
-<!--<h4>Where can I find Andrew?</h4>
-	
-<p>
-Andrew will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-</p>-->
-	
-</div>
+</div>-->
 
 <div class="container">
 
@@ -73,15 +73,9 @@ Other appearances include a Kyln prisoner in Marvel Studios popular hit 'Guardia
 Clem has also worked on many other films including 'Star Wars: The Last Jedi', 'Ready Player One', 'Jurassic World: Fallen Kingdom', 'Solo: A Star Wars Story', 'Fantastic Beasts: The Crimes of Grindelwald' and 'Zack Snyder's Justice League'. 
 </p>
 	
-<!--<h4>Where can I find Clem?</h4>
-	
-<p>
-Clem will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-</p>-->
-	
 </div>
 
-<div class="container">
+<!--<div class="container">
 
 <img src="/images/guests/chris-bunn.jpg" alt="Chris Bunn" class="guest-feature">
 
@@ -94,14 +88,8 @@ Chris has worked on all three of the 'Star Wars' original trilogy films, appeari
 </p><p>
 In addition to all of this, Chris has worked on some very popular TV shows over the years including 'The Sweeney', 'Minder' and 'The Avengers'. He was a body double for Lewis Collins in 'The Professionals' and has performed stand-in work also for Timothy Dalton in 'Agatha'. 
 </p>
-	
-<!--<h4>Where can I find Chris?</h4>
-	
-<p>
-Chris will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-</p>-->
 
-</div>
+</div>-->
 
 <div class="container">
 
@@ -119,15 +107,9 @@ In his career, Nick has worked on 'Doctor Who' with three different Doctors (Tom
 Aside from acting, Nick also used to be a long distance runner, taking part in more than fifty marathons and many other long distance races!
 </p>
 	
-<!--<h4>Where can I find Nick?</h4>
-	
-<p>
-Nick will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-</p>-->
-	
 </div>
 
-<!--<div class="container">
+<div class="container">
 
 <img src="/images/guests/sandeep-mohan.jpg" alt="Sandeep Mohan" class="guest-feature" />
 
@@ -151,13 +133,7 @@ More excitingly, you might spot Sandeep in the titles to the BBC comedy 'This Ti
 Sandeep has also appeared in Britney Spears' 'Criminal' music video as well as providing voice-work for Channel 4 News.
 </p>
 	
-<h4>Where can I find Sandeep?</h4>
-	
-<p>
-Sandeep will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-</p>
-	
-</div>-->
+</div>
 
 <div class="container">
 
@@ -181,12 +157,6 @@ In 2008, Martin worked on Christopher Nolan's second Batman film, 'The Dark Knig
 In addition to his film work, Martin appreared regularly in the first, second and third series of TV show 'Kingdom'.
 </p>
 	
-<!--<h4>Where can I find Martin?</h4>
-	
-<p>
-Martin will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-</p>-->
-	
 </div>
 
 <div class="container">
@@ -203,32 +173,26 @@ Ralph's film and television appearances include 'The Empire Strikes Back', 'Retu
 From 2003, Ralph's main stage persona has been the comical guitar-slinging, time-travelling space cowboy, Johnny Cashbox, whose appearances at Invasion Colchester are as legendary as the man himself. Johnny's sci-fi themed songs are very much part of the 'Star Wars' universe and you may very well see him mingling and entertaining everyone during the event. 
 </p>
 	
-<!--<h4>Where can I find Ralph?</h4>
-	
-<p>
-Ralph will be signing autographs and meeting people in <strong>Lion Walk</strong>.
-</p>-->
-	
 </div>
 	
 <ul class="list">
 <li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/ross-01.jpg" title="Ross Sambridge in 'Star Wars: The Last Jedi'"><img src="/images/guests/ross-01.jpg" alt="Ross Sambridge in 'Star Wars: The Last Jedi'"></a>
+<a class="fancybox" rel="group" href="/images/guests/ross-mullan-1.jpg" title="Ross Mullan in 'Game of Thrones'"><img src="/images/guests/ross-mullan-1.jpg" alt="Ross Mullan in 'Game of Thrones'"></a>
 </li>
 <li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/ross-02.jpg" title="Ross Sambridge on set"><img src="/images/guests/ross-02.jpg" alt="Ross Sambridge on set"></a>
+<a class="fancybox" rel="group" href="/images/guests/ross-mullan-2.jpg" title="Ross Mullan in 'Doctor Who'"><img src="/images/guests/ross-mullan-2.jpg" alt="Ross Mullan in 'Doctor Who'"></a>
 </li>
 <li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/ross-03.jpg" title="Ross Sambridge in 'Breathe'"><img src="/images/guests/ross-03.jpg" alt="Ross Sambridge in 'Breathe'"></a>
-</li>
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/clem-so-1.jpg" title="Clem So in 'Doctor Who'"><img src="/images/guests/clem-so-1.jpg" alt="Clem So in 'Doctor Who'"></a>
+<a class="fancybox" rel="group" href="/images/guests/bern-collaco-2.jpg" title="Bern Collaço in 'Wonder Woman'"><img src="/images/guests/bern-collaco-2.jpg" alt="Bern Collaço in 'Wonder Woman'"></a>
 </li>
 <li class="quarter">
 <a class="fancybox" rel="group" href="/images/guests/clem-so-4.jpg" title="Clem So in 'Spectre'"><img src="/images/guests/clem-so-4.jpg" alt="Clem So in 'Spectre'"></a>
 </li>
 <li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/clem-so-3.jpg" title="Clem So in 'Doctor Strange'"><img src="/images/guests/clem-so-3.jpg" alt="Clem So in 'Doctor Strange'"></a>
+<a class="fancybox" rel="group" href="/images/guests/ralph-morse-2.jpg" title="Ralph Morse in 'The Empire Strikes Back'"><img src="/images/guests/ralph-morse-2.jpg" alt="Ralph Morse in 'The Empire Strikes Back'"></a>
+</li>
+<li class="quarter">
+<a class="fancybox" rel="group" href="/images/guests/sandeep-mohan-2.jpg" title="Sandeep Mohan in 'This Time... with Alan Partridge'"><img src="/images/guests/sandeep-mohan-2.jpg" alt="Sandeep Mohan in 'This Time... with Alan Partridge'"></a>
 </li>
 <li class="quarter">
 <a class="fancybox" rel="group" href="/images/guests/nick-joseph-1.jpg" title="Nick Joseph in 'Star Wars'"><img src="/images/guests/nick-joseph-1.jpg" alt="Nick Joseph in 'Star Wars'"></a>

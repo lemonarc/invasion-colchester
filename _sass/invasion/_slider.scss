@@ -32,20 +32,23 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 		
-	&.hero1 {
+	&.hero3 {
 		background-image: url('/images/guests/clem-so-5.jpg');
 	}
-	&.hero2 {
+	&.hero4 {
 		background-image: url('/images/guests/nick-joseph-1.jpg');
 	}
-	&.hero3 {
-		background-image: url('/images/guests/ross-01.jpg');
-	}
-	&.hero4 {
+	&.hero5 {
 		background-image: url('/images/guests/sandeep-mohan-2.jpg');
 	}
-	&.hero5 {
+	&.hero6 {
 		background-image: url('/images/guests/martin-ballantyne-1.jpg');
+	}
+	&.hero1 {
+		background-image: url('/images/guests/ross-mullan-1.jpg');
+	}
+	&.hero2 {
+		background-image: url('/images/guests/bern-collaco-2.jpg');
 	}
 	@include media-query($on-800) {
 		height: 60vh;

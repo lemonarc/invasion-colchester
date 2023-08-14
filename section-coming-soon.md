@@ -6,7 +6,6 @@
 	<h2>Coming Soon...</h2>
 	<h5>CHARACTERS & THEMED AREAS</h5>
 	<h5>SHOW CARS</h5>
-	<h5>SPECIAL GUESTS</h5>
 	<h5>COMPETITIONS</h5>
 	<h5>LIVE MUSIC</h5>
 	<p>

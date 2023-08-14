@@ -353,14 +353,14 @@
 .guests {
 	background-image: url('/images/social/20190801SG.jpg');
 	background-position: top;
-	color: $white;
+	color: $yellow23;
 	
 	a {
-		color: $white;
+		color: $yellow23;
 		
 		&:hover,
 		&:focus {
-			color: $link-hover;
+			color: $white;
 		}
 	}
 	
