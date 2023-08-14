@@ -21,7 +21,7 @@
 title: Invasion Colchester
 email: info@invasioncolchester.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Meet your heroes at this annual charity event in Colchester town centre, Essex. Featuring characters from Star Wars, Marvel and more! Our next event takes place on Saturday 2 September 2023.
+  Meet your heroes at this annual charity event in Colchester city centre, Essex. Featuring characters from Star Wars, Marvel and more! Our next event takes place on Saturday 2 September 2023.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 socialimage: social-image-logo.png
