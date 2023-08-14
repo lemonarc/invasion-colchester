@@ -402,15 +402,17 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .flexhero li { height: 80vh; width: 100%; background-position: center top; background-repeat: no-repeat; background-size: cover; }
 
-.flexhero li.hero1 { background-image: url("/images/guests/clem-so-5.jpg"); }
+.flexhero li.hero3 { background-image: url("/images/guests/clem-so-5.jpg"); }
 
-.flexhero li.hero2 { background-image: url("/images/guests/nick-joseph-1.jpg"); }
+.flexhero li.hero4 { background-image: url("/images/guests/nick-joseph-1.jpg"); }
 
-.flexhero li.hero3 { background-image: url("/images/guests/ross-01.jpg"); }
+.flexhero li.hero5 { background-image: url("/images/guests/sandeep-mohan-2.jpg"); }
 
-.flexhero li.hero4 { background-image: url("/images/guests/sandeep-mohan-2.jpg"); }
+.flexhero li.hero6 { background-image: url("/images/guests/martin-ballantyne-1.jpg"); }
 
-.flexhero li.hero5 { background-image: url("/images/guests/martin-ballantyne-1.jpg"); }
+.flexhero li.hero1 { background-image: url("/images/guests/ross-mullan-1.jpg"); }
+
+.flexhero li.hero2 { background-image: url("/images/guests/bern-collaco-2.jpg"); }
 
 @media screen and (max-width: 800px) { .flexhero li { height: 60vh; } }
 
@@ -562,11 +564,11 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 400px) { .meet-heroes { background-image: url("/images/backgrounds/20190801DS3.jpg"); } }
 
-.guests { background-image: url("/images/social/20190801SG.jpg"); background-position: top; color: #fff; }
+.guests { background-image: url("/images/social/20190801SG.jpg"); background-position: top; color: #FFF200; }
 
-.guests a { color: #fff; }
+.guests a { color: #FFF200; }
 
-.guests a:hover, .guests a:focus { color: #002253; }
+.guests a:hover, .guests a:focus { color: #fff; }
 
 .guests .wrapper { padding: 500px 20px 20px; }
 
