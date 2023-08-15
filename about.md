@@ -5,7 +5,7 @@ title: Invasion Colchester's History
 excerpt: Find out why Invasion Colchester started and what we do.
 permalink: /about/
 featured-image: title-deadpool.png
-socialimage: social-image-logo.png
+socialimage: social-about-23.jpg
 ---
 
 <p>
