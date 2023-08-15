@@ -5,7 +5,7 @@ title: Privacy Policy
 excerpt: Privacy Policy for invasioncolchester.co.uk
 permalink: /privacy-policy/
 featured-image: title-trooper.png
-socialimage: social-image-logo.png
+socialimage: social-privacy-23.png
 ---
 <p>
 	This Privacy Policy governs the manner in which Invasion Colchester collects, uses, maintains and discloses information collected from users ('Users') of the invasioncolchester.co.uk website (the 'Site') and all relevant subdomains for purposes including providing relevant event information ('Services'). This Privacy Policy applies to the Site and all services offered by Invasion Colchester.

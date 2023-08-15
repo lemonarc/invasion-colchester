@@ -5,7 +5,7 @@ excerpt: Take a look through our gallery of images from Invasion Colchester over
 permalink: /gallery/
 featured-image: title-spidey.png
 titlecard: right
-socialimage: social-image-gallery.jpg
+socialimage: social-gallery-23.jpg
 lightbox: gallery
 ---
 

@@ -4,7 +4,7 @@ title: "Invasion Colchester's Special Guests"
 excerpt: "For 2023, we were delighted to introduce Ross Mullan and Bern Collaço, and welcome back Clem So, Nick Joseph, Sandeep Mohan, Martin Ballantyne, and Ralph Morse."
 permalink: /special-guests/
 featured-image: title-trooper.png
-socialimage: soc-guests-fb-3.jpg
+socialimage: social-guests-23.jpg
 lightbox: guests
 ---
 
