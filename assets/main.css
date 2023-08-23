@@ -123,7 +123,7 @@ table { margin-bottom: 10px; text-align: left; color: #0048af; border-collapse: 
 
 table tr:nth-child(even) { background-color: #f7f7f7; }
 
-table th, table td { padding: 5px; }
+table th, table td { padding: 10px; }
 
 table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-color: #c9c9c9; }
 
@@ -484,7 +484,7 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .dont-panic a:hover, .dont-panic a:focus { color: #fff; }
 
-.park-ride { background-color: #55A987; text-align: center; }
+.park-ride { background-color: #FFF200; text-align: center; }
 
 .park-ride svg { display: block; margin: 0 auto 40px; max-width: 300px; width: 100%; }
 
@@ -630,15 +630,15 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .firstsite .wrapper { padding-top: 0; }
 
-.fancy-dress { background-color: #1B7C55; }
+.fancy-dress { background-color: #005FAE; color: #fff; }
 
-.fancy-dress h2 { text-align: center; }
+.fancy-dress h2 { text-align: center; color: #FFF200; }
 
-.fancy-dress img { display: block; margin: 0 auto 40px; max-width: 900px; width: 100%; }
+.fancy-dress img { display: block; margin: 0 auto 40px; max-height: 600px; width: 100%; }
 
-.fancy-dress table { border-color: #002253; color: #002253; margin: 0 0 40px; }
+.fancy-dress table { border-color: #FFF200; color: #FFF200; margin: 0 0 40px; }
 
-.fancy-dress table th, .fancy-dress table td { background: none; border-color: #002253; color: #002253; }
+.fancy-dress table th, .fancy-dress table td { background: none; border-color: #FFF200; color: #FFF200; }
 
 .fancy-dress table tr:nth-child(even) { background: none; }
 

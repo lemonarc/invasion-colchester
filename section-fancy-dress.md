@@ -1,7 +1,7 @@
 
 
 <h2>Fancy Dress Competition</h2><div>
-	<img src="/images/fancy-dress.png" alt="Fancy Dress Competition" />
+	<img src="/images/characters/silhouette-supergirl-KIDS-navy.svg" alt="Fancy Dress Competition" />
 </div>
 
 <div class="block-left">
@@ -74,12 +74,12 @@
 		</tr>
 	</tbody>
 </table>
-<p>
+<!--<p>
 	<h3>Prizes</h3>
-	<strong>1st Place:</strong> Family ticket to Colchester Zoo<br/>
-	<strong>2nd Place:</strong> Prize Bundle From the Entertainer<br/>
-	<strong>3rd Place:</strong> £20 Smiggle voucher<br/><br/>
+	<strong>1st Place:</strong> TBA<br/>
+	<strong>2nd Place:</strong> TBA<br/>
+	<strong>3rd Place:</strong> TBA<br/>
 	With thanks to Colchester Zoo and The Entertainer
-</p>
+</p>-->
 
 </div>
