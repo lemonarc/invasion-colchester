@@ -151,7 +151,7 @@
 }
 
 .park-ride {
-	background-color: $light-green;
+	background-color: $yellow23;
 	text-align: center;
 	
 	svg {
@@ -533,27 +533,29 @@
 }
 
 .fancy-dress {
-	background-color: $green;
+	background-color: $blue23;
+	color: $white;
 	
 	h2 {
 		text-align: center;
+		color: $yellow23;
 	}
 	img {
 		display: block;
 		margin: 0 auto 40px;
-		max-width: 900px;
+		max-height: 600px;
 		width: 100%;
 	}
 	
 	table {
-		border-color: $text-color;
-		color: $text-color;
+		border-color: $yellow23;
+		color: $yellow23;
 		margin: 0 0 $spacing-unit*4;
 
 		th,td {
 			background: none;
-			border-color: $text-color;
-			color: $text-color;
+			border-color: $yellow23;
+			color: $yellow23;
 		}
 		tr:nth-child(even) {
 			background: none;

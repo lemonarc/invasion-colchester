@@ -1,4 +1,4 @@
-{% include icon-bus.svg %}
+{% include icon-bus-23.svg %}
 		<h3>Come in Costume and Travel on Colchester Park and Ride for Free!</h3>
 		<p>
 			Anyone visiting Invasion Colchester in costume / fancy dress will be able to travel on the Colchester Park and Ride for free*.
@@ -22,7 +22,7 @@
 				</tr>
 				<tr>
 					<td>
-						Child (between 5–15 )
+						Child (between 5–18 )
 					</td>
 					<td>
 						£1.00
@@ -38,10 +38,10 @@
 				</tr>
 				<tr>
 					<td>
-						Group Fare (up to 2 adults and 3 children)
+						 Concessionary
 					</td>
 					<td>
-						£5
+						£1.50
 					</td>
 				</tr>
 				<tr>

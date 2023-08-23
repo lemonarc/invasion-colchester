@@ -401,7 +401,7 @@ table {
     }
   }
   th, td {
-    padding: ($spacing-unit / 2);
+    padding: $spacing-unit;
   }
   th {
     background-color: lighten($grey-color-light, 3%);
