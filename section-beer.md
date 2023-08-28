@@ -1,22 +1,9 @@
-<a href="https://othermonkeybrewing.com/" rel="nofollow noopener noreferrer" target="_blank">
-	<img src="/images/omb-logo.svg" alt="Other Monkey Brewing" />
-</a>
-<table>
-<tr>
-<td class="beer-can">
-<img src="/images/obeer-wan-can.png" alt="Obeer-Wan beer" />
-</td>
-<td>
-<h3>Invasion Colchester Beer</h3>
+<img src="/images/other-monkey-brewing-logo-white-text.svg" alt="Other Monkey Brewing" />
+<h3>Invasion Ale</h3>
 <p>
-	The fabulous folks at Other Monkey Brewing crafted a special beer for Invasion Colchester 2022...
-</p>
-<h4>Obeer-Wan!</h4>
-<p>
-	The pale ale was on tap at the Other Monkey Brewery in the Three Wise Monkeys Colchester bar, and cans were be available for you to buy, take home and treasure!
+	Other Monkey Brewing are launching another fabulous ale in collaboration with Invasion Colchester
 </p><p>
-	A portion of the proceeds went to Invasion Colchester.
+	This 4.5.% Pale Ale will be available on tap, and in cans for you to take away, with a portion of the proceeds of each beer sold going to Invasion Colchester!
+</p><p>
+	For more information visit <a href="https://othermonkeybrewing.com/" rel="nofollow noopener noreferrer" alt="Other Monkey Brewing" target="_blank">othermonkeybrewing.com</a>.
 </p>
-</td>
-</tr>
-</table>

@@ -51,6 +51,8 @@ $brand-light:		    lighten($brand-color, 33%);
 $brand-dark:		    darken($brand-color, 33%);
 
 $text-color:		    $navy23;
+$text-color-light:  $white;
+
 $background-color:  $orange23;
 $preheader-color:   $navy23;
 $header-color:      $black;
@@ -58,7 +60,7 @@ $prefooter-color:   $black;
 $footer-color:      $black;
 
 $link-color:        $blue23;
-$link-hover:        $navy23;
+$link-color-light:  $yellow23;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

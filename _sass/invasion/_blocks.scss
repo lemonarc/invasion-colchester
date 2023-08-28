@@ -50,6 +50,26 @@
 	}
 }
 
+.dark-bg {
+	color: $text-color-light;
+
+	a {
+		color: $link-color-light;
+
+		&:visited {
+		  color: $link-color-light;
+		}
+	}
+}
+
+.light-bg {
+	color: $text-color;
+
+	a {
+		color: $link-color;
+	}
+}
+
 /* Home Blocks
 ------------------------------*/
 
@@ -80,12 +100,10 @@
 }
 
 .coming-soon {
-	color: $brand-color;
 }
 
 .contact {
-	background-color: $background-color;
-	color: $white;
+	background-color: $orange23;
 	
 	img {
 		display: block;
@@ -99,16 +117,6 @@
 	p {
 		margin: 0 auto;
 		max-width: 600px;
-	}
-	a {
-		color: $white;
-		text-decoration: underline;
-		
-		&:hover,
-		&:focus {
-			color: $white;
-			text-decoration: none;
-		}
 	}
 	#contact-form {
 		color: $white;
@@ -161,18 +169,10 @@
 	img {
 		margin-bottom: $spacing-unit*4;
 	}
-	a {
-		color: yellow;
-		&:hover,
-		&:focus {
-			color: $white;
-		}
-	}
 }
 
 .fancy-dress {
 	background-color: $blue23;
-	color: $white;
 	
 	h2 {
 		text-align: center;
@@ -205,27 +205,12 @@
 	background-color: $green;
 	text-align: center;
 	
-	//.movie-1 {
-	//	display: block;
-	//	
-	//	@include media-query($on-600) {
-	//		display: none;
-	//	}
-	//}
 	h3,h4 {
 		height: 0;
 		margin: 0;
 		opacity: 0;
 		padding: 0;
 	}
-	
-	//.movie-2 {
-	//	display: none;
-	//	
-	//	@include media-query($on-600) {
-	//		display: block;
-	//	}
-	//}
 	.wrapper {
 		padding-top: 0;
 	}
@@ -234,7 +219,15 @@
 .gallery {
 	background-image: url('/images/backgrounds/20190801PG.jpg');
     background-attachment: fixed;
-	color: $white;
+
+	a {
+		color: $white;
+
+		&:hover,
+		&:visited {
+			color: $white;
+		}
+	}
 	
 	.wrapper {
 		padding: $spacing-unit*16 0;
@@ -256,6 +249,7 @@
 	
 	a {
 		color: $yellow23;
+		text-decoration: none;
 		
 		&:hover,
 		&:focus {
@@ -377,7 +371,6 @@
 }
 
 .intro {
-	color: $white;
 	text-align: center;
 	
 	h1,h2,h3 {
@@ -397,17 +390,6 @@
 		margin: 0 auto $spacing-unit*6;
 		max-width: $spacing-unit*86;
 	}
-	a {
-		color: $yellow23;
-	  
-		&:visited {
-		  color: $yellow23;
-		}
-	  
-		&:hover {
-		  color: $cream;
-		}
-	}
 	img {
 		display: block;
 		margin: 0 auto $spacing-unit*2;
@@ -423,7 +405,6 @@
 
 .justgiving {
 	background-color: #ac29b5;
-	color: $white;
 	text-align: center;
 	
 	.wrapper div {
@@ -441,7 +422,6 @@
 
 .live {
 	background-image: url('/images/backgrounds/live-backgroun-23.jpg');
-	color: $white;
 	
 	table {
 		border-color: $yellow23;
@@ -471,7 +451,6 @@
 	background: -webkit-linear-gradient(-45deg,  #939598 0%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(135deg,  #939598 0%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#939598', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	color: $white;
 	text-align: center;
 	
 	img {
@@ -483,7 +462,6 @@
 .meet-heroes {
 	background-image: url('/images/backgrounds/20190801DS.jpg');
 	background-position: top;
-	color: $white;
 	
 	.wrapper {
 		padding: $spacing-unit*40 $spacing-unit*2 $spacing-unit*6;
@@ -505,30 +483,12 @@
 }
 
 .othermonkey {
-	background-image: url('/images/backgrounds/obeer-wan-bar.jpg');
-	background-attachment: fixed;
-	background-size: cover;
+	background-color: $orange23;
 
 	img {
 		display: block;
 		margin: 0 auto 60px;
 		max-width: 400px;
-	}
-	table,
-	table td {
-		border: none;
-		margin-bottom: 0;
-
-		&.beer-can {
-			padding-right: 20px;
-
-			@include media-query($on-500) {
-				display: none;
-			}
-		}
-		img {
-			max-width: 100%;
-		}
 	}
 }
 
@@ -579,7 +539,6 @@
 }
 
 .prize-draw {
-	color: $brand-color;
 	
 	table {
 		border-color: $green;
@@ -602,7 +561,6 @@
 
 .show-cars {
 	background-color: #0d1720;
-	color: $white;
 	
 	img {
 		min-width: -webkit-fill-available;
@@ -616,7 +574,6 @@
 }
 
 .total {
-	color: $white;
 
 	h2,p.total {
 		text-align: center;
