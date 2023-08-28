@@ -1,7 +1,7 @@
 <div class="total">
 
 <h2>Last Year's Grand Total</h2>
-<p class="total anni-header">£14,524.60</p>
+<p class="total">£14,524.60</p>
 <br/><br/>
 
 <p>Thank you to all of our wonderful sponsors and charities for their incredible efforts to help us achieve this fantastic total including Culver Square, Lion Walk, Fenwick, Ace Comics, St Helena Hospice, Colchester & Ipswich Hospitals Charity, Mind (Mid & North East Essex), Film TV & Music Quiz, ARB International, and the guys who got sponsored to dress-up for the day!</p>
