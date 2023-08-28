@@ -4,7 +4,7 @@
 <p>
 	Live music has always been something that Invasion Colchester is keen to promote, showcasing some amazing artists from the local area.
 </p><p>
-	2022's line-up featured a brilliant mix of musical talent to entertain your ears throughout the afternoon in Lion Walk.
+	2023's line-up featured a brilliant mix of musical talent to entertain your ears throughout the afternoon in Lion Walk.
 </p>
 
 <table>
@@ -24,15 +24,7 @@
 		</tr>
 		<tr>
 			<td>
-				11.30am
-			</td>
-			<td>
-				Stu Skinner
-			</td>
-		</tr>
-		<tr>
-			<td>
-				12.30pm
+				12.00pm
 			</td>
 			<td>
 				Trevor Johnson-Thurston
@@ -40,7 +32,15 @@
 		</tr>
 		<tr>
 			<td>
-				13.30pm
+				1.00pm
+			</td>
+			<td>
+				Suzy Kramer
+			</td>
+		</tr>
+		<tr>
+			<td>
+				2.00pm
 			</td>
 			<td>
 				Wooden Maiden
@@ -48,7 +48,7 @@
 		</tr>
 		<tr>
 			<td>
-				14.45pm
+				3.00pm
 			</td>
 			<td>
 				Fraser Morgan
