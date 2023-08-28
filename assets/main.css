@@ -57,11 +57,11 @@ h6 { font-size: 21px; }
 @media screen and (max-width: 800px) { h6 { font-size: 17.85px; } }
 
 /** Links */
-a { color: #005FAE; text-decoration: none; }
+a { color: #005FAE; }
 
 a:visited { color: #005FAE; }
 
-a:hover { color: #002253; text-decoration: none; }
+a:hover { text-decoration: none; }
 
 .social-media-list a:hover { text-decoration: none; }
 
@@ -213,7 +213,7 @@ li img { min-width: 100%; }
 
 .site-nav .menu-icon, .site-nav .close-icon { display: none; }
 
-.site-nav .page-link { color: #fff; line-height: 1.4; }
+.site-nav .page-link { color: #fff; line-height: 1.4; text-decoration: none; }
 
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
 
@@ -228,7 +228,7 @@ li img { min-width: 100%; }
 /** Site footer */
 .prefooter { background: #000; color: #fff; border-top: 1px solid #252525; border-bottom: 1px solid #252525; }
 
-.prefooter .wrapper { max-width: 1000px; margin: 20px auto; line-height: 1.2; text-align: center; /*img { width: 110px; height: 110px; float: left; padding-right: $spacing-unit; margin-bottom: 0; } p { padding-top: 30px; @media screen and (max-width:330px) { padding-top: 15px; } } li.sponsor { width: 15%; margin: 0 5%; @include media-query($on-palm) { width: 20%; margin: 0 2.5%; } @include media-query($on-mobile) { width: 40%; margin: 0 5%; } }*/ }
+.prefooter .wrapper { max-width: 1000px; margin: 20px auto; line-height: 1.2; text-align: center; }
 
 .prefooter .wrapper div { padding: 0; }
 
@@ -250,7 +250,7 @@ li img { min-width: 100%; }
 
 .site-footer img { width: calc(100% - (10px*4)); max-width: 400px; padding: 0 20px; }
 
-.site-footer a, .site-footer a:visited { color: #fff; }
+.site-footer a, .site-footer a:visited { color: #fff; text-decoration: none; }
 
 .site-footer a:hover { color: #FFF200; text-decoration: none; }
 
@@ -438,6 +438,16 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .block .title-card { padding: 0 0 40px; }
 
+.dark-bg { color: #fff; }
+
+.dark-bg a { color: #FFF200; }
+
+.dark-bg a:visited { color: #FFF200; }
+
+.light-bg { color: #002253; }
+
+.light-bg a { color: #005FAE; }
+
 /* Home Blocks
 ------------------------------*/
 .charities { text-align: center; }
@@ -448,19 +458,13 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .charities .charity-logos img { max-width: 90%; }
 
-.coming-soon { color: #002253; }
-
-.contact { background-color: #f15f24; color: #fff; }
+.contact { background-color: #f15f24; }
 
 .contact img { display: block; max-width: 400px; margin: 0 auto 40px; width: -webkit-fill-available; }
 
 .contact h2 { text-align: center; }
 
 .contact p { margin: 0 auto; max-width: 600px; }
-
-.contact a { color: #fff; text-decoration: underline; }
-
-.contact a:hover, .contact a:focus { color: #fff; text-decoration: none; }
 
 .contact #contact-form { color: #fff; margin: 40px auto 0; max-width: 600px; width: 100%; }
 
@@ -482,11 +486,7 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .dont-panic img { margin-bottom: 40px; }
 
-.dont-panic a { color: yellow; }
-
-.dont-panic a:hover, .dont-panic a:focus { color: #fff; }
-
-.fancy-dress { background-color: #005FAE; color: #fff; }
+.fancy-dress { background-color: #005FAE; }
 
 .fancy-dress h2 { text-align: center; color: #FFF200; }
 
@@ -504,7 +504,11 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .firstsite .wrapper { padding-top: 0; }
 
-.gallery { background-image: url("/images/backgrounds/20190801PG.jpg"); background-attachment: fixed; color: #fff; }
+.gallery { background-image: url("/images/backgrounds/20190801PG.jpg"); background-attachment: fixed; }
+
+.gallery a { color: #fff; }
+
+.gallery a:hover, .gallery a:visited { color: #fff; }
 
 .gallery .wrapper { padding: 160px 0; }
 
@@ -514,7 +518,7 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .guests { background-image: url("/images/social/20190801SG.jpg"); background-position: top; color: #FFF200; }
 
-.guests a { color: #FFF200; }
+.guests a { color: #FFF200; text-decoration: none; }
 
 .guests a:hover, .guests a:focus { color: #fff; }
 
@@ -574,7 +578,7 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .guide .guide-cards-small a:hover, .guide .guide-cards-small a:focus { opacity: 0; }
 
-.intro { color: #fff; text-align: center; }
+.intro { text-align: center; }
 
 .intro h1, .intro h2, .intro h3 { color: #002253; }
 
@@ -584,19 +588,13 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .intro h5 { margin: 0 auto 60px; max-width: 860px; }
 
-.intro a { color: #FFF200; }
-
-.intro a:visited { color: #FFF200; }
-
-.intro a:hover { color: #FFFBAA; }
-
 .intro img { display: block; margin: 0 auto 20px; }
 
 .intro .wrapper { padding-top: 20px; }
 
 @media screen and (max-width: 1200px) { .intro .wrapper { padding-top: 0; } }
 
-.justgiving { background-color: #ac29b5; color: #fff; text-align: center; }
+.justgiving { background-color: #ac29b5; text-align: center; }
 
 .justgiving .wrapper div { margin-bottom: 60px; }
 
@@ -604,7 +602,7 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .justgiving li img:hover, .justgiving li img:focus { box-shadow: none; }
 
-.live { background-image: url("/images/backgrounds/live-backgroun-23.jpg"); color: #fff; }
+.live { background-image: url("/images/backgrounds/live-backgroun-23.jpg"); }
 
 .live table { border-color: #FFF200; color: #FFF200; margin: 40px 0; }
 
@@ -614,11 +612,11 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .lightsaber-training { color: #55A987; }
 
-.map { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#939598+0,131313+100 */ background: #939598; /* Old browsers */ background: -moz-linear-gradient(-45deg, #939598 0%, #131313 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg, #939598 0%, #131313 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg, #939598 0%, #131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#939598', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ color: #fff; text-align: center; }
+.map { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#939598+0,131313+100 */ background: #939598; /* Old browsers */ background: -moz-linear-gradient(-45deg, #939598 0%, #131313 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg, #939598 0%, #131313 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg, #939598 0%, #131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#939598', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ text-align: center; }
 
 .map img { display: block; margin: 40px auto; }
 
-.meet-heroes { background-image: url("/images/backgrounds/20190801DS.jpg"); background-position: top; color: #fff; }
+.meet-heroes { background-image: url("/images/backgrounds/20190801DS.jpg"); background-position: top; }
 
 .meet-heroes .wrapper { padding: 400px 20px 60px; }
 
@@ -630,17 +628,9 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 400px) { .meet-heroes { background-image: url("/images/backgrounds/20190801DS3.jpg"); } }
 
-.othermonkey { background-image: url("/images/backgrounds/obeer-wan-bar.jpg"); background-attachment: fixed; background-size: cover; }
+.othermonkey { background-color: #f15f24; }
 
 .othermonkey img { display: block; margin: 0 auto 60px; max-width: 400px; }
-
-.othermonkey table, .othermonkey table td { border: none; margin-bottom: 0; }
-
-.othermonkey table.beer-can, .othermonkey table td.beer-can { padding-right: 20px; }
-
-@media screen and (max-width: 500px) { .othermonkey table.beer-can, .othermonkey table td.beer-can { display: none; } }
-
-.othermonkey table img, .othermonkey table td img { max-width: 100%; }
 
 .park-ride { background-color: #FFF200; text-align: center; }
 
@@ -660,8 +650,6 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 800px) { .poster-print img { max-width: 240px; } }
 
-.prize-draw { color: #002253; }
-
 .prize-draw table { border-color: #1B7C55; color: #1B7C55; margin: 40px 0; }
 
 .prize-draw table th, .prize-draw table td { background: none; border-color: #1B7C55; color: #1B7C55; }
@@ -670,13 +658,11 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .prize-draw li { margin-bottom: 10px; }
 
-.show-cars { background-color: #0d1720; color: #fff; }
+.show-cars { background-color: #0d1720; }
 
 .show-cars img { min-width: -webkit-fill-available; }
 
 .show-cars .wrapper { padding-bottom: 0; }
-
-.total { color: #fff; }
 
 .total h2, .total p.total { text-align: center; }
 

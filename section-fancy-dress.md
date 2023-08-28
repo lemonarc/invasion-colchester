@@ -6,11 +6,11 @@
 
 <div class="block-left">
 <p>
-	Fancy winning a cool prize just for dressing up as your favourite character from TV and film? Are you aged under 14? If so, you're in luck as the Invasion Colchester Children's Fancy Dress Competition is taking place in Culver Square Shopping Centre on Saturday, 3 September!
+	Fancy winning a cool prize just for dressing up as your favourite character from TV and film? Are you aged under 14? If so, you're in luck as the Invasion Colchester Children's Fancy Dress Competition is taking place in <a href="https://www.culversquare.co.uk/invasion-colchester-2023/" rel="nofollow noopener noreferrer" alt="Culver Square Shopping" target="_blank">Culver Square Shopping Centre</a> on Saturday, 3 September!
 </p><p>
 	There will be three different age catergories - 4 and under, 5-8 and 9+ - and First, Second and Third placed prizes in each category.
 </p><p>
-	To get your hands on a prize, put on your best costume, bought or home-made, head in to Colchester town centre for Invasion Colchester, and make sure you’re near the judging area in Culver Square Shopping Centre at the alloted time.
+	To get your hands on a prize, put on your best costume, bought or home-made, head in to Colchester city centre for Invasion Colchester, and make sure you’re near the judging area in Culver Square Shopping Centre at the alloted time.
 </p><p>
 	The Fancy Dress Competition area will be roped off and only the children entering the competition will be permitted into the area - unless the children are really little, parents will be asked to stay behind the rope to avoid unecessary crowding.
 </p><p>
@@ -74,12 +74,5 @@
 		</tr>
 	</tbody>
 </table>
-<!--<p>
-	<h3>Prizes</h3>
-	<strong>1st Place:</strong> TBA<br/>
-	<strong>2nd Place:</strong> TBA<br/>
-	<strong>3rd Place:</strong> TBA<br/>
-	With thanks to Colchester Zoo and The Entertainer
-</p>-->
 
 </div>
