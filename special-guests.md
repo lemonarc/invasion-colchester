@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Invasion Colchester's Special Guests"
-excerpt: "For 2023, we were delighted to introduce Ross Mullan and Bern Collaço, and welcome back Clem So, Nick Joseph, Sandeep Mohan, Martin Ballantyne, and Ralph Morse."
+excerpt: "For 2023, we were delighted to introduce Ross Mullan and Bern Collaço, and welcome back Clem So, Sandeep Mohan, Martin Ballantyne, and Ralph Morse."
 permalink: /special-guests/
 featured-image: title-trooper.png
 socialimage: social-guests-23.jpg
@@ -11,7 +11,7 @@ lightbox: guests
 <p>
 In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn, Clem So, Ross Sambridge, Andrew Lawden, and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
 </p><p>
-For 2023, we were delighted to introduce actor, creature performer and puppeteer Ross Mullan, who was the original Whitewalker on 'Game of Thrones', and played The Silence and The Teller on 'Doctor Who' among other roles, and Bern Collaço, an actor who has appeared in 'The Batman', 'Morbius', 'Wonder Woman', 'Star Wars: The Force Awakens', 'Skyfall', 'Doctor Who', and more. We also welcomed back actors Clem So, Nick Joseph, Sandeep Mohan, Martin Ballantyne, and Ralph Morse.
+For 2023, we were delighted to introduce actor, creature performer and puppeteer Ross Mullan, who was the original Whitewalker on 'Game of Thrones', and played The Silence and The Teller on 'Doctor Who' among other roles, and Bern Collaço, an actor who has appeared in 'The Batman', 'Morbius', 'Wonder Woman', 'Star Wars: The Force Awakens', 'Skyfall', 'Doctor Who', and more. We also welcomed back actors Clem So, Sandeep Mohan, Martin Ballantyne, and Ralph Morse.
 </p>
 <br /><br />
 
@@ -91,7 +91,7 @@ In addition to all of this, Chris has worked on some very popular TV shows over 
 
 </div>-->
 
-<div class="container">
+<!--<div class="container">
 
 <img src="/images/guests/nick-joseph.jpg" alt="Nick Joseph" class="guest-feature" />
 
@@ -107,7 +107,7 @@ In his career, Nick has worked on 'Doctor Who' with three different Doctors (Tom
 Aside from acting, Nick also used to be a long distance runner, taking part in more than fifty marathons and many other long distance races!
 </p>
 	
-</div>
+</div>-->
 
 <div class="container">
 
@@ -186,6 +186,9 @@ From 2003, Ralph's main stage persona has been the comical guitar-slinging, time
 <a class="fancybox" rel="group" href="/images/guests/bern-collaco-2.jpg" title="Bern Collaço in 'Wonder Woman'"><img src="/images/guests/bern-collaco-2.jpg" alt="Bern Collaço in 'Wonder Woman'"></a>
 </li>
 <li class="quarter">
+<a class="fancybox" rel="group" href="/images/guests/clem-so-3.jpg" title="Clem So in 'Doctor Strange'"><img src="/images/guests/clem-so-3.jpg" alt="Clem So in 'Spectre'"></a>
+</li>
+<li class="quarter">
 <a class="fancybox" rel="group" href="/images/guests/clem-so-4.jpg" title="Clem So in 'Spectre'"><img src="/images/guests/clem-so-4.jpg" alt="Clem So in 'Spectre'"></a>
 </li>
 <li class="quarter">
@@ -193,9 +196,6 @@ From 2003, Ralph's main stage persona has been the comical guitar-slinging, time
 </li>
 <li class="quarter">
 <a class="fancybox" rel="group" href="/images/guests/sandeep-mohan-2.jpg" title="Sandeep Mohan in 'This Time... with Alan Partridge'"><img src="/images/guests/sandeep-mohan-2.jpg" alt="Sandeep Mohan in 'This Time... with Alan Partridge'"></a>
-</li>
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/nick-joseph-1.jpg" title="Nick Joseph in 'Star Wars'"><img src="/images/guests/nick-joseph-1.jpg" alt="Nick Joseph in 'Star Wars'"></a>
 </li>
 <li class="quarter">
 <a class="fancybox" rel="group" href="/images/guests/martin-ballantyne-1.jpg" title="Martin Ballantyne with Heath Ledger in 'The Dark Knight'"><img src="/images/guests/martin-ballantyne-1.jpg" alt="Martin Ballantyne with Heath Ledger in 'The Dark Knight'"></a>
