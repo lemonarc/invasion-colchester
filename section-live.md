@@ -26,7 +26,7 @@
 				12.00pm
 			</td>
 			<td>
-				Trevor Johnson-Thurston
+				Jake Cheek
 			</td>
 		</tr>
 		<tr>
@@ -42,7 +42,7 @@
 				2.00pm
 			</td>
 			<td>
-				Wooden Maiden
+				Jack Walsh
 			</td>
 		</tr>
 		<tr>
