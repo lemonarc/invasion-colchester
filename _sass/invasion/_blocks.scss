@@ -274,100 +274,8 @@
 }
 
 .guide {
-	background-color: $brand-color;
-	padding: $spacing-unit*4 0;
-	text-align: center;
-	
-	@media only screen and (max-width:600px) {
-		padding: $spacing-unit*4 0 0;
-	}
-	h2 {
-		font-size: $spacing-unit*6;
-		@include media-query($on-mobile) {
-			font-size: $spacing-unit*5;
-		}
-	}
-	.wrapper {
-		margin: 0 auto;
-		max-width: $content-width;
-		padding: 0 $spacing-unit*2 $spacing-unit*4;
-	}
-	.guide-cards {
-		display: block;
-		@extend %clearfix;
-		
-		@media only screen and (max-width:600px) {
-			display: none;
-		}
-		
-		div {
-			background-position: top;
-			background-repeat: no-repeat;
-		    background-size: contain;
-			float: left;
-			margin: 0;
-			padding: 0;
-			width: 20%;
-		}
-		.guide-card-01 {
-			background-image: url('/images/guide/guide-card-01-a.png');
-		}
-		.guide-card-02 {
-			background-image: url('/images/guide/guide-card-02-a.png');
-		}
-		.guide-card-03 {
-			background-image: url('/images/guide/guide-card-03-a.png');
-		}
-		.guide-card-04 {
-			background-image: url('/images/guide/guide-card-04-a.png');
-		}
-		.guide-card-05 {
-			background-image: url('/images/guide/guide-card-05-a.png');
-		}
-		a:hover,
-		a:focus {
-			opacity: 0;
-		}
-	}
-	.guide-cards-small {
-		display: none;
-		
-		@media only screen and (max-width:600px) {
-			display: block;
-		}
-		
-		div {
-			background-position: top;
-			background-repeat: no-repeat;
-		    background-size: contain;
-			margin: 0;
-			padding: 0;
-			width: 100%;
-			
-			img {
-				margin-bottom: 0;
-			}
-		}
-		.guide-card-01 {
-			background-image: url('/images/guide/guide-card-small-01-a.png');
-		}
-		.guide-card-02 {
-			background-image: url('/images/guide/guide-card-small-02-a.png');
-		}
-		.guide-card-03 {
-			background-image: url('/images/guide/guide-card-small-03-a.png');
-		}
-		.guide-card-04 {
-			background-image: url('/images/guide/guide-card-small-04-a.png');
-		}
-		.guide-card-05 {
-			background-image: url('/images/guide/guide-card-small-05-a.png');
-		}
-		a:hover,
-		a:focus {
-			opacity: 0;
-		}
-	}
+	background-image: url('/images/backgrounds/high-street.jpg');
+    background-attachment: fixed;
 }
 
 .intro {
@@ -422,6 +330,7 @@
 
 .live {
 	background-image: url('/images/backgrounds/live-backgroun-23.jpg');
+    background-attachment: fixed;
 	
 	table {
 		border-color: $yellow23;
@@ -437,11 +346,6 @@
 			background: none;
 		}
 	}
-}
-
-.lightsaber-training {
-	color: $light-green;
-	
 }
 
 .map {
@@ -560,17 +464,8 @@
 }
 
 .show-cars {
-	background-color: #0d1720;
-	
-	img {
-		min-width: -webkit-fill-available;
-	}
-	.wrapper {
-		padding-bottom: 0;
-		
-		@include media-query($on-1040){
-		}
-	}
+	background-color: $navy23;
+	color: $yellow23;
 }
 
 .total {
