@@ -1,59 +1,12 @@
-<div class="guide-cards">
-
-	<div class="guide-card-01">
-		<a href="#meet-your-heroes" class="scroll">
-			<img src="/images/guide/guide-card-01.png" alt="Meet Your Heroes" />
-		</a>
-	</div>
-	<div class="guide-card-02">
-		<a href="/special-guests/">
-			<img src="/images/guide/guide-card-02.png" alt="Special Guests" />
-		</a>
-	</div>
-	<div class="guide-card-03">
-		<a href="#show-cars" class="scroll">
-			<img src="/images/guide/guide-card-03.png" alt="Show Cars" />
-		</a>
-	</div>
-	<div class="guide-card-04">
-		<a href="#live" class="scroll">
-			<img src="/images/guide/guide-card-04.png" alt="Live Music and Performance" />
-		</a>
-	</div>
-	<div class="guide-card-05">
-		<a href="#competitions" class="scroll">
-			<img src="/images/guide/guide-card-05.png" alt="Competitions" />
-		</a>
-	</div>
-	
-</div>
-	
-<div class="guide-cards-small">
-
-	<div class="guide-card-01">
-		<a href="#meet-your-heroes" class="scroll">
-			<img src="/images/guide/guide-card-small-01.png" alt="Meet Your Heroes" />
-		</a>
-	</div>
-	<div class="guide-card-02">
-		<a href="/special-guests/">
-			<img src="/images/guide/guide-card-small-02.png" alt="Special Guests" />
-		</a>
-	</div>
-	<div class="guide-card-03">
-		<a href="#show-cars" class="scroll">
-			<img src="/images/guide/guide-card-small-03.png" alt="Show Cars" />
-		</a>
-	</div>
-	<div class="guide-card-04">
-		<a href="#live" class="scroll">
-			<img src="/images/guide/guide-card-small-04.png" alt="Live Music and Performance" />
-		</a>
-	</div>
-	<div class="guide-card-05">
-		<a href="#competitions" class="scroll">
-			<img src="/images/guide/guide-card-small-05.png" alt="Competitions" />
-		</a>
-	</div>
-	
-</div>
+<h3>What's On</h3>
+<h4>ACE Comics on Culver Street East</h4>
+<p>Look out for... Stranger Things and Cosplayers, plus their famous tombola!</p>
+<h4>Community 360 on Long Wyre Street</h4>
+<p>Look out for... incredible Star Wars displays and characters!</p>
+<h4>Colchester: Culver Square</h4>
+<p>Look out for... Ghostbusters, Jurassic Park, Dinosaurs, Disney Princesses, Doctor Who Props, Gremlins Props, Lightning McQueen, Star Cars, and St Helena Hospice, plus the Fancy Dress Competition (check their site for times)!</p>
+<h4>Fenwick on the High Street</h4>
+<p>Look out for... Optimus Prime, Barbie, Dinosaurs, the Town Guard and Mind Mid & North East Essex!</p>
+<h4>Lion Walk Shopping Centre</h4>
+<p>Look out for... Marvel Heroes (including Captain America, Deadpool, and Spider-Man), Predators, Game of Thrones, Wednesday, Batmobiles, Star Cars, Special Guests, Live Music, Colchester & Ipswich Hospitals Charity, plus Lightsaber Training outside the Baptist Church on Eld Lane!</p><br/>
+<p style="font-family:'Roboto Slab', serif;color:#FFF200;">Scroll down for more details...</p>

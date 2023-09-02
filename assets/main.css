@@ -111,7 +111,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 @media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(1200px - (10px)); max-width: calc(1200px - (10px)); padding-right: 20px; padding-left: 20px; } }
 
 /** Clearfix */
-.guide .guide-cards:after, .charities .charity-logos:after, .footer-col-wrapper:after, .prefooter .wrapper:after, .container:after, .wrapper:after { content: ""; display: table; clear: both; }
+.charities .charity-logos:after, .footer-col-wrapper:after, .prefooter .wrapper:after, .container:after, .wrapper:after { content: ""; display: table; clear: both; }
 
 /** Icons */
 .svg-icon { width: 16px; height: 16px; display: inline-block; fill: #828282; padding-right: 5px; vertical-align: text-top; }
@@ -530,53 +530,7 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 500px) { .guests .wrapper { padding-top: 100px; } }
 
-.guide { background-color: #002253; padding: 40px 0; text-align: center; }
-
-@media only screen and (max-width: 600px) { .guide { padding: 40px 0 0; } }
-
-.guide h2 { font-size: 60px; }
-
-@media screen and (max-width: 300px) { .guide h2 { font-size: 50px; } }
-
-.guide .wrapper { margin: 0 auto; max-width: 1200px; padding: 0 20px 40px; }
-
-.guide .guide-cards { display: block; }
-
-@media only screen and (max-width: 600px) { .guide .guide-cards { display: none; } }
-
-.guide .guide-cards div { background-position: top; background-repeat: no-repeat; background-size: contain; float: left; margin: 0; padding: 0; width: 20%; }
-
-.guide .guide-cards .guide-card-01 { background-image: url("/images/guide/guide-card-01-a.png"); }
-
-.guide .guide-cards .guide-card-02 { background-image: url("/images/guide/guide-card-02-a.png"); }
-
-.guide .guide-cards .guide-card-03 { background-image: url("/images/guide/guide-card-03-a.png"); }
-
-.guide .guide-cards .guide-card-04 { background-image: url("/images/guide/guide-card-04-a.png"); }
-
-.guide .guide-cards .guide-card-05 { background-image: url("/images/guide/guide-card-05-a.png"); }
-
-.guide .guide-cards a:hover, .guide .guide-cards a:focus { opacity: 0; }
-
-.guide .guide-cards-small { display: none; }
-
-@media only screen and (max-width: 600px) { .guide .guide-cards-small { display: block; } }
-
-.guide .guide-cards-small div { background-position: top; background-repeat: no-repeat; background-size: contain; margin: 0; padding: 0; width: 100%; }
-
-.guide .guide-cards-small div img { margin-bottom: 0; }
-
-.guide .guide-cards-small .guide-card-01 { background-image: url("/images/guide/guide-card-small-01-a.png"); }
-
-.guide .guide-cards-small .guide-card-02 { background-image: url("/images/guide/guide-card-small-02-a.png"); }
-
-.guide .guide-cards-small .guide-card-03 { background-image: url("/images/guide/guide-card-small-03-a.png"); }
-
-.guide .guide-cards-small .guide-card-04 { background-image: url("/images/guide/guide-card-small-04-a.png"); }
-
-.guide .guide-cards-small .guide-card-05 { background-image: url("/images/guide/guide-card-small-05-a.png"); }
-
-.guide .guide-cards-small a:hover, .guide .guide-cards-small a:focus { opacity: 0; }
+.guide { background-image: url("/images/backgrounds/high-street.jpg"); background-attachment: fixed; }
 
 .intro { text-align: center; }
 
@@ -602,15 +556,13 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .justgiving li img:hover, .justgiving li img:focus { box-shadow: none; }
 
-.live { background-image: url("/images/backgrounds/live-backgroun-23.jpg"); }
+.live { background-image: url("/images/backgrounds/live-backgroun-23.jpg"); background-attachment: fixed; }
 
 .live table { border-color: #FFF200; color: #FFF200; margin: 40px 0; }
 
 .live table th, .live table td { background: none; border-color: #FFF200; color: #FFF200; }
 
 .live table tr:nth-child(even) { background: none; }
-
-.lightsaber-training { color: #55A987; }
 
 .map { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#939598+0,131313+100 */ background: #939598; /* Old browsers */ background: -moz-linear-gradient(-45deg, #939598 0%, #131313 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg, #939598 0%, #131313 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg, #939598 0%, #131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#939598', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ text-align: center; }
 
@@ -658,11 +610,7 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .prize-draw li { margin-bottom: 10px; }
 
-.show-cars { background-color: #0d1720; }
-
-.show-cars img { min-width: -webkit-fill-available; }
-
-.show-cars .wrapper { padding-bottom: 0; }
+.show-cars { background-color: #002253; color: #FFF200; }
 
 .total h2, .total p.total { text-align: center; }
 
