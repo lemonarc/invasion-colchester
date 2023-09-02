@@ -8,5 +8,5 @@
 <h4>Fenwick on the High Street</h4>
 <p>Look out for... Optimus Prime, Barbie, Dinosaurs, the Town Guard and Mind Mid & North East Essex!</p>
 <h4>Lion Walk Shopping Centre</h4>
-<p>Look out for... Marvel Heroes (including Captain America, Deadpool, and Spider-Man), Predators, Game of Thrones, Wednesday, Batmobiles, Star Cars, Special Guests, Live Music, Colchester & Ipswich Hospitals Charity, plus Lightsaber Training outside the Baptist Church on Eld Lane!</p><br/>
+<p>Look out for... Marvel Heroes (including Captain America, Deadpool, and Spider-Man), Predators, Game of Thrones, Wednesday, Batmobiles, Star Cars, Special Guests, Live Music, Colchester & Ipswich Hospitals Charity, plus Lightsaber Training!</p><br/>
 <p style="font-family:'Roboto Slab', serif;color:#FFF200;">Scroll down for more details...</p>
