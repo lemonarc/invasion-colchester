@@ -8,8 +8,8 @@
 ==================== */
 
 .preheader {
-    background-color: $preheader-color;
-	border-bottom: 1px solid $dark-grey;
+    background-color: #000;
+	border-bottom: 1px solid #fff;
 	color: $white;
     font-family: "Roboto", sans-serif;
     font-size: $spacing-unit*1.4;
@@ -26,7 +26,7 @@
 }
 
 .subheader {
-    background-color:$brand-color;
+    background-color: $brand-color;
 	color: $text-color;
     font-family: "Anton", sans-serif;
     font-size: $spacing-unit*1.6;
@@ -57,8 +57,12 @@
  * Site header
  */
 .site-header {
-	background: none;
+	color: $black;
+	font-family: "Freeman", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	min-height: $spacing-unit * 1.865;
+	text-transform: uppercase;
 
   // Positioning context for the mobile navigation icon
 	position: relative;
@@ -69,17 +73,16 @@
 }
 
 .site-title {
-	@include relative-font-size(1.625);
-	background: url(/assets/ic-logo-full.svg) no-repeat;
 	background-size: contain;
     float: left;
 	height: $spacing-unit*4;
 	margin: $spacing-unit 0 $spacing-unit $spacing-unit/2;
 	text-indent: -99999px;
-	width: 300px;
+	width: 400px;
+
+	@include relative-font-size(1.625);
 	
-	@include media-query ($on-palm){		
-		background: url(/assets/ic-logo-short.svg) no-repeat;
+	@include media-query ($on-500){		
 		background-size: contain;
 		margin-left: $spacing-unit;	
 		width: $spacing-unit*10;
@@ -101,7 +104,7 @@
   }
 
   .page-link {
-    color: $white;
+    color: $brand-color;
     line-height: $base-line-height;
 	text-decoration: none;
 
@@ -207,6 +210,94 @@
       margin-left: 20px;
     }
   }
+}
+
+.pink-header {
+
+	.site-title {
+		background: url(/images/2024/logo/IC-LOGO-FULL-2024.svg) no-repeat;
+
+		@include relative-font-size(1.625);
+
+		@include media-query ($on-palm){		
+			background: url(/images/2024/logo/IC-LOGO-SHORT-2024.svg) no-repeat;
+		}
+	}
+	.page-link {
+		color: #FFF200;
+
+		&:hover,
+		&:focus {
+			color: #FFF;
+		}
+	}
+	
+	@include media-query($on-900) {
+				
+		label[for="nav-trigger"] {
+		  
+			.menu-icon {
+	
+				> svg {
+				  fill: #FFF200;
+				}
+			}
+			
+			.close-icon {
+	
+				> svg {
+				  fill: #FFF200;
+				}
+			}
+		}
+	}
+}
+
+.yellow-header {
+
+	.site-title {
+		background: url(/images/2024/logo/IC-LOGO-FULL-2024-2.svg) no-repeat;
+
+		@include relative-font-size(1.625);
+			
+		@include media-query ($on-500){		
+			background: url(/images/2024/logo/IC-LOGO-SHORT-2024.svg) no-repeat;
+		}
+	}
+	.page-link {
+		color: #EC008C;
+
+		&:hover,
+		&:focus {
+			color: #000;
+		}
+		@include media-query($on-900) {
+			&:hover,
+			&:focus {
+			color: #fff;
+		}
+		}
+	}
+	
+	@include media-query($on-900) {
+				
+		label[for="nav-trigger"] {
+		  
+			.menu-icon {
+	
+				> svg {
+				  fill: #EC008C;
+				}
+			}
+			
+			.close-icon {
+	
+				> svg {
+				  fill: #EC008C;
+				}
+			}
+		}
+	}
 }
 
 

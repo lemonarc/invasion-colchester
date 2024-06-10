@@ -17,9 +17,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+  background-color: #EC008C;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -28,6 +28,10 @@ body {
   font-kerning: normal;
   min-height: 100vh;
   overflow: auto!important;
+
+  &.alt-body {
+    background-color: #FFF200;
+  }
 }
 
 
@@ -209,10 +213,10 @@ submit,
 submitbutton,
 input.button,
 input[type=submit] {
-  background: $blue23;
+  background: $black;
 	border: none;
   border-radius: 100px;
-  color: $white;
+  color: #fff;
   font-family: $base-font-family;
   padding: ($spacing-unit * 1) ($spacing-unit * 2);
   text-decoration: none;
@@ -221,19 +225,10 @@ input[type=submit] {
 
   &:hover,
   &:focus {
-    background: $navy23;
+    color: #FFF200;
   }
-
-  // &.overimage {
-  //   border: 2px solid $brand-color-2;
-  //   color: $brand-color-2;
-
-  //   &:hover,
-  //   &:focus {
-  //     background: $link-color;
-  //   }
-  // }
 }
+
 .link-box {
 	margin: $spacing-unit*4 $spacing-unit*2;
 	
@@ -534,6 +529,23 @@ li img {
   background: -webkit-linear-gradient(top,  #fff200 0%,#f15f24 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #fff200 0%,#f15f24 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff200', endColorstr='#f15f24',GradientType=0 ); /* IE6-9 */
+
+}
+.base-fade {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/$brand-color-2+0,fff200+100 */
+  background: $brand-color-2; /* Old browsers */
+  background: -moz-linear-gradient(top,  $brand-color-2 0%, $brand-color-3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  $brand-color-2 0%,$brand-color-3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  $brand-color-2 0%,$brand-color-3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$brand-color-2', endColorstr='$brand-color-3',GradientType=0 ); /* IE6-9 */
+}
+.base-fade-reverse {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/$brand-color-3+0,f15f24+100 */
+  background: $brand-color-3; /* Old browsers */
+  background: -moz-linear-gradient(top,  $brand-color-3 0%, $brand-color-2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  $brand-color-3 0%,$brand-color-2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  $brand-color-3 0%,$brand-color-2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$brand-color-3', endColorstr='$brand-color-2',GradientType=0 ); /* IE6-9 */
 
 }
 .gradient-text {

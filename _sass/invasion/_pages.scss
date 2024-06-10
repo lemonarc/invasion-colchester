@@ -1,7 +1,184 @@
+/* Home Page
+----------------------------- */
+
+.home {
+	background-color: #EC008C;
+    background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /* About Page
 ------------------------------*/
-.about-page {
+
+.about-page {  
+	background-color: #EC008C;
+	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	p {
+		color: $white;
+	}
+	h1 {
+		color: #FFF200;
+	}
 	img:nth-child(1) {
 		margin-bottom: $spacing-unit*6;
+	}
+	.post-content {
+		h2 {
+			@include relative-font-size(2);
+		}
+		h3 {
+			@include relative-font-size(1);
+		}
+		div {
+			// border-bottom: 4px solid $brand-color;
+			margin-bottom: $spacing-unit*3;
+			width:100%;
+		}
+		.charity-logo {
+			max-width: 300px;
+			width: 100%;
+		}
+	}
+}
+
+/* Contact Success Page
+------------------------------*/
+
+.contact-success-page {  
+	background-color: #FFF200;
+	background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	a {
+		display: inline-block;
+		margin: 40px auto;
+
+		&.button:hover,
+		&.button:focus {
+			background-color: #EC008C;
+			color: #fff;
+		}
+	}
+	p {
+		color: #000;
+	}
+	h1 {
+		color: #EC008C;
+	}
+}
+
+/* Charities Page
+------------------------------*/
+
+.charities-page {
+	background-color: #EC008C;
+	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	h1 {
+		color: #FFF200;
+	}
+	.post-content {
+		p {
+			color: $white;
+		}
+		h2 {
+			color: #FFF200;
+			@include relative-font-size(2);
+		}
+		h3 {
+			color: #FFF200;
+			@include relative-font-size(1);
+		}
+		div {
+			// border-bottom: 4px solid $brand-color;
+			margin-bottom: $spacing-unit*3;
+			width:100%;
+		}
+		.charity-logo {
+			max-width: 300px;
+			width: 100%;
+		}
+	}
+}
+
+/* Gallery Page
+------------------------------*/
+
+.gallery-page {
+	background-color: #FFF200;
+	background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	h1 {
+		color: #EC008C;
+	}
+	a.button:hover,
+	a.button:focus {
+		background-color: #EC008C;
+		color: #fff;
+	}
+}
+
+/* Privacy Page
+------------------------------*/
+
+.privacy-page {
+	background-color: #FFF200;
+
+	a {
+		color: #EC008C;
+
+		&.button:hover,
+		&.button:focus {
+			background-color: #EC008C;
+			color: #fff;
+		}
+	}
+	p {
+		color: #000;
+	}
+	h1,h4,h6 {
+		color: #EC008C;
+	}
+	h3 {
+		color: #EC008C;
+
+		@include relative-font-size(1.2);
+		font-family: "Anton", sans-serif;
+		font-weight: 100;
+	}
+	::marker {
+		color: #000;
+	}
+}
+
+/* 404 Page
+------------------------------*/
+
+.page-404 {
+	background-color: #EC008C;
+	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+
+	p, h2 {
+		color: #fff;
+	}
+	h1 {
+		color: #FFF200;
 	}
 }

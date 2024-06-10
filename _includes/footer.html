@@ -5,21 +5,15 @@
 		
 	<a class="scroll" href="#top">Back To The Top</a>
     
-    <h2 class="footer-heading" alt="{{ site.title }}">
-			<img src="/assets/ic-logo-full.svg" alt="{{ site.title }}" />
-		</h2>
+    <div class="footer-heading" alt="{{ site.title }}">
+			{% include invasion_colchester_wordmark.svg %}
+		</div>
     
-    <p class="social">
-      <a href="https://www.facebook.com/invasioncolchester/?ref=website" alt="Follow us on Facebook" rel="nofollow noopener noreferrer" target="_blank">
-      	<i class="fa fa-facebook" aria-hidden="true"></i>
-      </a>
-      <a href="https://twitter.com/InvColchester?lang=en" alt="Follow us on Twitter" rel="nofollow noopener noreferrer" target="_blank">
-      	<i class="fa fa-twitter" aria-hidden="true"></i>
-      </a>
-      <a href="https://www.instagram.com/invasion_colchester/" alt="Follow us on Instagram" rel="nofollow noopener noreferrer" target="_blank">
-      	<i class="fa fa-instagram" aria-hidden="true"></i>
-      </a>
-    </p>
+    <div class="social">
+      {% include icon-facebook.html %}
+      {% include icon-twitter.html %}
+      {% include icon-instagram.html %}      
+    </div>
 		<small>
 		  <p>
 				<a href="/privacy-policy/" alt="Privacy Policy">Privacy Policy</a> | 

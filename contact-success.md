@@ -4,8 +4,8 @@ layout: page
 title: We Heard Your Call
 excerpt: Thanks for contacting Invasion Colchester. We've recieved your message and will get back in touch with you shortly!
 permalink: /contact-success/
-featured-image: title-batman.png
-socialimage: social-image-contact.jpg
+featured-image: SIL_BATMAN.svg
+socialimage: SM_IC_PAGE_CONTACT.png
 nofollow: nofollow
 ---
 

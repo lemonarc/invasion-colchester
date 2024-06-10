@@ -1,11 +1,11 @@
 ---
 pageclass: charities-page
 layout: page
-title: Invasion Colchester Charities
+title: Invasion Colchester's Charities
 excerpt: Invasion Colchester was created to raise awarenes and help local charities. PLease take a look at the brilliant causes that benefit from our efforts.
 permalink: /charities/
-featured-image: title-moana.png
-socialimage: social-charities-23.jpg
+featured-image: SIL_MOANA.svg
+socialimage: SM_IC_PAGE_CHARITIES.png
 ---
 
 <div><img src="/images/charities/st-helena-logo-mono.png" class="charity-logo" alt="St Helena Hospice"></div>

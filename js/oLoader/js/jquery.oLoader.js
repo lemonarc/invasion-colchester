@@ -358,7 +358,7 @@
                 'images/ownageLoader/loader5.gif',
                 'images/ownageLoader/loader6.gif',
                 'images/ownageLoader/loader7.gif',
-				'../images/rotating-shield-500.gif' //Adds default Invasion Colchester loading image
+				'/images/rotating-shield-500.gif' //Adds default Invasion Colchester loading image
             ];
 
             var text = "";

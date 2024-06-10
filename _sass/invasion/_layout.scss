@@ -9,6 +9,10 @@
   @include relative-font-size(2);
 }
 
+.title-image {
+	max-height: 300px;
+}
+
 .post {
 	margin-bottom: $spacing-unit*6;
 	
@@ -73,43 +77,6 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
-}
-
-
-
-.about-page,
-.charities-page {
-	.post-content {
-		h2 {
-			@include relative-font-size(2);
-		}
-		h3 {
-			@include relative-font-size(1);
-		}
-		div {
-			// border-bottom: 4px solid $brand-color;
-			margin-bottom: $spacing-unit*3;
-			width:100%;
-		}
-		.charity-logo {
-			max-width: 300px;
-			width: 100%;
-		}
-	}
-}
-.contact-success-page {		
-	a {
-		display: inline-block;
-		margin: 40px auto;
-	}
-
-}
-.privacy-page {
-	h3 {
-		@include relative-font-size(1.2);
-		font-family: "Anton", sans-serif;
-		font-weight: 100;
-	}
 }
 
 .shade {

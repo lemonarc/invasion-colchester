@@ -1,11 +1,12 @@
 ---
+pageclass: gallery-page
 layout: page
 title: Invasion Colchester Gallery
 excerpt: Take a look through our gallery of images from Invasion Colchester over the years. Who knows, you might even spot yourself in there somewhere!
 permalink: /gallery/
-featured-image: title-spidey.png
+featured-image: SIL_SPIDER-MAN.svg
 titlecard: right
-socialimage: social-gallery-23.jpg
+socialimage: SM_IC_PAGE_GALLERY.png
 lightbox: gallery
 ---
 

@@ -27,13 +27,16 @@
 		@include media-query($on-300) {
 			max-width: $on-200;
 		}
-		li.sponsor {
-			width: 10.5%;
-			margin: 0 1%;
+		span.sponsor {
+
+			margin-bottom: 10px;
+			margin-right: 10px;
+
+			img {
+				height: 50px;
 			
 			@include media-query($on-900) {
-				width: 21%;
-				margin: 5px 2%;
+				height: 50px;
 				
 				/*&:nth-last-child(1) {
 					float: none;
@@ -41,13 +44,20 @@
 				}*/
 			}
 			@include media-query($on-500) {
-				width: 30%;
-				margin: 5px 1.5%;
+				height: 50px;
 			}
 			@include media-query($on-300) {
-				width: 46%;
-				margin: 5px 2%;
+				height: 50px;
 			}
+		}
+		}
+		div.sponsors {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			margin-top: 20px;
 		}
 	}
 }
@@ -73,12 +83,32 @@
 		color: $yellow23;
 		text-decoration: none;
 	}
+	.footer-heading svg path {
+		fill: #fff200;
+	}
 	.social {
 		margin: $spacing-unit*4 auto;
 		
-		.fa {
-			font-size: -webkit-xxx-large;
-		   padding: 0 10px;
+		a {
+			margin: 0 10px;
+		}
+		svg {
+			height: 40px;
+			width: auto;
+
+			g {
+				fill: $white;
+				fill-rule: nonzero;
+			}
+
+			&:hover, &:focus {
+
+				g {
+					fill:#fff200;
+					fill-rule:nonzero;
+				}
+
+			}
 		}
 	}
 }

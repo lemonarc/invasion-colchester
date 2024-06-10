@@ -102,9 +102,20 @@
 .coming-soon {
 }
 
-.contact {
-	background-color: $orange23;
+.contact {	
+	background-color: #EC008C;
+    background-image: url(/images/2024/backgrounds/ANGLE_DOTS_PINK.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 	
+	a {
+		color: #FFF200;
+		text-decoration: none;
+
+		&:hover,&:focus {
+			color: $white;
+		}
+	}
 	img {
 		display: block;
 		max-width: 400px;
@@ -112,9 +123,11 @@
 		width: -webkit-fill-available;
 	}
 	h2 {
+		color: #FFF200;
 		text-align: center;
 	}
 	p {
+		color: #fff;
 		margin: 0 auto;
 		max-width: 600px;
 	}
@@ -149,34 +162,63 @@
 			}
 		}
 		input[type="submit"]{
-			background: $blue23;
+			background: $black;
 			border: none;
 			border-radius: 100px;
-			color: $white;
+			color: #FFF200;
 			margin: $spacing-unit*4 0 0;
 			
 			&:hover,
 			&:focus {
-				background: $navy23;
+				color: $white;
 			}
 		}
 	}
 }
 
-.dont-panic {
-	background: #CC0000;
+.dont-panic {	
+	background-color: #EC008C;
+    background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
 	
+	a {
+		color: #FFF200;
+		text-decoration: none;
+
+		&:hover,&:focus {
+			color: $white;
+		}
+	}
+	p {
+		color: $white;
+	}
 	img {
 		margin-bottom: $spacing-unit*4;
 	}
 }
 
 .fancy-dress {
-	background-color: $blue23;
+	background-color: #EC008C;
+    background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 	
+	a {
+		color: #FFF200;
+		text-decoration: none;
+
+		&:hover,&:focus {
+			color: $white;
+		}
+	}
 	h2 {
 		text-align: center;
-		color: $yellow23;
+		color: #FFF200;
+	}
+	p {
+		color: $black;
 	}
 	img {
 		display: block;
@@ -186,14 +228,14 @@
 	}
 	
 	table {
-		border-color: $yellow23;
-		color: $yellow23;
+		border-color: #FFF200;
+		color: #FFF200;
 		margin: 0 0 $spacing-unit*4;
 
 		th,td {
 			background: none;
-			border-color: $yellow23;
-			color: $yellow23;
+			border-color: #FFF200;
+			color: #FFF200;
 		}
 		tr:nth-child(even) {
 			background: none;
@@ -217,18 +259,15 @@
 }
 
 .gallery {
-	background-image: url('/images/backgrounds/20190801PG.jpg');
+	background-image: url('/images/2024/backgrounds/20190801PG.jpg');
     background-attachment: fixed;
-
-	a {
-		color: $white;
-
-		&:hover,
-		&:visited {
-			color: $white;
-		}
-	}
 	
+	a.button {
+  		background: #EC008C;
+	}
+	h2 {
+		color: $white;
+	}
 	.wrapper {
 		padding: $spacing-unit*16 0;
 		
@@ -243,7 +282,7 @@
 }
 
 .guests {
-	background-image: url('/images/social/20190801SG.jpg');
+	background-image: url('/images/2024/social/20190801SG.jpg');
 	background-position: top;
 	color: $yellow23;
 	
@@ -274,18 +313,29 @@
 }
 
 .guide {
-	background-image: url('/images/backgrounds/high-street.jpg');
+	background-image: url('/images/2024/backgrounds/COL-HIGH-ST.jpg');
     background-attachment: fixed;
+	color: #FFF;
 }
 
 .intro {
 	text-align: center;
 	
-	h1,h2,h3 {
-		color: $navy23;
+	a {
+		color: #FFF200;
+		text-decoration: none;
+
+		&:hover,&:focus {
+			color: $white;
+		}
+	}
+	h1,h5 {
+		color: #FFF200;		
+	}	
+	h2,h3,h4,p {
+		color: $white;
 	}
 	.deets p {
-		color: $navy23;
 		font-weight: 700;
 	}
 	h2 {
@@ -329,7 +379,7 @@
 }
 
 .live {
-	background-image: url('/images/backgrounds/live-backgroun-23.jpg');
+	background-image: url('/images/2024/backgrounds/live-backgroun-23.jpg');
     background-attachment: fixed;
 	
 	table {
@@ -364,7 +414,7 @@
 }
 
 .meet-heroes {
-	background-image: url('/images/backgrounds/20190801DS.jpg');
+	background-image: url('/images/2024/backgrounds/20190801DS.jpg');
 	background-position: top;
 	
 	.wrapper {
@@ -379,10 +429,10 @@
 	}
 	
 	@include media-query($on-700) {
-		background-image: url('/images/backgrounds/20190801DS2.jpg');
+		background-image: url('/images/2024/backgrounds/20190801DS2.jpg');
 	}
 	@include media-query($on-400) {
-		background-image: url('/images/backgrounds/20190801DS3.jpg');
+		background-image: url('/images/2024/backgrounds/20190801DS3.jpg');
 	}
 }
 
@@ -397,9 +447,21 @@
 }
 
 .park-ride {
-	background-color: $yellow23;
+	background-color: #FFF200;
 	text-align: center;
 	
+	a {
+		color: #EC008C;
+		text-decoration: none;
+
+		&:hover,&:focus {
+			color: $black;
+		}
+	}
+	h3,p {
+		color: $black;
+		text-align: center;
+	}
 	svg {
 		display: block;
 		margin: 0 auto $spacing-unit*4;
@@ -410,12 +472,12 @@
 		display: block;
 	}
 	table {
-		border-color: $text-color;
-		color: $text-color;
+		border-color:$black;
+		color: #EC008C;
 
 		th,td {
 			background: none;
-			border-color: $text-color;
+			border-color: $black;
 		}
 		tr:nth-child(even) {
 			background: none;
@@ -464,18 +526,26 @@
 }
 
 .show-cars {
-	background-color: $navy23;
+	background-color: $brand-color;
 	color: $yellow23;
 }
 
 .total {
 
-	h2,p.total {
+	background-color: #FFF200;
+
+	h2,p {
+		color: $black;
 		text-align: center;
 	}
 	p.total {
-		color: $yellow23;
+		color: $magenta;
 		font-size: 15vw;
 		font-weight: 900;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+		max-width: 300px;
 	}
 }

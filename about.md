@@ -4,8 +4,8 @@ layout: page
 title: Invasion Colchester's History
 excerpt: Find out why Invasion Colchester started and what we do.
 permalink: /about/
-featured-image: title-deadpool.png
-socialimage: social-about-23.jpg
+featured-image: SIL_DEADPOOL.svg
+socialimage: SM_IC_PAGE_HISTORY.png
 ---
 
 <p>
@@ -18,4 +18,4 @@ socialimage: social-about-23.jpg
 	From the first year onwards, it has amazed us how brilliant the people of Colchester and everyone connected with this fabulous event can be. From asking local business and organisations for help in the beginning, we now have great great network of people and companies offering to support Invasion Colchester in some way each year. We've forged fantastic releationships not only with our charities, but also with some great folk in local government, town centre management, and the aforementioned businesses and other organisations in the area.
 </p><p>
 	The actual day of Invasion Colchester always seems to go a bit crazy, but we manage to pull it off thanks to the huge efforts of those involved. We have been breaking records for amounts raised at Invasion Colchester and for this we are not only incredibly grateful to the general public and businesses that have put their hands in their pockets for us, but also to everyone involved who generously donates their valuable time for free - Invasion Colchester is a not-for-profit event - and makes our event what it is!
-</p><p>
+</p>

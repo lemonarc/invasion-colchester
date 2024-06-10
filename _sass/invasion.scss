@@ -2,9 +2,9 @@
 
 // Define defaults for each variable.
 
-$base-font-family: 'Roboto', sans-serif;
+$base-font-family: "Saira", sans-serif;
 $base-header-font-family:		'wood_stampregular', sans-serif;
-$base-header-font-family-alt:		'Roboto Slab', serif;
+$base-header-font-family-alt:		"Saira Condensed", "Russo One", sans-serif;
 $base-font-size:   21px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -42,10 +42,14 @@ $yellow23:          #FFF200;
 $cream:             #FFFBAA;
 $navy23:            #002253;
 $blue23:            #005FAE;
+$highpink:          #E77CB9;
+$lowpink:           #7D0047;
+$darkpurple:        #210133;
+$magenta:           #EC008C;
 
-$brand-color:       $navy23;
-$brand-color-2:     $yellow23;
-$brand-color-3:     $orange23;
+$brand-color:       $black;
+$brand-color-2:     $highpink;
+$brand-color-3:     $magenta;
 
 $brand-light:		    lighten($brand-color, 33%);
 $brand-dark:		    darken($brand-color, 33%);
@@ -53,14 +57,14 @@ $brand-dark:		    darken($brand-color, 33%);
 $text-color:		    $navy23;
 $text-color-light:  $white;
 
-$background-color:  $orange23;
-$preheader-color:   $navy23;
+$background-color:  $brand-color-3;
+$preheader-color:   $brand-color;
 $header-color:      $black;
 $prefooter-color:   $black;
 $footer-color:      $black;
 
 $link-color:        $blue23;
-$link-color-light:  $yellow23;
+$link-color-light:  $brand-color-2;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
