@@ -1,17 +1,17 @@
 <div class="deets">
-	<h3>
+	<h3 class="saira-condensed-bold">
 		Meet Your Heroes
 	</h3>
-	<p>
+	<p class="saira-condensed-bold">
 		at
 	</p>
 	<h1>
 		INVASION COLCHESTER
 	</h1>
-	<h2>
-		SATURDAY<br/>2 SEPTEMBER 2023
+	<h2 class="russo-one-regular">
+		SATURDAY<br/>7 SEPTEMBER 2024
 	</h2>
-	<h5>
+	<h5 class="saira-condensed-bold">
 		CHARACTERS & THEMED AREAS &middot; SHOW CARS &middot; SPECIAL GUESTS &middot; COMPETITIONS &middot; LIVE MUSIC
 	</h5>
 </div>

@@ -1,4 +1,4 @@
-{% include icon-bus-23.svg %}
+{% include icon-bus.svg %}
 <h3>Come in Costume and Travel on Colchester Park and Ride for Free!</h3>
 <p>
 	Anyone visiting Invasion Colchester in costume / fancy dress will be able to travel on the <a href="https://www.essexhighways.org/getting-around/bus/park-and-ride/colchester-park-and-ride" rel="nofollow noopener noreferrer" alt="Colchester Park and Ride" target="_blank">Colchester Park and Ride</a> for free*.

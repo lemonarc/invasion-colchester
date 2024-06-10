@@ -1,4 +1,4 @@
-<img src="/images/characters/silhouette-batsignal.svg" alt="Batsignal" />
+<img src="/images/2024/characters/SIL_BATSIGNAL.svg" alt="Batsignal" />
 
 <h2>Get in Touch</h2>
 
