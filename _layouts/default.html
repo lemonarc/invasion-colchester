@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  {%- if page.url == '/contact-success/' or page.url == '/gallery/' or page.url == '/privacy-policy/' -%}
+  {%- if page.url == '/contact-success/' or page.url == '/gallery/' or page.url == '/privacy-policy/' or page.url == '/special-guests/' -%}
   	<body class="alt-body">
   {%- else -%}
 	<body>
@@ -20,13 +20,16 @@
     {%- include prefooter.html -%}
     {%- include footer.html -%}
     
-    {%- if page.lightbox -%}
+    {%- if page.layout == 'home' -%}
+
+	<script src="/js/counter/counter.js"></script>
+	<script src="/js/guestslider/slider.js"></script>
 		
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$(".fancybox").fancybox();
-			});
-		</script>
+	{%- endif -%}
+    
+    {%- if page.lightbox -%}
+
+	<script src="/js/lightbox/lightbox.js"></script>
 		
 		<script src="/js/jquery.lazyload/jquery.lazyload.js"></script>
 		<script>
@@ -40,24 +43,11 @@
 			});
 		</script>
 		
-		{%- endif -%}
+	{%- endif -%}
 		
-		{%- if page.lightbox == 'gallery' -%}
-		
-		<script type="text/javascript">
-			$(function() {
-				$('.random').randomize('li');
-			});
-			$.fn.randomize = function(selector){
-				(selector ? this.find(selector) : this).parent().each(function(){
-					$(this).children(selector).sort(function(){
-						return Math.random() - 0.5;
-					}).detach().appendTo(this);
-				});
+	{%- if page.lightbox == 'gallery' -%}
 
-				return this;
-			};
-		</script>
+		<script src="/js/random/random.js"></script>
 		<script>
 			$(function(){
 				$.oPageLoader({

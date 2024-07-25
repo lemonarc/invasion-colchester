@@ -51,22 +51,22 @@
 }
 
 .dark-bg {
-	color: $text-color-light;
-
-	a {
-		color: $link-color-light;
-
-		&:visited {
-		  color: $link-color-light;
-		}
-	}
+	color: $positive;
 }
 
 .light-bg {
-	color: $text-color;
+	color: $negative;
 
 	a {
-		color: $link-color;
+		color: $primary;
+
+		&:hover,&:focus {
+		  color: $negative;
+		}
+
+		&:visited {
+		  color: $primary;
+		}
 	}
 }
 
@@ -99,21 +99,19 @@
 	}
 }
 
-.coming-soon {
-}
-
 .contact {	
-	background-color: #EC008C;
-    background-image: url(/images/2024/backgrounds/ANGLE_DOTS_PINK.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-color: $primary;
+    background-image: url(/images/2024/banner/DOTS_PINK.svg), url(/images/2024/banner/DOTS_PINK.svg);
+  	background-repeat: no-repeat, no-repeat;
+  	background-size: 1200px;
+  	background-position: left -600px top -600px, right -600px bottom -600px;
 	
 	a {
-		color: #FFF200;
+		color: $secondary;
 		text-decoration: none;
 
 		&:hover,&:focus {
-			color: $white;
+			color: $on-primary;
 		}
 	}
 	img {
@@ -123,16 +121,16 @@
 		width: -webkit-fill-available;
 	}
 	h2 {
-		color: #FFF200;
+		color: $secondary;
 		text-align: center;
 	}
 	p {
-		color: #fff;
+		color: $on-primary;
 		margin: 0 auto;
 		max-width: 600px;
 	}
 	#contact-form {
-		color: $white;
+		color: $on-primary;
 		margin: $spacing-unit*4 auto 0;
 		max-width: 600px;
 		width: 100%;
@@ -145,54 +143,72 @@
 		
 		input, textarea {
 			background: none;
-			border: 1px solid $white;
+			border: 1px solid $on-primary;
 			border-radius: $spacing-unit;
-			color: $white;
+			color: $on-primary;
 			max-width: calc(100% - 40px);
 			
 			&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-				color: $white;
+				color: $on-primary;
 				opacity: 1; /* Firefox */
 			}
 			&:-ms-input-placeholder { /* Internet Explorer 10-11 */
-				color: $white;
+				color: $on-primary;
 			}
 			&::-ms-input-placeholder { /* Microsoft Edge */
-				color: $white;
+				color: $on-primary;
 			}
 		}
 		input[type="submit"]{
-			background: $black;
+			background: $negative;
 			border: none;
 			border-radius: 100px;
-			color: #FFF200;
+			color: $secondary;
 			margin: $spacing-unit*4 0 0;
 			
 			&:hover,
 			&:focus {
-				color: $white;
+				color: $positive;
 			}
 		}
+	}
+
+	@include media-query($on-800) {
+		background-size: 800px;
+		background-position: left -400px top -400px, right -400px bottom -400px;
+
+	}
+
+	@include media-query($on-600) {
+		background-size: 600px;
+		background-position: left -300px top -300px, right -300px bottom -300px;
+
+	}
+
+	@include media-query($on-400) {
+		background-size: 400px;
+		background-position: left -200px top -200px, right -200px bottom -200px;
+
 	}
 }
 
 .dont-panic {	
-	background-color: #EC008C;
+	background-color: $primary;
     background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
     background-repeat: no-repeat;
     background-size: cover;
 	text-align: center;
 	
 	a {
-		color: #FFF200;
+		color: $secondary;
 		text-decoration: none;
 
 		&:hover,&:focus {
-			color: $white;
+			color: $positive;
 		}
 	}
 	p {
-		color: $white;
+		color: $on-primary;
 	}
 	img {
 		margin-bottom: $spacing-unit*4;
@@ -200,25 +216,25 @@
 }
 
 .fancy-dress {
-	background-color: #EC008C;
+	background-color: $primary;
     background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
     background-repeat: no-repeat;
     background-size: contain;
 	
 	a {
-		color: #FFF200;
+		color: $secondary;
 		text-decoration: none;
 
 		&:hover,&:focus {
-			color: $white;
+			color: $positive;
 		}
 	}
 	h2 {
 		text-align: center;
-		color: #FFF200;
+		color: $secondary;
 	}
 	p {
-		color: $black;
+		color: $on-primary;
 	}
 	img {
 		display: block;
@@ -228,14 +244,14 @@
 	}
 	
 	table {
-		border-color: #FFF200;
-		color: #FFF200;
+		border-color: $secondary;
+		color: $secondary;
 		margin: 0 0 $spacing-unit*4;
 
 		th,td {
 			background: none;
-			border-color: #FFF200;
-			color: #FFF200;
+			border-color: $secondary;
+			color: $secondary;
 		}
 		tr:nth-child(even) {
 			background: none;
@@ -244,7 +260,8 @@
 }
 
 .firstsite {
-	background-color: $green;
+	background-color: $primary;
+	color: $on-primary;
 	text-align: center;
 	
 	h3,h4 {
@@ -258,41 +275,18 @@
 	}
 }
 
-.gallery {
-	background-image: url('/images/2024/backgrounds/20190801PG.jpg');
-    background-attachment: fixed;
-	
-	a.button {
-  		background: #EC008C;
-	}
-	h2 {
-		color: $white;
-	}
-	.wrapper {
-		padding: $spacing-unit*16 0;
-		
-		@include media-query($on-1040){
-			padding: $spacing-unit*8 $spacing-unit*2;
-		}
-	}
-	@include media-query($on-600){
-		background-attachment: initial;
-	}
-
-}
-
 .guests {
 	background-image: url('/images/2024/social/20190801SG.jpg');
 	background-position: top;
-	color: $yellow23;
+	color: $secondary;
 	
 	a {
-		color: $yellow23;
+		color: $secondary;
 		text-decoration: none;
 		
 		&:hover,
 		&:focus {
-			color: $white;
+			color: $positive;
 		}
 	}
 	
@@ -315,25 +309,25 @@
 .guide {
 	background-image: url('/images/2024/backgrounds/COL-HIGH-ST.jpg');
     background-attachment: fixed;
-	color: #FFF;
+	color: $positive;
 }
 
 .intro {
 	text-align: center;
 	
 	a {
-		color: #FFF200;
+		color: $secondary;
 		text-decoration: none;
 
 		&:hover,&:focus {
-			color: $white;
+			color: $on-primary;
 		}
 	}
 	h1,h5 {
-		color: #FFF200;		
+		color: $secondary;		
 	}	
 	h2,h3,h4,p {
-		color: $white;
+		color: $on-primary;
 	}
 	.deets p {
 		font-weight: 700;
@@ -362,7 +356,7 @@
 }
 
 .justgiving {
-	background-color: #ac29b5;
+	background-color: $primary;
 	text-align: center;
 	
 	.wrapper div {
@@ -383,14 +377,14 @@
     background-attachment: fixed;
 	
 	table {
-		border-color: $yellow23;
-		color: $yellow23;
+		border-color: $secondary;
+		color: $secondary;
 		margin: $spacing-unit*4 0;
 
 		th,td {
 			background: none;
-			border-color: $yellow23;
-			color: $yellow23;
+			border-color: $secondary;
+			color: $secondary;
 		}
 		tr:nth-child(even) {
 			background: none;
@@ -437,7 +431,7 @@
 }
 
 .othermonkey {
-	background-color: $orange23;
+	background-color: $secondary-alt;
 
 	img {
 		display: block;
@@ -447,19 +441,20 @@
 }
 
 .park-ride {
-	background-color: #FFF200;
+	background-color: $primary;
 	text-align: center;
 	
 	a {
-		color: #EC008C;
+		color: $secondary;
+		font-weight: 600;
 		text-decoration: none;
 
 		&:hover,&:focus {
-			color: $black;
+			color: $on-primary;
 		}
 	}
 	h3,p {
-		color: $black;
+		color: $on-primary;
 		text-align: center;
 	}
 	svg {
@@ -467,17 +462,22 @@
 		margin: 0 auto $spacing-unit*4;
 		max-width: 300px;
 		width: 100%;
+
+		path {
+			fill: $secondary;
+		}
 	}
 	small {
+		color: $on-primary;
 		display: block;
 	}
 	table {
-		border-color:$black;
-		color: #EC008C;
+		border-color: $on-primary;
+		color: $secondary;
 
 		th,td {
 			background: none;
-			border-color: $black;
+			border-color: $on-primary;
 		}
 		tr:nth-child(even) {
 			background: none;
@@ -485,8 +485,31 @@
 	}
 }
 
+.photo-gallery {
+	background-image: url('/images/2024/backgrounds/20190801PG.jpg');
+    background-attachment: fixed;
+	
+	a.button {
+  		background: $primary;
+	}
+	h2 {
+		color: $positive;
+	}
+	.wrapper {
+		padding: $spacing-unit*16 0;
+		
+		@include media-query($on-1040){
+			padding: $spacing-unit*8 $spacing-unit*2;
+		}
+	}
+	@include media-query($on-600){
+		background-attachment: initial;
+	}
+
+}
+
 .poster-print {
-	background-color: $light-green;
+	background-color: $primary;
 	
 	img {
 		display: block;
@@ -505,16 +528,51 @@
 }
 
 .prize-draw {
+	background-color: $secondary;
+    background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: $on-secondary;
+	text-align: center;
 	
+	ul {
+		text-align: center;
+		list-style: none;
+
+		li {
+			.prize {
+				font-size: 1.6em;
+				font-weight: 700;
+			}
+			.donor {
+				display: block;
+				font-size: initial;
+
+				.donor {
+					display: inline;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+	a {
+		color: $primary;
+		text-decoration: none;
+
+		&:hover,&:focus {
+			color: $on-secondary;
+		}
+	}
 	table {
-		border-color: $green;
-		color: $green;
+		border-color: $primary;
+		color: $primary;
 		margin: $spacing-unit*4 0;
 
 		th,td {
 			background: none;
-			border-color: $green;
-			color: $green;
+			border-color: $primary;
+			color: $primary;
 		}			
 		tr:nth-child(even) {
 			background: none;
@@ -526,20 +584,19 @@
 }
 
 .show-cars {
-	background-color: $brand-color;
-	color: $yellow23;
+	background-color: $primary;
+	color: $on-primary;
 }
 
 .total {
-
-	background-color: #FFF200;
+	background-color: $secondary;
 
 	h2,p {
-		color: $black;
+		color: $on-secondary;
 		text-align: center;
 	}
 	p.total {
-		color: $magenta;
+		color: $primary;
 		font-size: 15vw;
 		font-weight: 900;
 	}

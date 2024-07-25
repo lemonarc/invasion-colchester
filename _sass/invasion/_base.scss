@@ -17,9 +17,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  background-color: #EC008C;
+  background-color: $primary;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
+  color: $positive;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -30,7 +30,7 @@ body {
   overflow: auto!important;
 
   &.alt-body {
-    background-color: #FFF200;
+    background-color: $secondary;
   }
 }
 
@@ -100,7 +100,7 @@ li {
  * Headings
  */
 h1 {
-  color: $white;
+  color: $positive;
   font-family: $base-header-font-family;
   font-weight: normal;
   line-height: 0.8;
@@ -116,49 +116,61 @@ h2, h3, h4, h5, h6 {
 h1 {
   @include relative-font-size(6);
 
-  @include media-query($on-laptop) {
+  @include media-query($on-800) {
     @include relative-font-size(4);
+  }
+
+  @include media-query($on-400) {
+    @include relative-font-size(3);
   }
 }
 
 h2 {
   @include relative-font-size(3);
 
-  @include media-query($on-laptop) {
+  @include media-query($on-800) {
     @include relative-font-size(2.5);
+  }
+
+  @include media-query($on-400) {
+    @include relative-font-size(2);
   }
 }
 
 h3 {
   @include relative-font-size(2.5);
 
-  @include media-query($on-laptop) {
+  @include media-query($on-800) {
     @include relative-font-size(2);
+  }
+
+  @include media-query($on-400) {
+    @include relative-font-size(1.5);
   }
 }
 
 h4 {
   @include relative-font-size(2);
 
-  @include media-query($on-laptop) {
+  @include media-query($on-800) {
     @include relative-font-size(1.5);
+  }
+
+  @include media-query($on-400) {
+    @include relative-font-size(1);
   }
 }
 
 h5 {
   @include relative-font-size(1.5);
 
-  @include media-query($on-laptop) {
+  @include media-query($on-800) {
     @include relative-font-size(1);
   }
 }
 
 h6 {
   @include relative-font-size(1);
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(0.85);
-  }
 }
 
 
@@ -167,13 +179,14 @@ h6 {
  * Links
  */
 a {
-  color: $link-color;
+  color: $link;
 
   &:visited {
-    color: $link-color;
+    color: $link;
   }
 
   &:hover {
+	color: $hover;
     text-decoration: none;
   }
 
@@ -213,10 +226,10 @@ submit,
 submitbutton,
 input.button,
 input[type=submit] {
-  background: $black;
+  background: $negative;
 	border: none;
   border-radius: 100px;
-  color: #fff;
+  color: $positive;
   font-family: $base-font-family;
   padding: ($spacing-unit * 1) ($spacing-unit * 2);
   text-decoration: none;
@@ -225,7 +238,7 @@ input[type=submit] {
 
   &:hover,
   &:focus {
-    color: #FFF200;
+    color: $secondary;
   }
 }
 
@@ -233,14 +246,14 @@ input[type=submit] {
 	margin: $spacing-unit*4 $spacing-unit*2;
 	
 	a,span {
-		border: 2px solid $brand-color;
+		border: 2px solid $secondary;
 		padding: $spacing-unit*2;
 		
 		&:visited {
-			border-color: $brand-dark;
+			border-color: $positive;
 		}		
 		&:hover {
-			border-color: $brand-light;
+			border-color: $secondary;
 		}
 	}
 }
@@ -270,8 +283,8 @@ textarea:focus,
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: $positive;
+  border-left: 4px solid $positive;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
@@ -290,9 +303,9 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  border: 1px solid $positive;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $negative;
 }
 
 code {
@@ -317,10 +330,43 @@ pre {
  */
 
 .container {
-	border: 1px solid $white;
-	padding: 30px;
-	margin-bottom: 30px;
+	background: $primary;
+  background-image: url(/images/2024/banner/DOTS_PINK.svg), url(/images/2024/banner/DOTS_PINK.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 1000px;
+  background-position: left -500px top -500px, right -500px bottom -500px;
+  color: $on-primary;
+	padding: 40px;
+	border-radius: 10px;
+  margin-bottom: 40px;
 	@extend %clearfix;
+
+  h2 {
+    color: $secondary;
+  }
+
+  img {
+    border-radius: 10px;
+
+  }
+
+	@include media-query($on-800) {
+		background-size: 800px;
+		background-position: left -400px top -400px, right -400px bottom -400px;
+
+	}
+
+	@include media-query($on-600) {
+		background-size: 600px;
+		background-position: left -300px top -300px, right -300px bottom -300px;
+
+	}
+
+	@include media-query($on-400) {
+		background-size: 400px;
+		background-position: left -200px top -200px, right -200px bottom -200px;
+
+	}
 }
 
 
@@ -365,7 +411,7 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: #{$positive};
     padding-right: 5px;
     vertical-align: text-top;
 }
@@ -384,25 +430,25 @@ pre {
 table {
   margin-bottom: $spacing-unit;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: $positive;
   border-collapse: collapse;
-  border: 1px solid $text-color;
+  border: 1px solid $positive;
   margin: $spacing-unit*4 auto;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: $positive;
     }
   }
   th, td {
     padding: $spacing-unit;
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: $positive;
+    border: 1px solid $positive;
+    border-bottom-color: $positive;
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid $positive;
   }
 }
 
@@ -411,7 +457,7 @@ table {
  */
 
 form {
-	color: $grey;
+	color: $positive;
 	margin: ($spacing-unit * 2) 0;
 	max-width: calc(100% - (#{$spacing-unit} * 4));
 	
@@ -424,7 +470,7 @@ input,
 textarea {
 	font-family: $base-font-family;
 	font-size: $base-font-size;
-	border: 1px solid $grey;
+	border: 1px solid $positive;
 	width: 100%;
 	padding: $spacing-unit * 2;
 	margin-bottom: $spacing-unit * 2;
@@ -503,55 +549,4 @@ li.last {
 }
 li img {
 	min-width:100%;
-}
-
-
-.deepsea {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#005fad+0,002253+99 */
-  background: #005fad; /* Old browsers */
-  background: -moz-linear-gradient(top,  #005fad 0%, #002253 99%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #005fad 0%,#002253 99%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #005fad 0%,#002253 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005fad', endColorstr='#002253',GradientType=0 ); /* IE6-9 */
-}
-.tequila {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f15f24+0,fff200+100 */
-  background: #f15f24; /* Old browsers */
-  background: -moz-linear-gradient(top,  #f15f24 0%, #fff200 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #f15f24 0%,#fff200 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #f15f24 0%,#fff200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f15f24', endColorstr='#fff200',GradientType=0 ); /* IE6-9 */
-}
-.tequila-reverse {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff200+0,f15f24+100 */
-  background: #fff200; /* Old browsers */
-  background: -moz-linear-gradient(top,  #fff200 0%, #f15f24 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #fff200 0%,#f15f24 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #fff200 0%,#f15f24 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff200', endColorstr='#f15f24',GradientType=0 ); /* IE6-9 */
-
-}
-.base-fade {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/$brand-color-2+0,fff200+100 */
-  background: $brand-color-2; /* Old browsers */
-  background: -moz-linear-gradient(top,  $brand-color-2 0%, $brand-color-3 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  $brand-color-2 0%,$brand-color-3 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  $brand-color-2 0%,$brand-color-3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$brand-color-2', endColorstr='$brand-color-3',GradientType=0 ); /* IE6-9 */
-}
-.base-fade-reverse {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/$brand-color-3+0,f15f24+100 */
-  background: $brand-color-3; /* Old browsers */
-  background: -moz-linear-gradient(top,  $brand-color-3 0%, $brand-color-2 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  $brand-color-3 0%,$brand-color-2 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  $brand-color-3 0%,$brand-color-2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$brand-color-3', endColorstr='$brand-color-2',GradientType=0 ); /* IE6-9 */
-
-}
-.gradient-text {
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
 }

@@ -8,12 +8,11 @@
 ==================== */
 
 .preheader {
-    background-color: #000;
-	border-bottom: 1px solid #fff;
-	color: $white;
+    background-color: $secondary;
+	color: $primary;
     font-family: "Roboto", sans-serif;
     font-size: $spacing-unit*1.4;
-	font-weight: 700;
+	font-weight: 600;
     line-height: 2;
     text-align: center;
     margin-bottom: 0;
@@ -23,11 +22,33 @@
 		margin-bottom: 0;
 	    padding: 6px;
 	}
+	a,a:visited {
+		color: $primary;
+		font-weight: 900;
+		text-decoration: none;
+
+		&:hover,&:focus {
+			color: $on-secondary;
+		}
+	}
+}
+
+.alt-body .preheader {
+    background-color: $primary;
+	color: $secondary;
+
+	a,a:visited {
+		color: $secondary;
+
+		&:hover,&:focus {
+			color: $on-primary;
+		}
+	}
 }
 
 .subheader {
-    background-color: $brand-color;
-	color: $text-color;
+    background-color: $primary;
+	color: $positive;
     font-family: "Anton", sans-serif;
     font-size: $spacing-unit*1.6;
 	height: $spacing-unit*3;
@@ -57,7 +78,7 @@
  * Site header
  */
 .site-header {
-	color: $black;
+	color: $negative;
 	font-family: "Freeman", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -104,7 +125,7 @@
   }
 
   .page-link {
-    color: $brand-color;
+    color: $primary;
     line-height: $base-line-height;
 	text-decoration: none;
 
@@ -114,12 +135,12 @@
     }
 	&:hover,
 	&:focus {
-		color: $brand-color-2;
+		color: $primary-alt;
 		text-decoration: none;
 	}
   }
 
-  @include media-query($on-900) {
+  @include media-query($on-1000) {
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
@@ -145,7 +166,7 @@
 			text-align: center;
 
 			> svg {
-			  fill: $white;
+			  fill: $positive;
 			}
 		}
 		
@@ -159,7 +180,7 @@
 			text-align: center;
 
 			> svg {
-			  fill: $white;
+			  fill: $positive;
 			}
 		}
     }
@@ -178,18 +199,18 @@
     }
 
     input:checked ~ .trigger {
-		//background: $black;
+		//background: $negative;
 		background: rgba(0,0,0,0.9);
 		display: block;
 		font-size: 2rem;
-		border: 1px solid #fff;
+		border: 1px solid $positive;
 		padding: $spacing-unit*3 $spacing-unit $spacing-unit*6;
 		width: 100vw;
 		position: absolute;
 		right: -5px;
 		top: 50px;
 		
-		@include media-query($on-900) {
+		@include media-query($on-1000) {
 			min-height: 50vh;
 		}
 		.menu-icon {
@@ -219,34 +240,34 @@
 
 		@include relative-font-size(1.625);
 
-		@include media-query ($on-palm){		
+		@include media-query ($on-500){		
 			background: url(/images/2024/logo/IC-LOGO-SHORT-2024.svg) no-repeat;
 		}
 	}
 	.page-link {
-		color: #FFF200;
+		color: $secondary;
 
 		&:hover,
 		&:focus {
-			color: #FFF;
+			color: $positive;
 		}
 	}
 	
-	@include media-query($on-900) {
+	@include media-query($on-1000) {
 				
 		label[for="nav-trigger"] {
 		  
 			.menu-icon {
 	
 				> svg {
-				  fill: #FFF200;
+				  fill: $secondary;
 				}
 			}
 			
 			.close-icon {
 	
 				> svg {
-				  fill: #FFF200;
+				  fill: $secondary;
 				}
 			}
 		}
@@ -265,40 +286,37 @@
 		}
 	}
 	.page-link {
-		color: #EC008C;
+		color: $primary;
 
 		&:hover,
 		&:focus {
-			color: #000;
+			color: $negative;
 		}
-		@include media-query($on-900) {
+		@include media-query($on-1000) {
 			&:hover,
 			&:focus {
-			color: #fff;
+			color: $positive;
 		}
 		}
 	}
 	
-	@include media-query($on-900) {
+	@include media-query($on-1000) {
 				
 		label[for="nav-trigger"] {
 		  
 			.menu-icon {
 	
 				> svg {
-				  fill: #EC008C;
+				  fill: $primary;
 				}
 			}
 			
 			.close-icon {
 	
 				> svg {
-				  fill: #EC008C;
+				  fill: $primary;
 				}
 			}
 		}
 	}
 }
-
-
-

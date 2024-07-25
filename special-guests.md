@@ -1,203 +1,170 @@
 ---
+pageclass: guests-page
 layout: page
 title: "Invasion Colchester's Special Guests"
 excerpt: "For 2023, we were delighted to introduce Ross Mullan and Bern Collaço, and welcome back Clem So, Sandeep Mohan, Martin Ballantyne, and Ralph Morse."
 permalink: /special-guests/
-featured-image: title-trooper.png
-socialimage: social-guests-23.jpg
+featured-image: SIL_BB8.svg
+socialimage: SM_IC_PAGE_GUESTS.png
 lightbox: guests
 ---
 
 <p>
-In the past we have featured Mike Edmonds, Des Taylor, Jon Campling, Paul Warren, Nick Joseph, Pam Rose, Alan Flyng, Harry 'Aitch' Fielder, Ted Western, Derek Lyons, Martin Ballantyne, Mick Fryer-Kelsey, Sandeep Mohan, John Simpkin, Victor Botha, Chris Bunn, Clem So, Ross Sambridge, Andrew Lawden, and Ralph Morse as Special Guests at the previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as 'Star Wars', the 'Harry Potter' series, 'Doctor Who', Guardians Of The Galaxy' and more.
+    In the past we have featured Alan Flyng, Andrew Lawden, Bern Collaço, Chris Bunn, Clem So, Derek Lyons, Des Taylor, Harry 'Aitch' Fielder, John Simpkin, Jon Campling, Martin Ballantyne, Mick Fryer-Kelsey, Mike Edmonds, Nick Joseph, Pam Rose, Paul Warren, Ralph Morse, Ross Mullan, Ross Sambridge, Sandeep Mohan, Ted Western, and Victor Botha as Special Guests at previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as the <strong>Star Wars</strong> saga, the <strong>Harry Potter</strong> series, <strong>Doctor Who</strong>, the <strong>Marvel Studios</strong> series, and more.
 </p><p>
-For 2023, we were delighted to introduce actor, creature performer and puppeteer Ross Mullan, who was the original Whitewalker on 'Game of Thrones', and played The Silence and The Teller on 'Doctor Who' among other roles, and Bern Collaço, an actor who has appeared in 'The Batman', 'Morbius', 'Wonder Woman', 'Star Wars: The Force Awakens', 'Skyfall', 'Doctor Who', and more. We also welcomed back actors Clem So, Sandeep Mohan, Martin Ballantyne, and Ralph Morse.
+    For 2024, we were delighted to introduce film, theatre and TV puppeteer, <strong class="guest">Brian Herring</strong>, who was the principal performer of BB-8 in <strong>Star Wars: The Force Awakens</strong>, <strong>The Last Jedi</strong>, and <strong>The Rise of Skywalker</strong>, among other movies and shows, and <strong class="guest">Mike Quinn</strong>, an actor and puppeteer who has appeared as Nien Nunb in <strong>Star Wars: The Force Awakens</strong>, <strong>The Last Jedi</strong>, and <strong>The Rise of Skywalker</strong>, as well as working on <strong>Andor</strong>, <strong>The Acolyte</strong>, <strong>Jurassic Park III</strong>, <strong>Toy Story 2</strong>, <strong>Muppet Christmas Carol</strong>, and more.
+</p><p>
+    We also welcome back actors <strong class="guest">Clem So</strong>, <strong class="guest">Chris Bunn</strong>, and <strong class="guest">Martin Ballantyne</strong>.
 </p>
 <br /><br />
 
 <div class="container">
 
-<img src="/images/guests/ross-mullan.jpg" alt="Ross Mullan" class="guest-feature" />
+<img src="/images/2024/guests/brian-herring-01.jpg" alt="Brian Herring" class="guest-feature" />
 
-<h2>Ross Mullan</h2>
+<h3>Brian Herring</h3>
 
 <p>
-Ross Mullan is a Canadian-British actor, creature performer and puppeteer. Ross was the original Whitewalker on the HBO television series 'Game of Thrones' in it's second to fourth seasons, and also played The Silence and The Teller on 'Doctor Who'. In 'Sharknado 5: Global Swarming' he was the ill fated Dr. Wobegone, and in 'Ant-Man and The Wasp: Quantumania' he could be seen as the Maitre D'. As well as playing one of the three stygian witches in Warner Bros' 'Clash of the Titans', Ross also played the Numbertaker on BBC's 'Numberjacks', and puppeteered and voiced Nev the bear on 'Bear Behaving Badly'.
+	Film, theatre and TV puppeteer, Brian Herring began his career in 1989 after growing up in and around theatre. After working as an actor, stand-up comedian and stage manager, he joined ITV's <strong>Spitting Image</strong> as an assistant puppeteer. From there he was fortunate to train 'on the job' and work with some of the UK's best puppeteers.
 </p><p>
-In additon, Ross has also played countless werewolves, demons and space aliens in horror films and commercials, and motion captured and voiced on many games and documentaries.
+	He joined the world famous Jim Henson company in 1999 and was a principal performer on all of their UK TV productions until they closed their English production arm.
+</p><p>
+	In 2012 he performed at the opening ceremony for the London Olympic Games and the following year he joined Oscar winner Neal Scanlan's Creature Effects Dept as Puppeteer Consultant on <strong>Star Wars: The Force Awakens</strong>. A relationship that has continued during the 'Skywalker Saga' and spin-off movies.
+</p><p>
+	Throughout his career in television and film Brian has also been active in the theatre, writing and directing numerous pantomimes and children's shows, as well as performing, teaching and consulting.
+</p><p>
+	Brian is fully versed in numerous puppetry disciplines including TV hand 'Muppet' style, animatronic system, bunraku and suit performance and with the arrival of computer animation and CGI, using digital motion-capture systems, Brian has worked to develop new types of virtual puppetry and keep performers at the heart of performing.
+</p><p>
+	More recently Brian has been working as a reference performer, working closely with the VFX Dept to provide character performances and dialogue for characters in such productions as the 2020 feature <strong>Dolittle</strong>.
+</p><p>
+	Since 1992 his combination of forward thinking, a keen interest in the industry, good humour and enthusiasm has helped Brian stay one of the UK's busiest puppeteers.
+</p>
+	
+</div><div class="container">
+
+<img src="/images/2024/guests/mike-quinn-01.jpg" alt="Mike Quinn" class="guest-feature" />
+
+<h3>Mike Quinn</h3>
+
+<p>
+	Mike Quinn is most famous for his role as Nien Nunb (Lando's copilot for the Millennium Falcon in Lucasfilm's <strong>Star Wars: Return of the Jedi</strong>) in the final three films in the last <strong>Star Wars</strong> trilogy and the Disney Theme Park ride <strong>Rise of the Resistance</strong>. Other characters he assisted with include Yoda, Jabba, Baby Ewoks, Sy Snootles, Admiral Ackbar and Ree Yees. He is now also a Lead Animatronic Puppeteer for CFX, Lucasfilm's creature department in the UK. He recently provided animatronic lip-sync and his first <strong>Star Wars</strong> voice for Dewi in the <strong>Andor</strong> TV series on Disney+. His latest work for Lucasfilm can be seen in the new hit series <strong>The Acolyte</strong>, where he performed animatronic lip-sync and on set voice acting with the cast for multiple principle cast alien characters.
+</p><p>
+	His career for over four decades has seen him working on both sides of the camera as a Director, Producer, Actor, Writer, Character Animator, Puppet Builder, Puppeteer and Voice Over Actor.
+</p><p>
+	He was personally chosen by Jim Henson and Frank Oz in 1980 to work on many Muppet projects including <strong>The Great Muppet Caper</strong>, <strong>The Dark Crystal</strong>, <strong>Fraggle Rock</strong>, <strong>Labyrinth</strong>, <strong>Muppet Christmas Carol</strong>, <strong>Muppet Treasure Island</strong>, <strong>The Muppets</strong>, <strong>Muppets Most Wanted</strong> and the ABC TV series <strong>The Muppets</strong> and <strong>Muppets Now</strong> on Disney+. Other movies and TV shows he performed in include <strong>Who Framed Roger Rabbit?</strong>, <strong>Little Shop Of Horrors</strong>, <strong>How To Get Ahead In Advertising</strong>, <strong>The Storyteller</strong>, <strong>Glee</strong>, <strong>Lady Gaga and The Muppets</strong>, <strong>Good Luck Charlie</strong>, <strong>Shake It Up</strong>, <strong>Muppets Wizard Of Oz</strong>, <strong>The Secret Life Of Toys</strong>, <strong>The Ghost Of Faffner Hall</strong>, <strong>Jim Henson's Mother Goose Stories</strong>, <strong>Jim Carrey's Kidding</strong>, <strong>Willow the TV series</strong>, <strong>Starve Acre with Matt Smith and Morfydd Clark</strong>, and the new sequel <strong>Beetlejuice Beetlejuice</strong>.
+</p><p>
+	His longstanding work with The Muppets brought him new experiences performing live in front of tens of thousands of people, beginning with <strong>Dr. Teeth and the Electric Mayhem</strong> at Outside Lands in San Francisco, <strong>The Muppets Take The Hollywood Bowl</strong> and <strong>The Muppets Take The O2</strong> in London. He even assisted Kermit for a TEDX talk in Jim Henson's home state of Mississippi.
+</p><p>
+	Originally from the UK, he moved to San Francisco in the late 1990's to become a Character Animator for Pixar and ILM / Lucasfilm on <strong>A Bug's Life</strong>, <strong>Toy Story 2</strong>, <strong>Star Wars: Attack Of The Clones</strong> and <strong>Jurassic Park III</strong>. Additionally he was a lead Character Animator for two game companies in Texas.
+</p><p>
+	When not performing, Mike keeps busy building puppets and developing character and project ideas. He runs an online puppetry academy called <strong>Secrets of Puppetry</strong>, the only one of its kind teaching high level hand puppetry skills to aspiring puppeteers.
 </p>
 	
 </div>
 
 <div class="container">
 
-<img src="/images/guests/bern-collaco.jpg" alt="Bern Collaço" class="guest-feature" />
+<img src="/images/2024/guests/clem-so.jpg" alt="Clem So" class="guest-feature" />
 
-<h2>Bern Collaço</h2>
-
-<p>
-Bern Collaço is a film and TV actor based in London. He has appeared in many movies and shows including 'The Batman', 'Morbius', 'Poledark', 'Wonder Woman', 'Star Wars: The Force Awakens' (as a General), 'Rogue One', 'Star Wars: The Last Jedi', 'Skyfall', 'Spectre', and 'Doctor Who', to name a few.
-</p><p>
-Bern is popular with his fans, who he loves to meet and talk to about the various films he has appeared in.
-</p>
-	
-</div>
-
-<!--<div class="container">
-
-<img src="/images/guests/andrew-lawden.jpg" alt="Andrew Lawden" class="guest-feature" />
-
-<h2>Andrew Lawden</h2>
+<h3>Clem So</h3>
 
 <p>
-Originally from Sutton Coldfield, West Midlands,  Andrew was the stand in double for Qui-Gon Jinn, and Naboo Royal Guard in 'Star Wars: The Phantom Menace'. 
+    Clem initially began working as a background actor on the Japanese historic fantasy film <strong>47 Ronin</strong> in 2011 and has gone on to build invaluable experience in the film industry. Clem has become a featured and in demand face, having worked on major feature films and numerous TV shows including <strong>Sherlock</strong>, <strong>Being Human</strong>, and episodes of <strong>Doctor Who</strong>, notably as the Mandarin Clockwork Droid in Peter Capaldi's first episode as the Doctor, "Deep Breath", as a Space Corpse (affectionately known as the 'Kill Bill' Zombie by his colleagues) in the series 10 episode "Oxygen", and as a Ji-Hun Pirate in 2022's "Legend of the Sea Devils".
 </p><p>
-In addition to 'Star Wars', Andrew's credits include 'Robin Hood', 'Firepower', 'Murphy's law', 'Topboy', 'Back to the Future' (London stage version - Doc Brown and Strickland),'Prime Suspect 1973', 'Angels in Notting Hill' (Christopher Lee's last film), 'Mr Mayfair' (with Armand Assante), 'EastEnders', and DC Comics' 'Pennyworth'. He did the amusing audio visual series of Peter Barkworth's book, 'About Acting ', and created a drama documentary based on an accident that happened to him ('VW Golf Totally Imploded') for the Ridley Scott / Kevin Macdonald film 'Life in a day'.
-</p><p>
-Andrew also runs the Jedi Fight Academy fitness class in Theatro Technis, Camden.
-</p>
-	
-</div>-->
-
-<div class="container">
-
-<img src="/images/guests/clem-so.jpg" alt="Clem So" class="guest-feature" />
-
-<h2>Clem So</h2>
-
-<p>
-Clem initially began working as a background actor on the Japanese historic fantasy film '47 Ronin' in 2011 and has gone on to build invaluable experience in the film industry. Clem has become a featured and in demand face, having worked on major feature films and numerous TV shows including 'Sherlock', 'Being Human' and eleven episodes of 'Doctor Who', notably as the Mandarin Clockwork Droid in Peter Capaldi's first episode as the Doctor, "Deep Breath", as a Space Corpse (affectionately known as the 'Kill Bill' Zombie by his colleagues) in the series 10 episode "Oxygen", and most recently as a Ji-Hun Pirate in 2022's "Legend of the Sea Devils".
-</p><p>
-Other appearances include a Kyln prisoner in Marvel Studios popular hit 'Guardians Of The Galaxy', a Spectre crime boss in the James Bond film 'Spectre' and a Resistance Trooper in 'Star Wars: The Force Awakens'. Clem has featured in the highly regarded Marvel Studios blockbusters 'Doctor Strange', 'Black Widow', and 'Doctor Strange in the Multiverse of Madness', as well as appearing as an Animus patient in 'Assassin's Creed'.
-</p><p>	
-Clem has also worked on many other films including 'Star Wars: The Last Jedi', 'Ready Player One', 'Jurassic World: Fallen Kingdom', 'Solo: A Star Wars Story', 'Fantastic Beasts: The Crimes of Grindelwald' and 'Zack Snyder's Justice League'. 
-</p>
-	
-</div>
-
-<!--<div class="container">
-
-<img src="/images/guests/chris-bunn.jpg" alt="Chris Bunn" class="guest-feature">
-
-<h2>Chris Bunn</h2>
-
-<p>
-Chris Bunn has worked in TV and film since 1974, featuring in some of the most popular TV shows and movies of all time. Following his first film work on 'The Slipper and the Rose' in 1971, Chris has worked on three James Bond films ('The Spy Who Loved Me', 'Moonraker' and 'The Living Daylights') and two Superman movies ('Superman I' and 'II' - Chris played a policeman in the first film) as well as apperaing in 'Force 10 from Navarone', 'The Eagle Has Landed' and many of the 'Carry On' films. Chris was a body double for Kirk Douglas and a hand double for Harvey Keitel in the science fiction film 'Saturn 3'.
-</p><p>
-Chris has worked on all three of the 'Star Wars' original trilogy films, appearing as both a Stormtrooper and a Cantina astronaut in 'A New Hope'.
-</p><p>
-In addition to all of this, Chris has worked on some very popular TV shows over the years including 'The Sweeney', 'Minder' and 'The Avengers'. He was a body double for Lewis Collins in 'The Professionals' and has performed stand-in work also for Timothy Dalton in 'Agatha'. 
-</p>
-
-</div>-->
-
-<!--<div class="container">
-
-<img src="/images/guests/nick-joseph.jpg" alt="Nick Joseph" class="guest-feature" />
-
-<h2>Nick Joseph</h2>
-
-<p>
-Nick became an actor by chance when when a friend of his who ran an agency for extras asked for help when she had been let her down at the last moment. He got the job, went home with £10 in his pocket and decided to enroll in a performing arts school.
-</p><p>
-In 1976, Nick's agent called to see if he would be interested in a low budget film called 'Star Wars' - the role was for the Medal Bearer in the final throneroom scene. Nick said yes, won the part and has forever been associated with it since.
-</p><p>
-In his career, Nick has worked on 'Doctor Who' with three different Doctors (Tom Baker, Peter Davidson and Colin Baker) as well as two episodes of 'Blakes 7', first as the Android in "Head Hunter" and then in "The Animals". He was the Armoury Officer in the James Bond film 'The Spy Who Loved Me', the Milkman in East Enders for the first three years and has also worked on 'The Incredible Sarah', 'We'll Meet Again', 'Secret Army' and 'The Manageress'. He has appeared in on many TV commercials, the best of which he says was working with Ayrton Senna (Nick played the role of Alain Prost and drove the F1 car as, at the time, he was an F3 race driver!).
-</p><p>
-Aside from acting, Nick also used to be a long distance runner, taking part in more than fifty marathons and many other long distance races!
-</p>
-	
-</div>-->
-
-<div class="container">
-
-<img src="/images/guests/sandeep-mohan.jpg" alt="Sandeep Mohan" class="guest-feature" />
-
-<h2>Sandeep Mohan</h2>
-
-<p>
-Sandeep Mohan, also known as Sandy, is a business-owner, entrepreneur, TV / film performer and model.
-</p><p>
-Despite developing an interest in performance during his informative years at school, Sandeep entered the manufacturing industry after his education and used his knowledge and technical skills to work in the US and the UK, and travel extensively throughout Europe as a trouble-shooter.
-</p><p>
-In 2008, Sandeep was given the opportunity to play a small role in Eastenders and thereafter other opportunities in TV dramas. This reaffirmed his passion for acting and he left the manufacturing industry to pursue business interests, thus allowing him the flexibility to have a larger involvement in TV and film projects.
-</p><p>
-To date, Sandeep has appeared in a number of TV dramas and comedies including 'East Enders', 'Silent Witness', 'Holby', 'Law and Order UK', 'Sherlock', 'Luther', 'Goodness Gracious Me' and 'The Keith Lemon Sketch Show'.
-</p><p>
-Sandeep has also appeared on the big screen in major films such as 'Prince of Persia', 'Skyfall', 'Spectre', 'World War Z', 'Edge of Tomorrow', 'Burnt' and 'The Program'. In 'Star Wars: The Force Awakens' he is the Stormtrooper that man-handles Lor San Tekka (Max Von Sydow) to Kylo Ren (Adam Driver) for interrogation, as well as one of the two Stormtroopers in the comic corridor scene (the one that stops his fellow trooper), the Stormtrooper that interrogates the alien as the village is overtaken by troopers, the Stormtrooper that lies dead at the feet of Harrison Ford in the control room and the First Order Stormtrooper Squad Leader that marches with Kylo Ren in parts of the film.
-</p><p>
-Recently, Sandeep has appeared as a surgeon with Benedict Cumberbatch in 'Doctor Strange', a Scarif Trooper in 'Star Wars: Rogue One', a Policeman in 'Jason Bourne', a British Army Officer in 'Wonder Woman', a Snowtrooper Officer in 'Star Wars: The Last Jedi' and as Government Officials in both 'The Hitman's Bodyguard' and 'Justice League'.
-</p><p>
-More excitingly, you might spot Sandeep in the titles to the BBC comedy 'This Time... with Alan Partridge', sitting next to a certain Alan Partridge!
-</p><p>
-Sandeep has also appeared in Britney Spears' 'Criminal' music video as well as providing voice-work for Channel 4 News.
+    Other appearances include a Kyln prisoner in Marvel Studios' popular hit <strong>Guardians Of The Galaxy</strong>, a Spectre crime boss in the James Bond films <strong>Spectre</strong> and <strong>No Time to Die</strong>, and a Resistance Trooper in <strong>Star Wars: The Force Awakens</strong>. Clem has also featured in many other films including <strong>Doctor Strange</strong>, <strong>Black Widow</strong>, <strong>Doctor Strange in the Multiverse of Madness</strong>, <strong>Mission: Impossible - Dead Reckoning Part One</strong>, <strong>Morbius</strong>, <strong>Star Wars: The Last Jedi</strong>, <strong>Ready Player One</strong>, <strong>Jurassic World: Fallen Kingdom</strong>, <strong>Solo: A Star Wars Story</strong>, <strong>Fantastic Beasts: The Crimes of Grindelwald</strong>, and <strong>Zack Snyder's Justice League</strong>.
 </p>
 	
 </div>
 
 <div class="container">
 
-<img src="/images/guests/martin-ballantyne.jpg" alt="Martin Ballantyne" class="guest-feature" />
+<img src="/images/2024/guests/chris-bunn.jpg" alt="Chris Bunn" class="guest-feature">
 
-<h2>Martin Ballantyne</h2>
+<h3>Chris Bunn</h3>
 
 <p>
-Martin was born in Norwich, England in 1972, where he grew up and still lives. He has always had a great interest in film and television.
+    Chris Bunn has worked in TV and film since 1974, featuring in some of the most popular TV shows and movies of all time. Following his first film work on <strong>The Slipper and the Rose</strong> in 1971, Chris has worked on three James Bond films (<strong>The Spy Who Loved Me</strong>, <strong>Moonraker</strong> and <strong>The Living Daylights</strong>) and two <strong>Superman</strong> movies ('I' and 'II' - Chris played a policeman in the first film) as well as apperaing in <strong>Force 10 from Navarone</strong>, <strong>The Eagle Has Landed</strong>, and many of the <strong>Carry On</strong> films. Chris was a body double for Kirk Douglas and a hand double for Harvey Keitel in the science fiction film <strong>Saturn 3</strong>.
 </p><p>
-After leaving Norwich City College and a succession of dead end jobs, he attended a film making course in 1997. He wrote and directed a short black and white film, using friends as actors.
+    Chris has worked on all three of the original <strong>Star Wars</strong> films, appearing multiple times as a Stormtrooper, as well as portraying Cantina patron Danz Borin in the famous scene from 'A New Hope'.
 </p><p>
-A keen collector of film memorabilia, in 2000 he was approached by the BBC to take part in a documentary called 'The Price of Fame'.
-</p><p>
-At the beginning of 2005 a work colleague asked Martin if he would be interested in appearing in a local theatre stage production. Martin agreed, and went on to play 7 different parts in a production of Vanity Fair.
-</p><p>
-In 2005, Martin was given a small role in the British film 'Cashback', written and directed by Sean Ellis, which starred, among others, Sean Biggerstaff from the 'Harry Potter' films. This appearance led to further small roles in films, including 'Heroes and Villains', 'Gasoline Blood', 'The Golden Compass' and 'The Bourne Ultimatum'.
-</p><p>
-In 2008, Martin worked on Christopher Nolan's second Batman film, 'The Dark Knight' in which he plays one of the Joker's Henchman, alongside the late Heath Ledger. After having worked with Warner Brother on the 'The Dark Knight', they requested Martin for 'Harry Potter and the Half-Blood Prince', in which he plays 'Scary Face'. He later played Mundungus Fletcher's friend in 'Harry Potter and the Deathly Hallows (Part 1)'.
-</p><p>
-In addition to his film work, Martin appreared regularly in the first, second and third series of TV show 'Kingdom'.
+    In addition to all of this, Chris has worked on some very popular TV shows over the years including <strong>The Sweeney</strong>, <strong>Minder</strong>, and <strong>The Avengers</strong>. He was a body double for Lewis Collins in <strong>The Professionals</strong> and has performed stand-in work also for Timothy Dalton in <strong>Agatha</strong>. 
 </p>
-	
+
 </div>
 
 <div class="container">
 
-<img src="/images/guests/ralph-morse-22.jpg" alt="Ralph Morse" class="guest-feature" />
+<img src="/images/2024/guests/martin-ballantyne.jpg" alt="Martin Ballantyne" class="guest-feature" />
 
-<h2>Ralph Morse / Johnny Cashbox</h2>
+<h3>Martin Ballantyne</h3>
 
 <p>
-With a career spanning over fifty years, Ralph is a multi-disciplined arts professional. He is an award winning theatre actor, (1980 – London Theatre Associates Best Actor), a playwright, director, singer-songwriter and teacher. His play 'Who is Leonard Jones' was premiered at the Headgate Theatre in Colchester, before touring East Anglia in 2007. In 2017 he began an association with Elysium Productions in America, as the writer/narrator of 'The Secret – A Star Wars Story', storywriter on 'Volkov' (2019) and as the movie screenwriter for 'Volkov Origin' (2022).
+    Martin was born in Norwich, England in 1972, where he grew up and still lives. He has always had a great interest in film and television.
 </p><p>
-Ralph's film and television appearances include 'The Empire Strikes Back', 'Return of the Jedi', 'Moonraker', 'Flash Gordon', 'Blake's Seven', 'Doctor Who', and 'The Hitchhikers Guide to the Galaxy' - and those are just the sci-fi productions.
+    After leaving Norwich City College and a succession of dead end jobs, he attended a film making course in 1997. He wrote and directed a short black and white film, using friends as actors.
 </p><p>
-From 2003, Ralph's main stage persona has been the comical guitar-slinging, time-travelling space cowboy, Johnny Cashbox, whose appearances at Invasion Colchester are as legendary as the man himself. Johnny's sci-fi themed songs are very much part of the 'Star Wars' universe and you may very well see him mingling and entertaining everyone during the event. 
+    A keen collector of film memorabilia, in 2000 he was approached by the BBC to take part in a documentary called <strong>The Price of Fame</strong>.
+</p><p>
+    At the beginning of 2005 a work colleague asked Martin if he would be interested in appearing in a local theatre stage production. Martin agreed, and went on to play seven different parts in a production of <strong>Vanity Fair</strong>.
+</p><p>
+    In 2005, Martin was given a small role in the British film <strong>Cashback</strong>, written and directed by Sean Ellis, which starred, among others, Sean Biggerstaff from the <strong>Harry Potter</strong> films. This appearance led to further small roles in films, including <strong>Heroes and Villains</strong>, <strong>Gasoline Blood</strong>, <strong>The Golden Compass</strong> and <strong>The Bourne Ultimatum</strong>.
+</p><p>
+    In 2008, Martin worked on Christopher Nolan's second Batman film, <strong>The Dark Knight</strong>, in which he plays one of the Joker's Henchman, alongside the late Heath Ledger. After having worked with Warner Brother on the <strong>The Dark Knight</strong>, they requested Martin for <strong>Harry Potter and the Half-Blood Prince</strong>, in which he plays 'Scary Face'. He later played Mundungus Fletcher's friend in <strong>Harry Potter and the Deathly Hallows (Part 1)</strong>.
+</p><p>
+    Other films and shows Martin has appeared in include <strong>Kingdom</strong>, <strong>Pirates of the Caribbean: Salazar's Revenge</strong>, <strong>Obi-Wan Kenobi</strong>, and <strong>Indiana Jones and the Dial of Destiny</strong>.
 </p>
 	
 </div>
-	
-<ul class="list">
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/ross-mullan-1.jpg" title="Ross Mullan in 'Game of Thrones'"><img src="/images/guests/ross-mullan-1.jpg" alt="Ross Mullan in 'Game of Thrones'"></a>
-</li>
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/ross-mullan-2.jpg" title="Ross Mullan in 'Doctor Who'"><img src="/images/guests/ross-mullan-2.jpg" alt="Ross Mullan in 'Doctor Who'"></a>
-</li>
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/bern-collaco-2.jpg" title="Bern Collaço in 'Wonder Woman'"><img src="/images/guests/bern-collaco-2.jpg" alt="Bern Collaço in 'Wonder Woman'"></a>
-</li>
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/clem-so-3.jpg" title="Clem So in 'Doctor Strange'"><img src="/images/guests/clem-so-3.jpg" alt="Clem So in 'Spectre'"></a>
-</li>
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/clem-so-4.jpg" title="Clem So in 'Spectre'"><img src="/images/guests/clem-so-4.jpg" alt="Clem So in 'Spectre'"></a>
-</li>
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/ralph-morse-2.jpg" title="Ralph Morse in 'The Empire Strikes Back'"><img src="/images/guests/ralph-morse-2.jpg" alt="Ralph Morse in 'The Empire Strikes Back'"></a>
-</li>
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/sandeep-mohan-2.jpg" title="Sandeep Mohan in 'This Time... with Alan Partridge'"><img src="/images/guests/sandeep-mohan-2.jpg" alt="Sandeep Mohan in 'This Time... with Alan Partridge'"></a>
-</li>
-<li class="quarter">
-<a class="fancybox" rel="group" href="/images/guests/martin-ballantyne-1.jpg" title="Martin Ballantyne with Heath Ledger in 'The Dark Knight'"><img src="/images/guests/martin-ballantyne-1.jpg" alt="Martin Ballantyne with Heath Ledger in 'The Dark Knight'"></a>
-</li>
-</ul>
+
+<h2>Gallery</h2>
+
+<div class="gallery" id="gallery">
+    <div class="gallery-item" data-description="Brian Herring in Star Wars: The Force Awakens">
+        <img src="/images/2024/guests/brian-herring-02.jpg" alt="Brian Herring in Star Wars: The Force Awakens">
+    </div>
+    <div class="gallery-item" data-description="Mike Quinn in Star Wars: The Force Awakens">
+        <img src="/images/2024/guests/mike-quinn-03.jpg" alt="Mike Quinn in Star Wars: The Rise of Skywalker">
+    </div>
+    <div class="gallery-item" data-description="Clem So in Doctor Who">
+        <img src="/images/2024/guests/clem-so-1.jpg" alt="Clem So in Doctor Who">
+    </div>
+    <div class="gallery-item" data-description="Chris Bunn in Star Wars: A New Hope">
+        <img src="/images/2024/guests/chris-bunn-03.jpg" alt="Chris Bunn in Star Wars: A New Hope">
+    </div>
+    <div class="gallery-item" data-description="Martin Ballantyne in The Dark Kinght">
+        <img src="/images/2024/guests/martin-ballantyne-1.jpg" alt="Martin Ballantyne in The Dark Kinght">
+    </div>
+    <div class="gallery-item" data-description="Brian Herring in Doctor Who">
+        <img src="/images/2024/guests/brian-herring-04.jpg" alt="Brian Herring in Doctor Who">
+    </div>
+    <div class="gallery-item" data-description="Mike Quinn in the Muppet Christmas Carol">
+        <img src="/images/2024/guests/mike-quinn-04.jpg" alt="Mike Quinn in the Muppet Christmas Carol">
+    </div>
+    <div class="gallery-item" data-description="Clem So in No Time to Die">
+        <img src="/images/2024/guests/clem-so-06.jpg" alt="Clem So in No Time to Die">
+    </div>
+    <div class="gallery-item" data-description="Chris Bunn in Star Wars: A New Hope">
+        <img src="/images/2024/guests/chris-bunn-2.jpg" alt="Chris Bunn in Star Wars: A New Hope">
+    </div>
+    <div class="gallery-item" data-description="Martin Ballantyne in Harry Potter and the Deathly Hallows">
+        <img src="/images/2024/guests/martin-ballantyne-02.jpg" alt="Martin Ballantyne in Harry Potter and the Deathly Hallows">
+    </div>
+    <div class="gallery-item" data-description="Brian Herring in Doctor Who">
+        <img src="/images/2024/guests/brian-herring-05.jpg" alt="Brian Herring in Doctor Who">
+    </div>
+    <div class="gallery-item" data-description="Clem So in Guardians of the Galaxy">
+        <img src="/images/2024/guests/clem-so-07.jpg" alt="Clem So in Guardians of the Galaxy">
+    </div>
+    <!-- Add more gallery items as needed -->
+</div>
+
+<div class="lightbox" id="lightbox">
+    <div class="scrim"></div>
+    <div class="lightbox-content">
+        <span class="close">&times;</span>
+        <img class="lightbox-image" id="lightbox-image" src="" alt="">
+        <div class="lightbox-description" id="lightbox-description"></div>
+        <a class="prev" id="prev">&#10094;</a>
+        <a class="next" id="next">&#10095;</a>
+    </div>
+</div>

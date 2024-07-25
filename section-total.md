@@ -1,7 +1,7 @@
 <div class="total">
 
 <h2>Grand Total for 2023</h2>
-<p class="total">£15,311.68</p>
+<p class="total">£<span class="counter" id="financial-counter">0</span></p>
 <br/><br/>
 
 <p>Thank you to all of our wonderful sponsors and charities for their incredible efforts last year to help us achieve this fantastic total including Culver Square, Lion Walk, Fenwick, Ace Comics, Colchester Events, Our Colchester, Colchester City Council and Market, St Helena Hospice, Colchester & Ipswich Hospitals Charity, Mind (Mid & North East Essex), and the guys who got sponsored to dress-up for the day.</p>

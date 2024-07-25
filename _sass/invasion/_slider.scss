@@ -1,63 +1,133 @@
 /* Flex Slider
 --------------------------------------------------*/
 
-.guests .flexslider {
-	background: $black;
-	border: none;
-	border-radius: 0;
-	margin: 0;
-	line-height: 1;
-	overflow: hidden;
-	position: relative;
+.slider {
+    height: 80vh;
+	min-height: 400px;
+    position: relative;
+    overflow: hidden;
 	
-	a {
+	.slides {
+		display: flex;
+		width: 700vw; /* 7 slides * 100vw */
+		height: 80vh;
+		min-height: 400px;
+		transition: transform 1s ease-in-out;
+		transform: translateX(-100vw);
+	}
+	
+	.slide {
+		width: 100vw;
+		height: 80vh;
+		min-height: 400px;
+		background-size: cover;
+		background-position: top;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: white;
+		position: relative;
+	}
+	
+	.text {
+		background: rgba(0, 0, 0, 0.5);
+		padding: 20px;
+		border-radius: 10px;
+		width: 400px;
+	}
+	
+	.dots {
 		position: absolute;
-		left: 0;
-	    right: 0;
-	    bottom: 20px;
-		margin-left: auto;
-	    margin-right: auto;
-		max-width: 350px;
-	    z-index: 1;
-		
-		@include media-query($on-800) {
-			max-width: 240px;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		display: flex;
+		gap: 10px;
+	}
+	
+	.dot {
+		width: 15px;
+		height: 15px;
+		background-color: $primary;
+		border-radius: 50%;
+		display: inline-block;
+		cursor: pointer;
+	}
+	
+	.dot.active {
+		background-color: $secondary;
+	}
+	
+	
+	.dots {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		display: flex;
+		gap: 10px;
+	}
+	
+	.dot {
+		width: 15px;
+		height: 15px;
+		background-color: $primary;
+		border-radius: 50%;
+		display: inline-block;
+		cursor: pointer;
+	}
+	
+	.dot.active {
+		background-color: $secondary;
+	}
+
+	.hero1 {
+		background-image: url('/images/2024/guests/brian-herring-03.jpg');
+	}
+
+	.hero2 {
+		background-image: url('/images/2024/guests/mike-quinn-02.jpg');
+	}
+
+	.hero3 {
+		background-image: url('/images/2024/guests/clem-so-3.jpg');
+	}
+
+	.hero4 {
+		background-image: url('/images/2024/guests/chris-bunn-03.jpg');
+	}
+
+	.hero5 {
+		background-image: url('/images/2024/guests/martin-ballantyne-1.jpg');
+	}
+
+	h3,h4 {
+		color: $secondary;
+		margin-bottom: 4px;
+	}
+
+	h3 {
+		font-family: "Saira", sans-serif;
+		font-size: 1.4em;
+		font-weight: 400;
+	}
+
+	h4 {
+		font-size: 2.6em;
+	}
+
+	.button {
+		margin: 10px auto;
+		background-color: $primary;
+		color: $on-primary;
+		display: inline-block;
+
+		&:hover,&:focus {
+			color: $on-secondary;
+			background-color: $secondary;
 		}
 	}
-}
-.flexhero li {
-	height: 80vh;
-	width: 100%;
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: cover;
-		
-	&.hero3 {
-		background-image: url('/images/guests/clem-so-5.jpg');
-	}
-	&.hero4 {
-		background-image: url('/images/guests/nick-joseph-1.jpg');
-	}
-	&.hero5 {
-		background-image: url('/images/guests/sandeep-mohan-2.jpg');
-	}
-	&.hero6 {
-		background-image: url('/images/guests/martin-ballantyne-1.jpg');
-	}
-	&.hero1 {
-		background-image: url('/images/guests/ross-mullan-1.jpg');
-	}
-	&.hero2 {
-		background-image: url('/images/guests/bern-collaco-2.jpg');
-	}
-	@include media-query($on-800) {
-		height: 60vh;
-	}
-	@include media-query($on-600) {
-		height: 40vh;
-	}
-}
-.flex-control-nav,
-.flex-direction-nav {
-	display: none;
+
+
 }

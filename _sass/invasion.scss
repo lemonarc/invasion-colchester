@@ -18,57 +18,18 @@ $h3:                $spacing-unit*2.4;
 $h4:                $spacing-unit*2;
 $h5:                $spacing-unit*1.8;
 
-$white:             #fff;
-$black:             #000;
-$blue:              #2828A0;
-$blue-2:            #006EBE;
-$pale-blue:         #cadef2;
-$light-gold:        #FFFBCC;
-$gold:              #FBC926;
-$dark-gold:         #C3922E;
-$grey:              #939598;
-$mid-grey:          #535456;
-$pale-grey:         #ebebeb;
-$dark-grey:         #252525;
-$turq:  			      #00645E;
-$light-turq:        #00A79D;
-$dark-turq:     	  #002c2c;
-$pale-turq:         #70e8e1;
-$light-green:       #55A987;
-$green:             #1B7C55;
-$dark-green:        #00492C;
-$orange23:          #f15f24;
-$yellow23:          #FFF200;
-$cream:             #FFFBAA;
-$navy23:            #002253;
-$blue23:            #005FAE;
-$highpink:          #E77CB9;
-$lowpink:           #7D0047;
-$darkpurple:        #210133;
-$magenta:           #EC008C;
+$positive:        #fff;
+$negative:        #000;
+$primary:         #EC008C;
+$primary-alt:     #E77CB9;
+$secondary:       #FFF200;
+$secondary-alt:   #F2AF0D;
 
-$brand-color:       $black;
-$brand-color-2:     $highpink;
-$brand-color-3:     $magenta;
+$on-primary:		    $positive;
+$on-secondary:      $negative;
 
-$brand-light:		    lighten($brand-color, 33%);
-$brand-dark:		    darken($brand-color, 33%);
-
-$text-color:		    $navy23;
-$text-color-light:  $white;
-
-$background-color:  $brand-color-3;
-$preheader-color:   $brand-color;
-$header-color:      $black;
-$prefooter-color:   $black;
-$footer-color:      $black;
-
-$link-color:        $blue23;
-$link-color-light:  $brand-color-2;
-
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$link:              $secondary;
+$hover:             $positive;
 
 $table-text-align: left !default;
 
@@ -119,8 +80,9 @@ $on-mobile:        $on-300 !default;
   "invasion/footer",
   "invasion/layout",
   "invasion/logo",
-  "invasion/slider",
   "invasion/blocks",
   "invasion/pages",
+  "invasion/lightbox",
+  "invasion/slider",
   "invasion/syntax-highlighting"
 ;

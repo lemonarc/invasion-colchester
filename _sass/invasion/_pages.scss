@@ -2,7 +2,7 @@
 ----------------------------- */
 
 .home {
-	background-color: #EC008C;
+	background-color: $primary;
     background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -12,17 +12,17 @@
 ------------------------------*/
 
 .about-page {  
-	background-color: #EC008C;
+	background-color: $primary;
 	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: contain;
 
 	p {
-		color: $white;
+		color: $on-primary;
 	}
 	h1 {
-		color: #FFF200;
+		color: $secondary;
 	}
 	img:nth-child(1) {
 		margin-bottom: $spacing-unit*6;
@@ -50,7 +50,7 @@
 ------------------------------*/
 
 .contact-success-page {  
-	background-color: #FFF200;
+	background-color: $secondary;
 	background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -62,15 +62,15 @@
 
 		&.button:hover,
 		&.button:focus {
-			background-color: #EC008C;
-			color: #fff;
+			background-color: $primary;
+			color: $on-primary;
 		}
 	}
 	p {
 		color: #000;
 	}
 	h1 {
-		color: #EC008C;
+		color: $primary;
 	}
 }
 
@@ -78,25 +78,25 @@
 ------------------------------*/
 
 .charities-page {
-	background-color: #EC008C;
+	background-color: $primary;
 	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: contain;
 
 	h1 {
-		color: #FFF200;
+		color: $secondary;
 	}
 	.post-content {
 		p {
-			color: $white;
+			color: $on-primary;
 		}
 		h2 {
-			color: #FFF200;
+			color: $secondary;
 			@include relative-font-size(2);
 		}
 		h3 {
-			color: #FFF200;
+			color: $secondary;
 			@include relative-font-size(1);
 		}
 		div {
@@ -115,19 +115,51 @@
 ------------------------------*/
 
 .gallery-page {
-	background-color: #FFF200;
+	background-color: $secondary;
 	background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: contain;
 
 	h1 {
-		color: #EC008C;
+		color: $primary;
 	}
 	a.button:hover,
 	a.button:focus {
-		background-color: #EC008C;
-		color: #fff;
+		background-color: $primary;
+		color: $positive;
+	}
+}
+
+/* Guests Page
+------------------------------*/
+
+.guests-page {
+	background-color: $secondary;
+	background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: $on-secondary;
+
+	article header div {
+		max-width: 700px;
+	}
+
+	h1,h2 {
+		color: $primary;
+	}
+	h3 {
+		color: $secondary;
+	}
+	a.button:hover,
+	a.button:focus {
+		background-color: $primary;
+		color: $positive;
+	}
+
+	.guest {
+		color: $primary;
 	}
 }
 
@@ -135,32 +167,92 @@
 ------------------------------*/
 
 .privacy-page {
-	background-color: #FFF200;
+	background-color: $secondary;
 
 	a {
-		color: #EC008C;
+		color: $primary;
 
 		&.button:hover,
 		&.button:focus {
-			background-color: #EC008C;
-			color: #fff;
+			background-color: $primary;
+			color: $on-primary;
 		}
 	}
 	p {
 		color: #000;
 	}
 	h1,h4,h6 {
-		color: #EC008C;
+		color: $primary;
 	}
 	h3 {
-		color: #EC008C;
+		color: $primary;
 
 		@include relative-font-size(1.2);
 		font-family: "Anton", sans-serif;
 		font-weight: 100;
 	}
 	::marker {
-		color: #000;
+		color: $on-secondary;
+	}
+}
+
+/* Prize Draw Page
+------------------------------*/
+
+.prize-draw-page {
+	background-color: $primary;
+	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	h1 {
+		color: $secondary;
+	}	
+	ul {
+		text-align: center;
+		list-style: none;
+
+		li {
+			.prize {
+				font-size: 1.6em;
+				font-weight: 700;
+			}
+			.donor {
+				display: block;
+				font-size: initial;
+
+				.donor {
+					display: inline;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+	a {
+		color: $secondary;
+		text-decoration: none;
+
+		&:hover,&:focus {
+			color: $on-primary;
+		}
+	}
+	table {
+		border-color: $on-primary;
+		color: $secondary;
+		margin: $spacing-unit*4 0;
+
+		th,td {
+			background: none;
+			border-color: $on-primary;
+			color: $on-primary;
+		}			
+		tr:nth-child(even) {
+			background: none;
+		}
+	}
+	li {
+		margin-bottom: $spacing-unit;
 	}
 }
 
@@ -168,7 +260,7 @@
 ------------------------------*/
 
 .page-404 {
-	background-color: #EC008C;
+	background-color: $primary;
 	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -176,9 +268,9 @@
 	text-align: center;
 
 	p, h2 {
-		color: #fff;
+		color: $on-primary;
 	}
 	h1 {
-		color: #FFF200;
+		color: $secondary;
 	}
 }

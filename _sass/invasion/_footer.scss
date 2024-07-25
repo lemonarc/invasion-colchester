@@ -2,11 +2,11 @@
  * Site footer
  */
 
-.prefooter {
-	background: $prefooter-color;
-	color: $white;
-	border-top: 1px solid $dark-grey;
-    border-bottom: 1px solid $dark-grey;
+ .prefooter {
+	background: $negative;
+	color: $positive;
+	border-top: 1px solid $negative;
+    border-bottom: 1px solid $negative;
 	
 	.wrapper {
 		max-width: $on-1000;
@@ -65,8 +65,8 @@
 
 
 .site-footer {
-	background: $footer-color;
-	color: $white;
+	background: $negative;
+	color: $positive;
 	padding: ($spacing-unit*4) 0;
 	text-align: center;
 	
@@ -76,15 +76,15 @@
 		padding: 0 ($spacing-unit*2);
 	}
 	a,a:visited {
-		color: $white;
+		color: $positive;
 		text-decoration: none;
 	}
 	a:hover {
-		color: $yellow23;
+		color: $secondary;
 		text-decoration: none;
 	}
 	.footer-heading svg path {
-		fill: #fff200;
+		fill: $secondary;
 	}
 	.social {
 		margin: $spacing-unit*4 auto;
@@ -97,14 +97,14 @@
 			width: auto;
 
 			g {
-				fill: $white;
+				fill: $positive;
 				fill-rule: nonzero;
 			}
 
 			&:hover, &:focus {
 
 				g {
-					fill:#fff200;
+					fill: $secondary;
 					fill-rule:nonzero;
 				}
 
@@ -125,7 +125,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey;
+    color: $positive;
     margin-left: $spacing-unit/2;
     @extend %clearfix;
 }

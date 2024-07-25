@@ -24,12 +24,6 @@ layout: default
       {% include_relative section-guide.md %}
     </div>
   </div>-->
-	
-	<div class="block dont-panic">
-		<div class="wrapper">
-	    {% include_relative section-dont-panic.md %}
-		</div>
-  </div>
   
   <div id="park-and-ride"></div>
   <div class="block park-ride">
@@ -38,38 +32,24 @@ layout: default
     </div>
   </div>
   
-  <!--<div id="guests"></div>
-  <div class="block guests">
-    <div class="flexslider flexhero">
-      <a href="/special-guests">
-	      <p>2023's</p>
-	      <h2>Special Guests</h2>
-      </a>
-      <ul class="slides">
-        <li class="hero1"></li>
-        <li class="hero2"></li>
-        <li class="hero3"></li>
-        <li class="hero5"></li>
-        <li class="hero6"></li>
-      </ul>
-    </div>
-  </div>
- 
-  <div id="fancy-dress"></div>
+  <!--<div id="fancy-dress"></div>
   <div class="block fancy-dress">
     <div class="wrapper">
        {% include_relative section-fancy-dress.md %}
     </div>
-  </div>
+  </div>-->
   
-  <div id="prize-draw-winners"></div>
+  <div id="prize-draw"></div>
   <div class="block prize-draw">
     <div class="wrapper">
-      {% include_relative section-prize-draw-winners.md %}
+      {% include_relative section-prize-draw.md %}
     </div>
   </div>
   
-  <div id="live"></div>
+  <div id="guests"></div>
+  {% include guestslider.html %}
+ 
+  <!--<div id="live"></div>
   <div class="block live">
     <div class="wrapper">
        {% include_relative section-live.md %}
@@ -131,9 +111,15 @@ layout: default
        include_relative section-poster-print.md 
     </div>
   </div>-->
+	
+	<div class="block dont-panic">
+		<div class="wrapper">
+	    {% include_relative section-dont-panic.md %}
+		</div>
+  </div>
   
   <div id="gallery"></div>
-  <div class="block gallery">
+  <div class="block photo-gallery">
     <div class="shade">
       <div class="wrapper">
         {% include_relative section-gallery.md %}
