@@ -156,6 +156,10 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .social-media-list li + li { padding-top: 5px; }
 
+.arrow-up { width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 15px solid #FFF200; margin: 0 auto; }
+
+.arrow-up:hover, .arrow-up:focus { border-bottom: 15px solid #fff; }
+
 /** Tables */
 table { margin-bottom: 10px; text-align: left; color: #fff; border-collapse: collapse; border: 1px solid #fff; margin: 40px auto; }
 
