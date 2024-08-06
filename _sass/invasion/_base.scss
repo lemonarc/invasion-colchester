@@ -422,6 +422,19 @@ pre {
   }
 }
 
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid $secondary;
+  margin: 0 auto;
+
+  &:hover, &:focus {
+    border-bottom: 15px solid $on-primary;
+  }
+}
+
 
 
 /**

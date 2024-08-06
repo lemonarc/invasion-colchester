@@ -30,25 +30,24 @@
     {%- if page.lightbox -%}
 
 	<script src="/js/lightbox/lightbox.js"></script>
-		
-		<script src="/js/jquery.lazyload/jquery.lazyload.js"></script>
-		<script>
-			$(function() {
-				$("img.lazy").lazyload({
-					effect: "fadeIn"
-				});
-				$("img.lazy").css({
-					display: 'block'
-				});
+	<script src="/js/jquery.lazyload/jquery.lazyload.js"></script>
+	<script>
+		$(function() {
+			$("img.lazy").lazyload({
+				effect: "fadeIn"
 			});
-		</script>
+			$("img.lazy").css({
+				display: 'block'
+			});
+		});
+	</script>
 		
 	{%- endif -%}
 		
 	{%- if page.lightbox == 'gallery' -%}
 
-		<script src="/js/random/random.js"></script>
-		<script>
+	<script src="/js/random/random.js"></script>
+	<script>
 			$(function(){
 				$.oPageLoader({
 					backgroundColor: '#000',
@@ -60,9 +59,9 @@
 			    progressBarFadeLevel: 1
 			  });
 			});
-		</script>
+	</script>
 		
-		{%- endif -%}
+	{%- endif -%}
 
   </body>
 

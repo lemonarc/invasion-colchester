@@ -47,10 +47,10 @@
 		<span class="prize">3x Family Castle Park Tickets (valid for 12 months)</span>
 		<span class="donor">Donated by <a href="https://colchester-venues.co.uk/venues/the-castle/" rel="nofollow noopener noreferrer" alt="Mercury Theatre" target="_blank"><span class="donor">Colchester City Council</span></a></span>
 	</li>
-	<!-- <li>
-		<span class="prize">2x Show Tickets</span>
-		<span class="donor">Donated by <a href="" rel="nofollow noopener noreferrer" alt="Colchester Operatic Society" target="_blank"><span class="donor">Colchester Operatic Society</span></a></span>
-	</li> -->
+	<li>
+		<span class="prize">2x The Little Mermaid Tickets</span>
+		<span class="donor">Donated by <a href="https://colchesteroperaticsociety.co.uk/" rel="nofollow noopener noreferrer" alt="Colchester Operatic Society" target="_blank"><span class="donor">Colchester Operatic Society</span></a></span>
+	</li>
 </ul><br />
 <p>
 	Physical tickets are available from <a href="https://acecomics.co.uk/" rel="nofollow noopener noreferrer" alt="ACE Comics" target="_blank"><strong>ACE Comics</strong></a> in Colchester before the event, and from our team of volunteers on the day.

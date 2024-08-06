@@ -62,7 +62,7 @@ socialimage: SM_IC_PAGE_CHARITIES.png
 	"Wellbeing will focus on our patients’ needs. We aim to support each and every patient by providing a wide range of complementary services. A tailored approach will help patients and their families cope with their diagnosis and treatments, as well as preparing them for life after cancer."
 </em></p>
 <p>
-	<a href="http://www.colchesteripswichcharity.org.uk/cancercentrecampaign/" class="button" rel="nofollow noopener noreferrer" target="_blank" alt="Find out more">Find out more</a>
+	<a href="//www.colchesteripswichcharity.org.uk/" class="button" rel="nofollow noopener noreferrer" target="_blank" alt="Find out more">Find out more</a>
 </p>
 
 <br /><br />
@@ -83,5 +83,5 @@ socialimage: SM_IC_PAGE_CHARITIES.png
 	Mid and North East Essex Mind (Registered Charity Number 1064309) are a local, independent charity connected to the national charity Mind. There are 130 local Minds across England and Wales. We all have to raise our own money to run our services so we each have our own board of trustees who are responsible for how we are run. Our work takes place across the Braintree, Chelmsford, Colchester, Maldon and Tendring districts. Because we are local, we understand our community, therefore our services fit what people need most."
 </em></p>
 <p>
-	<a href="https://mnessexmind.org/" class="button" rel="nofollow noopener noreferrer" target="_blank" alt="Find out more">Find out more</a>
+	<a href="//mnessexmind.org/" class="button" rel="nofollow noopener noreferrer" target="_blank" alt="Find out more">Find out more</a>
 </p>
