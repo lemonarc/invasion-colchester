@@ -216,10 +216,34 @@
 }
 
 .fancy-dress {
-	background-color: $primary;
-    background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+	background: $primary;
+  	background-image: url(/images/2024/banner/DOTS_PINK.svg), url(/images/2024/banner/DOTS_PINK.svg);
+  	background-repeat: no-repeat, no-repeat;
+  	background-size: 1000px;
+  	background-position: left -500px top -500px, right -500px bottom -500px;
+
+	@include media-query($on-800) {
+		background-size: 800px;
+		background-position: left -400px top -400px, right -400px bottom -400px;
+	}
+
+	@include media-query($on-600) {
+		background-size: 600px;
+		background-position: left -300px top -300px, right -300px bottom -300px;
+	}
+
+	@include media-query($on-400) {
+		background-size: 400px;
+		background-position: left -200px top -200px, right -200px bottom -200px;
+	}
+
+	.wrapper-A {
+		padding-bottom: 0;
+	}
+
+	.wrapper-B {
+		padding-top: 0;
+	}
 	
 	a {
 		color: $secondary;
@@ -232,6 +256,7 @@
 	h2 {
 		text-align: center;
 		color: $secondary;
+		margin-bottom: 0;
 	}
 	p {
 		color: $on-primary;
@@ -242,6 +267,11 @@
 	// 	max-height: 600px;
 	// 	width: 100%;
 	// }
+
+	.fd-slider {
+		margin-top: -20px;
+	}
+
 	.fd-image-row {
 		display: flex;
 		gap: 60px;
@@ -250,7 +280,8 @@
 		transition: opacity 0.5s ease, transform 0.5s ease;
 		width: 100%; /* Ensure the container takes full width */
 		justify-content: center; /* Center the images in the row */
-		margin-bottom: 100px;
+		margin-bottom: 80px;
+		overflow: hidden;
 
 		@include media-query($on-800) {
 			gap: 20px;
@@ -276,6 +307,11 @@
 			width: 100px;
 			height: 200px;
 		}
+
+		@include media-query($on-400) {
+			width: 75px;
+			height: 150px;
+		}
 	}
 	
 	.fd-left {
@@ -286,11 +322,6 @@
 	.fd-right {
 		transform: translateX(100vw);
 		transition: transform 1s ease-out;
-	}
-	
-	.fd-center {
-		transform: translateY(50px);
-		transition: transform 0.5s ease;
 	}
 	
 	.fd-scrolled .fd-left {
