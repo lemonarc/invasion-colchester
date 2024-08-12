@@ -416,6 +416,19 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 500px) { .logo-area { height: 250px; } }
 
+.logo-area .dots-rotation-container { overflow: hidden; height: 600px; width: 600px; display: block; margin: 0 auto; position: absolute; left: 0; right: 0; z-index: 2; }
+
+@media screen and (max-width: 700px) { .logo-area .dots-rotation-container { height: 450px; width: 450px; } }
+
+@media screen and (max-width: 600px) { .logo-area .dots-rotation-container { height: 350px; width: 350px; } }
+
+@media screen and (max-width: 500px) { .logo-area .dots-rotation-container { height: 250px; width: 250px; } }
+
+.logo-area .dots-rotation { animation: rotation 88s infinite linear; }
+
+@keyframes rotation { from { transform: rotate(0deg); }
+  to { transform: rotate(359deg); } }
+
 .logo-area .logo-content { margin: 0 auto; max-width: 900px; position: relative; }
 
 .logo-area .logo-left { height: 550px; position: absolute; left: 0; z-index: 1; }
