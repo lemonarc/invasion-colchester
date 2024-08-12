@@ -540,17 +540,29 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .dont-panic img { margin-bottom: 40px; }
 
-.fancy-dress { background-color: #EC008C; background-image: url(/images/2024/backgrounds/BLAST_PINK.svg); background-repeat: no-repeat; background-size: contain; }
+.fancy-dress { background: #EC008C; background-image: url(/images/2024/banner/DOTS_PINK.svg), url(/images/2024/banner/DOTS_PINK.svg); background-repeat: no-repeat, no-repeat; background-size: 1000px; background-position: left -500px top -500px, right -500px bottom -500px; }
+
+@media screen and (max-width: 800px) { .fancy-dress { background-size: 800px; background-position: left -400px top -400px, right -400px bottom -400px; } }
+
+@media screen and (max-width: 600px) { .fancy-dress { background-size: 600px; background-position: left -300px top -300px, right -300px bottom -300px; } }
+
+@media screen and (max-width: 400px) { .fancy-dress { background-size: 400px; background-position: left -200px top -200px, right -200px bottom -200px; } }
+
+.fancy-dress .wrapper-A { padding-bottom: 0; }
+
+.fancy-dress .wrapper-B { padding-top: 0; }
 
 .fancy-dress a { color: #FFF200; text-decoration: none; }
 
 .fancy-dress a:hover, .fancy-dress a:focus { color: #fff; }
 
-.fancy-dress h2 { text-align: center; color: #FFF200; }
+.fancy-dress h2 { text-align: center; color: #FFF200; margin-bottom: 0; }
 
 .fancy-dress p { color: #fff; }
 
-.fancy-dress .fd-image-row { display: flex; gap: 60px; transform: translateY(50px); transition: opacity 0.5s ease, transform 0.5s ease; width: 100%; /* Ensure the container takes full width */ justify-content: center; /* Center the images in the row */ margin-bottom: 100px; }
+.fancy-dress .fd-slider { margin-top: -20px; }
+
+.fancy-dress .fd-image-row { display: flex; gap: 60px; transform: translateY(50px); transition: opacity 0.5s ease, transform 0.5s ease; width: 100%; /* Ensure the container takes full width */ justify-content: center; /* Center the images in the row */ margin-bottom: 80px; overflow: hidden; }
 
 @media screen and (max-width: 800px) { .fancy-dress .fd-image-row { gap: 20px; } }
 
@@ -562,11 +574,11 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 600px) { .fancy-dress .fd-image { width: 100px; height: 200px; } }
 
+@media screen and (max-width: 400px) { .fancy-dress .fd-image { width: 75px; height: 150px; } }
+
 .fancy-dress .fd-left { transform: translateX(-100vw); transition: transform 1s ease-out; }
 
 .fancy-dress .fd-right { transform: translateX(100vw); transition: transform 1s ease-out; }
-
-.fancy-dress .fd-center { transform: translateY(50px); transition: transform 0.5s ease; }
 
 .fancy-dress .fd-scrolled .fd-left { transform: translateX(0); }
 
