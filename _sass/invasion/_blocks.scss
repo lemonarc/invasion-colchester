@@ -236,13 +236,80 @@
 	p {
 		color: $on-primary;
 	}
-	img {
-		display: block;
-		margin: 0 auto 40px;
-		max-height: 600px;
-		width: 100%;
+	// img {
+	// 	display: block;
+	// 	margin: 0 auto 40px;
+	// 	max-height: 600px;
+	// 	width: 100%;
+	// }
+	.fd-image-row {
+		display: flex;
+		gap: 60px;
+		// opacity: 0;
+		transform: translateY(50px);
+		transition: opacity 0.5s ease, transform 0.5s ease;
+		width: 100%; /* Ensure the container takes full width */
+		justify-content: center; /* Center the images in the row */
+		margin-bottom: 100px;
+
+		@include media-query($on-800) {
+			gap: 20px;
+		}
+
+		@include media-query($on-600) {
+			gap: 10px;
+		}
 	}
 	
+	.fd-image {
+		width:200px;
+		height: 400px;
+		object-fit: contain;
+		display: block; /* Ensure images are block elements */
+
+		@include media-query($on-800) {
+			width: 150px;
+			height: 300px;
+		}
+
+		@include media-query($on-600) {
+			width: 100px;
+			height: 200px;
+		}
+	}
+	
+	.fd-left {
+		transform: translateX(-100vw);
+		transition: transform 1s ease-out;
+	}
+	
+	.fd-right {
+		transform: translateX(100vw);
+		transition: transform 1s ease-out;
+	}
+	
+	.fd-center {
+		transform: translateY(50px);
+		transition: transform 0.5s ease;
+	}
+	
+	.fd-scrolled .fd-left {
+		transform: translateX(0);
+	}
+	
+	.fd-scrolled .fd-right {
+		transform: translateX(0);
+	}
+	
+	.fd-scrolled .fd-center {
+		transform: translateY(0);
+	}
+	
+	.fd-scrolled .fd-image-row {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
 	table {
 		border-color: $secondary;
 		color: $secondary;
