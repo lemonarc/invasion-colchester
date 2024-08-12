@@ -1,12 +1,15 @@
 
 
-<h2>Fancy Dress Competition</h2><div>
-	<img src="/images/2024/characters/SIL_SUPERGIRL_KIDS.svg" alt="Fancy Dress Competition" />
+<h2>Fancy Dress Competition</h2>
+<div class="fd-image-row">
+    <img src="/images/2024/characters/SIL_MARY_POPPINS_KIDS.svg" alt="Mary Poppins Fancy Dress" class="fd-image fd-left">
+    <img src="/images/2024/characters/SIL_SUPERGIRL_KIDS.svg" alt="Supergirl Fancy Dress" class="fd-image fd-center">
+    <img src="/images/2024/characters/SIL_STAR_LORD_KIDS.svg" alt="Star Lord Fancy Dress" class="fd-image fd-right">
 </div>
 
 <div class="block-left">
 <p>
-	Fancy winning a cool prize just for dressing up as your favourite character from TV and film? Are you aged under 14? If so, you're in luck as the Invasion Colchester Children's Fancy Dress Competition is taking place in <a href="https://www.culversquare.co.uk/invasion-colchester-2023/" rel="nofollow noopener noreferrer" alt="Culver Square Shopping" target="_blank">Culver Square Shopping Centre</a> on Saturday, 7 September!
+	Fancy winning a cool prize just for dressing up as your favourite character from TV and film? Are you aged under 14? If so, you're in luck as the Invasion Colchester Children's Fancy Dress Competition is taking place in <a href="https://www.culversquare.co.uk/" rel="nofollow noopener noreferrer" alt="Culver Square Shopping" target="_blank">Culver Square Shopping Centre</a> on Saturday, 7 September!
 </p><p>
 	There will be three different age catergories - 4 and under, 5-8 and 9+ - and First, Second and Third placed prizes in each category.
 </p><p>
