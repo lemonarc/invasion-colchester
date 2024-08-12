@@ -1,7 +1,4 @@
 .logo-area {
-	//background-image: url('/images/logo/fade2020.png');
-	//background-repeat: repeat-x;
-	//background-size: contain;
 	height: 600px;
 	
 	@include media-query($on-900) {
@@ -16,11 +13,53 @@
 	@include media-query($on-500) {
 		height: 250px;
 	}
+
+	.dots-rotation-container {
+		overflow: hidden;
+		height: 600px;
+		width: 600px;
+		display: block;
+		margin: 0 auto;
+		position: absolute;
+		left: 0;
+		right: 0;
+		z-index: 2;
+
+		@include media-query($on-700) {
+			height: 450px;
+			width: 450px;
+		}
+
+		@include media-query($on-600) {
+			height: 350px;
+			width: 350px;
+		}
+
+		@include media-query($on-500) {
+			height: 250px;
+			width: 250px;
+		}
+	}
+	
+	.dots-rotation {
+		animation: rotation 88s infinite linear;
+	}
+	
+	@keyframes rotation {
+		from {
+	  		transform: rotate(0deg);
+		}
+		to {
+	  		transform: rotate(359deg);
+		}
+  	}
+
 	.logo-content {
 		margin: 0 auto;
 		max-width: 900px;
 		position: relative;
 	}
+	
 	.logo-left {
 		height: 550px;
 		position: absolute;
@@ -37,6 +76,7 @@
 			height: 250px;
 		}
 	}
+	
 	.logo-right {
 		height: 550px;
 		position: absolute;
@@ -53,15 +93,18 @@
 			height: 250px;
 		}
 	}
+	
 	.logo-center {
 		margin: 0 auto;
 		position: absolute;
 		left: 0;
 		right: 0;
 	}
+	
 	.logo-hero {
 		z-index: 2;
 	}
+	
 	.logo-base {		
 		@include media-query($on-700) {
 			height: 450px;
@@ -73,6 +116,7 @@
 			height: 250px;
 		}
 	}
+	
 	.logo-large {
 		display: block;
 		// max-width: 870px;
@@ -83,6 +127,7 @@
 		display: none;			
 		}
 	}
+	
 	.logo-small {
 		display: none;
 		max-width: 720px;
