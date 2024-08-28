@@ -627,7 +627,13 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 500px) { .guests .wrapper { padding-top: 100px; } }
 
-.guide { background-image: url("/images/2024/backgrounds/COL-HIGH-ST.jpg"); background-attachment: fixed; color: #fff; }
+.guide { background-image: url("/images/2024/backgrounds/COL-HIGH-ST.jpg"); background-attachment: fixed; color: #000; text-align: center; }
+
+.guide h3 { color: #EC008C; }
+
+.guide a, .guide a.visited { color: #EC008C; font-weight: 700; text-decoration: none; }
+
+.guide a.hover, .guide a.visited, .guide a.visited.hover, .guide a.visited.visited { color: #000; text-decoration: none; }
 
 .intro { text-align: center; }
 
@@ -659,13 +665,23 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .justgiving li img:hover, .justgiving li img:focus { box-shadow: none; }
 
-.live { background-image: url("/images/2024/backgrounds/live-backgroun-23.jpg"); background-attachment: fixed; }
+.live { background-image: url("/images/2024/backgrounds/MUSIC.jpg"); background-attachment: fixed; color: #000; }
 
-.live table { border-color: #FFF200; color: #FFF200; margin: 40px 0; }
+.live h2 { color: #000; text-align: center; }
 
-.live table th, .live table td { background: none; border-color: #FFF200; color: #FFF200; }
+@media screen and (max-width: 800px) { .live p { text-align: center; } }
+
+.live svg { display: block; margin: 0 auto 40px; max-width: 300px; width: 100%; }
+
+.live svg path { fill: #EC008C; }
+
+.live table { border-color: #000; color: #EC008C; margin: 0 0 40px; }
+
+.live table th, .live table td { background: none; border-color: #000; color: #EC008C; }
 
 .live table tr:nth-child(even) { background: none; }
+
+@media screen and (max-width: 800px) { .live table { margin: 0 auto; } }
 
 .map { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#939598+0,131313+100 */ background: #939598; /* Old browsers */ background: -moz-linear-gradient(-45deg, #939598 0%, #131313 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg, #939598 0%, #131313 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg, #939598 0%, #131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#939598', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ text-align: center; }
 
