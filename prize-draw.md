@@ -60,6 +60,10 @@ socialimage: SM_IC_PAGE_PRIZE_DRAW.png
 		<span class="prize">2x The Little Mermaid Tickets</span>
 		<span class="donor">Donated by <a href="https://colchesteroperaticsociety.co.uk/" rel="nofollow noopener noreferrer" alt="Colchester Operatic Society" target="_blank"><span class="donor">Colchester Operatic Society</span></a></span>
 	</li>
+	<li>
+		<span class="prize">1x Family Cinema Ticket (2x Adults, 2x Children)</span>
+		<span class="donor">Donated by <a href="https://firstsite.uk/" rel="nofollow noopener noreferrer" alt="Curzon" target="_blank"><span class="donor">Firstsite</span></a></span>
+	</li>
 </ul><br />
 <p>
 	Physical tickets are available from <a href="https://acecomics.co.uk/" rel="nofollow noopener noreferrer" alt="ACE Comics" target="_blank"><strong>ACE Comics</strong></a> in Colchester before the event, and from our team of volunteers on the day.

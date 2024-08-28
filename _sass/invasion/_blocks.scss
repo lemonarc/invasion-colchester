@@ -407,7 +407,24 @@
 .guide {
 	background-image: url('/images/2024/backgrounds/COL-HIGH-ST.jpg');
     background-attachment: fixed;
-	color: $positive;
+	color: $on-secondary;
+	text-align: center;
+
+	h3 {
+		color: $primary;
+	}
+
+	a,a.visited {
+		color: $primary;
+		font-weight: 700;
+		text-decoration: none;
+
+		&.hover,
+		&.visited {
+			color: $on-secondary;
+			text-decoration: none;
+		}
+	}
 }
 
 .intro {
@@ -471,21 +488,49 @@
 }
 
 .live {
-	background-image: url('/images/2024/backgrounds/live-backgroun-23.jpg');
+	background-image: url('/images/2024/backgrounds/MUSIC.jpg');
     background-attachment: fixed;
+	color: $negative;
+
+	h2 {
+		color: $on-secondary;
+		text-align: center;
+	}
+
+	p {
+		
+		@include media-query($on-800) {
+			text-align: center;
+		}
+	}
+
+	svg {
+		display: block;
+		margin: 0 auto $spacing-unit*4;
+		max-width: 300px;
+		width: 100%;
+
+		path {
+			fill: $primary;
+		}
+	}
 	
 	table {
-		border-color: $secondary;
-		color: $secondary;
-		margin: $spacing-unit*4 0;
+		border-color: $on-secondary;
+		color: $primary;
+		margin: 0 0 40px;
 
 		th,td {
 			background: none;
-			border-color: $secondary;
-			color: $secondary;
+			border-color: $on-secondary;
+			color: $primary;
 		}
 		tr:nth-child(even) {
 			background: none;
+		}
+		
+		@include media-query($on-800) {
+			margin: 0 auto;
 		}
 	}
 }

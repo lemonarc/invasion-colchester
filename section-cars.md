@@ -6,7 +6,7 @@
 	<h2>Show Cars</h2>
 
 <p>
-	This year we are planning another exciting Show Cars line-up which we hope will be a big surprise, so come along to Invasion Colchester on Saturday 2 September and get up close and personal with some magnificent machines!
+	There will be another exciting Show Cars line-up which we hope will be a big surprise. The, so come along to Invasion Colchester on Saturday 7 September and get up close and personal with some magnificent machines!
 </p>
 	
 </div>
