@@ -1,7 +1,5 @@
-
-
 <div class="wrapper wrapper-A">
-<h2>Fancy Dress Competition</h2>
+	<h2>Fancy Dress Competition</h2>
 </div>
 <div class="fd-slider">
 <div class="fd-image-row">

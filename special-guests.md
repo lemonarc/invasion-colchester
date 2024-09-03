@@ -11,14 +11,30 @@ lightbox: guests
 
 <p>
     In the past we have featured Alan Flyng, Andrew Lawden, Bern Collaço, Chris Bunn, Clem So, Derek Lyons, Des Taylor, Harry 'Aitch' Fielder, John Simpkin, Jon Campling, Martin Ballantyne, Mick Fryer-Kelsey, Mike Edmonds, Nick Joseph, Pam Rose, Paul Warren, Ralph Morse, Ross Mullan, Ross Sambridge, Sandeep Mohan, Ted Western, and Victor Botha as Special Guests at previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as the <strong>Star Wars</strong> saga, the <strong>Harry Potter</strong> series, <strong>Doctor Who</strong>, the <strong>Marvel Studios</strong> series, and more.
+<!-- </p><p>
+    For 2024, we were delighted to introduce film, theatre and TV puppeteer, <strong class="guest">Brian Herring</strong>, who was the principal performer of BB-8 in <strong>Star Wars: The Force Awakens</strong>, <strong>The Last Jedi</strong>, and <strong>The Rise of Skywalker</strong>, among other movies and shows, and <strong class="guest">Mike Quinn</strong>, an actor and puppeteer who has appeared as Nien Nunb in <strong>Star Wars: The Force Awakens</strong>, <strong>The Last Jedi</strong>, and <strong>The Rise of Skywalker</strong>, as well as working on <strong>Andor</strong>, <strong>The Acolyte</strong>, <strong>Jurassic Park III</strong>, <strong>Toy Story 2</strong>, <strong>Muppet Christmas Carol</strong>, and more. -->
 </p><p>
-    For 2024, we were delighted to introduce film, theatre and TV puppeteer, <strong class="guest">Brian Herring</strong>, who was the principal performer of BB-8 in <strong>Star Wars: The Force Awakens</strong>, <strong>The Last Jedi</strong>, and <strong>The Rise of Skywalker</strong>, among other movies and shows, and <strong class="guest">Mike Quinn</strong>, an actor and puppeteer who has appeared as Nien Nunb in <strong>Star Wars: The Force Awakens</strong>, <strong>The Last Jedi</strong>, and <strong>The Rise of Skywalker</strong>, as well as working on <strong>Andor</strong>, <strong>The Acolyte</strong>, <strong>Jurassic Park III</strong>, <strong>Toy Story 2</strong>, <strong>Muppet Christmas Carol</strong>, and more.
+    For 2024, we were delighted to introduce TV and film actor <strong class="guest">Ty Hurley</strong>, and actor who has appeared on the big screen in films such as <strong>Solo: A Star Wars Story</strong>, <strong>Wonka</strong>, <strong>Peter Rabbit</strong>, and <strong>No Time To Die</strong>, as well as on the small screen in popular shows like <strong>Humans</strong>, <strong>Grantchester</strong>, <strong>Black Mirror</strong>, <strong>Eastenders</strong>, and <strong>Call the Midwife</strong>.
 </p><p>
     We also welcome back actors <strong class="guest">Clem So</strong>, <strong class="guest">Chris Bunn</strong>, and <strong class="guest">Martin Ballantyne</strong>.
 </p>
 <br /><br />
 
 <div class="container">
+
+<img src="/images/2024/guests/ty-huley-01.jpg" alt="Ty Hurley" class="guest-feature" />
+
+<h3>Ty Hurley</h3>
+
+<p>
+	Ty Hurley works full time in the TV and Film Industry. Often cast as police officers and investigators, Ty has played many other roles, from doctors and doormen to getting blown up in an episode of <strong>Humans</strong>, speaking with Robson Green in <strong>Grantchester</strong>, and saving actress Denise Gough from her burning cell in <strong>Too Close</strong>.
+</p><p>
+    Other notable roles include an Imperial Fleet Trooper in <strong>Solo: A Star Wars Story</strong>, a Prison Riot Guard in Marvel's <strong>Black Widow</strong>, a therapist in the James Bond film <strong>No Time To Die</strong>, a Knight's Templar in <strong>Assassin's Creed</strong>, a Prison Guard on <strong>Eastenders</strong>, and the Milkman on <strong>Call the Midwife</strong>!
+</p>
+	
+</div>
+
+<!-- <div class="container">
 
 <img src="/images/2024/guests/brian-herring-01.jpg" alt="Brian Herring" class="guest-feature" />
 
@@ -60,7 +76,7 @@ lightbox: guests
 	When not performing, Mike keeps busy building puppets and developing character and project ideas. He runs an online puppetry academy called <strong>Secrets of Puppetry</strong>, the only one of its kind teaching high level hand puppetry skills to aspiring puppeteers.
 </p>
 	
-</div>
+</div> -->
 
 <div class="container">
 
@@ -119,11 +135,14 @@ lightbox: guests
 <h2>Gallery</h2>
 
 <div class="gallery" id="gallery">
-    <div class="gallery-item" data-description="Brian Herring in Star Wars: The Force Awakens">
+    <!-- <div class="gallery-item" data-description="Brian Herring in Star Wars: The Force Awakens">
         <img src="/images/2024/guests/brian-herring-02.jpg" alt="Brian Herring in Star Wars: The Force Awakens">
     </div>
-    <div class="gallery-item" data-description="Mike Quinn in Star Wars: The Force Awakens">
-        <img src="/images/2024/guests/mike-quinn-03.jpg" alt="Mike Quinn in Star Wars: The Rise of Skywalker">
+    <div class="gallery-item" data-description="Brian Herring in Star Wars: The Force Awakens">
+        <img src="/images/2024/guests/brian-herring-02.jpg" alt="Brian Herring in Star Wars: The Force Awakens">
+    </div> -->
+    <div class="gallery-item" data-description="Ty Hurley in Solo: A Star Wars Story">
+        <img src="/images/2024/guests/ty-huley-04.jpg" alt="Ty Hurley in Solo: A Star Wars Story">
     </div>
     <div class="gallery-item" data-description="Clem So in Doctor Who">
         <img src="/images/2024/guests/clem-so-1.jpg" alt="Clem So in Doctor Who">
@@ -131,29 +150,38 @@ lightbox: guests
     <div class="gallery-item" data-description="Chris Bunn in Star Wars: A New Hope">
         <img src="/images/2024/guests/chris-bunn-03.jpg" alt="Chris Bunn in Star Wars: A New Hope">
     </div>
+    <div class="gallery-item" data-description="Ty Hurley in No Time to Die">
+        <img src="/images/2024/guests/ty-huley-02.jpg" alt="Ty Hurley in No Time to Die">
+    </div>
     <div class="gallery-item" data-description="Martin Ballantyne in The Dark Kinght">
         <img src="/images/2024/guests/martin-ballantyne-1.jpg" alt="Martin Ballantyne in The Dark Kinght">
     </div>
-    <div class="gallery-item" data-description="Brian Herring in Doctor Who">
+    <!-- <div class="gallery-item" data-description="Brian Herring in Doctor Who">
         <img src="/images/2024/guests/brian-herring-04.jpg" alt="Brian Herring in Doctor Who">
     </div>
     <div class="gallery-item" data-description="Mike Quinn in the Muppet Christmas Carol">
         <img src="/images/2024/guests/mike-quinn-04.jpg" alt="Mike Quinn in the Muppet Christmas Carol">
-    </div>
+    </div> -->
     <div class="gallery-item" data-description="Clem So in No Time to Die">
         <img src="/images/2024/guests/clem-so-06.jpg" alt="Clem So in No Time to Die">
     </div>
     <div class="gallery-item" data-description="Chris Bunn in Star Wars: A New Hope">
         <img src="/images/2024/guests/chris-bunn-2.jpg" alt="Chris Bunn in Star Wars: A New Hope">
     </div>
+    <div class="gallery-item" data-description="Ty Hurley in Peter Rabbit">
+        <img src="/images/2024/guests/ty-huley-03.jpg" alt="Ty Hurley in Peter Rabbit">
+    </div>
     <div class="gallery-item" data-description="Martin Ballantyne in Harry Potter and the Deathly Hallows">
         <img src="/images/2024/guests/martin-ballantyne-02.jpg" alt="Martin Ballantyne in Harry Potter and the Deathly Hallows">
     </div>
-    <div class="gallery-item" data-description="Brian Herring in Doctor Who">
+    <!-- <div class="gallery-item" data-description="Brian Herring in Doctor Who">
         <img src="/images/2024/guests/brian-herring-05.jpg" alt="Brian Herring in Doctor Who">
-    </div>
+    </div> -->
     <div class="gallery-item" data-description="Clem So in Guardians of the Galaxy">
         <img src="/images/2024/guests/clem-so-07.jpg" alt="Clem So in Guardians of the Galaxy">
+    </div>
+    <div class="gallery-item" data-description="Ty Hurley in Black Mirror">
+        <img src="/images/2024/guests/ty-huley-05.jpg" alt="Ty Hurley in Black Mirror">
     </div>
     <!-- Add more gallery items as needed -->
 </div>

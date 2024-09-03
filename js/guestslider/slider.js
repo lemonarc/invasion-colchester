@@ -1,5 +1,5 @@
 let slideIndex = 1;
-let slideCount = 5; // Total number of unique slides
+let slideCount = 4; // Total number of unique slides
 let transitioning = false;
 const slides = document.querySelector('.slides');
 const dots = document.querySelectorAll('.dot');
