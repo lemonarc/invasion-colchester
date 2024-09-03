@@ -2,7 +2,7 @@
 pageclass: guests-page
 layout: page
 title: "Invasion Colchester's Special Guests"
-excerpt: "For 2023, we were delighted to introduce Ross Mullan and Bern Collaço, and welcome back Clem So, Sandeep Mohan, Martin Ballantyne, and Ralph Morse."
+excerpt: "For 2024, we were delighted to introduce Ty Hurley, and welcome back Clem So, Chris Bunn, Martin Ballantyne."
 permalink: /special-guests/
 featured-image: SIL_BB8.svg
 socialimage: SM_IC_PAGE_GUESTS.png
