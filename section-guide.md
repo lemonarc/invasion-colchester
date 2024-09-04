@@ -63,9 +63,6 @@
 <p>
 	Look out for... Our Special Guests, Comic Characters and Super Heroes (including Deadpool), Doctor Who Props, Predators, Steampunk, the Batmobile, DJ Fettdog, Live Music from Rob Prince, Jake Cheek, Jack Walsh, Wooden Maiden, and busker Sarah Louise, the Colchester & Ipswich Hospitals Charity team, plus Sabacc (Star Wars in-universe card game) demonstrations!
 </p>
-
-
-V
 <h4>
 	Mercury Theatre</h4>
 <h5>
