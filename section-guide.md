@@ -8,6 +8,13 @@
 	Look out for... A host of recognisable characters from TV, film, and fantasy, plus the famous tombola
 </p>
 <h4>
+	Colchester Castle</h4>
+<h5>
+	Castle Park</h5>
+<p>
+	Look out for... A selection of historical characters taking over the castle, from Roman Legionaries and Medieval Barons to Great War Tommies
+</p>
+<h4>
 	Colchester Market</h4>
 <h5>
 	High Street</h5>
@@ -54,8 +61,11 @@
 <h5>
 	Lion Walk</h5>
 <p>
-	Look out for... Our Special Guests, Comic Characters and Super Heroes (including Deadpool), Doctor Who Props, Predators, Steampunk, the Batmobile, Live Music, the Colchester & Ipswich Hospitals Charity team, plus Sabacc (Star Wars in-universe card game) demonstrations!
+	Look out for... Our Special Guests, Comic Characters and Super Heroes (including Deadpool), Doctor Who Props, Predators, Steampunk, the Batmobile, DJ Fettdog, Live Music from Rob Prince, Jake Cheek, Jack Walsh, Wooden Maiden, and busker Sarah Louise, the Colchester & Ipswich Hospitals Charity team, plus Sabacc (Star Wars in-universe card game) demonstrations!
 </p>
+
+
+V
 <h4>
 	Mercury Theatre</h4>
 <h5>
