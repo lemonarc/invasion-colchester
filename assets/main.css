@@ -479,6 +479,10 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 1040px) { .block .wrapper { padding-top: 80px; padding-bottom: 80px; } }
 
+.block .wrapper-A { padding-bottom: 0; }
+
+.block .wrapper-B { padding-top: 0; }
+
 .block .block-left { float: left; width: 48%; }
 
 @media screen and (max-width: 800px) { .block .block-left { float: none; margin-bottom: 40px; width: 100%; } .block .block-left img { max-height: 500px; } }
@@ -560,10 +564,6 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 @media screen and (max-width: 600px) { .fancy-dress { background-size: 600px; background-position: left -300px top -300px, right -300px bottom -300px; } }
 
 @media screen and (max-width: 400px) { .fancy-dress { background-size: 400px; background-position: left -200px top -200px, right -200px bottom -200px; } }
-
-.fancy-dress .wrapper-A { padding-bottom: 0; }
-
-.fancy-dress .wrapper-B { padding-top: 0; }
 
 .fancy-dress a { color: #FFF200; text-decoration: none; }
 
@@ -705,9 +705,13 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 @media screen and (max-width: 400px) { .meet-heroes { background-image: url("/images/2024/backgrounds/20190801DS3.jpg"); } }
 
-.othermonkey { background-color: #F2AF0D; }
+.othermonkey { background-color: #FFF200; background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg); background-position: center; background-repeat: no-repeat; background-size: cover; color: #000; text-align: center; }
 
 .othermonkey img { display: block; margin: 0 auto 60px; max-width: 400px; }
+
+.othermonkey a { color: #EC008C; text-decoration: none; }
+
+.othermonkey a:hover, .othermonkey a:focus { color: #000; }
 
 .park-ride { background-color: #EC008C; text-align: center; }
 
@@ -769,13 +773,15 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .prize-draw li { margin-bottom: 10px; }
 
-.show-cars { background-color: #EC008C; color: #fff; }
+.show-cars { background-color: #EC008C; background-image: url(/images/2024/banner/DOTS_PINK.svg); background-repeat: no-repeat; background-size: contain; background-position: center; color: #fff; text-align: center; }
 
-.show-cars .show-car-slideshow-container { position: relative; width: 100%; height: 400px; margin: 0 auto; overflow: hidden; visibility: hidden; /* Initially hide until scrolled into view */ }
+.show-cars .show-car-slider-section { position: relative; width: 100%; overflow: hidden; display: flex; justify-content: space-around; /* Distribute space around the images */ align-items: center; margin: 40px auto; }
 
-.show-cars .show-car-slideshow-slide { position: absolute; top: 0; left: 100%; /* Start the slide off-screen to the right */ width: 100%; height: 100%; transition: transform 1s ease-in-out; }
+.show-cars .show-car-slider-image-container { position: relative; width: 400px; /* Adjust width as needed */ height: 240px; /* Adjust height as needed */ margin: 0 20px; transform: translateX(100vw); /* Start completely off-screen to the right */ transition: transform 1s ease-in-out; }
 
-.show-cars .show-car-slideshow-slide img { width: 600px; height: auto; object-fit: cover; position: absolute; left: 50%; transform: translateX(-50%); /* Center the image horizontally */ }
+.show-cars .show-car-slider-image { width: 100%; height: 100%; object-fit: contain; }
+
+@media screen and (max-width: 600px) { .show-cars .show-car-slider-image-container { height: 180px; } .show-cars .final-show-car { display: none; } }
 
 .total { background-color: #FFF200; }
 

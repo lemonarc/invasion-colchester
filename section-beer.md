@@ -1,9 +1,9 @@
-<img src="/images/other-monkey-brewing-logo-white-text.svg" alt="Other Monkey Brewing" />
+<img src="/images/2024/sponsors/OMB_LOCKUP.svg" alt="Other Monkey Brewing" />
 <h3>Invasion Ale</h3>
 <p>
-	Other Monkey Brewing are launching another fabulous ale in collaboration with Invasion Colchester
+	You can wet your whistle during Invasion Colchester thanks to the fabulous Other Monkey Brewing, who have paired up with us once again to craft a special beer for the event
 </p><p>
-	This 4.5.% Pale Ale will be available on tap, and in cans for you to take away, with a portion of the proceeds of each beer sold going to Invasion Colchester!
+	The beer will be on tap at The Taproom with a portion of the proceeds going to Invasion Colchester!
 </p><p>
-	For more information visit <a href="https://othermonkeybrewing.com/" rel="nofollow noopener noreferrer" alt="Other Monkey Brewing" target="_blank">othermonkeybrewing.com</a>.
+	<a href="https://othermonkeybrewing.com/" rel="nofollow noopener noreferrer" alt="Other Monkey Brewing" target="_blank"><strong>othermonkeybrewing.com</strong></a>
 </p>
