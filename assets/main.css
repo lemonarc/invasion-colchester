@@ -513,6 +513,8 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .batman-at-the-castle a { display: inline-block; }
 
+.batman-at-the-castle .small { font-size: 0.8em; margin-top: 40px; }
+
 .charities { text-align: center; }
 
 .charities .charity-logos { margin: 50px auto; max-width: 900px; }
@@ -861,9 +863,11 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 /* Gallery Page (Batman)
 ------------------------------*/
-.bacc-gallery-page { background-color: #EC008C; background-image: url(/images/2024/backgrounds/BLAST_PINK.svg); background-position: top center; background-repeat: no-repeat; background-size: contain; }
+.bacc-gallery-page { background-color: #EC008C; background-image: url(/images/2024/backgrounds/BLAST_PINK.svg); background-position: top center; background-repeat: no-repeat; background-size: contain; text-align: center; }
 
 .bacc-gallery-page h1 { color: #FFF200; }
+
+.bacc-gallery-page p { margin-top: 40px; }
 
 .bacc-gallery-page a.button:hover, .bacc-gallery-page a.button:focus { background-color: #FFF200; color: #fff; }
 
