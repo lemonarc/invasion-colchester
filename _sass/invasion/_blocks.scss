@@ -17,6 +17,15 @@
 			padding-bottom: $spacing-unit*8;
 		}
 	}
+
+	.wrapper-A {
+		padding-bottom: 0;
+	}
+
+	.wrapper-B {
+		padding-top: 0;
+	}
+
 	.block-left {
 		float: left;
 		width: 48%;
@@ -235,14 +244,6 @@
 	@include media-query($on-400) {
 		background-size: 400px;
 		background-position: left -200px top -200px, right -200px bottom -200px;
-	}
-
-	.wrapper-A {
-		padding-bottom: 0;
-	}
-
-	.wrapper-B {
-		padding-top: 0;
 	}
 	
 	a {
@@ -585,13 +586,28 @@
 	}
 }
 
-.othermonkey {
-	background-color: $secondary-alt;
+.othermonkey {	
+	background-color: $secondary;
+    background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: $on-secondary;
+	text-align: center;
 
 	img {
 		display: block;
 		margin: 0 auto 60px;
 		max-width: 400px;
+	}
+
+	a {
+		color: $primary;
+		text-decoration: none;
+
+		&:hover,&:focus {
+			color: $on-secondary;
+		}
 	}
 }
 
@@ -740,35 +756,48 @@
 
 .show-cars {
 	background-color: $primary;
+	background-image: url(/images/2024/banner/DOTS_PINK.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 	color: $on-primary;
+	text-align: center;
 	
-	.show-car-slideshow-container {
+	.show-car-slider-section {
 		position: relative;
 		width: 100%;
-		height: 400px;
-		margin: 0 auto;
 		overflow: hidden;
-		visibility: hidden; /* Initially hide until scrolled into view */
+		display: flex;
+		justify-content: space-around; /* Distribute space around the images */
+		align-items: center;
+		margin: 40px auto;
 	}
 	
-	.show-car-slideshow-slide {
-		position: absolute;
-		top: 0;
-		left: 100%; /* Start the slide off-screen to the right */
-		width: 100%;
-		height: 100%;
+	.show-car-slider-image-container {
+		position: relative;
+		width: 400px; /* Adjust width as needed */
+		height: 240px; /* Adjust height as needed */
+		margin: 0 20px;
+		transform: translateX(100vw); /* Start completely off-screen to the right */
 		transition: transform 1s ease-in-out;
 	}
 	
-	.show-car-slideshow-slide img {
-		width: 600px;
-		height: auto;
-		object-fit: cover;
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%); /* Center the image horizontally */
+	.show-car-slider-image {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
 	}
-	
+		
+	@include media-query($on-600) {
+
+		.show-car-slider-image-container {
+			height: 180px;
+		}
+		
+		.final-show-car {
+			display: none;
+		}
+	}	
 }
 
 .total {
