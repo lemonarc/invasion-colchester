@@ -82,6 +82,29 @@
 /* Home Blocks
 ------------------------------*/
 
+.batman-at-the-castle {
+	background-color: $primary;
+    background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: $on-primary;
+	text-align: center;
+
+	h2 {
+		color: $secondary;
+		line-height: 1;
+		margin-bottom: 0;
+	}
+	h4 {
+		color: $secondary;
+		line-height: 1;
+	}
+	a {
+		display: inline-block;
+	}
+}
+
 .charities {
 	text-align: center;
 	
@@ -100,10 +123,6 @@
 		
 		img {
 			max-width: 90%;
-			
-			@include media-query($on-800){
-				
-			}
 		}
 	}
 }
@@ -762,6 +781,10 @@
 	background-position: center;
 	color: $on-primary;
 	text-align: center;
+
+	h2 {
+		color: $secondary;
+	}
 	
 	.show-car-slider-section {
 		position: relative;

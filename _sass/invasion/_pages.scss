@@ -131,6 +131,33 @@
 	}
 }
 
+/* Gallery Page (Batman)
+------------------------------*/
+
+.bacc-gallery-page {
+	background-color: $primary;
+	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	h1 {
+		color: $secondary;
+	}
+	a.button:hover,
+	a.button:focus {
+		background-color: $secondary;
+		color: $positive;
+	}
+			
+	@include media-query($on-600){
+		
+		.title-image {
+			max-height: 200px;
+		}
+	}
+}
+
 /* Guests Page
 ------------------------------*/
 
