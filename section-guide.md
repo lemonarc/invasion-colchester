@@ -105,5 +105,12 @@
 <p>
 	Look out for... Show Cars - Marvellous machines from TV and film
 </p>
+<h4>
+	War Memorial</h4>
+<h5>
+	High Street</h5>
+<p>
+	Look out for... Coasters Scooter Club featuring a scooter ridden by Phil Daniels in Quadrophenia, plenty of gear on display, and music
+</p>
 <br/>
 <a class="scroll" href="#fancy-dress">Scroll down for more details...</a>
