@@ -505,6 +505,14 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 /* Home Blocks
 ------------------------------*/
+.batman-at-the-castle { background-color: #EC008C; background-image: url(/images/2024/backgrounds/BLAST_PINK.svg); background-position: center; background-repeat: no-repeat; background-size: cover; color: #fff; text-align: center; }
+
+.batman-at-the-castle h2 { color: #FFF200; line-height: 1; margin-bottom: 0; }
+
+.batman-at-the-castle h4 { color: #FFF200; line-height: 1; }
+
+.batman-at-the-castle a { display: inline-block; }
+
 .charities { text-align: center; }
 
 .charities .charity-logos { margin: 50px auto; max-width: 900px; }
@@ -775,6 +783,8 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .show-cars { background-color: #EC008C; background-image: url(/images/2024/banner/DOTS_PINK.svg); background-repeat: no-repeat; background-size: contain; background-position: center; color: #fff; text-align: center; }
 
+.show-cars h2 { color: #FFF200; }
+
 .show-cars .show-car-slider-section { position: relative; width: 100%; overflow: hidden; display: flex; justify-content: space-around; /* Distribute space around the images */ align-items: center; margin: 40px auto; }
 
 .show-cars .show-car-slider-image-container { position: relative; width: 400px; /* Adjust width as needed */ height: 240px; /* Adjust height as needed */ margin: 0 20px; transform: translateX(100vw); /* Start completely off-screen to the right */ transition: transform 1s ease-in-out; }
@@ -848,6 +858,16 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 .gallery-page h1 { color: #EC008C; }
 
 .gallery-page a.button:hover, .gallery-page a.button:focus { background-color: #EC008C; color: #fff; }
+
+/* Gallery Page (Batman)
+------------------------------*/
+.bacc-gallery-page { background-color: #EC008C; background-image: url(/images/2024/backgrounds/BLAST_PINK.svg); background-position: top center; background-repeat: no-repeat; background-size: contain; }
+
+.bacc-gallery-page h1 { color: #FFF200; }
+
+.bacc-gallery-page a.button:hover, .bacc-gallery-page a.button:focus { background-color: #FFF200; color: #fff; }
+
+@media screen and (max-width: 600px) { .bacc-gallery-page .title-image { max-height: 200px; } }
 
 /* Guests Page
 ------------------------------*/
