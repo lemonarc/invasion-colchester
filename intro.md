@@ -16,7 +16,7 @@
 	</h5>
 </div>
 <p>
-	There will be characters from <strong>Star Wars, Ghostbusters, Doctor Who, Predators, Jurassic Park, Disney Princesses</strong> and more, as well as your favourite <strong>Comic Book and Movie Superheroes</strong>, plus <strong>Show Cars</strong> from TV and film!
+	There will be characters from <strong>Star Wars, Ghostbusters, Doctor Who, Predators, Jurassic Park, Movie Princesses</strong> and more, as well as your favourite <strong>Comic Book and Movie Superheroes</strong>, plus <strong>Show Cars</strong> from TV and film!
 </p><p>
 	You can see amazing <strong>live performances</strong> from some supremely talented local musicians.
 </p><p>
