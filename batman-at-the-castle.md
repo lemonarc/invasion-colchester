@@ -98,6 +98,8 @@ lightbox: bacc-gallery
     <!-- Add more gallery items as needed -->
 </div>
 
+<p>Photos by Samantha Jones</p>
+
 <div class="lightbox" id="lightbox">
     <div class="scrim"></div>
     <div class="lightbox-content">

@@ -140,10 +140,16 @@
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: contain;
+	text-align: center;
 
 	h1 {
 		color: $secondary;
 	}
+
+	p {
+		margin-top: 40px;
+	}
+
 	a.button:hover,
 	a.button:focus {
 		background-color: $secondary;
