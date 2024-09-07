@@ -505,13 +505,15 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 /* Home Blocks
 ------------------------------*/
-.batman-at-the-castle { background-color: #EC008C; background-image: url(/images/2024/backgrounds/BLAST_PINK.svg); background-position: center; background-repeat: no-repeat; background-size: cover; color: #fff; text-align: center; }
+.batman-at-the-castle { background-color: #FFF200; background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg); background-position: center; background-repeat: no-repeat; background-size: cover; color: #000; text-align: center; }
 
-.batman-at-the-castle h2 { color: #FFF200; line-height: 1; margin-bottom: 0; }
+.batman-at-the-castle h2 { color: #EC008C; line-height: 1; margin-bottom: 0; }
 
-.batman-at-the-castle h4 { color: #FFF200; line-height: 1; }
+.batman-at-the-castle h4 { color: #EC008C; line-height: 1; }
 
 .batman-at-the-castle a { display: inline-block; }
+
+.batman-at-the-castle a:hover, .batman-at-the-castle a:focus { background: #EC008C; color: #fff; }
 
 .batman-at-the-castle .small { font-size: 0.8em; margin-top: 40px; }
 
@@ -667,7 +669,7 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 .intro h5 { margin: 0 auto 60px; max-width: 860px; }
 
-.intro img { display: block; margin: 0 auto 20px; }
+.intro img { display: block; margin: 60px auto 20px; max-width: 80vw; }
 
 .intro .wrapper { padding-top: 20px; }
 

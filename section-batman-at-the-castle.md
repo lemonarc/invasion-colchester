@@ -1,5 +1,5 @@
 <div class="block-right">
-	<img src="/images/2024/characters/BATMAN_AT_THE_CASTLE_PRIMARY.svg" alt="Batman at Colchester Castle" />
+	<img src="/images/2024/characters/BATMAN_AT_THE_CASTLE_SECONDARY.svg" alt="Batman at Colchester Castle" />
 </div>
 
 <div class="block-left">
