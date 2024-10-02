@@ -1,4 +1,13 @@
-<h2>2024 Prize Draw Winners</h2>
+---
+pageclass: prize-draw-page
+layout: page
+title: "Invasion Colchester's Prize Draw"
+excerpt: "Get your tickets for the great Invasion Colchester 2024 Prize Draw to be in with a chance of winning an amazing prize!"
+permalink: /prize-draw/
+featured-image: SIL_GHOSTBUSTER.svg
+socialimage: SM_IC_PAGE_PRIZE_DRAW.png
+---
+
 <p>
 	This year, 1647 tickets were sold, raising £1647 directly for Mind (Mid & North East Essex). This amount will be added to the overall Invasion Colchester 2024 total.
 </p><p>
