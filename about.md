@@ -9,7 +9,7 @@ socialimage: SM_IC_PAGE_HISTORY.png
 ---
 
 <p>
-	<strong>Invasion Colchester</strong> beagin life in 2011 as a way to raise money for a Leicester hospital that saved a dear friend's life.
+	<strong>Invasion Colchester</strong> began life in 2011 as a way to raise money for a Leicester hospital that saved a dear friend's life.
 </p><p>
 	Following the substantial success of the initial event, a decision was made there and then to continue <strong>Invasion Colchester</strong> every year, for as long as we can, raising money for various charities in the process.
 </p><p>
