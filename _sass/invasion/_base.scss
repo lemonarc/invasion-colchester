@@ -339,10 +339,6 @@ pre {
 
 .container {
 	background: $primary;
-  background-image: url(/images/2024/banner/DOTS_PINK.svg), url(/images/2024/banner/DOTS_PINK.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 1000px;
-  background-position: left -500px top -500px, right -500px bottom -500px;
   color: $on-primary;
 	padding: 40px;
   clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
