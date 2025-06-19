@@ -7,6 +7,7 @@ permalink: /privacy-policy/
 featured-image: SIL_STORMTROOPER.svg
 socialimage: SM_IC_PAGE_PRIVACY.png
 ---
+<div class="container">
 <p>
 	This Privacy Policy governs the manner in which Invasion Colchester collects, uses, maintains and discloses information collected from users ('Users') of the invasioncolchester.co.uk website (the 'Site') and all relevant subdomains for purposes including providing relevant event information ('Services'). This Privacy Policy applies to the Site and all services offered by Invasion Colchester.
 </p>
@@ -95,3 +96,4 @@ socialimage: SM_IC_PAGE_PRIVACY.png
 	If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us at this email address: <a href="mailto:info@invasioncolchester.co.uk" rel="noopener" target="_blank">info@invasioncolchester.co.uk</a>.
 </p>
 <h6>Last updated: 05/07/2018</h6>
+</div>

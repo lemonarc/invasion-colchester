@@ -349,6 +349,24 @@ pre {
     color: $secondary;
   }
 
+  a, a.visited {
+    color: $secondary;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $on-primary;
+    }
+  }
+  a.button, a.button.visited {
+    color: $white;
+
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+
 	@include media-query($on-800) {
 		background-size: 800px;
 		background-position: left -400px top -400px, right -400px bottom -400px;

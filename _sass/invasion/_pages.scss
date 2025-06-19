@@ -148,32 +148,14 @@
 ------------------------------*/
 
 .privacy-page {
-	background-color: $secondary;
 
-	a {
-		color: $primary;
-
-		&.button:hover,
-		&.button:focus {
-			background-color: $primary;
-			color: $on-primary;
-		}
-	}
-	p {
-		color: #000;
-	}
-	h1,h4,h6 {
-		color: $primary;
-	}
 	h3 {
-		color: $primary;
-
 		@include relative-font-size(1.2);
 		font-family: "Anton", sans-serif;
 		font-weight: 100;
 	}
 	::marker {
-		color: $on-secondary;
+		color: $on-primary;
 	}
 }
 
