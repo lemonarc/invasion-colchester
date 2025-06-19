@@ -2,7 +2,7 @@
 <img src="/assets/svg/sil_saul_bass_guitar.svg" alt="Guitar" />
 <h2>Live Music & Entertainment</h2>
 <div class="wrapper">
-	Coming soon...
+	<p style="text-align:center;font-size:2rem;"><strong>Coming soon...<strong></p>
 </div>
 <!-- <div class="wrapper wrapper-B">
 	<div class="block-left">
