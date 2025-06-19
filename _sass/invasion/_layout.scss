@@ -14,13 +14,14 @@
   }
   
   .post {
-	  margin-bottom: $spacing-unit*6;
+	  margin: $spacing-unit*6 0;
 	  
 	  @include media-query($on-1200) {
 		  padding: 0 $spacing-unit;
 	  }
 	  .button {
 		  display: inline-block;
+		  margin-top: $spacing-unit*4;
 	  }
   
 	  .photos img {
@@ -43,7 +44,7 @@
   
   .post-meta {
 	font-size: $small-font-size;
-	color: $negative;
+	color: $black;
   }
   
   .post-link {
@@ -57,7 +58,7 @@
    * Posts
    */
   .post-header {
-	margin: $spacing-unit*4 0;
+	padding: $spacing-unit*4 0;
   }
   // .post-header-image {
   // 	height: 0;
@@ -76,7 +77,7 @@
   // }
   
   .post-content {
-	margin-bottom: $spacing-unit;
+	padding-bottom: $spacing-unit;
   }
   
   .shade {

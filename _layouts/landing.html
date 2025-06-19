@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+	{%- include head.html -%}
+
+	<body>
+  
+		{%- include preheader.html -%}
+    	{%- include header.html -%}
+
+    	<main class="page-content{% if page.pageclass %} {{ page.pageclass }}{% endif %}" aria-label="Content">
+        	{{ content }}
+    	</main>
+
+    	{%- include prefooter.html -%}
+    	{%- include footer.html -%}
+
+		<script src="/js/counter/counter.js"></script>
+		<script src="/js/fd-slider/fd-slider.js"></script>
+		<script src="/js/guestslider/slider.js"></script>
+		<script src="/js/car-slider/car-slider.js"></script>
+		<script src="/js/bus-slider/bus-slider.js"></script>
+
+  </body>
+
+</html>

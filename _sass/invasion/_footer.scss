@@ -3,10 +3,10 @@
  */
 
  .prefooter {
-	background: $negative;
-	color: $positive;
-	border-top: 1px solid $negative;
-    border-bottom: 1px solid $negative;
+	background: $black;
+	color: $white;
+	border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
 	
 	.wrapper {
 		max-width: $on-1000;
@@ -65,8 +65,8 @@
 
 
 .site-footer {
-	background: $negative;
-	color: $positive;
+	background: $black;
+	color: $white;
 	padding: ($spacing-unit*4) 0;
 	text-align: center;
 	
@@ -76,7 +76,7 @@
 		padding: 0 ($spacing-unit*2);
 	}
 	a,a:visited {
-		color: $positive;
+		color: $white;
 		text-decoration: none;
 	}
 	a:hover {
@@ -97,7 +97,7 @@
 			width: auto;
 
 			g {
-				fill: $positive;
+				fill: $white;
 				fill-rule: nonzero;
 			}
 
@@ -125,7 +125,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $positive;
+    color: $white;
     margin-left: $spacing-unit/2;
     @extend %clearfix;
 }

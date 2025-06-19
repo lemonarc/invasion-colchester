@@ -5,7 +5,7 @@
 $base-font-family: "Saira", sans-serif;
 $base-header-font-family:		'wood_stampregular', sans-serif;
 $base-header-font-family-alt:		"Saira Condensed", "Russo One", sans-serif;
-$base-font-size:   21px !default;
+$base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.4 !default;
@@ -18,18 +18,42 @@ $h3:                $spacing-unit*2.4;
 $h4:                $spacing-unit*2;
 $h5:                $spacing-unit*1.8;
 
-$positive:        #fff;
-$negative:        #000;
-$primary:         #EC008C;
-$primary-alt:     #E77CB9;
-$secondary:       #FFF200;
-$secondary-alt:   #F2AF0D;
+$white:           #fff;
+$black:           #000;
 
-$on-primary:		    $positive;
-$on-secondary:      $negative;
+$green-100:       #46C182;
+$green-200:       #22B56A;
+$green-300:       #00A650;
+$green-400:       #008441;
+$green-500:       #006733;
 
-$link:              $secondary;
-$hover:             $positive;
+$purple-100:      #9249BA;
+$purple-200:      #7D28AC;
+$purple-300:      #69089E;
+$purple-400:      #53067E;
+$purple-500:      #410462;
+
+$yellow-100:      #FFFF5C;
+$yellow-200:      #FFFF30;
+$yellow-300:      #EDED00;
+$yellow-400:      #BDBD00;
+$yellow-500:      #939300;
+
+$primary:         $green-300;
+$primary-alt:     $green-200;
+$primary-hover:   $black;
+$secondary:       $purple-300;
+$secondary-alt:   $purple-100;
+$secondary-hover: $white;
+$tertiary:        $yellow-300;
+$tertiary-alt:    $yellow-100;
+$tertiary-hover:  $yellow-100;
+
+$on-primary:		    $black;
+$on-secondary:      $white;
+
+$link:              $primary-alt;
+$hover:             $white;
 
 $table-text-align: left !default;
 
@@ -79,6 +103,7 @@ $on-mobile:        $on-300 !default;
   "invasion/header",
   "invasion/footer",
   "invasion/layout",
+  "invasion/banner",
   "invasion/logo",
   "invasion/blocks",
   "invasion/pages",

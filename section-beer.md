@@ -1,4 +1,4 @@
-<img src="/images/2024/sponsors/OMB_LOCKUP.svg" alt="Other Monkey Brewing" />
+<img src="/images/sponsors/OMB_LOCKUP.svg" alt="Other Monkey Brewing" />
 <h3>Invasion Ale</h3>
 <p>
 	You can wet your whistle during Invasion Colchester thanks to the fabulous Other Monkey Brewing, who have paired up with us once again to craft a special beer for the event

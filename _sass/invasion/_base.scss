@@ -17,9 +17,14 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  background-color: $primary;
+  background-color: $secondary;
+	background-image: url(/assets/svg/halftone-dark.svg);
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: $spacing-unit*1.2;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $positive;
+  color: $on-secondary;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -28,10 +33,6 @@ body {
   font-kerning: normal;
   min-height: 100vh;
   overflow: auto!important;
-
-  &.alt-body {
-    background-color: $secondary;
-  }
 }
 
 
@@ -100,7 +101,6 @@ li {
  * Headings
  */
 h1 {
-  color: $positive;
   font-family: $base-header-font-family;
   font-weight: normal;
   line-height: 0.8;
@@ -226,10 +226,10 @@ submit,
 submitbutton,
 input.button,
 input[type=submit] {
-  background: $negative;
+  background: $secondary;
 	border: none;
-  border-radius: 100px;
-  color: $positive;
+  box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
+  color: $white;
   font-family: $base-font-family;
   padding: ($spacing-unit * 1) ($spacing-unit * 2);
   text-decoration: none;
@@ -238,7 +238,16 @@ input[type=submit] {
 
   &:hover,
   &:focus {
-    color: $secondary;
+    background: $black;
+  }
+}
+
+a.button-alt {
+  background: $secondary;
+  
+  &:hover,
+  &:focus {
+    background: $black;
   }
 }
 
@@ -250,7 +259,7 @@ input[type=submit] {
 		padding: $spacing-unit*2;
 		
 		&:visited {
-			border-color: $positive;
+			border-color: $white;
 		}		
 		&:hover {
 			border-color: $secondary;
@@ -283,8 +292,7 @@ textarea:focus,
  * Blockquotes
  */
 blockquote {
-  color: $positive;
-  border-left: 4px solid $positive;
+  border-left: 4px solid $white;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
@@ -303,9 +311,9 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $positive;
+  border: 1px solid $white;
   border-radius: 3px;
-  background-color: $negative;
+  background-color: $black;
 }
 
 code {
@@ -337,17 +345,12 @@ pre {
   background-position: left -500px top -500px, right -500px bottom -500px;
   color: $on-primary;
 	padding: 40px;
-	border-radius: 10px;
+  clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
   margin-bottom: 40px;
 	@extend %clearfix;
 
   h2 {
     color: $secondary;
-  }
-
-  img {
-    border-radius: 10px;
-
   }
 
 	@include media-query($on-800) {
@@ -368,7 +371,6 @@ pre {
 
 	}
 }
-
 
 /**
  * Wrapper
@@ -411,7 +413,7 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$positive};
+    fill: #{$white};
     padding-right: 5px;
     vertical-align: text-top;
 }
@@ -443,25 +445,24 @@ pre {
 table {
   margin-bottom: $spacing-unit;
   text-align: $table-text-align;
-  color: $positive;
   border-collapse: collapse;
-  border: 1px solid $positive;
+  border: 1px solid $white;
   margin: $spacing-unit*4 auto;
   tr {
     &:nth-child(even) {
-      background-color: $positive;
+      background-color: $white;
     }
   }
   th, td {
     padding: $spacing-unit;
   }
   th {
-    background-color: $positive;
-    border: 1px solid $positive;
-    border-bottom-color: $positive;
+    background-color: $white;
+    border: 1px solid $white;
+    border-bottom-color: $white;
   }
   td {
-    border: 1px solid $positive;
+    border: 1px solid $white;
   }
 }
 
@@ -470,7 +471,7 @@ table {
  */
 
 form {
-	color: $positive;
+	color: $white;
 	margin: ($spacing-unit * 2) 0;
 	max-width: calc(100% - (#{$spacing-unit} * 4));
 	
@@ -483,7 +484,7 @@ input,
 textarea {
 	font-family: $base-font-family;
 	font-size: $base-font-size;
-	border: 1px solid $positive;
+	border: 1px solid $white;
 	width: 100%;
 	padding: $spacing-unit * 2;
 	margin-bottom: $spacing-unit * 2;

@@ -1,19 +1,8 @@
+<img src="/assets/logo/ic-logo.svg" alt="Invasion Colchester logo" />
 <div class="deets">
 	<h3 class="saira-condensed-bold">
 		Meet Your Heroes
 	</h3>
-	<p class="saira-condensed-bold">
-		at
-	</p>
-	<h1>
-		INVASION COLCHESTER
-	</h1>
-	<h2 class="russo-one-regular">
-		SATURDAY<br/>7 SEPTEMBER 2024
-	</h2>
-	<h5 class="saira-condensed-bold">
-		CHARACTERS & THEMED AREAS &middot; SHOW CARS &middot; SPECIAL GUESTS &middot; COMPETITIONS &middot; LIVE MUSIC
-	</h5>
 </div>
 <p>
 	There will be characters from <strong>Star Wars, Ghostbusters, Doctor Who, Predators, Jurassic Park, Movie Princesses</strong> and more, as well as your favourite <strong>Comic Book and Movie Superheroes</strong>, plus <strong>Show Cars</strong> from TV and film!

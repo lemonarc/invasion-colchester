@@ -1,7 +1,10 @@
-{% include icon-acoustic-pink.svg %}
+<div class="container">
+<img src="/assets/svg/sil_saul_bass_guitar.svg" alt="Guitar" />
 <h2>Live Music & Entertainment</h2>
-
-<div class="wrapper wrapper-B">
+<div class="wrapper">
+	Coming soon...
+</div>
+<!-- <div class="wrapper wrapper-B">
 	<div class="block-left">
 		<p>
 			Live music has always been something that Invasion Colchester is keen to promote, showcasing some amazing artists from the local area.
@@ -65,5 +68,6 @@
 			</tbody>
 		</table>
 	</div>
+</div> -->
 </div>
 

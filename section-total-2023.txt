@@ -9,6 +9,6 @@
 <p>Lastly, thank you to all of you who came along in 2023 to enjoy Invasion Colchester, got dressed up, and dropped some coins or notes into our buckets. You will all have helped someone when they needed it.</p>
 <p>See you again on <strong>7 September 2024!</strong></p>
 <br/>
-<img src="/images/2024/banner/CAST_XL_ALT.svg" alt="Invasion Colchester logo" />
+<img src="/images/banner/CAST_XL_ALT.svg" alt="Invasion Colchester logo" />
 	
 </div>

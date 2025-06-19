@@ -12,9 +12,10 @@
 		width: 700vw; /* 7 slides * 100vw */
 		height: 80vh;
 		min-height: 400px;
-		transition: transform 1s ease-in-out;
-		transform: translateX(-100vw);
+		transition: transform 1s ease-in-out;		
+		transform: translateX(0); /* Fix initial load flicker */
 	}
+
 	
 	.slide {
 		width: 100vw;
@@ -33,7 +34,7 @@
 	.text {
 		background: rgba(0, 0, 0, 0.5);
 		padding: 20px;
-		border-radius: 10px;
+		clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
 		width: 400px;
 	}
 	
@@ -60,27 +61,35 @@
 	}
 
 	.hero1 {
-		background-image: url('/images/2024/guests/ty-huley-03.jpg');
+		background-image: url('/images/guests/carl-newman-01.jpg');
 	}
 
 	.hero2 {
-		background-image: url('/images/2024/guests/clem-so-3.jpg');
+		background-image: url('/images/guests/james-taylor-07.jpg');
 	}
 
 	.hero3 {
-		background-image: url('/images/2024/guests/bern-collaco-2.jpg');
+		background-image: url('/images/guests/barry-kitson-02.jpg');
 	}
 
 	.hero4 {
-		background-image: url('/images/2024/guests/chris-bunn-03.jpg');
+		background-image: url('/images/guests/paul-warren-04.jpg');
 	}
 
 	.hero5 {
-		background-image: url('/images/2024/guests/martin-ballantyne-1.jpg');
+		background-image: url('/images/guests/clem-so-3.jpg');
+	}
+
+	.hero6 {
+		background-image: url('/images/guests/ty-hurley-05.jpg');
+	}
+
+	.hero7 {
+		background-image: url('/images/guests/ross-03.jpg');
 	}
 
 	h3,h4 {
-		color: $secondary;
+		color: $white;
 		margin-bottom: 4px;
 	}
 
@@ -95,15 +104,8 @@
 	}
 
 	.button {
-		margin: 10px auto;
-		background-color: $primary;
-		color: $on-primary;
 		display: inline-block;
-
-		&:hover,&:focus {
-			color: $on-secondary;
-			background-color: $secondary;
-		}
+		margin-top: $spacing-unit;
 	}
 
 

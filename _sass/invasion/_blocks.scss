@@ -60,17 +60,17 @@
 }
 
 .dark-bg {
-	color: $positive;
+	color: $white;
 }
 
 .light-bg {
-	color: $negative;
+	color: $black;
 
 	a {
 		color: $primary;
 
 		&:hover,&:focus {
-		  color: $negative;
+		  color: $black;
 		}
 
 		&:visited {
@@ -83,38 +83,74 @@
 ------------------------------*/
 
 .batman-at-the-castle {
-	background-color: $secondary;
-    background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	color: $on-secondary;
-	text-align: center;
+  position: relative;
+  background: linear-gradient(to bottom, $purple-300 0%, $purple-300 59.999999999999%, $purple-500 60%, $purple-300 100%);
+  color: $on-secondary;
+  text-align: center;
+  overflow: hidden;
 
-	h2 {
-		color: $primary;
-		line-height: 1;
-		margin-bottom: 0;
-	}
-	h4 {
-		color: $primary;
-		line-height: 1;
-	}
-	a {
-		display: inline-block;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-image: url('/assets/svg/oh-bats.svg');
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: $spacing-unit * 16;
+    z-index: 0;
 
-		&:hover,
-		&:focus {
-			background: $primary;
-			color: $positive;
-		}
+	@include media-query($on-800){
+		height: 40%;
 	}
+	@include media-query($on-400){
+		height: 30%;
+	}
+  }
 
-	.small {
-		font-size: 0.8em;
-		margin-top: 40px;
-	}
+  .wrapper {
+	padding-top: $spacing-unit*6;
+    padding-bottom: $spacing-unit*6;
+  }
+
+  > .wrapper,
+  h2,
+  h4,
+  a,
+  .small {
+    position: relative;
+    z-index: 1;
+  }
+
+  h2 {
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    color: $secondary;
+    line-height: 1;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  .small {
+    font-size: 0.8em;
+    margin-top: 40px;
+  }
+
+  @include media-query($on-800){
+	background: linear-gradient(to bottom, $purple-300 0%, $purple-300 39.999999999999%, $purple-500 40%, $purple-300 100%);
+  }
+  @include media-query($on-400){
+	background: linear-gradient(to bottom, $purple-300 0%, $purple-300 29.999999999999%, $purple-500 30%, $purple-300 100%);
+  }
 }
+
 
 .charities {
 	text-align: center;
@@ -138,12 +174,15 @@
 	}
 }
 
-.contact {	
-	background-color: $primary;
-    background-image: url(/images/2024/banner/DOTS_PINK.svg), url(/images/2024/banner/DOTS_PINK.svg);
-  	background-repeat: no-repeat, no-repeat;
-  	background-size: 1200px;
-  	background-position: left -600px top -600px, right -600px bottom -600px;
+.city-divider {
+	background-image: url(/assets/svg/col-skyline-25-black.svg);
+  	background-repeat: repeat-x;
+	background-size: 520px 60px;
+	height: 60px;
+	margin-bottom: -1px;
+}
+
+.contact {
 	
 	a {
 		color: $secondary;
@@ -181,10 +220,10 @@
 		}
 		
 		input, textarea {
-			background: none;
-			border: 1px solid $on-primary;
+			background: $primary-alt;
+			border: 1px solid $white;
 			border-radius: $spacing-unit;
-			color: $on-primary;
+			color: $white;
 			max-width: calc(100% - 40px);
 			
 			&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -199,15 +238,21 @@
 			}
 		}
 		input[type="submit"]{
-			background: $negative;
+			background: $secondary;
 			border: none;
-			border-radius: 100px;
-			color: $secondary;
+			border-radius: 0;
+			box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
+			color: $white;
+			font-family: $base-font-family;
+  			padding: ($spacing-unit * 1) ($spacing-unit * 2);
+  			text-decoration: none;
+			text-transform: uppercase;
+			width: initial;
 			margin: $spacing-unit*4 0 0;
 			
 			&:hover,
 			&:focus {
-				color: $positive;
+				background: $black;
 			}
 		}
 	}
@@ -233,9 +278,11 @@
 
 .dont-panic {	
 	background-color: $primary;
-    background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(/assets/svg/blast-dark.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: $white;
 	text-align: center;
 	
 	a {
@@ -243,11 +290,11 @@
 		text-decoration: none;
 
 		&:hover,&:focus {
-			color: $positive;
+			color: $white;
 		}
 	}
 	p {
-		color: $on-primary;
+		color: $white;
 	}
 	img {
 		margin-bottom: $spacing-unit*4;
@@ -255,11 +302,13 @@
 }
 
 .fancy-dress {
-	background: $primary;
-  	background-image: url(/images/2024/banner/DOTS_PINK.svg), url(/images/2024/banner/DOTS_PINK.svg);
-  	background-repeat: no-repeat, no-repeat;
-  	background-size: 1000px;
-  	background-position: left -500px top -500px, right -500px bottom -500px;
+	background-color: $primary;
+	background-image: url(/assets/svg/cirlces-light.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: $on-secondary;
 
 	@include media-query($on-800) {
 		background-size: 800px;
@@ -281,12 +330,12 @@
 		text-decoration: none;
 
 		&:hover,&:focus {
-			color: $positive;
+			color: $on-primary;
 		}
 	}
 	h2 {
 		text-align: center;
-		color: $secondary;
+		color: $on-primary;
 		margin-bottom: 0;
 	}
 	p {
@@ -373,14 +422,14 @@
 	}
 
 	table {
-		border-color: $secondary;
-		color: $secondary;
+		border-color: $on-primary;
+		color: $on-primary;
 		margin: 0 0 $spacing-unit*4;
 
 		th,td {
 			background: none;
-			border-color: $secondary;
-			color: $secondary;
+			border-color: $on-primary;
+			color: $on-primary;
 		}
 		tr:nth-child(even) {
 			background: none;
@@ -405,7 +454,7 @@
 }
 
 .guests {
-	background-image: url('/images/2024/social/20190801SG.jpg');
+	background-image: url('/images/social/20190801SG.jpg');
 	background-position: top;
 	color: $secondary;
 	
@@ -415,7 +464,7 @@
 		
 		&:hover,
 		&:focus {
-			color: $positive;
+			color: $white;
 		}
 	}
 	
@@ -436,13 +485,17 @@
 }
 
 .guide {
-	background-image: url('/images/2024/backgrounds/COL-HIGH-ST.jpg');
-    background-attachment: fixed;
-	color: $on-secondary;
+	// background-color: $black;
+	// background-image: url('/assets/svg/deadpool-footer.svg');
+	// background-position: bottom center;
+	// background-repeat: no-repeat;
+	// background-size: contain;
+	// background-attachment: fixed;
+	// color: $white;
 	text-align: center;
 
 	h3 {
-		color: $primary;
+		margin-bottom: $spacing-unit*4;
 	}
 
 	h4 {
@@ -470,22 +523,47 @@
 	}
 }
 
+.scroll-background-section {
+  position: relative;
+  height: 200vh; // Enough height for scroll
+  overflow: hidden;
+
+  .background-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-image: url('/assets/svg/deadpool-footer.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 0;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 4rem;
+  }
+}
+
 .intro {
+	background-color: $secondary;
+	background-image: url(/assets/svg/halftone-dark.svg);
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: $spacing-unit*1.2;
+	color: $on-secondary;
 	text-align: center;
+	padding-top: $spacing-unit*12;
 	
 	a {
-		color: $secondary;
+		color: $primary-alt;
 		text-decoration: none;
 
 		&:hover,&:focus {
-			color: $on-primary;
+			color: $on-secondary;
 		}
-	}
-	h1,h5 {
-		color: $secondary;		
-	}	
-	h2,h3,h4,p {
-		color: $on-primary;
 	}
 	.deets p {
 		font-weight: 700;
@@ -497,20 +575,16 @@
 		}
 	  }
 	h5 {
-		margin: 0 auto $spacing-unit*6;
-		max-width: $spacing-unit*86;
+		font-size: clamp(2rem, 3vw, 4rem);
 	}
 	img {
 		display: block;
-		margin: 60px auto $spacing-unit*2;
-		max-width: 80vw;
+		margin: 0 auto $spacing-unit*2;
+		max-width: 50vw;
 	}
 	.wrapper {
-		padding-top: $spacing-unit*2;
-		
-		@include media-query($on-1200) {
-			padding-top: 0;
-		}
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 }
 
@@ -532,12 +606,16 @@
 }
 
 .live {
-	background-image: url('/images/2024/backgrounds/MUSIC.jpg');
-    background-attachment: fixed;
-	color: $negative;
+	background-color: $secondary;
+	background-image: url(/assets/svg/halftone-dark.svg);
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: $spacing-unit*1.2;
+	color: $on-secondary;
 
 	h2 {
-		color: $on-secondary;
+		color: $white;
 		text-align: center;
 	}
 
@@ -548,26 +626,23 @@
 		}
 	}
 
-	svg {
+	img {
 		display: block;
 		margin: 0 auto $spacing-unit*4;
 		max-width: 300px;
 		width: 100%;
-
-		path {
-			fill: $primary;
-		}
+		transform: rotate(-15deg);
 	}
 	
 	table {
-		border-color: $on-secondary;
-		color: $primary;
+		border-color: $white;
+		color: $white;
 		margin: 0 0 40px;
 
 		th,td {
 			background: none;
-			border-color: $on-secondary;
-			color: $primary;
+			border-color: $white;
+			color: $white;
 		}
 		tr:nth-child(even) {
 			background: none;
@@ -595,7 +670,7 @@
 }
 
 .meet-heroes {
-	background-image: url('/images/2024/backgrounds/20190801DS.jpg');
+	background-image: url('/images/backgrounds/20190801DS.jpg');
 	background-position: top;
 	
 	.wrapper {
@@ -610,19 +685,20 @@
 	}
 	
 	@include media-query($on-700) {
-		background-image: url('/images/2024/backgrounds/20190801DS2.jpg');
+		background-image: url('/images/backgrounds/20190801DS2.jpg');
 	}
 	@include media-query($on-400) {
-		background-image: url('/images/2024/backgrounds/20190801DS3.jpg');
+		background-image: url('/images/backgrounds/20190801DS3.jpg');
 	}
 }
 
-.othermonkey {	
+.othermonkey {
 	background-color: $secondary;
-    background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
+	background-image: url(/assets/svg/diamonds-dark.svg);
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-repeat: repeat;
+	background-size: $spacing-unit*4;
+	background-attachment: fixed;
 	color: $on-secondary;
 	text-align: center;
 
@@ -643,59 +719,68 @@
 }
 
 .park-ride {
-	background-color: $primary;
+	background-color: $secondary;
+	background-image: url(/assets/svg/squares-dark.svg);
+	background-position: center;
+	background-repeat: repeat;
+	background-size: $spacing-unit*40;
+	background-attachment: fixed;
+	color: $on-secondary;
 	text-align: center;
 	
 	a {
-		color: $secondary;
 		font-weight: 600;
 		text-decoration: none;
-
-		&:hover,&:focus {
-			color: $on-primary;
-		}
-	}
-	h3,p {
-		color: $on-primary;
-		text-align: center;
 	}
 	svg {
 		display: block;
-		margin: 0 auto $spacing-unit*4;
+		margin-bottom: $spacing-unit*4;
 		max-width: 300px;
 		width: 100%;
 
 		path {
-			fill: $secondary;
+			fill: $primary-alt;
 		}
 	}
 	small {
-		color: $on-primary;
+		color: $on-secondary;
 		display: block;
 	}
 	table {
-		border-color: $on-primary;
-		color: $secondary;
+		border-color: $on-secondary;
+		color: $on-secondary;
 
 		th,td {
 			background: none;
-			border-color: $on-primary;
+			border-color: $on-secondary;
 		}
 		tr:nth-child(even) {
 			background: none;
 		}
 	}
+	.wrapper {
+		overflow: hidden;
+	}
+}
+
+.bus-ride {
+  overflow: hidden;
+  position: relative;
+
+  .bus-icon {
+    display: inline-block;
+    transition: transform 0.1s linear;
+    transform: translateX(100%); // start off right
+    will-change: transform;
+  }
 }
 
 .photo-gallery {
-	background-image: url('/images/2024/backgrounds/20190801PG.jpg');
+	background-image: url('/images/backgrounds/20190801PG.jpg');
     background-attachment: fixed;
 	
-	a.button {
-  		background: $primary;
-	}
 	h2 {
-		color: $positive;
+		color: $white;
 	}
 	.wrapper {
 		padding: $spacing-unit*16 0;
@@ -731,13 +816,19 @@
 
 .prize-draw {
 	background-color: $secondary;
-    background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
+	background-image: url(/assets/svg/squares-dark.svg);
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-repeat: repeat;
+	background-size: $spacing-unit*40;
+	background-attachment: fixed;
 	color: $on-secondary;
 	text-align: center;
 	
+	svg {
+		width: 66vw;
+		max-width: $spacing-unit*60;
+		padding: $spacing-unit*3 $spacing-unit*2;
+	}
 	ul {
 		text-align: center;
 		list-style: none;
@@ -785,17 +876,36 @@
 	}
 }
 
-.show-cars {
+.road-intro {
 	background-color: $primary;
-	background-image: url(/images/2024/banner/DOTS_PINK.svg);
+	background-image: url(/assets/svg/road-pattern-intro.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
+	width: 100%;
+	height: 107.5px;
+}
+
+.road-repeat {
+	background-color: $primary;
+	background-image: url(/assets/svg/road-pattern.svg);
+	background-repeat: repeat-y;
+	background-size: 340px auto;
+	background-position: center top;
+	width: 100%;
+}
+
+.show-cars {
+	background-color: $primary;
+	background-image: url(/assets/svg/blast-dark.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: $on-primary;
 	text-align: center;
 
 	h2 {
-		color: $secondary;
+		color: $on-primary;
 	}
 	
 	.show-car-slider-section {
@@ -835,15 +945,20 @@
 	}	
 }
 
-.total {
-	background-color: $secondary;
+.total-container {
+	background-color: $primary;
+	background-image: url(/assets/svg/cirlces-light.svg);
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: 50vw;
 
 	h2,p {
-		color: $on-secondary;
+		color: $on-primary;
 		text-align: center;
 	}
 	p.total {
-		color: $primary;
+		color: $white;
 		font-size: 15vw;
 		font-weight: 900;
 	}
@@ -853,3 +968,19 @@
 		max-width: 300px;
 	}
 }
+
+/* Patterns */
+
+.pattern-25-primary-alt {
+	background-image: url('/assets/svg/pattern-25-primary-alt.svg');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 200px;
+  }
+  
+  .pattern-25-secondary-alt {
+	background-image: url('/assets/svg/pattern-25-secondary-alt.svg');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 200px;
+  }

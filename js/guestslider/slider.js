@@ -1,62 +1,41 @@
-let slideIndex = 1;
-let slideCount = 5; // Total number of unique slides
-let transitioning = false;
+let slideIndex = 0;
 const slides = document.querySelector('.slides');
 const dots = document.querySelectorAll('.dot');
+const slideCount = dots.length;
+const slideInterval = 5000;
+let transitioning = false;
 
 function showSlides(n) {
     if (transitioning) return;
-
     transitioning = true;
 
-    slideIndex = n;
+    // Clamp slideIndex
+    slideIndex = n % slideCount;
 
-    if (slideIndex > slideCount + 1) {
-        slideIndex = 2; // Jump to the second slide (index 1 in JavaScript, +1 because of extra slide)
-        slides.style.transition = 'none';
-        slides.style.transform = `translateX(-200vw)`;
-        setTimeout(() => {
-            slides.style.transition = 'transform 1s ease-in-out';
-            slides.style.transform = `translateX(-300vw)`;
-            setTimeout(() => transitioning = false, 1000); // Wait for transition to finish
-        }, 50);
-        return;
-    }
-
-    if (slideIndex < 0) {
-        slideIndex = slideCount - 1; // Jump to the last slide (index slideCount-1 in JavaScript)
-        slides.style.transition = 'none';
-        slides.style.transform = `translateX(-${(slideCount) * 100}vw)`;
-        setTimeout(() => {
-            slides.style.transition = 'transform 1s ease-in-out';
-            slides.style.transform = `translateX(-${(slideCount - 1) * 100}vw)`;
-            setTimeout(() => transitioning = false, 1000); // Wait for transition to finish
-        }, 50);
-        return;
-    }
-
-    slides.style.transform = `translateX(${-100 * slideIndex}vw)`;
-    setTimeout(() => transitioning = false, 1000); // Wait for transition to finish
+    slides.style.transition = 'transform 1s ease-in-out';
+    slides.style.transform = `translateX(-${slideIndex * 100}vw)`;
 
     updateDots();
+
+    setTimeout(() => {
+        transitioning = false;
+    }, 1000);
 }
 
 function currentSlide(n) {
-    showSlides(n);
+    showSlides(n - 1);
 }
 
 function updateDots() {
     dots.forEach((dot, index) => {
-        dot.classList.remove('active');
-        if (index === (slideIndex - 1) % slideCount) {
-            dot.classList.add('active');
-        }
+        dot.classList.toggle('active', index === slideIndex);
     });
 }
 
+// Auto-advance every 5 seconds
 setInterval(() => {
     showSlides(slideIndex + 1);
-}, 5000); // Change image every 5 seconds
+}, slideInterval);
 
-// Initialize
+// Init
 showSlides(slideIndex);

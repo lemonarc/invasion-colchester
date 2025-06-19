@@ -1,4 +1,9 @@
 .logo-area {
+	background-color: $primary-alt;
+    background-image: url(/images/backgrounds/swirl-square.svg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 	height: 600px;
 	
 	@include media-query($on-900) {
@@ -14,7 +19,7 @@
 		height: 250px;
 	}
 
-	.dots-rotation-container {
+	.rotation-container {
 		overflow: hidden;
 		height: 600px;
 		width: 600px;
@@ -41,7 +46,7 @@
 		}
 	}
 	
-	.dots-rotation {
+	.rotation {
 		animation: rotation 88s infinite linear;
 	}
 	

@@ -1,28 +1,13 @@
-/* Home Page
------------------------------ */
-
-.home {
-	background-color: $primary;
-    background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 /* About Page
 ------------------------------*/
 
-.about-page {  
-	background-color: $primary;
-	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: contain;
+.about-page {
 
 	p {
-		color: $on-primary;
+		color: $on-secondary;
 	}
 	h1 {
-		color: $secondary;
+		color: $on-secondary;
 	}
 	img:nth-child(1) {
 		margin-bottom: $spacing-unit*6;
@@ -51,7 +36,7 @@
 
 .contact-success-page {  
 	background-color: $secondary;
-	background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
+	background-image: url(/images/backgrounds/BLAST_YELLOW.svg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -78,33 +63,17 @@
 ------------------------------*/
 
 .charities-page {
-	background-color: $primary;
-	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: contain;
 
-	h1 {
-		color: $secondary;
-	}
 	.post-content {
-		p {
-			color: $on-primary;
-		}
 		h2 {
-			color: $secondary;
+			margin-bottom: 0;
 			@include relative-font-size(2);
 		}
 		h3 {
-			color: $secondary;
 			@include relative-font-size(1);
 		}
-		div {
-			// border-bottom: 4px solid $brand-color;
-			margin-bottom: $spacing-unit*3;
-			width:100%;
-		}
 		.charity-logo {
+			margin-bottom: $spacing-unit*4;
 			max-width: 300px;
 			width: 100%;
 		}
@@ -114,52 +83,39 @@
 /* Gallery Page
 ------------------------------*/
 
-.gallery-page {
-	background-color: $secondary;
-	background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: contain;
+// .gallery-page {
 
-	h1 {
-		color: $primary;
-	}
-	a.button:hover,
-	a.button:focus {
-		background-color: $primary;
-		color: $positive;
-	}
-}
+// 	a.button:hover,
+// 	a.button:focus {
+// 		background-color: $primary;
+// 		color: $white;
+// 	}
+// }
 
 /* Gallery Page (Batman)
 ------------------------------*/
 
 .bacc-gallery-page {
-	background-color: $primary;
-	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+	background-color: $secondary;
+	background-image: url(/assets/svg/oh-bats.svg);
 	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: contain;
+	background-repeat: repeat;
+	background-size: $spacing-unit*16;
+	background-attachment: fixed;
 	text-align: center;
 
 	h1 {
-		color: $secondary;
+		color: $on-secondary;
 	}
 
 	p {
-		margin-top: 40px;
-	}
-
-	a.button:hover,
-	a.button:focus {
-		background-color: $secondary;
-		color: $positive;
+		margin-top: $spacing-unit*4;
 	}
 			
 	@include media-query($on-600){
 		
 		.title-image {
-			max-height: 200px;
+			max-height: $spacing-unit*20;
 		}
 	}
 }
@@ -168,31 +124,23 @@
 ------------------------------*/
 
 .guests-page {
-	background-color: $secondary;
-	background-image: url(/images/2024/backgrounds/BLAST_YELLOW.svg);
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	color: $on-secondary;
 
 	article header div {
 		max-width: 700px;
 	}
+	
+	.container img {
+    	clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
+	}
 
-	h1,h2 {
-		color: $primary;
-	}
-	h3 {
-		color: $secondary;
-	}
 	a.button:hover,
 	a.button:focus {
-		background-color: $primary;
-		color: $positive;
+		background-color: $primary-alt;
+		color: $white;
 	}
 
 	.guest {
-		color: $primary;
+		color: $primary-alt;
 	}
 }
 
@@ -234,7 +182,7 @@
 
 .prize-draw-page {
 	background-color: $primary;
-	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+	background-image: url(/images/backgrounds/BLAST_PINK.svg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -294,7 +242,7 @@
 
 .page-404 {
 	background-color: $primary;
-	background-image: url(/images/2024/backgrounds/BLAST_PINK.svg);
+	background-image: url(/images/backgrounds/BLAST_PINK.svg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: contain;
