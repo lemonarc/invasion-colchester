@@ -137,6 +137,14 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .container h2 { color: #69089E; }
 
+.container a, .container a.visited { color: #69089E; text-decoration: none; }
+
+.container a:hover, .container a:focus, .container a.visited:hover, .container a.visited:focus { color: #000; }
+
+.container a.button, .container a.button.visited { color: #fff; }
+
+.container a.button:hover, .container a.button:focus, .container a.button.visited:hover, .container a.button.visited:focus { color: #fff; }
+
 @media screen and (max-width: 800px) { .container { background-size: 800px; background-position: left -400px top -400px, right -400px bottom -400px; } }
 
 @media screen and (max-width: 600px) { .container { background-size: 600px; background-position: left -300px top -300px, right -300px bottom -300px; } }
@@ -936,19 +944,9 @@ article header div img { margin-right: 30px; width: auto; height: 100%; max-heig
 
 /* Privacy Page
 ------------------------------*/
-.privacy-page { background-color: #69089E; }
+.privacy-page h3 { font-size: 21.6px; font-family: "Anton", sans-serif; font-weight: 100; }
 
-.privacy-page a { color: #00A650; }
-
-.privacy-page a.button:hover, .privacy-page a.button:focus { background-color: #00A650; color: #000; }
-
-.privacy-page p { color: #000; }
-
-.privacy-page h1, .privacy-page h4, .privacy-page h6 { color: #00A650; }
-
-.privacy-page h3 { color: #00A650; font-size: 21.6px; font-family: "Anton", sans-serif; font-weight: 100; }
-
-.privacy-page ::marker { color: #fff; }
+.privacy-page ::marker { color: #000; }
 
 /* Prize Draw Page
 ------------------------------*/
