@@ -1,4 +1,6 @@
-<img src="/images/2024/characters/SIL_BATSIGNAL.svg" alt="Batsignal" />
+<div class="container">
+
+<img src="/images/characters/SIL_BATSIGNAL.svg" alt="Batsignal" />
 
 <h2>Get in Touch</h2>
 
@@ -27,3 +29,5 @@
         data-callback='onSubmit' 
         data-action='submit'>
 </form>
+
+</div>

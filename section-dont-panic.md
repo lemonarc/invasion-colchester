@@ -1,4 +1,4 @@
-<img src="/images/2024/titles/dont-panic.svg" class="heroes" alt="Don't Panic!" />
+<img src="/images/titles/dont-panic.svg" class="heroes" alt="Don't Panic!" />
 
 <p>
 	More information on everything featured at Invasion Colchester will be shared here first!

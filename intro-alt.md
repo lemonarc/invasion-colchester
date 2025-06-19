@@ -25,4 +25,4 @@
 </p><p>
 	We'll be sharing a full list of thankyous and 2024's grand total very soon...
 </p>
-<img src="/images/2024/characters/SIL_DEADPOOL_2025.svg"/>
+<img src="/images/characters/SIL_DEADPOOL_2025.svg"/>

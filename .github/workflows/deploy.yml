@@ -6,21 +6,21 @@ on:
       - master
 
 jobs:
-
   build:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
 
-    - uses: actions/checkout@v2
-      
+    - uses: actions/checkout@v4
+
     - name: Cache gems
-      uses: actions/cache@v1
+      uses: actions/cache@v4
       with:
         path: vendor/bundle
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-gems-
+
     - name: Build Jekyll
       uses: lemonarc/jekyll-action@1.0.0
 
@@ -29,6 +29,7 @@ jobs:
         sudo mv _site vendor /tmp
         rm -r *
         sudo mv /tmp/_site/** .
+
     - name: Commit to repository
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -52,6 +53,7 @@ jobs:
         sudo git commit -m "${COMMIT_MSG}" || true
         echo "Push to deploy branch."
         git push origin deploy
+
     - name: Put vendor folder back for caching
       run: sudo mv /tmp/vendor .
 

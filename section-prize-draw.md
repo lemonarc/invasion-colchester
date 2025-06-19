@@ -1,6 +1,7 @@
 <h2>Prize Draw</h2>
+{% include icon-bttf.svg %}
 <p>
-	Get your tickets for the great Invasion Colchester 2024 Prize Draw to be in with a chance of winning an amazing prize from the list below...
+	Get your tickets for the great Invasion Colchester 2025 Prize Draw to be in with a chance of winning an amazing prize from the list below...
 </p><br />
 <ul>
 	<li>
@@ -15,7 +16,7 @@
 		<span class="prize">Hamper</span>
 		<span class="donor">Donated by <a href="https://www.fenwick.co.uk/stores/colchester" rel="nofollow noopener noreferrer" alt="Fenwick" target="_blank"><span class="donor">Fenwick</span></a></span>
 	</li>
-	<li>
+	<!-- <li>
 		<span class="prize">4x 'Elf' Tickets</span>
 		<span class="donor">Donated by <a href="https://colchester-events.co.uk/whats-on/" rel="nofollow noopener noreferrer" alt="Charter Hall" target="_blank"><span class="donor">Charter Hall</span></a></span>
 	</li>
@@ -54,12 +55,13 @@
 	<li>
 		<span class="prize">1x Family Cinema Ticket (2x Adults, 2x Children)</span>
 		<span class="donor">Donated by <a href="https://firstsite.uk/" rel="nofollow noopener noreferrer" alt="Curzon" target="_blank"><span class="donor">Firstsite</span></a></span>
-	</li>
+	</li> -->
 </ul><br />
+<p>(More prizes to follow...)</p>
 <p>
 	Physical tickets are available from <a href="https://acecomics.co.uk/" rel="nofollow noopener noreferrer" alt="ACE Comics" target="_blank"><strong>ACE Comics</strong></a> in Colchester before the event, and from our team of volunteers on the day.
 </p><p>
-	All proceeds will be donated to <a href="https://mnessexmind.org/" rel="nofollow noopener noreferrer" alt="Mind (Mid & North East Essex)" target="_blank"><strong>Mind (Mid & North East Essex)</strong></a>.
+	All proceeds will be donated to <a href="//www.sthelena.org.uk/" rel="nofollow noopener noreferrer" alt="St Helena Hospice" target="_blank"><strong>St Helena Hospice</strong></a>.
 </p><p>
-	The draw will take place on Friday, 27 September 2024 at <strong>ACE Comics</strong>. Winning ticket numbers will be published on the website after the draw.
+	The draw will take place on Thursday, 25 September 2025 at <strong>ACE Comics</strong>. Winning ticket numbers will be published on the website after the draw.
 </p>
