@@ -5,7 +5,7 @@ title: "Invasion Colchester's Prize Draw"
 excerpt: "Get your tickets for the great Invasion Colchester 2024 Prize Draw to be in with a chance of winning an amazing prize!"
 permalink: /prize-draw/
 featured-image: SIL_GHOSTBUSTER.svg
-socialimage: SM_IC_PAGE_PRIZE_DRAW.png
+socialimage: SOCIAL_1200x628_PRIZE_DRAW.png
 ---
 
 <p>

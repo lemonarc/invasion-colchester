@@ -5,7 +5,7 @@ title: Privacy Policy
 excerpt: Privacy Policy for invasioncolchester.co.uk
 permalink: /privacy-policy/
 featured-image: SIL_STORMTROOPER.svg
-socialimage: SM_IC_PAGE_PRIVACY.png
+socialimage: SOCIAL_1200x628_PRIVACY_POLICY.png
 ---
 <div class="container">
 <p>

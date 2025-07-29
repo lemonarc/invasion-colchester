@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Meet your heroes at this annual charity event in Colchester city centre, Essex. Featuring characters from Star Wars, Marvel and more! Our next event takes place on Saturday 6 September 2025.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-socialimage: SM_IC_FB_BASIC.png
+socialimage: SOCIAL_1200x628_MAIN.png
 facebook_username: invasioncolchester
 twitter_username: InvColchester
 instagram_username: invasion_colchester

@@ -6,7 +6,7 @@ excerpt: Take a look through our gallery of images from Invasion Colchester over
 permalink: /gallery/
 featured-image: SIL_SPIDER-MAN.svg
 titlecard: right
-socialimage: SM_IC_PAGE_GALLERY.png
+socialimage: SOCIAL_1200x628_GALLERY.png
 lightbox: gallery
 ---
 

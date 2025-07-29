@@ -5,7 +5,7 @@ title: Invasion Colchester's Charities
 excerpt: Invasion Colchester was created to raise awarenes and help local charities. PLease take a look at the brilliant causes that benefit from our efforts.
 permalink: /charities/
 featured-image: SIL_MOANA.svg
-socialimage: SM_IC_PAGE_CHARITIES.png
+socialimage: SOCIAL_1200x628_CHARITIES.png
 ---
 
 <p>Each year, Invasion Colchester proudly supports a selection of incredible local charities working to improve lives across our community. Through the generosity of our visitors, volunteers, and partners, we help raise vital funds and awareness for organisations providing care, comfort, and support to those who need it most. Below, you can learn more about the causes we champion and the life-changing work your contributions make possible.</p>

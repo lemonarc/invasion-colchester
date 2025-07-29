@@ -6,7 +6,7 @@ excerpt: Take a look through our gallery of images from Invasion Colchester over
 permalink: /batman-at-colchester-castle/
 featured-image: batman-castle-purple.svg
 titlecard: right
-socialimage: SM_IC_PAGE_BACC.png
+socialimage: SOCIAL_1200x628_BATMAN_AT_THE_CASTLE.png
 lightbox: bacc-gallery
 ---
 
