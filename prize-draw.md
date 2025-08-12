@@ -1,5 +1,13 @@
-<h2>Prize Draw</h2>
-{% include icon-bttf.svg %}
+---
+pageclass: prize-draw-page
+layout: page
+title: "Invasion Colchester's Prize Draw"
+excerpt: "Step right up for the Invasion Colchester 2025 Prize Draw — your chance to bag some truly fantastic rewards!"
+permalink: /prize-draw/
+featured-image: SIL_GHOSTBUSTER.svg
+socialimage: SOCIAL_1200x628_PRIZE_DRAW.png
+---
+
 <p>
     Step right up for the <strong>Invasion Colchester 2025 Prize Draw</strong> — your chance to bag some truly fantastic rewards!  
     With every ticket you buy, you’re not just in the running for a brilliant prize from our star-studded list below… you’re also helping raise vital funds for a great local cause.  
