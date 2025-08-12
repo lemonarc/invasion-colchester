@@ -172,7 +172,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3)
-  jekyll-feed (~> 0.12)
+  jekyll-feed (>= 0.12, < 1.0)
   jekyll-redirect-from
   listen (>= 3.8)
   minima (~> 2.5)
