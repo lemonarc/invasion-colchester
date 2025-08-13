@@ -6,7 +6,7 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-feed", ">= 0.12", "< 1.0"
   gem "jekyll-redirect-from"
-  gem "jekyll-seo-tag"          # <- REQUIRED (in your _config.yml)
+  gem "jekyll-seo-tag"        # <- REQUIRED (in your _config.yml)
 end
 
 gem "webrick", "~> 1.8"
