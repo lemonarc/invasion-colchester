@@ -1,98 +1,100 @@
+/* _sass/invasion/_banner.scss */
+@use "invasion/prelude" as *;
+
 .banner-area {
-	background-image: url('/assets/svg/swirl-square-primary.svg');
-	background-size: cover;
-	background-position: center;
-	color: $black;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding-top: 60px;
-	position: relative;
-	width: 100%;
-	overflow: hidden;
+  background-image: url('/assets/svg/swirl-square-primary.svg');
+  background-size: cover;
+  background-position: center;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 
-	video {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		min-width: 100%;
-		min-height: 100%;
-		width: auto;
-		height: auto;
-		transform: translate(-50%, -50%);
-		object-fit: cover;
-	}
-  
-	.banner-content {
-		position: relative;
-		padding: 40px 0;
-		text-align: center;
-		width: 90vw;
-		z-index: 1;
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+  }
 
-		.features, .date, .time {
-			max-width: 1000px;      // Set your max text width
-  			width: 100%;           // Allow it to shrink below max
-  			margin: 0 auto;        // Center it horizontally
-  			text-align: center;    // Or left/right as needed
-			line-height: 1;
-		}
+  .banner-content {
+    position: relative;
+    padding: 40px 0;
+    text-align: center;
+    width: 90vw;
+    z-index: 1;
 
-		.features {
-			color: $white;
-			font-size: clamp(.8rem, 2.4vw, 1.8rem); // Responsive scaling
-		}
-		.date {
-			font-size: clamp(2rem, 8vw, 6rem); // Responsive scaling
-		}
-		.time {
-			font-size: clamp(1rem, 3vw, 2.3rem); // Responsive scaling
-		}
-		.banner-logo {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			justify-content: center;
-			margin: 0 auto;
-			max-width: 1000px;
+    .features, .date, .time {
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 1;
+    }
 
-			.wordmark-h {
-				margin: 10px;
-				display: none;
+    .features {
+      color: $white;
+      /* literal CSS clamp() so Sass won’t try to validate units */
+      font-size: unquote("clamp(0.8rem, 2.4vw, 1.8rem)");
+    }
+    .date {
+      font-size: unquote("clamp(2rem, 8vw, 6rem)");
+    }
+    .time {
+      font-size: unquote("clamp(1rem, 3vw, 2.3rem)");
+    }
 
-				@include media-query($on-800) {
-					display: block;
-					max-width: 600px;
-				}
-			}
-			.wordmark-v {
-				margin: 10px;
-				max-width: calc(40% - 20px);
+    .banner-logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 1000px;
 
-				@include media-query($on-800) {
-					display: none;
-				}
-			}
-			.logo {
-				margin: 10px;
-				max-width: calc(60% - 20px);
+      .wordmark-h {
+        margin: 10px;
+        display: none;
 
-				@include media-query($on-800) {
-					max-width: 600px;
-				}
-			}
+        @include media-query($on-800) {
+          display: block;
+          max-width: 600px;
+        }
+      }
+      .wordmark-v {
+        margin: 10px;
+        max-width: calc(40% - 20px);
 
-			@include media-query($on-800) {
-				flex-direction: column;
-			}
-		}
+        @include media-query($on-800) {
+          display: none;
+        }
+      }
+      .logo {
+        margin: 10px;
+        max-width: calc(60% - 20px);
 
-		@include media-query($on-800) {
-			padding: 20px 0;
-		}
-	}
+        @include media-query($on-800) {
+          max-width: 600px;
+        }
+      }
+
+      @include media-query($on-800) {
+        flex-direction: column;
+      }
+    }
+
+    @include media-query($on-800) {
+      padding: 20px 0;
+    }
+  }
 }
-  
- 
-  

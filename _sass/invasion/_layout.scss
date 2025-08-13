@@ -1,166 +1,94 @@
+/* _sass/invasion/_layout.scss */
+@use "invasion/prelude" as *;
+
 /**
  * Page content
  */
- .page-content {
-	flex: 1;
-  }
-  
-  .page-heading {
-	@include relative-font-size(2);
-  }
-  
-  .title-image {
-	  max-height: 300px;
-  }
-  
-  .post {
-	  margin: $spacing-unit*6 0;
-	  
-	  @include media-query($on-1200) {
-		  padding: 0 $spacing-unit;
-	  }
-	  .button {
-		  display: inline-block;
-		  margin-top: $spacing-unit*4;
-	  }
-  
-	  .photos img {
-		  border-radius: $spacing-unit;
-	  }
-  }
-  
-  .post-list-heading {
-	@include relative-font-size(1.75);
-  }
-  
-  .post-list {
-	margin-left: 0;
-	list-style: none;
-  
-	> li {
-	  margin-bottom: $spacing-unit;
-	}
-  }
-  
-  .post-meta {
-	font-size: $small-font-size;
-	color: $black;
-  }
-  
-  .post-link {
-	display: block;
-	@include relative-font-size(1.5);
-  }
-  
-  
-  
-  /**
-   * Posts
-   */
-  .post-header {
-	padding: $spacing-unit*4 0;
-  }
-  // .post-header-image {
-  // 	height: 0;
-  //   width: 0;
-  //   opacity: 0;
-  // 	margin: 0;
-  // }
-  
-  // .post-title {
-  //   @include relative-font-size(2.625);
-  //   line-height: 1;
-  
-  //   @include media-query($on-laptop) {
-  //     @include relative-font-size(2.25);
-  //   }
-  // }
-  
-  .post-content {
-	padding-bottom: $spacing-unit;
-  }
-  
-  .shade {
-	background-color: rgba(0,0,0,0.6);
-	height: 100%;
-	width: 100%;
-  }
-  .fade {
-	  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.5+0,1+100 */
-	  background: rgba(0,0,0,0.8); /* Old browsers */
-	  background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
-	  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	  background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-	height: 100%;
-	width: 100%;
-  }
-  
-  /**
-   * Title Cards
-   */
-  
-  .title-card {
-  //		background-image: url('/images/logo/fade.png');
-  //		background-repeat: repeat-x;
-  //		background-size: contain;
-	  margin: 0 0 $spacing-unit*6;
-	  
-	  @include media-query($on-500) {
-		  margin: $spacing-unit*3 0;
-	  }
-	  
-	  img {
-		  display: block;
-		  margin: 0 auto;
-	  }
-  }
-  article header div {
-	  display: flex;
-	  flex-direction: row;
-	  align-items: center;
-	  justify-content: center;
-	  max-width: 600px;
-	  margin: 0 auto;
-	  text-align: center;
-  
-	  img {
-		  margin-right: $spacing-unit*3;
-		  width: auto;
-		  height: 100%;
-		  max-height: $spacing-unit*60;
+.page-content { flex: 1; }
 
-		  @include media-query($on-500) {
-			display: none;
-		  }
-	  }
+.page-heading { @include relative-font-size(2); }
+
+.title-image { max-height: 300px; }
+
+.post {
+  margin: $spacing-unit*6 0;
+
+  @include media-query($on-1200) { padding: 0 $spacing-unit; }
+  .button { display: inline-block; margin-top: $spacing-unit*4; }
+
+  .photos img { border-radius: $spacing-unit; }
+}
+
+.post-list-heading { @include relative-font-size(1.75); }
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li { margin-bottom: $spacing-unit; }
+}
+
+.post-meta { font-size: $small-font-size; color: $black; }
+
+.post-link { display: block; @include relative-font-size(1.5); }
+
+/**
+ * Posts
+ */
+.post-header { padding: $spacing-unit*4 0; }
+
+.post-content { padding-bottom: $spacing-unit; }
+
+.shade { background-color: rgba(0,0,0,0.6); height: 100%; width: 100%; }
+.fade {
+  background: rgba(0,0,0,0.8);
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#000000',GradientType=0 );
+  height: 100%;
+  width: 100%;
+}
+
+/**
+ * Title Cards
+ */
+.title-card {
+  margin: 0 0 $spacing-unit*6;
+
+  @include media-query($on-500) { margin: $spacing-unit*3 0; }
+
+  img { display: block; margin: 0 auto; }
+}
+
+article header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+  img {
+    margin-right: $spacing-unit*3;
+    width: auto;
+    height: 100%;
+    max-height: $spacing-unit*60;
+
+    @include media-query($on-500) { display: none; }
   }
-  
-  
-  /**
-   * Gallery & Images
-   */
-   
-//   .gallery img {
-// 	max-width: calc(25% - #{$spacing-unit*2});
-// 	  padding: ($spacing-unit / 2) $spacing-unit;
-// 	float: left;
-	  
-// 	  @include media-query($on-laptop) {
-// 	  max-width: calc(50% - #{$spacing-unit*2});
-// 	}		
-//   }
-  
-  .guest-feature {
-	  float: left;
-	  margin: 0 $spacing-unit*2 $spacing-unit*2 0;
-	  width: 50%;
-	  
-	  @include media-query($on-tablet) {
-		  float: none;
-		  margin: 0 0 $spacing-unit*2;
-		  width: 100%;
-	  }
+}
+
+/* .guest-feature etc. */
+.guest-feature {
+  float: left;
+  margin: 0 $spacing-unit*2 $spacing-unit*2 0;
+  width: 50%;
+
+  @include media-query($on-tablet) {
+    float: none;
+    margin: 0 0 $spacing-unit*2;
+    width: 100%;
   }
-  
-  
+}

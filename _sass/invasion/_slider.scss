@@ -1,112 +1,88 @@
+/* _sass/invasion/_slider.scss */
+@use "invasion/prelude" as *;
+
 /* Flex Slider
 --------------------------------------------------*/
-
 .slider {
+  height: 80vh;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+
+  .slides {
+    display: flex;
+    width: 700vw; /* 7 slides * 100vw */
     height: 80vh;
-	min-height: 400px;
+    min-height: 400px;
+    transition: transform 1s ease-in-out;
+    transform: translateX(0); /* Fix initial load flicker */
+  }
+
+  .slide {
+    width: 100vw;
+    height: 80vh;
+    min-height: 400px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
     position: relative;
-    overflow: hidden;
-	
-	.slides {
-		display: flex;
-		width: 700vw; /* 7 slides * 100vw */
-		height: 80vh;
-		min-height: 400px;
-		transition: transform 1s ease-in-out;		
-		transform: translateX(0); /* Fix initial load flicker */
-	}
+  }
 
-	
-	.slide {
-		width: 100vw;
-		height: 80vh;
-		min-height: 400px;
-		background-size: cover;
-		background-position: top;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		color: white;
-		position: relative;
-	}
-	
-	.text {
-		background: rgba(0, 0, 0, 0.5);
-		padding: 20px;
-		clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
-		width: 400px;
-	}
-	
-	.dots {
-		position: absolute;
-		bottom: 20px;
-		left: 50%;
-		transform: translateX(-50%);
-		display: flex;
-		gap: 10px;
-	}
-	
-	.dot {
-		width: 15px;
-		height: 15px;
-		background-color: $primary;
-		border-radius: 50%;
-		display: inline-block;
-		cursor: pointer;
-	}
-	
-	.dot.active {
-		background-color: $secondary;
-	}
+  .text {
+    // background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
+    width: 400px;
+  }
 
-	.hero1 {
-		background-image: url('/images/guests/carl-newman-01.jpg');
-	}
+  .dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
 
-	.hero2 {
-		background-image: url('/images/guests/james-taylor-07.jpg');
-	}
+  .dot {
+    width: 15px;
+    height: 15px;
+    background-color: $primary;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .dot.active { background-color: $secondary; }
 
-	.hero3 {
-		background-image: url('/images/guests/barry-kitson-02.jpg');
-	}
+  .hero1 { background-image: url('/images/guests/carl-newman-01.jpg'); }
+  .hero2 { background-image: url('/images/guests/james-taylor-07.jpg'); }
+  .hero3 { background-image: url('/images/guests/barry-kitson-02.jpg'); }
+  .hero4 { background-image: url('/images/guests/paul-warren-04.jpg'); }
+  .hero5 { background-image: url('/images/guests/clem-so-3.jpg'); }
+  .hero6 { background-image: url('/images/guests/ty-hurley-05.jpg'); }
+  .hero7 { background-image: url('/images/guests/ross-03.jpg'); }
 
-	.hero4 {
-		background-image: url('/images/guests/paul-warren-04.jpg');
-	}
+  h3,h4 {
+    color: $white;
+    margin-bottom: 4px;
+  }
+  h3 {
+    font-family: "Saira", sans-serif;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+  }
+  h4 {
+    font-size: 2.6em;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.5);
+  }
 
-	.hero5 {
-		background-image: url('/images/guests/clem-so-3.jpg');
-	}
-
-	.hero6 {
-		background-image: url('/images/guests/ty-hurley-05.jpg');
-	}
-
-	.hero7 {
-		background-image: url('/images/guests/ross-03.jpg');
-	}
-
-	h3,h4 {
-		color: $white;
-		margin-bottom: 4px;
-	}
-
-	h3 {
-		font-family: "Saira", sans-serif;
-		font-size: 1.4em;
-		font-weight: 400;
-	}
-
-	h4 {
-		font-size: 2.6em;
-	}
-
-	.button {
-		display: inline-block;
-		margin-top: $spacing-unit;
-	}
-
-
+  .button {
+    display: inline-block;
+    margin-top: $spacing-unit;
+    box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.5);
+  }
 }

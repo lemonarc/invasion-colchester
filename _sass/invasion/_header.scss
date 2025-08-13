@@ -1,112 +1,99 @@
+/* _sass/invasion/_header.scss */
+@use "invasion/prelude" as *;
+
 /* Scroll to top */
 #top {
-	position: absolute;
-    top: 0;
+  position: absolute;
+  top: 0;
 }
 
 /* Site header
 ==================== */
 
 .preheader {
-	color: $on-secondary;
-    font-family: "Roboto", sans-serif;
-    font-size: $spacing-unit*1.4;
-	font-weight: 600;
-    line-height: 2;
-    text-align: center;
-    margin-bottom: 0;
-	
-	p {
-		line-height: 1.2;
-		margin-bottom: 0;
-	    padding: 6px;
-	}
-	a,a:visited {
-		color: $on-secondary;
-		font-weight: 900;
-		text-decoration: none;
+  color: $on-secondary;
+  font-family: "Roboto", sans-serif;
+  font-size: $spacing-unit*1.4;
+  font-weight: 600;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 0;
 
-		&:hover,&:focus {
-			color: $primary-alt;
-		}
-	}
+  p {
+    line-height: 1.2;
+    margin-bottom: 0;
+    padding: 6px;
+  }
+  a,a:visited {
+    color: $on-secondary;
+    font-weight: 900;
+    text-decoration: none;
+
+    &:hover,&:focus { color: $primary-alt; }
+  }
 }
 
 .alt-body .preheader {
-    background-color: $primary;
-	color: $secondary;
+  background-color: $primary;
+  color: $secondary;
 
-	a,a:visited {
-		color: $secondary;
-
-		&:hover,&:focus {
-			color: $secondary-hover;
-		}
-	}
+  a,a:visited {
+    color: $secondary;
+    &:hover,&:focus { color: $secondary-hover; }
+  }
 }
 
 .subheader {
-    background-color: $primary;
-	color: $white;
-    font-family: "Anton", sans-serif;
-    font-size: $spacing-unit*1.6;
-	height: $spacing-unit*3;
-    line-height: 2;
-    margin-bottom: 0;
-	position: absolute;
-	text-align: center;
-	top: 30px;
-	width: 100%;
-	z-index: 30;
+  background-color: $primary;
+  color: $white;
+  font-family: "Anton", sans-serif;
+  font-size: $spacing-unit*1.6;
+  height: $spacing-unit*3;
+  line-height: 2;
+  margin-bottom: 0;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 100%;
+  z-index: 30;
 }
 .sub1 {
-	display: block;
-	@media screen and (max-width:370px) {
-		display: none;
-	}
+  display: block;
+  @media screen and (max-width:370px) { display: none; }
 }
 .sub2 {
-	display: none;
-	@media screen and (max-width:370px) {
-		display: block;
-	}
+  display: none;
+  @media screen and (max-width:370px) { display: block; }
 }
-
 
 /**
  * Site header
  */
 .site-header {
-	color: $black;
-	font-family: "Freeman", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	min-height: $spacing-unit * 1.865;
-	text-transform: uppercase;
-
-  // Positioning context for the mobile navigation icon
-	position: relative;
-	
-	// &.home-header {
-	// 	background: initial;	
-	// }
+  color: $black;
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  min-height: $spacing-unit * 1.865;
+  text-transform: uppercase;
+  position: relative;
 }
 
 .site-title {
-	background-size: contain;
-    float: left;
-	height: $spacing-unit*4;
-	margin: $spacing-unit 0 $spacing-unit $spacing-unit/2;
-	text-indent: -99999px;
-	width: 400px;
+  background-size: contain;
+  float: left;
+  height: $spacing-unit*4;
+  margin: $spacing-unit 0 $spacing-unit half($spacing-unit);
+  text-indent: -99999px;
+  width: 400px;
 
-	@include relative-font-size(1.625);
-	
-	@include media-query ($on-500){		
-		background-size: contain;
-		margin-left: $spacing-unit;	
-		width: $spacing-unit*10;
-	}
+  @include relative-font-size(1.625);
+
+  @include media-query ($on-500){
+    background-size: contain;
+    margin-left: $spacing-unit;
+    width: $spacing-unit*10;
+  }
 }
 
 .site-nav {
@@ -114,294 +101,192 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   z-index: 10;
 
-  .nav-trigger {
-      display: none;
-  }
+  .nav-trigger { display: none; }
 
-  .menu-icon,
-  .close-icon {
-    display: none;
-  }
+  .menu-icon, .close-icon { display: none; }
 
   .page-link {
     color: $primary;
     line-height: $base-line-height;
-	text-decoration: none;
+    text-decoration: none;
 
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
-	&:hover,
-	&:focus {
-		color: $primary-hover;
-		text-decoration: none;
-	}
+    &:not(:last-child) { margin-right: 20px; }
+    &:hover,&:focus { color: $primary-hover; text-decoration: none; }
   }
 
   @include media-query($on-1000) {
     position: absolute;
     top: 9px;
-    right: $spacing-unit / 2;
-    //text-align: right;
-	text-align: center;
-	
+    right: half($spacing-unit);
+    text-align: center;
+
     label[for="nav-trigger"] {
-		display: block;
-		float: right;
-		margin-bottom: 12px;
-		width: 36px;
-		height: 36px;
-		z-index: 2;
-		cursor: pointer;
-	  
-		.menu-icon {
-			display: block;
-			float: right;
-			width: 36px;
-			height: 26px;
-			line-height: 0;
-			padding-top: 10px;
-			text-align: center;
+      display: block;
+      float: right;
+      margin-bottom: 12px;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
 
-			> svg {
-			  fill: $white;
-			}
-		}
-		
-		.close-icon {
-			display: none;
-			float: right;
-			width: 36px;
-			height: 26px;
-			line-height: 0;
-			padding-top: 10px;
-			text-align: center;
+      .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
 
-			> svg {
-			  fill: $white;
-			}
-		}
+        > svg { fill: $white; }
+      }
+
+      .close-icon {
+        display: none;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+
+        > svg { fill: $white; }
+      }
     }
-	.nav-trigger:checked + .nav-label {
-		.menu-icon {
-			display: none;
-		}
-		.close-icon {
-			display: block;
-		}
-	}    
-
-    input ~ .trigger {
-      clear: both;
-      display: none;
+    .nav-trigger:checked + .nav-label {
+      .menu-icon { display: none; }
+      .close-icon { display: block; }
     }
+
+    input ~ .trigger { clear: both; display: none; }
 
     input:checked ~ .trigger {
-		//background: $black;
-		background: rgba(0,0,0,0.9);
-		display: block;
-		font-size: 2rem;
-		border: 1px solid $white;
-		padding: $spacing-unit*3 $spacing-unit $spacing-unit*6;
-		width: 100vw;
-		position: absolute;
-		right: -5px;
-		top: 50px;
-		
-		@include media-query($on-1000) {
-			min-height: 50vh;
-		}
-		.menu-icon {
-			display: none;
-		}
-		.close-icon {
-			display: block;
-		}
+      background: rgba(0,0,0,0.9);
+      display: block;
+      font-size: 2rem;
+      border: 1px solid $white;
+      padding: $spacing-unit*3 $spacing-unit $spacing-unit*6;
+      width: 100vw;
+      position: absolute;
+      right: -5px;
+      top: 50px;
+
+      @include media-query($on-1000) { min-height: 50vh; }
+      .menu-icon { display: none; }
+      .close-icon { display: block; }
     }
 
     .page-link {
       display: block;
       padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
+      &:not(:last-child) { margin-right: 0; }
       margin-left: 20px;
     }
   }
 }
 
-
-
 .index-header {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	min-width: 100%;
-	padding: 0;
-	position: absolute;
-	z-index: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  padding: 0;
+  position: absolute;
+  z-index: 4;
 
-	.site-title {
-		display: none;
-	}
+  .site-title { display: none; }
 
-	.page-link {
-		color: $white;
+  .page-link {
+    color: $white;
 
-		&:hover,
-		&:focus {
-			color: $secondary;
-		}
-		@include media-query($on-1000) {
-			&:hover,
-			&:focus {
-			color: $secondary;
-		}
-		}
-	}
-	
-	@include media-query($on-1000) {
-				
-		label[for="nav-trigger"] {
-			margin-top: 12px;
-			
-			.menu-icon {
-	
-				> svg {
-				  fill: $white;
-				}
-			}
-			
-			.close-icon {
-	
-				> svg {
-				  fill: $white;
-				}
-			}
-		}
-		.site-nav {
-			position: static;
-		}
-	}
+    &:hover,&:focus { color: $secondary; }
+    @include media-query($on-1000) {
+      &:hover,&:focus { color: $secondary; }
+    }
+  }
+
+  @include media-query($on-1000) {
+    label[for="nav-trigger"] {
+      margin-top: 12px;
+
+      .menu-icon  > svg { fill: $white; }
+      .close-icon > svg { fill: $white; }
+    }
+    .site-nav { position: static; }
+  }
 }
 
-
-
 .primary-header {
-	background-color: #00A650;
-    background-image: url(/assets/svg/cirlces-light.svg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	min-width: 100%;
-	padding: 0;
-	position: absolute;
-	z-index: 4;
+  background-color: #00A650;
+  background-image: url(/assets/svg/cirlces-light.svg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  padding: 0;
+  position: absolute;
+  z-index: 4;
 
-	.wrapper {
-		width: 100%;
-	}
+  .wrapper { width: 100%; }
 
-	.site-title {
-		background: url(/assets/logo/ic-lockup-horizontal-alt.svg) no-repeat;
+  .site-title {
+    background: url(/assets/logo/ic-lockup-horizontal-alt.svg) no-repeat;
 
-		@include relative-font-size(1.625);
+    @include relative-font-size(1.625);
 
-		@include media-query ($on-500){		
-			background: url(/assets/logo/ic-logo.svg) no-repeat;
-		}
-	}
+    @include media-query ($on-500){
+      background: url(/assets/logo/ic-logo.svg) no-repeat;
+    }
+  }
 
-	.page-link {
-		color: $white;
+  .page-link {
+    color: $white;
 
-		&:hover,
-		&:focus {
-			color: $secondary;
-		}
-		@include media-query($on-1000) {
-			&:hover,
-			&:focus {
-			color: $secondary;
-		}
-		}
-	}
-	
-	@include media-query($on-1000) {
-				
-		label[for="nav-trigger"] {
-			margin-top: 12px;
-			
-			.menu-icon {
-	
-				> svg {
-				  fill: $white;
-				}
-			}
-			
-			.close-icon {
-	
-				> svg {
-				  fill: $white;
-				}
-			}
-		}
-		.site-nav {
-			position: static;
-		}
-	}
+    &:hover,&:focus { color: $secondary; }
+    @include media-query($on-1000) {
+      &:hover,&:focus { color: $secondary; }
+    }
+  }
+
+  @include media-query($on-1000) {
+    label[for="nav-trigger"] {
+      margin-top: 12px;
+
+      .menu-icon  > svg { fill: $white; }
+      .close-icon > svg { fill: $white; }
+    }
+    .site-nav { position: static; }
+  }
 }
 
 .secondary-header {
+  .site-title {
+    background: url(/images/logo/IC-LOGO-FULL-2024-2.svg) no-repeat;
 
-	.site-title {
-		background: url(/images/logo/IC-LOGO-FULL-2024-2.svg) no-repeat;
+    @include relative-font-size(1.625);
 
-		@include relative-font-size(1.625);
-			
-		@include media-query ($on-500){		
-			background: url(/images/logo/IC-LOGO-SHORT-2024.svg) no-repeat;
-		}
-	}
-	.page-link {
-		color: $primary;
+    @include media-query ($on-500){
+      background: url(/images/logo/IC-LOGO-SHORT-2024.svg) no-repeat;
+    }
+  }
+  .page-link {
+    color: $primary;
 
-		&:hover,
-		&:focus {
-			color: $primary-hover;
-		}
-		@include media-query($on-1000) {
-			&:hover,
-			&:focus {
-			color: $primary-hover;
-		}
-		}
-	}
-	
-	@include media-query($on-1000) {
-				
-		label[for="nav-trigger"] {
-		  
-			.menu-icon {
-	
-				> svg {
-				  fill: $primary;
-				}
-			}
-			
-			.close-icon {
-	
-				> svg {
-				  fill: $primary;
-				}
-			}
-		}
-	}
+    &:hover,&:focus { color: $primary-hover; }
+    @include media-query($on-1000) {
+      &:hover,&:focus { color: $primary-hover; }
+    }
+  }
+
+  @include media-query($on-1000) {
+    label[for="nav-trigger"] {
+      .menu-icon  > svg { fill: $primary; }
+      .close-icon > svg { fill: $primary; }
+    }
+  }
 }

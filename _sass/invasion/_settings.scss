@@ -1,0 +1,93 @@
+/* _sass/invasion/_settings.scss */
+/* Typography */
+$base-font-family: "Saira", sans-serif !default;
+$base-header-font-family: 'wood_stampregular', sans-serif !default;
+$base-header-font-family-alt: "Saira Condensed", "Russo One", sans-serif !default;
+
+$base-font-size: 18px !default;
+$base-font-weight: 400 !default;
+$small-font-size: $base-font-size * 0.875 !default;
+$base-line-height: 1.4 !default;
+
+/* Spacing scale */
+$spacing-unit: 10px !default;
+
+$h1: $spacing-unit * 3.2 !default;
+$h2: $spacing-unit * 2.8 !default;
+$h3: $spacing-unit * 2.4 !default;
+$h4: $spacing-unit * 2 !default;
+$h5: $spacing-unit * 1.8 !default;
+
+/* Core colors */
+$white: #fff !default;
+$black: #000 !default;
+
+/* Brand palette */
+$green-100: #46C182 !default;
+$green-200: #22B56A !default;
+$green-300: #00A650 !default;
+$green-400: #008441 !default;
+$green-500: #006733 !default;
+
+$purple-100: #9249BA !default;
+$purple-200: #7D28AC !default;
+$purple-300: #69089E !default;
+$purple-400: #53067E !default;
+$purple-500: #410462 !default;
+
+$yellow-100: #FFFF5C !default;
+$yellow-200: #FFFF30 !default;
+$yellow-300: #EDED00 !default;
+$yellow-400: #BDBD00 !default;
+$yellow-500: #939300 !default;
+
+/* Semantic colors */
+$primary:       $green-300 !default;
+$primary-alt:   $green-200 !default;
+$primary-hover: $black !default;
+
+$secondary:       $purple-300 !default;
+$secondary-alt:   $purple-100 !default;
+$secondary-hover: $white !default;
+
+$tertiary:       $yellow-300 !default;
+$tertiary-alt:   $yellow-100 !default;
+$tertiary-hover: $yellow-100 !default;
+
+$on-primary:   $black !default;
+$on-secondary: $white !default;
+
+$link:  $primary-alt !default;
+$hover: $white !default;
+
+$table-text-align: left !default;
+
+/* Breakpoints */
+$on-1200: 1200px !default;
+$on-1100: 1100px !default;
+$on-1040: 1040px !default;
+$on-1000: 1000px !default;
+$on-900:   900px !default;
+$on-800:   800px !default;
+$on-700:   700px !default;
+$on-600:   600px !default;
+$on-500:   500px !default;
+$on-400:   400px !default;
+$on-300:   300px !default;
+$on-200:   200px !default;
+$on-100:   100px !default;
+
+/* Layout widths */
+$content-width: $on-1200 !default;
+
+$on-laptop: $on-800 !default;
+$on-tablet: $on-600 !default;
+$on-palm:   $on-400 !default;
+$on-mobile: $on-300 !default;
+
+/* Mixins */
+@mixin media-query($device) {
+  @media screen and (max-width: $device) { @content; }
+}
+
+@mixin relative-font-size($ratio) { font-size: $base-font-size * $ratio; }

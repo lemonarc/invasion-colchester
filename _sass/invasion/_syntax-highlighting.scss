@@ -1,3 +1,6 @@
+/* _sass/invasion/_syntax-highlighting.scss */
+@use "invasion/prelude" as *;
+
 /**
  * Syntax highlighting styles
  */
@@ -5,9 +8,7 @@
   background: #fff;
   @extend %vertical-rhythm;
 
-  .highlighter-rouge & {
-    background: #eef;
-  }
+  .highlighter-rouge & { background: #eef; }
 
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error

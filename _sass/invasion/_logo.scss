@@ -1,154 +1,98 @@
+/* _sass/invasion/_logo.scss */
+@use "invasion/prelude" as *;
+
 .logo-area {
-	background-color: $primary-alt;
-    background-image: url(/images/backgrounds/swirl-square.svg);
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-	height: 600px;
-	
-	@include media-query($on-900) {
-		height: 600px;
-	}
-	@include media-query($on-700) {
-		height: 450px;
-	}
-	@include media-query($on-600) {
-		height: 350px;
-	}
-	@include media-query($on-500) {
-		height: 250px;
-	}
+  background-color: $primary-alt;
+  background-image: url(/images/backgrounds/swirl-square.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
 
-	.rotation-container {
-		overflow: hidden;
-		height: 600px;
-		width: 600px;
-		display: block;
-		margin: 0 auto;
-		position: absolute;
-		left: 0;
-		right: 0;
-		z-index: 2;
+  @include media-query($on-900) { height: 600px; }
+  @include media-query($on-700) { height: 450px; }
+  @include media-query($on-600) { height: 350px; }
+  @include media-query($on-500) { height: 250px; }
 
-		@include media-query($on-700) {
-			height: 450px;
-			width: 450px;
-		}
+  .rotation-container {
+    overflow: hidden;
+    height: 600px; width: 600px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 0; right: 0;
+    z-index: 2;
 
-		@include media-query($on-600) {
-			height: 350px;
-			width: 350px;
-		}
+    @include media-query($on-700) { height: 450px; width: 450px; }
+    @include media-query($on-600) { height: 350px; width: 350px; }
+    @include media-query($on-500) { height: 250px; width: 250px; }
+  }
 
-		@include media-query($on-500) {
-			height: 250px;
-			width: 250px;
-		}
-	}
-	
-	.rotation {
-		animation: rotation 88s infinite linear;
-	}
-	
-	@keyframes rotation {
-		from {
-	  		transform: rotate(0deg);
-		}
-		to {
-	  		transform: rotate(359deg);
-		}
-  	}
+  .rotation { animation: rotation 88s infinite linear; }
 
-	.logo-content {
-		margin: 0 auto;
-		max-width: 900px;
-		position: relative;
-	}
-	
-	.logo-left {
-		height: 550px;
-		position: absolute;
-		left: 0;
-		z-index: 1;
-		
-		@include media-query($on-700) {
-			height: 450px;
-		}
-		@include media-query($on-600) {
-			height: 350px;
-		}
-		@include media-query($on-500) {
-			height: 250px;
-		}
-	}
-	
-	.logo-right {
-		height: 550px;
-		position: absolute;
-		right: 0;
-		z-index: 1;
-		
-		@include media-query($on-700) {
-			height: 450px;
-		}
-		@include media-query($on-600) {
-			height: 350px;
-		}
-		@include media-query($on-500) {
-			height: 250px;
-		}
-	}
-	
-	.logo-center {
-		margin: 0 auto;
-		position: absolute;
-		left: 0;
-		right: 0;
-	}
-	
-	.logo-hero {
-		z-index: 2;
-	}
-	
-	.logo-base {		
-		@include media-query($on-700) {
-			height: 450px;
-		}
-		@include media-query($on-600) {
-			height: 350px;
-		}
-		@include media-query($on-500) {
-			height: 250px;
-		}
-	}
-	
-	.logo-large {
-		display: block;
-		// max-width: 870px;
-		height: auto;
-		max-height: 600px;
-		
-		@include media-query($on-900) {
-		display: none;			
-		}
-	}
-	
-	.logo-small {
-		display: none;
-		max-width: 720px;
-		height: auto;
-		
-		@include media-query($on-900) {
-		display: block;			
-		}
-		@include media-query($on-700) {
-			height: 450px;
-		}
-		@include media-query($on-600) {
-			height: 350px;
-		}
-		@include media-query($on-500) {
-			height: 250px;
-		}
-	}
+  @keyframes rotation {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(359deg); }
+  }
+
+  .logo-content {
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+  }
+
+  .logo-left {
+    height: 550px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+
+    @include media-query($on-700) { height: 450px; }
+    @include media-query($on-600) { height: 350px; }
+    @include media-query($on-500) { height: 250px; }
+  }
+
+  .logo-right {
+    height: 550px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+
+    @include media-query($on-700) { height: 450px; }
+    @include media-query($on-600) { height: 350px; }
+    @include media-query($on-500) { height: 250px; }
+  }
+
+  .logo-center {
+    margin: 0 auto;
+    position: absolute;
+    left: 0; right: 0;
+  }
+
+  .logo-hero { z-index: 2; }
+
+  .logo-base {
+    @include media-query($on-700) { height: 450px; }
+    @include media-query($on-600) { height: 350px; }
+    @include media-query($on-500) { height: 250px; }
+  }
+
+  .logo-large {
+    display: block;
+    height: auto;
+    max-height: 600px;
+
+    @include media-query($on-900) { display: none; }
+  }
+
+  .logo-small {
+    display: none;
+    max-width: 720px;
+    height: auto;
+
+    @include media-query($on-900) { display: block; }
+    @include media-query($on-700) { height: 450px; }
+    @include media-query($on-600) { height: 350px; }
+    @include media-query($on-500) { height: 250px; }
+  }
 }

@@ -1,0 +1,20 @@
+/* _sass/invasion/_prelude.scss */
+/* Load settings into THIS file's scope, and also re-export them */
+@use "invasion/settings" as s;
+@use "sass:math";
+@forward "invasion/settings";
+
+/* Common placeholders */
+%clearfix {
+  &::before,
+  &::after { content: ""; display: table; }
+  &::after { clear: both; }
+}
+
+%vertical-rhythm {
+  margin-bottom: math.div(s.$spacing-unit, 2);
+}
+
+/* Convenience helpers */
+@function half($x)    { @return math.div($x, 2); }
+@function quarter($x) { @return math.div($x, 4); }

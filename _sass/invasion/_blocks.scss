@@ -1,82 +1,66 @@
+/* _sass/invasion/_blocks.scss */
+@use "invasion/prelude" as *;
+
 /* Blocks
 ==============================*/
 
 .block {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	
-	.wrapper {
-		padding-top: $spacing-unit*12;
-		padding-bottom: $spacing-unit*12;
-		
-		
-		@include media-query($on-1040){
-			padding-top: $spacing-unit*8;
-			padding-bottom: $spacing-unit*8;
-		}
-	}
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 
-	.wrapper-A {
-		padding-bottom: 0;
-	}
+  .wrapper {
+    padding-top: $spacing-unit*12;
+    padding-bottom: $spacing-unit*12;
 
-	.wrapper-B {
-		padding-top: 0;
-	}
+    @include media-query($on-1040){
+      padding-top: $spacing-unit*8;
+      padding-bottom: $spacing-unit*8;
+    }
+  }
 
-	.block-left {
-		float: left;
-		width: 48%;
-		
-		@include media-query($on-800) {
-			float: none;
-			margin-bottom: $spacing-unit*4;
-			width: 100%;
-			
-			img {
-				max-height: 500px;
-			}
-		}
-	}
-	.block-right {
-		float: right;
-		width: 48%;
-		
-		@include media-query($on-800) {
-			float: none;
-			margin-bottom: $spacing-unit*4;
-			width: 100%;
-			
-			img {
-				max-height: 500px;
-			}
-		}
-	}
-	.title-card {
-		padding: 0 0 $spacing-unit*4;
-	}
+  .wrapper-A { padding-bottom: 0; }
+  .wrapper-B { padding-top: 0; }
+
+  .block-left {
+    float: left;
+    width: 48%;
+
+    @include media-query($on-800) {
+      float: none;
+      margin-bottom: $spacing-unit*4;
+      width: 100%;
+
+      img { max-height: 500px; }
+    }
+  }
+  .block-right {
+    float: right;
+    width: 48%;
+
+    @include media-query($on-800) {
+      float: none;
+      margin-bottom: $spacing-unit*4;
+      width: 100%;
+
+      img { max-height: 500px; }
+    }
+  }
+  .title-card { padding: 0 0 $spacing-unit*4; }
 }
 
-.dark-bg {
-	color: $white;
-}
+.dark-bg { color: $white; }
 
 .light-bg {
-	color: $black;
+  color: $black;
 
-	a {
-		color: $primary;
+  a {
+    color: $primary;
 
-		&:hover,&:focus {
-		  color: $black;
-		}
-
-		&:visited {
-		  color: $primary;
-		}
-	}
+    &:hover,&:focus { color: $black; }
+    &:visited { color: $primary; }
+  }
 }
 
 /* Home Blocks
@@ -92,8 +76,7 @@
   &::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0; left: 0;
     width: 100%;
     height: 60%;
     background-image: url('/assets/svg/oh-bats.svg');
@@ -102,41 +85,21 @@
     background-size: $spacing-unit * 16;
     z-index: 0;
 
-	@include media-query($on-800){
-		height: 40%;
-	}
-	@include media-query($on-400){
-		height: 30%;
-	}
+    @include media-query($on-800){ height: 40%; }
+    @include media-query($on-400){ height: 30%; }
   }
 
   .wrapper {
-	padding-top: $spacing-unit*6;
+    padding-top: $spacing-unit*6;
     padding-bottom: $spacing-unit*6;
   }
 
-  > .wrapper,
-  h2,
-  h4,
-  a,
-  .small {
-    position: relative;
-    z-index: 1;
-  }
+  > .wrapper, h2, h4, a, .small { position: relative; z-index: 1; }
 
-  h2 {
-    line-height: 1;
-    margin-bottom: 0;
-  }
+  h2 { line-height: 1; margin-bottom: 0; }
+  h4 { color: $secondary; line-height: 1; }
 
-  h4 {
-    color: $secondary;
-    line-height: 1;
-  }
-
-  a {
-    display: inline-block;
-  }
+  a { display: inline-block; }
 
   .small {
     font-size: 0.8em;
@@ -144,388 +107,272 @@
   }
 
   @include media-query($on-800){
-	background: linear-gradient(to bottom, $purple-300 0%, $purple-300 39.999999999999%, $purple-500 40%, $purple-300 100%);
+    background: linear-gradient(to bottom, $purple-300 0%, $purple-300 39.999999999999%, $purple-500 40%, $purple-300 100%);
   }
   @include media-query($on-400){
-	background: linear-gradient(to bottom, $purple-300 0%, $purple-300 29.999999999999%, $purple-500 30%, $purple-300 100%);
+    background: linear-gradient(to bottom, $purple-300 0%, $purple-300 29.999999999999%, $purple-500 30%, $purple-300 100%);
   }
 }
 
-
 .charities {
-	text-align: center;
-	
-	.charity-logos {
-		margin: $spacing-unit*5 auto;
-		max-width: 900px;
-		@extend %clearfix;
-			
-		@include media-query($on-800){
-			max-width: 400px;
-			
-			.block-left {
-				margin-bottom: $spacing-unit*6;
-			}
-		}
-		
-		img {
-			max-width: 90%;
-		}
-	}
+  text-align: center;
+
+  .charity-logos {
+    margin: $spacing-unit*5 auto;
+    max-width: 900px;
+    @extend %clearfix;
+
+    @include media-query($on-800){
+      max-width: 400px;
+
+      .block-left { margin-bottom: $spacing-unit*6; }
+    }
+
+    img { max-width: 90%; }
+  }
 }
 
 .city-divider {
-	background-image: url(/assets/svg/col-skyline-25-black.svg);
-  	background-repeat: repeat-x;
-	background-size: 520px 60px;
-	height: 60px;
-	margin-bottom: -1px;
+  background-image: url(/assets/svg/col-skyline-25-black.svg);
+  background-repeat: repeat-x;
+  background-size: 520px 60px;
+  height: 60px;
+  margin-bottom: -1px;
 }
 
 .contact {
-	
-	a {
-		color: $secondary;
-		text-decoration: none;
+  a {
+    color: $secondary;
+    text-decoration: none;
 
-		&:hover,&:focus {
-			color: $on-primary;
-		}
-	}
-	img {
-		display: block;
-		max-width: 400px;
-		margin: 0 auto $spacing-unit*4;
-		width: -webkit-fill-available;
-	}
-	h2 {
-		color: $secondary;
-		text-align: center;
-	}
-	p {
-		color: $on-primary;
-		margin: 0 auto;
-		max-width: 600px;
-	}
-	#contact-form {
-		color: $on-primary;
-		margin: $spacing-unit*4 auto 0;
-		max-width: 600px;
-		width: 100%;
+    &:hover,&:focus { color: $on-primary; }
+  }
+  img {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto $spacing-unit*4;
+    width: -webkit-fill-available;
+  }
+  h2 {
+    color: $secondary;
+    text-align: center;
+  }
+  p {
+    color: $on-primary;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  #contact-form {
+    color: $on-primary;
+    margin: $spacing-unit*4 auto 0;
+    max-width: 600px;
+    width: 100%;
 
-		label {
-			display: block;
-			font-size: 0.8em;
-			margin-bottom: $spacing-unit/2;
-		}
-		
-		input, textarea {
-			background: $primary-alt;
-			border: 1px solid $white;
-			border-radius: $spacing-unit;
-			color: $white;
-			max-width: calc(100% - 40px);
-			
-			&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-				color: $on-primary;
-				opacity: 1; /* Firefox */
-			}
-			&:-ms-input-placeholder { /* Internet Explorer 10-11 */
-				color: $on-primary;
-			}
-			&::-ms-input-placeholder { /* Microsoft Edge */
-				color: $on-primary;
-			}
-		}
-		input[type="submit"]{
-			background: $secondary;
-			border: none;
-			border-radius: 0;
-			box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
-			color: $white;
-			font-family: $base-font-family;
-  			padding: ($spacing-unit * 1) ($spacing-unit * 2);
-  			text-decoration: none;
-			text-transform: uppercase;
-			width: initial;
-			margin: $spacing-unit*4 0 0;
-			
-			&:hover,
-			&:focus {
-				background: $black;
-			}
-		}
-	}
+    label {
+      display: block;
+      font-size: 0.8em;
+      margin-bottom: half($spacing-unit);
+    }
 
-	@include media-query($on-800) {
-		background-size: 800px;
-		background-position: left -400px top -400px, right -400px bottom -400px;
+    input, textarea {
+      background: $primary-alt;
+      border: 1px solid $white;
+      border-radius: $spacing-unit;
+      color: $white;
+      max-width: calc(100% - 40px);
 
-	}
+      &::placeholder { color: $on-primary; opacity: 1; }
+      &:-ms-input-placeholder { color: $on-primary; }
+      &::-ms-input-placeholder { color: $on-primary; }
+    }
+    input[type="submit"]{
+      background: $secondary;
+      border: none;
+      border-radius: 0;
+      box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
+      color: $white;
+      font-family: $base-font-family;
+      padding: ($spacing-unit * 1) ($spacing-unit * 2);
+      text-decoration: none;
+      text-transform: uppercase;
+      width: initial;
+      margin: $spacing-unit*4 0 0;
 
-	@include media-query($on-600) {
-		background-size: 600px;
-		background-position: left -300px top -300px, right -300px bottom -300px;
+      &:hover,
+      &:focus { background: $black; }
+    }
+  }
 
-	}
-
-	@include media-query($on-400) {
-		background-size: 400px;
-		background-position: left -200px top -200px, right -200px bottom -200px;
-
-	}
+  @include media-query($on-800) {
+    background-size: 800px;
+    background-position: left -400px top -400px, right -400px bottom -400px;
+  }
+  @include media-query($on-600) {
+    background-size: 600px;
+    background-position: left -300px top -300px, right -300px bottom -300px;
+  }
+  @include media-query($on-400) {
+    background-size: 400px;
+    background-position: left -200px top -200px, right -200px bottom -200px;
+  }
 }
 
-.dont-panic {	
-	background-color: $primary;
-	background-image: url(/assets/svg/blast-dark.svg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: $white;
-	text-align: center;
-	
-	a {
-		color: $secondary;
-		text-decoration: none;
+.dont-panic {
+  background-color: $primary;
+  background-image: url(/assets/svg/blast-dark.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  text-align: center;
 
-		&:hover,&:focus {
-			color: $white;
-		}
-	}
-	p {
-		color: $white;
-	}
-	img {
-		margin-bottom: $spacing-unit*4;
-	}
+  a {
+    color: $secondary;
+    text-decoration: none;
+
+    &:hover,&:focus { color: $white; }
+  }
+  p { color: $white; }
+  img { margin-bottom: $spacing-unit*4; }
 }
 
 .fancy-dress {
-	background-color: $primary;
-	background-image: url(/assets/svg/cirlces-light.svg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	color: $on-secondary;
+  background-color: $primary;
+  background-image: url(/assets/svg/cirlces-light.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: $on-secondary;
 
-	@include media-query($on-800) {
-		background-size: 800px;
-		background-position: left -400px top -400px, right -400px bottom -400px;
-	}
+  @include media-query($on-800) {
+    background-size: 800px;
+    background-position: left -400px top -400px, right -400px bottom -400px;
+  }
+  @include media-query($on-600) {
+    background-size: 600px;
+    background-position: left -300px top -300px, right -300px bottom -300px;
+  }
+  @include media-query($on-400) {
+    background-size: 400px;
+    background-position: left -200px top -200px, right -200px bottom -200px;
+  }
 
-	@include media-query($on-600) {
-		background-size: 600px;
-		background-position: left -300px top -300px, right -300px bottom -300px;
-	}
+  a {
+    color: $secondary;
+    text-decoration: none;
 
-	@include media-query($on-400) {
-		background-size: 400px;
-		background-position: left -200px top -200px, right -200px bottom -200px;
-	}
-	
-	a {
-		color: $secondary;
-		text-decoration: none;
+    &:hover,&:focus { color: $on-primary; }
+  }
+  h2 {
+    text-align: center;
+    color: $on-primary;
+    margin-bottom: 0;
+  }
+  p { color: $on-primary; }
 
-		&:hover,&:focus {
-			color: $on-primary;
-		}
-	}
-	h2 {
-		text-align: center;
-		color: $on-primary;
-		margin-bottom: 0;
-	}
-	p {
-		color: $on-primary;
-	}
-	// img {
-	// 	display: block;
-	// 	margin: 0 auto 40px;
-	// 	max-height: 600px;
-	// 	width: 100%;
-	// }
+  .fd-slider { margin-top: -20px; }
 
-	.fd-slider {
-		margin-top: -20px;
-	}
+  .fd-image-row {
+    display: flex;
+    gap: 60px;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 80px;
+    overflow: hidden;
 
-	.fd-image-row {
-		display: flex;
-		gap: 60px;
-		// opacity: 0;
-		transform: translateY(50px);
-		transition: opacity 0.5s ease, transform 0.5s ease;
-		width: 100%; /* Ensure the container takes full width */
-		justify-content: center; /* Center the images in the row */
-		margin-bottom: 80px;
-		overflow: hidden;
+    @include media-query($on-800) { gap: 20px; }
+    @include media-query($on-600) { gap: 10px; }
+  }
 
-		@include media-query($on-800) {
-			gap: 20px;
-		}
+  .fd-image {
+    width:200px;
+    height: 400px;
+    object-fit: contain;
+    display: block;
 
-		@include media-query($on-600) {
-			gap: 10px;
-		}
-	}
-	
-	.fd-image {
-		width:200px;
-		height: 400px;
-		object-fit: contain;
-		display: block; /* Ensure images are block elements */
+    @include media-query($on-800) { width: 150px; height: 300px; }
+    @include media-query($on-600) { width: 100px; height: 200px; }
+    @include media-query($on-400) { width: 75px;  height: 150px; }
+  }
 
-		@include media-query($on-800) {
-			width: 150px;
-			height: 300px;
-		}
+  .fd-left  { transform: translateX(-100vw); transition: transform 1s ease-out; }
+  .fd-right { transform: translateX(100vw);  transition: transform 1s ease-out; }
 
-		@include media-query($on-600) {
-			width: 100px;
-			height: 200px;
-		}
+  .fd-scrolled .fd-left   { transform: translateX(0); }
+  .fd-scrolled .fd-right  { transform: translateX(0); }
+  .fd-scrolled .fd-center { transform: translateY(0); }
+  .fd-scrolled .fd-image-row { opacity: 1; transform: translateY(0); }
 
-		@include media-query($on-400) {
-			width: 75px;
-			height: 150px;
-		}
-	}
-	
-	.fd-left {
-		transform: translateX(-100vw);
-		transition: transform 1s ease-out;
-	}
-	
-	.fd-right {
-		transform: translateX(100vw);
-		transition: transform 1s ease-out;
-	}
-	
-	.fd-scrolled .fd-left {
-		transform: translateX(0);
-	}
-	
-	.fd-scrolled .fd-right {
-		transform: translateX(0);
-	}
-	
-	.fd-scrolled .fd-center {
-		transform: translateY(0);
-	}
-	
-	.fd-scrolled .fd-image-row {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  table {
+    border-color: $on-primary;
+    color: $on-primary;
+    margin: 0 0 $spacing-unit*4;
 
-	table {
-		border-color: $on-primary;
-		color: $on-primary;
-		margin: 0 0 $spacing-unit*4;
-
-		th,td {
-			background: none;
-			border-color: $on-primary;
-			color: $on-primary;
-		}
-		tr:nth-child(even) {
-			background: none;
-		}
-	}
+    th,td {
+      background: none;
+      border-color: $on-primary;
+      color: $on-primary;
+    }
+    tr:nth-child(even) { background: none; }
+  }
 }
 
 .firstsite {
-	background-color: $primary;
-	color: $on-primary;
-	text-align: center;
-	
-	h3,h4 {
-		height: 0;
-		margin: 0;
-		opacity: 0;
-		padding: 0;
-	}
-	.wrapper {
-		padding-top: 0;
-	}
+  background-color: $primary;
+  color: $on-primary;
+  text-align: center;
+
+  h3,h4 { height: 0; margin: 0; opacity: 0; padding: 0; }
+  .wrapper { padding-top: 0; }
 }
 
 .guests {
-	background-image: url('/images/social/20190801SG.jpg');
-	background-position: top;
-	color: $secondary;
-	
-	a {
-		color: $secondary;
-		text-decoration: none;
-		
-		&:hover,
-		&:focus {
-			color: $white;
-		}
-	}
-	
-	.wrapper {
-		padding: $spacing-unit*50 $spacing-unit*2 $spacing-unit*2;
-		
-		@include media-query($on-1000) {
-			padding-top: $spacing-unit*30;		
-		}
-		@include media-query($on-800) {
-			padding-top: $spacing-unit*20;
-			padding-bottom: 0;
-		}
-		@include media-query($on-500) {
-			padding-top: $spacing-unit*10;
-		}
-	}
+  background-image: url('/images/social/20190801SG.jpg');
+  background-position: top;
+  color: $secondary;
+
+  a {
+    color: $secondary;
+    text-decoration: none;
+
+    &:hover,&:focus { color: $white; }
+  }
+
+  .wrapper {
+    padding: $spacing-unit*50 $spacing-unit*2 $spacing-unit*2;
+
+    @include media-query($on-1000) { padding-top: $spacing-unit*30; }
+    @include media-query($on-800)  { padding-top: $spacing-unit*20; padding-bottom: 0; }
+    @include media-query($on-500)  { padding-top: $spacing-unit*10; }
+  }
 }
 
 .guide {
-	// background-color: $black;
-	// background-image: url('/assets/svg/deadpool-footer.svg');
-	// background-position: bottom center;
-	// background-repeat: no-repeat;
-	// background-size: contain;
-	// background-attachment: fixed;
-	// color: $white;
-	text-align: center;
+  text-align: center;
 
-	h3 {
-		margin-bottom: $spacing-unit*4;
-	}
+  h3 { margin-bottom: $spacing-unit*4; }
+  h4 { margin-bottom: 0; }
+  h5 { margin-bottom: 12px }
+  p  { margin-bottom: 18px }
 
-	h4 {
-		margin-bottom: 0;
-	}
+  a,a.visited {
+    color: $primary;
+    font-weight: 700;
+    text-decoration: none;
 
-	h5 {
-		margin-bottom: 12px
-	}
-
-	p {
-		margin-bottom: 18px
-	}
-
-	a,a.visited {
-		color: $primary;
-		font-weight: 700;
-		text-decoration: none;
-
-		&.hover,
-		&.visited {
-			color: $on-secondary;
-			text-decoration: none;
-		}
-	}
+    &.hover,&.visited {
+      color: $on-secondary;
+      text-decoration: none;
+    }
+  }
 }
 
 .scroll-background-section {
   position: relative;
-  height: 200vh; // Enough height for scroll
+  height: 200vh;
   overflow: hidden;
 
   .background-container {
@@ -547,220 +394,171 @@
 }
 
 .intro {
-	background-color: $secondary;
-	background-image: url(/assets/svg/halftone-dark.svg);
-	background-position: center;
-	background-repeat: repeat;
-	background-attachment: fixed;
-	background-size: $spacing-unit*1.2;
-	color: $on-secondary;
-	text-align: center;
-	padding-top: $spacing-unit*12;
-	
-	a {
-		color: $primary-alt;
-		text-decoration: none;
+  background-color: $secondary;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
+  color: $on-secondary;
+  text-align: center;
+  padding-top: $spacing-unit*12;
 
-		&:hover,&:focus {
-			color: $on-secondary;
-		}
-	}
-	.deets p {
-		font-weight: 700;
-	}
-	h2 {
-		
-		@include media-query($on-laptop) {
-		  @include relative-font-size(2);
-		}
-	  }
-	h5 {
-		font-size: clamp(2rem, 3vw, 4rem);
-	}
-	img {
-		display: block;
-		margin: 0 auto $spacing-unit*2;
-		max-width: 50vw;
-	}
-	.wrapper {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
+  a {
+    color: $primary-alt;
+    text-decoration: none;
+
+    &:hover,&:focus { color: $on-secondary; }
+  }
+  .deets p { font-weight: 700; }
+  h2 {
+    @include media-query($on-laptop) { @include relative-font-size(2); }
+  }
+  h5 {
+    font-size: unquote("clamp(2rem, 3vw, 4rem)");
+  }
+  img {
+    display: block;
+    margin: 0 auto $spacing-unit*2;
+    max-width: 50vw;
+  }
+  .wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 .justgiving {
-	background-color: $primary;
-	text-align: center;
-	
-	.wrapper div {
-		margin-bottom: $spacing-unit*6;
-	}
-	li img {
-		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
-		
-		&:hover,
-		&:focus {
-			box-shadow: none;
-		}
-	}
+  background-color: $primary;
+  text-align: center;
+
+  .wrapper div { margin-bottom: $spacing-unit*6; }
+  li img {
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+
+    &:hover,&:focus { box-shadow: none; }
+  }
 }
 
 .live {
-	background-color: $secondary;
-	background-image: url(/assets/svg/halftone-dark.svg);
-	background-position: center;
-	background-repeat: repeat;
-	background-attachment: fixed;
-	background-size: $spacing-unit*1.2;
-	color: $on-secondary;
+  background-color: $secondary;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
+  color: $on-secondary;
 
-	h2 {
-		color: $white;
-		text-align: center;
-	}
+  h2 { color: $white; text-align: center; }
 
-	p {
-		
-		@include media-query($on-800) {
-			text-align: center;
-		}
-	}
+  p {
+    @include media-query($on-800) { text-align: center; }
+  }
 
-	img {
-		display: block;
-		margin: 0 auto $spacing-unit*4;
-		max-width: 300px;
-		width: 100%;
-		transform: rotate(-15deg);
-	}
-	
-	table {
-		border-color: $white;
-		color: $white;
-		margin: 0 0 40px;
+  img {
+    display: block;
+    margin: 0 auto $spacing-unit*4;
+    max-width: 300px;
+    width: 100%;
+    transform: rotate(-15deg);
+  }
 
-		th,td {
-			background: none;
-			border-color: $white;
-			color: $white;
-		}
-		tr:nth-child(even) {
-			background: none;
-		}
-		
-		@include media-query($on-800) {
-			margin: 0 auto;
-		}
-	}
+  table {
+    border-color: $white;
+    color: $white;
+    margin: 0 0 40px;
+
+    th,td { background: none; border-color: $white; color: $white; }
+    tr:nth-child(even) { background: none; }
+
+    @include media-query($on-800) { margin: 0 auto; }
+  }
 }
 
 .map {
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#939598+0,131313+100 */
-	background: #939598; /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  #939598 0%, #131313 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg,  #939598 0%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg,  #939598 0%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#939598', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	text-align: center;
-	
-	img {
-		display: block;
-		margin: $spacing-unit*4 auto;
-	}
+  background: #939598;
+  background: -moz-linear-gradient(-45deg,  #939598 0%, #131313 100%);
+  background: -webkit-linear-gradient(-45deg,  #939598 0%,#131313 100%);
+  background: linear-gradient(135deg,  #939598 0%,#131313 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#939598', endColorstr='#131313',GradientType=1 );
+  text-align: center;
+
+  img {
+    display: block;
+    margin: $spacing-unit*4 auto;
+  }
 }
 
 .meet-heroes {
-	background-image: url('/images/backgrounds/20190801DS.jpg');
-	background-position: top;
-	
-	.wrapper {
-		padding: $spacing-unit*40 $spacing-unit*2 $spacing-unit*6;
-		
-		@include media-query($on-1000) {
-			padding-top: $spacing-unit*20;		
-		}
-	}
-	ul {
-		display: none;
-	}
-	
-	@include media-query($on-700) {
-		background-image: url('/images/backgrounds/20190801DS2.jpg');
-	}
-	@include media-query($on-400) {
-		background-image: url('/images/backgrounds/20190801DS3.jpg');
-	}
+  background-image: url('/images/backgrounds/20190801DS.jpg');
+  background-position: top;
+
+  .wrapper {
+    padding: $spacing-unit*40 $spacing-unit*2 $spacing-unit*6;
+
+    @include media-query($on-1000) { padding-top: $spacing-unit*20; }
+  }
+  ul { display: none; }
+
+  @include media-query($on-700) { background-image: url('/images/backgrounds/20190801DS2.jpg'); }
+  @include media-query($on-400) { background-image: url('/images/backgrounds/20190801DS3.jpg'); }
 }
 
 .othermonkey {
-	background-color: $secondary;
-	background-image: url(/assets/svg/diamonds-dark.svg);
-	background-position: center;
-	background-repeat: repeat;
-	background-size: $spacing-unit*4;
-	background-attachment: fixed;
-	color: $on-secondary;
-	text-align: center;
+  background-color: $secondary;
+  background-image: url(/assets/svg/diamonds-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: $spacing-unit*4;
+  background-attachment: fixed;
+  color: $on-secondary;
+  text-align: center;
 
-	img {
-		display: block;
-		margin: 0 auto 60px;
-		max-width: 400px;
-	}
+  img {
+    display: block;
+    margin: 0 auto 60px;
+    max-width: 400px;
+  }
 
-	a {
-		color: $primary;
-		text-decoration: none;
+  a {
+    color: $primary;
+    text-decoration: none;
 
-		&:hover,&:focus {
-			color: $on-secondary;
-		}
-	}
+    &:hover,&:focus { color: $on-secondary; }
+  }
 }
 
 .park-ride {
-	background-color: $secondary;
-	background-image: url(/assets/svg/squares-dark.svg);
-	background-position: center;
-	background-repeat: repeat;
-	background-size: $spacing-unit*40;
-	background-attachment: fixed;
-	color: $on-secondary;
-	text-align: center;
-	
-	a {
-		font-weight: 600;
-		text-decoration: none;
-	}
-	svg {
-		display: block;
-		margin-bottom: $spacing-unit*4;
-		max-width: 300px;
-		width: 100%;
+  background-color: $secondary;
+  background-image: url(/assets/svg/squares-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: $spacing-unit*40;
+  background-attachment: fixed;
+  color: $on-secondary;
+  text-align: center;
 
-		path {
-			fill: $primary-alt;
-		}
-	}
-	small {
-		color: $on-secondary;
-		display: block;
-	}
-	table {
-		border-color: $on-secondary;
-		color: $on-secondary;
+  a { font-weight: 600; text-decoration: none; }
+  svg {
+    display: block;
+    margin-bottom: $spacing-unit*4;
+    max-width: 300px;
+    width: 100%;
 
-		th,td {
-			background: none;
-			border-color: $on-secondary;
-		}
-		tr:nth-child(even) {
-			background: none;
-		}
-	}
-	.wrapper {
-		overflow: hidden;
-	}
+    path { fill: $primary-alt; }
+  }
+  small {
+    color: $on-secondary;
+    display: block;
+  }
+  table {
+    border-color: $on-secondary;
+    color: $on-secondary;
+
+    th,td { background: none; border-color: $on-secondary; }
+    tr:nth-child(even) { background: none; }
+  }
+  .wrapper { overflow: hidden; }
 }
 
 .bus-ride {
@@ -770,217 +568,179 @@
   .bus-icon {
     display: inline-block;
     transition: transform 0.1s linear;
-    transform: translateX(100%); // start off right
+    transform: translateX(100%);
     will-change: transform;
   }
 }
 
 .photo-gallery {
-	background-image: url('/images/backgrounds/20190801PG.jpg');
-    background-attachment: fixed;
-	
-	h2 {
-		color: $white;
-	}
-	.wrapper {
-		padding: $spacing-unit*16 0;
-		
-		@include media-query($on-1040){
-			padding: $spacing-unit*8 $spacing-unit*2;
-		}
-	}
-	@include media-query($on-600){
-		background-attachment: initial;
-	}
+  background-image: url('/images/backgrounds/20190801PG.jpg');
+  background-attachment: fixed;
 
+  h2 { color: $white; }
+  .wrapper {
+    padding: $spacing-unit*16 0;
+
+    @include media-query($on-1040){ padding: $spacing-unit*8 $spacing-unit*2; }
+  }
+  @include media-query($on-600){ background-attachment: initial; }
 }
 
 .poster-print {
-	background-color: $primary;
-	
-	img {
-		display: block;
-		box-shadow: -10px 10px 10px rgba(0,0,0,0.3);
-		-ms-transform: rotate(-5deg); /* IE 9 */
-		-webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-		transform: rotate(-5deg);
-		margin: 0 auto;
-		max-width: 60%;
-		width: 100%;
-		
-		@include media-query($on-800) {
-			max-width: 240px;
-		}
-	}
+  background-color: $primary;
+
+  img {
+    display: block;
+    box-shadow: -10px 10px 10px rgba(0,0,0,0.3);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    margin: 0 auto;
+    max-width: 60%;
+    width: 100%;
+
+    @include media-query($on-800) { max-width: 240px; }
+  }
 }
 
 .prize-draw {
-	background-color: $secondary;
-	background-image: url(/assets/svg/squares-dark.svg);
-	background-position: center;
-	background-repeat: repeat;
-	background-size: $spacing-unit*40;
-	background-attachment: fixed;
-	color: $on-secondary;
-	text-align: center;
-	
-	svg {
-		width: 66vw;
-		max-width: $spacing-unit*60;
-		padding: $spacing-unit*3 $spacing-unit*2;
-	}
-	ul {
-		text-align: center;
-		list-style: none;
+  background-color: $secondary;
+  background-image: url(/assets/svg/squares-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: $spacing-unit*40;
+  background-attachment: fixed;
+  color: $on-secondary;
+  text-align: center;
 
-		li {
-			.prize {
-				font-size: 1.6em;
-				font-weight: 700;
-			}
-			.donor {
-				display: block;
-				font-size: initial;
+  svg {
+    width: 66vw;
+    max-width: $spacing-unit*60;
+    padding: $spacing-unit*3 $spacing-unit*2;
+  }
+  ul {
+    text-align: center;
+    list-style: none;
 
-				.donor {
-					display: inline;
-					font-weight: 700;
-				}
-			}
-		}
-	}
-	a {
-		color: $primary;
-		text-decoration: none;
+    li {
+      .prize { font-size: 1.6em; font-weight: 700; }
+      .donor {
+        display: block;
+        font-size: initial;
 
-		&:hover,&:focus {
-			color: $on-secondary;
-		}
-	}
-	table {
-		border-color: $primary;
-		color: $primary;
-		margin: $spacing-unit*4 0;
+        .donor { display: inline; font-weight: 700; }
+      }
+    }
+  }
+  a {
+    color: $primary;
+    text-decoration: none;
 
-		th,td {
-			background: none;
-			border-color: $primary;
-			color: $primary;
-		}			
-		tr:nth-child(even) {
-			background: none;
-		}
-	}
-	li {
-		margin-bottom: $spacing-unit;
-	}
+    &:hover,&:focus { color: $on-secondary; }
+  }
+  table {
+    border-color: $primary;
+    color: $primary;
+    margin: $spacing-unit*4 0;
+
+    th,td { background: none; border-color: $primary; color: $primary; }
+    tr:nth-child(even) { background: none; }
+  }
+  li { margin-bottom: $spacing-unit; }
 }
 
 .road-intro {
-	background-color: $primary;
-	background-image: url(/assets/svg/road-pattern-intro.svg);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-	width: 100%;
-	height: 107.5px;
+  background-color: $primary;
+  background-image: url(/assets/svg/road-pattern-intro.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 107.5px;
 }
 
 .road-repeat {
-	background-color: $primary;
-	background-image: url(/assets/svg/road-pattern.svg);
-	background-repeat: repeat-y;
-	background-size: 340px auto;
-	background-position: center top;
-	width: 100%;
+  background-color: $primary;
+  background-image: url(/assets/svg/road-pattern.svg);
+  background-repeat: repeat-y;
+  background-size: 340px auto;
+  background-position: center top;
+  width: 100%;
 }
 
 .show-cars {
-	background-color: $primary;
-	background-image: url(/assets/svg/blast-dark.svg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: $on-primary;
-	text-align: center;
+  background-color: $primary;
+  background-image: url(/assets/svg/blast-dark.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $on-primary;
+  text-align: center;
 
-	h2 {
-		color: $on-primary;
-	}
-	
-	.show-car-slider-section {
-		position: relative;
-		width: 100%;
-		overflow: hidden;
-		display: flex;
-		justify-content: space-around; /* Distribute space around the images */
-		align-items: center;
-		margin: 40px auto;
-	}
-	
-	.show-car-slider-image-container {
-		position: relative;
-		width: 400px; /* Adjust width as needed */
-		height: 240px; /* Adjust height as needed */
-		margin: 0 20px;
-		transform: translateX(100vw); /* Start completely off-screen to the right */
-		transition: transform 1s ease-in-out;
-	}
-	
-	.show-car-slider-image {
-		width: 100%;
-		height: 100%;
-		object-fit: contain;
-	}
-		
-	@include media-query($on-600) {
+  h2 { color: $on-primary; }
 
-		.show-car-slider-image-container {
-			height: 180px;
-		}
-		
-		.final-show-car {
-			display: none;
-		}
-	}	
+  .show-car-slider-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+  }
+
+  .show-car-slider-image-container {
+    position: relative;
+    width: 400px;
+    height: 240px;
+    margin: 0 20px;
+    transform: translateX(100vw);
+    transition: transform 1s ease-in-out;
+  }
+
+  .show-car-slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  @include media-query($on-600) {
+    .show-car-slider-image-container { height: 180px; }
+    .final-show-car { display: none; }
+  }
 }
 
 .total-container {
-	background-color: $primary;
-	background-image: url(/assets/svg/cirlces-light.svg);
-	background-position: center;
-	background-repeat: repeat;
-	background-attachment: fixed;
-	background-size: 50vw;
+  background-color: $primary;
+  background-image: url(/assets/svg/cirlces-light.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 50vw;
 
-	h2,p {
-		color: $on-primary;
-		text-align: center;
-	}
-	p.total {
-		color: $white;
-		font-size: 15vw;
-		font-weight: 900;
-	}
-	img {
-		display: block;
-		margin: 0 auto;
-		max-width: 300px;
-	}
+  h2,p { color: $on-primary; text-align: center; }
+  p.total {
+    color: $white;
+    font-size: 15vw;
+    font-weight: 900;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+  }
 }
 
 /* Patterns */
-
 .pattern-25-primary-alt {
-	background-image: url('/assets/svg/pattern-25-primary-alt.svg');
-	background-position: center;
-	background-repeat: repeat;
-	background-size: 200px;
-  }
-  
-  .pattern-25-secondary-alt {
-	background-image: url('/assets/svg/pattern-25-secondary-alt.svg');
-	background-position: center;
-	background-repeat: repeat;
-	background-size: 200px;
-  }
+  background-image: url('/assets/svg/pattern-25-primary-alt.svg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 200px;
+}
+.pattern-25-secondary-alt {
+  background-image: url('/assets/svg/pattern-25-secondary-alt.svg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 200px;
+}

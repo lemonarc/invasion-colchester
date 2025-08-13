@@ -1,5 +1,5 @@
-@import url("/assets/fonts/font.css");
-
+/* _sass/invasion/_base.scss */
+@use "invasion/prelude" as *;
 
 /**
  * Reset some basic elements
@@ -11,18 +11,16 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
 body {
   background-color: $secondary;
-	background-image: url(/assets/svg/halftone-dark.svg);
-	background-position: center;
-	background-repeat: repeat;
-	background-attachment: fixed;
-	background-size: $spacing-unit*1.2;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $on-secondary;
   -webkit-text-size-adjust: 100%;
@@ -35,8 +33,6 @@ body {
   overflow: auto!important;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -47,16 +43,12 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit;
 }
 
-
-
 /**
  * `main` element
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
-
-
 
 /**
  * Images
@@ -65,8 +57,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -78,8 +68,6 @@ figure > img {
 figcaption {
   font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -94,8 +82,6 @@ li {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
  * Headings
@@ -173,8 +159,6 @@ h6 {
   @include relative-font-size(1);
 }
 
-
-
 /**
  * Links
  */
@@ -186,7 +170,7 @@ a {
   }
 
   &:hover {
-	color: $hover;
+    color: $hover;
     text-decoration: none;
   }
 
@@ -194,8 +178,6 @@ a {
     text-decoration: none;
   }
 }
-
-
 
 /**
  * Custom Paragraphs
@@ -214,8 +196,6 @@ p.focus {
   text-transform: uppercase;
 }
 
-
-
 /**
  * Buttons
  */
@@ -227,14 +207,14 @@ submitbutton,
 input.button,
 input[type=submit] {
   background: $secondary;
-	border: none;
+  border: none;
   box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
   color: $white;
   font-family: $base-font-family;
   padding: ($spacing-unit * 1) ($spacing-unit * 2);
   text-decoration: none;
-	text-transform: uppercase;
-	width: initial;
+  text-transform: uppercase;
+  width: initial;
 
   &:hover,
   &:focus {
@@ -244,7 +224,7 @@ input[type=submit] {
 
 a.button-alt {
   background: $secondary;
-  
+
   &:hover,
   &:focus {
     background: $black;
@@ -252,25 +232,24 @@ a.button-alt {
 }
 
 .link-box {
-	margin: $spacing-unit*4 $spacing-unit*2;
-	
-	a,span {
-		border: 2px solid $secondary;
-		padding: $spacing-unit*2;
-		
-		&:visited {
-			border-color: $white;
-		}		
-		&:hover {
-			border-color: $secondary;
-		}
-	}
+  margin: $spacing-unit*4 $spacing-unit*2;
+
+  a,span {
+    border: 2px solid $secondary;
+    padding: $spacing-unit*2;
+
+    &:visited {
+      border-color: $white;
+    }
+    &:hover {
+      border-color: $secondary;
+    }
+  }
 }
 
 /**
  * Smooth transitions
  */
-
 a,
 button,
 input:focus,
@@ -280,20 +259,19 @@ input[type="submit"],
 textarea:focus,
 .button,
 .gallery img {
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition:    all 0.1s ease-in-out;
-	-ms-transition:     all 0.1s ease-in-out;
-	-o-transition:      all 0.1s ease-in-out;
-	transition:         all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
 }
-
 
 /**
  * Blockquotes
  */
 blockquote {
   border-left: 4px solid $white;
-  padding-left: $spacing-unit / 2;
+  padding-left: half($spacing-unit);
   @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
@@ -302,8 +280,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
  * Code formatting
@@ -331,19 +307,16 @@ pre {
   }
 }
 
-
-
 /**
  * Container
  */
-
 .container {
-	background: $primary;
+  background: $primary;
   color: $on-primary;
-	padding: 40px;
+  padding: 40px;
   clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
   margin-bottom: 40px;
-	@extend %clearfix;
+  @extend %clearfix;
 
   h2 {
     color: $secondary;
@@ -367,23 +340,20 @@ pre {
     }
   }
 
-	@include media-query($on-800) {
-		background-size: 800px;
-		background-position: left -400px top -400px, right -400px bottom -400px;
+  @include media-query($on-800) {
+    background-size: 800px;
+    background-position: left -400px top -400px, right -400px bottom -400px;
+  }
 
-	}
+  @include media-query($on-600) {
+    background-size: 600px;
+    background-position: left -300px top -300px, right -300px bottom -300px;
+  }
 
-	@include media-query($on-600) {
-		background-size: 600px;
-		background-position: left -300px top -300px, right -300px bottom -300px;
-
-	}
-
-	@include media-query($on-400) {
-		background-size: 400px;
-		background-position: left -200px top -200px, right -200px bottom -200px;
-
-	}
+  @include media-query($on-400) {
+    background-size: 400px;
+    background-position: left -200px top -200px, right -200px bottom -200px;
+  }
 }
 
 /**
@@ -406,30 +376,18 @@ pre {
   }
 }
 
-
-
-/**
- * Clearfix
- */
-%clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
+/* (Removed the old %clearfix:after block — we use the placeholder from prelude) */
 
 /**
  * Icons
  */
-
 .svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #{$white};
-    padding-right: 5px;
-    vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #{$white};
+  padding-right: 5px;
+  vertical-align: text-top;
 }
 
 .social-media-list {
@@ -439,8 +397,8 @@ pre {
 }
 
 .arrow-up {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 15px solid $secondary;
@@ -451,8 +409,6 @@ pre {
   }
 }
 
-
-
 /**
  * Tables
  */
@@ -462,6 +418,7 @@ table {
   border-collapse: collapse;
   border: 1px solid $white;
   margin: $spacing-unit*4 auto;
+
   tr {
     &:nth-child(even) {
       background-color: $white;
@@ -483,98 +440,96 @@ table {
 /**
  * Forms
  */
-
 form {
-	color: $white;
-	margin: ($spacing-unit * 2) 0;
-	max-width: calc(100% - (#{$spacing-unit} * 4));
-	
-	p {
-		font-size: 80%;
-		margin-bottom: $spacing-unit*2;
-	}
+  color: $white;
+  margin: ($spacing-unit * 2) 0;
+  max-width: calc(100% - (#{$spacing-unit} * 4));
+
+  p {
+    font-size: 80%;
+    margin-bottom: $spacing-unit*2;
+  }
 }
 input,
 textarea {
-	font-family: $base-font-family;
-	font-size: $base-font-size;
-	border: 1px solid $white;
-	width: 100%;
-	padding: $spacing-unit * 2;
-	margin-bottom: $spacing-unit * 2;
-	
-	&[type=checkbox] {
-		margin: 0 $spacing-unit 0 0;
-		width: auto;
-	}
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  border: 1px solid $white;
+  width: 100%;
+  padding: $spacing-unit * 2;
+  margin-bottom: $spacing-unit * 2;
+
+  &[type=checkbox] {
+    margin: 0 $spacing-unit 0 0;
+    width: auto;
+  }
 }
 textarea {
-	min-height: $spacing-unit * 10;
+  min-height: $spacing-unit * 10;
 }
 
 /**
  * Lists
  */
-
 ul.list {
-	margin: 0;
-	margin-top: $spacing-unit*3;
+  margin: 0;
+  margin-top: $spacing-unit*3;
 }
 ul.list li {
-	list-style: none;
-	float: left;
-	margin-bottom: $spacing-unit*3;
+  list-style: none;
+  float: left;
+  margin-bottom: $spacing-unit*3;
 }
 
 li.full {
-	width: 100%;
+  width: 100%;
 }
 li.half {
-	width: 48.5%;
-	margin-right: 3%;
-	
-	&:nth-child(2n+2) { margin-right: 0; }
-	
-	@include media-query($on-palm) {
-		width: 100%;
-		margin-right: 0;
-	}
+  width: 48.5%;
+  margin-right: 3%;
+
+  &:nth-child(2n+2) { margin-right: 0; }
+
+  @include media-query($on-palm) {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 li.third {
-	width: 31.3%;
-	margin-right: 3%;
-	
-	&:nth-child(3n+3) { margin-right: 0; }
-	
-	@include media-query($on-laptop) {
-		width: 48.5%;
-		&:nth-child(3n+3) { margin-right: 3%; }
-		&:nth-child(2n+2) { margin-right: 0; }
-	}
-	@include media-query($on-palm) {
-		width: 100%;
-		margin-right: 0;
-	}
+  width: 31.3%;
+  margin-right: 3%;
+
+  &:nth-child(3n+3) { margin-right: 0; }
+
+  @include media-query($on-laptop) {
+    width: 48.5%;
+    &:nth-child(3n+3) { margin-right: 3%; }
+    &:nth-child(2n+2) { margin-right: 0; }
+  }
+  @include media-query($on-palm) {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 li.quarter {
-	width: 22.7%;
-	margin-right: 3%;
-	
-	&:nth-child(4n+4) { margin-right: 0; }
-	
-	@include media-query($on-laptop) {
-		width: 48.5%;
-		&:nth-child(3n+3) { margin-right: 3%; }
-		&:nth-child(2n+2) { margin-right: 0; }
-	}
-	@include media-query($on-palm) {
-		width: 100%;
-		margin-right: 0;
-	}
+  width: 22.7%;
+  margin-right: 3%;
+
+  &:nth-child(4n+4) { margin-right: 0; }
+
+  @include media-query($on-laptop) {
+    width: 48.5%;
+    &:nth-child(3n+3) { margin-right: 3%; }
+    &:nth-child(2n+2) { margin-right: 0; }
+  }
+  @include media-query($on-palm) {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 li.last {
-	margin-right: 0;
+  margin-right: 0;
 }
 li img {
-	min-width:100%;
+  min-width:100%;
 }

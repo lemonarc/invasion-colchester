@@ -97,7 +97,7 @@ $on-mobile:        $on-300 !default;
 }
 
 // Import partials.
-@import
+@use
   "invasion/fonts",
   "invasion/base",
   "invasion/header",

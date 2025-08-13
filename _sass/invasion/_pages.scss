@@ -1,226 +1,152 @@
-/* About Page
-------------------------------*/
+/* _sass/invasion/_pages.scss */
+@use "invasion/prelude" as *;
 
+/* About Page */
 .about-page {
+  p { color: $on-secondary; }
+  h1 { color: $on-secondary; }
 
-	p {
-		color: $on-secondary;
-	}
-	h1 {
-		color: $on-secondary;
-	}
-	img:nth-child(1) {
-		margin-bottom: $spacing-unit*6;
-	}
-	.post-content {
-		h2 {
-			@include relative-font-size(2);
-		}
-		h3 {
-			@include relative-font-size(1);
-		}
-		div {
-			// border-bottom: 4px solid $brand-color;
-			margin-bottom: $spacing-unit*3;
-			width:100%;
-		}
-		.charity-logo {
-			max-width: 300px;
-			width: 100%;
-		}
-	}
+  img:nth-child(1) { margin-bottom: $spacing-unit*6; }
+
+  .post-content {
+    h2 { @include relative-font-size(2); }
+    h3 { @include relative-font-size(1); }
+
+    div {
+      margin-bottom: $spacing-unit*3;
+      width:100%;
+    }
+    .charity-logo {
+      max-width: 300px;
+      width: 100%;
+    }
+  }
 }
 
-/* Contact Success Page
-------------------------------*/
+/* Contact Success Page */
+.contact-success-page {
+  background-color: $secondary;
+  background-image: url(/images/backgrounds/BLAST_YELLOW.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
 
-.contact-success-page {  
-	background-color: $secondary;
-	background-image: url(/images/backgrounds/BLAST_YELLOW.svg);
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: contain;
+  a {
+    display: inline-block;
+    margin: 40px auto;
 
-	a {
-		display: inline-block;
-		margin: 40px auto;
-
-		&.button:hover,
-		&.button:focus {
-			background-color: $primary;
-			color: $on-primary;
-		}
-	}
-	p {
-		color: #000;
-	}
-	h1 {
-		color: $primary;
-	}
+    &.button:hover,
+    &.button:focus {
+      background-color: $primary;
+      color: $on-primary;
+    }
+  }
+  p { color: #000; }
+  h1 { color: $primary; }
 }
 
-/* Charities Page
-------------------------------*/
-
+/* Charities Page */
 .charities-page {
-
-	.post-content {
-		h2 {
-			margin-bottom: 0;
-			@include relative-font-size(2);
-		}
-		h3 {
-			@include relative-font-size(1);
-		}
-		.charity-logo {
-			margin-bottom: $spacing-unit*4;
-			max-width: 300px;
-			width: 100%;
-		}
-	}
+  .post-content {
+    h2 {
+      margin-bottom: 0;
+      @include relative-font-size(2);
+    }
+    h3 { @include relative-font-size(1); }
+    .charity-logo {
+      margin-bottom: $spacing-unit*4;
+      max-width: 300px;
+      width: 100%;
+    }
+  }
 }
 
-/* Gallery Page
-------------------------------*/
-
-// .gallery-page {
-
-// 	a.button:hover,
-// 	a.button:focus {
-// 		background-color: $primary;
-// 		color: $white;
-// 	}
-// }
-
-/* Gallery Page (Batman)
-------------------------------*/
-
+/* Gallery Page (Batman) */
 .bacc-gallery-page {
-	background-color: $secondary;
-	background-image: url(/assets/svg/oh-bats.svg);
-	background-position: top center;
-	background-repeat: repeat;
-	background-size: $spacing-unit*16;
-	background-attachment: fixed;
-	text-align: center;
+  background-color: $secondary;
+  background-image: url(/assets/svg/oh-bats.svg);
+  background-position: top center;
+  background-repeat: repeat;
+  background-size: $spacing-unit*16;
+  background-attachment: fixed;
+  text-align: center;
 
-	h1 {
-		color: $on-secondary;
-	}
+  h1 { color: $on-secondary; }
 
-	p {
-		margin-top: $spacing-unit*4;
-	}
-			
-	@include media-query($on-600){
-		
-		.title-image {
-			max-height: $spacing-unit*20;
-		}
-	}
+  p { margin-top: $spacing-unit*4; }
+
+  @include media-query($on-600){
+    .title-image { max-height: $spacing-unit*20; }
+  }
 }
 
-/* Guests Page
-------------------------------*/
-
+/* Guests Page */
 .guests-page {
+  article header div { max-width: 700px; }
 
-	article header div {
-		max-width: 700px;
-	}
-	
-	.container img {
-    	clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
-	}
+  .container img { clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%); }
 
-	a.button:hover,
-	a.button:focus {
-		background-color: $primary-alt;
-		color: $white;
-	}
+  a.button:hover,
+  a.button:focus {
+    background-color: $primary-alt;
+    color: $white;
+  }
 
-	.guest {
-		color: $primary-alt;
-	}
+  .guest { color: $primary-alt; }
 }
 
-/* Privacy Page
-------------------------------*/
-
+/* Privacy Page */
 .privacy-page {
-
-	h3 {
-		@include relative-font-size(1.2);
-		font-family: "Anton", sans-serif;
-		font-weight: 100;
-	}
-	::marker {
-		color: $on-primary;
-	}
+  h3 {
+    @include relative-font-size(1.2);
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+  }
+  ::marker { color: $on-primary; }
 }
 
-/* Prize Draw Page
-------------------------------*/
-
+/* Prize Draw Page */
 .prize-draw-page {
-	
-	ul {
-		text-align: center;
-		list-style: none;
+  ul {
+    text-align: center;
+    list-style: none;
 
-		li {
-			.prize {
-				font-size: 1.6em;
-				font-weight: 700;
-			}
-			.donor {
-				display: block;
-				font-size: initial;
+    li {
+      .prize { font-size: 1.6em; font-weight: 700; }
+      .donor {
+        display: block;
+        font-size: initial;
 
-				.donor {
-					display: inline;
-					font-weight: 700;
-				}
-			}
-		}
-	}
-	a {
-		text-decoration: none;
-	}
-	table {
-		border-color: $on-primary;
-		color: $secondary;
-		margin: $spacing-unit*4 0;
+        .donor { display: inline; font-weight: 700; }
+      }
+    }
+  }
+  a { text-decoration: none; }
 
-		th,td {
-			background: none;
-			border-color: $on-primary;
-			color: $on-primary;
-		}			
-		tr:nth-child(even) {
-			background: none;
-		}
-	}
-	li {
-		margin-bottom: $spacing-unit;
-	}
+  table {
+    border-color: $on-primary;
+    color: $secondary;
+    margin: $spacing-unit*4 0;
+
+    th,td {
+      background: none;
+      border-color: $on-primary;
+      color: $on-primary;
+    }
+    tr:nth-child(even) { background: none; }
+  }
+  li { margin-bottom: $spacing-unit; }
 }
 
-/* 404 Page
-------------------------------*/
-
+/* 404 Page */
 .page-404 {
-	background-color: $primary;
-	background-image: url(/images/backgrounds/BLAST_PINK.svg);
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	text-align: center;
+  background-color: $primary;
+  background-image: url(/images/backgrounds/BLAST_PINK.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
 
-	p, h2 {
-		color: $on-primary;
-	}
-	h1 {
-		color: $secondary;
-	}
+  p, h2 { color: $on-primary; }
+  h1 { color: $secondary; }
 }
