@@ -268,13 +268,13 @@ h6 {
  * Links
  */
 a {
-  color: #22B56A;
+  color: #0B132B;
 }
 a:visited {
-  color: #22B56A;
+  color: #0B132B;
 }
 a:hover {
-  color: #fff;
+  color: #001F3F;
   text-decoration: none;
 }
 .social-media-list a:hover {
@@ -423,9 +423,6 @@ pre > code {
   padding: 40px;
   clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
   margin-bottom: 40px;
-}
-.container h2 {
-  color: #69089E;
 }
 .container a, .container a.visited {
   color: #69089E;
@@ -685,7 +682,7 @@ li img {
   text-decoration: none;
 }
 .preheader a:hover, .preheader a:focus, .preheader a:visited:hover, .preheader a:visited:focus {
-  color: #22B56A;
+  color: #EDED00;
 }
 
 .alt-body .preheader {
@@ -696,7 +693,7 @@ li img {
   color: #69089E;
 }
 .alt-body .preheader a:hover, .alt-body .preheader a:focus, .alt-body .preheader a:visited:hover, .alt-body .preheader a:visited:focus {
-  color: #fff;
+  color: #001F3F;
 }
 
 .subheader {
@@ -782,7 +779,7 @@ li img {
   margin-right: 20px;
 }
 .site-nav .page-link:hover, .site-nav .page-link:focus {
-  color: #000;
+  color: #001F3F;
   text-decoration: none;
 }
 @media screen and (max-width: 1000px) {
@@ -974,11 +971,11 @@ li img {
   color: #00A650;
 }
 .secondary-header .page-link:hover, .secondary-header .page-link:focus {
-  color: #000;
+  color: #001F3F;
 }
 @media screen and (max-width: 1000px) {
   .secondary-header .page-link:hover, .secondary-header .page-link:focus {
-    color: #000;
+    color: #001F3F;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -1387,7 +1384,7 @@ article header div img {
 /* _sass/invasion/_fonts.scss */
 /* _sass/invasion/_logo.scss */
 .logo-area {
-  background-color: #22B56A;
+  background-color: #00A650;
   background-image: url(/images/backgrounds/swirl-square.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -1681,7 +1678,6 @@ article header div img {
   margin-bottom: 0;
 }
 .batman-at-the-castle h4 {
-  color: #69089E;
   line-height: 1;
 }
 .batman-at-the-castle a {
@@ -1763,7 +1759,7 @@ article header div img {
   margin-bottom: 5px;
 }
 .contact #contact-form input, .contact #contact-form textarea {
-  background: #22B56A;
+  background: #00A650;
   border: 1px solid #fff;
   border-radius: 10px;
   color: #fff;
@@ -1820,18 +1816,15 @@ article header div img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 .dont-panic a {
-  color: #69089E;
   text-decoration: none;
-}
-.dont-panic a:hover, .dont-panic a:focus {
-  color: #fff;
+  font-weight: 700;
 }
 .dont-panic p {
-  color: #fff;
+  color: #000;
 }
 .dont-panic img {
   margin-bottom: 40px;
@@ -1875,6 +1868,11 @@ article header div img {
   text-align: center;
   color: #000;
   margin-bottom: 0;
+}
+.fancy-dress h5 {
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 .fancy-dress p {
   color: #000;
@@ -2066,11 +2064,11 @@ article header div img {
   padding-top: 120px;
 }
 .intro a {
-  color: #22B56A;
+  color: #EDED00;
   text-decoration: none;
 }
 .intro a:hover, .intro a:focus {
-  color: #fff;
+  color: #FFFF5C;
 }
 .intro .deets p {
   font-weight: 700;
@@ -2223,9 +2221,13 @@ article header div img {
   color: #fff;
   text-align: center;
 }
-.park-ride a {
+.park-ride a, .park-ride a:visited {
+  color: #EDED00;
   font-weight: 600;
   text-decoration: none;
+}
+.park-ride a:hover, .park-ride a:focus, .park-ride a:visited:hover, .park-ride a:visited:focus {
+  color: #FFFF5C;
 }
 .park-ride svg {
   display: block;
@@ -2234,7 +2236,7 @@ article header div img {
   width: 100%;
 }
 .park-ride svg path {
-  fill: #22B56A;
+  fill: #EDED00;
 }
 .park-ride small {
   color: #fff;
@@ -2333,16 +2335,16 @@ article header div img {
   display: block;
   font-size: initial;
 }
-.prize-draw ul li .donor .donor {
+.prize-draw ul li .donor span {
   display: inline;
   font-weight: 700;
 }
-.prize-draw a {
-  color: #00A650;
+.prize-draw a, .prize-draw a:visited {
+  color: #EDED00;
   text-decoration: none;
 }
-.prize-draw a:hover, .prize-draw a:focus {
-  color: #fff;
+.prize-draw a:hover, .prize-draw a:focus, .prize-draw a:visited:hover, .prize-draw a:visited:focus {
+  color: #FFFF5C;
 }
 .prize-draw table {
   border-color: #00A650;
@@ -2556,11 +2558,11 @@ article header div img {
 }
 .guests-page a.button:hover,
 .guests-page a.button:focus {
-  background-color: #22B56A;
+  background-color: #00A650;
   color: #fff;
 }
 .guests-page .guest {
-  color: #22B56A;
+  color: #00A650;
 }
 
 /* Privacy Page */
@@ -2586,12 +2588,16 @@ article header div img {
   display: block;
   font-size: initial;
 }
-.prize-draw-page ul li .donor .donor {
+.prize-draw-page ul li .donor span {
   display: inline;
   font-weight: 700;
 }
-.prize-draw-page a {
+.prize-draw-page a, .prize-draw-page a:visited {
+  color: #EDED00;
   text-decoration: none;
+}
+.prize-draw-page a:hover, .prize-draw-page a:focus, .prize-draw-page a:visited:hover, .prize-draw-page a:visited:focus {
+  color: #FFFF5C;
 }
 .prize-draw-page table {
   border-color: #000;

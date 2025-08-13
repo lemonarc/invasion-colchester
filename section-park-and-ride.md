@@ -1,11 +1,11 @@
 <span class="bus-ride">
   <span class="bus-icon">{% include icon-bus.svg %}</span>
 </span>
-<h3>Come in Costume and Travel on Colchester Park and Ride for Free!</h3>
+<h3>Dress up. Ride free.</h3>
 <p>
-	Anyone visiting Invasion Colchester in costume / fancy dress will be able to travel on the <a href="https://www.essexhighways.org/getting-around/bus/park-and-ride/colchester-park-and-ride" rel="nofollow noopener noreferrer" alt="Colchester Park and Ride" target="_blank">Colchester Park and Ride</a> for free*.
+	Heading to Invasion Colchester in costume? Your <a href="https://www.essexhighways.org/getting-around/bus/park-and-ride/colchester-park-and-ride" rel="nofollow noopener noreferrer" alt="Colchester Park and Ride" target="_blank">Colchester Park & Ride</a> fare is on us.*
 </p><p>
-	The regular fares are listed below.
+	Regular fares below...
 </p>
 <table>
 	<tbody>
@@ -54,5 +54,5 @@
 	</tbody>
 </table>
 <small>
-	* Terms & Conditions apply
+	* Free travel applies on the event day for passengers in clear costume/fancy dress; usual Park & Ride terms apply.
 </small>
