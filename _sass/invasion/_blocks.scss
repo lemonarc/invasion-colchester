@@ -97,7 +97,7 @@
   > .wrapper, h2, h4, a, .small { position: relative; z-index: 1; }
 
   h2 { line-height: 1; margin-bottom: 0; }
-  h4 { color: $secondary; line-height: 1; }
+  h4 { line-height: 1; }
 
   a { display: inline-block; }
 
@@ -175,7 +175,7 @@
     }
 
     input, textarea {
-      background: $primary-alt;
+      background: $primary;
       border: 1px solid $white;
       border-radius: $spacing-unit;
       color: $white;
@@ -223,16 +223,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: $white;
+  color: $on-primary;
   text-align: center;
 
   a {
-    color: $secondary;
     text-decoration: none;
-
-    &:hover,&:focus { color: $white; }
+    font-weight: 700;
   }
-  p { color: $white; }
+  p { 
+  color: $on-primary; }
   img { margin-bottom: $spacing-unit*4; }
 }
 
@@ -268,6 +267,11 @@
     text-align: center;
     color: $on-primary;
     margin-bottom: 0;
+  }
+  h5 {
+    color: $on-primary;
+    margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit*2;
   }
   p { color: $on-primary; }
 
@@ -405,10 +409,10 @@
   padding-top: $spacing-unit*12;
 
   a {
-    color: $primary-alt;
+    color: $on-secondary-link;
     text-decoration: none;
 
-    &:hover,&:focus { color: $on-secondary; }
+    &:hover,&:focus { color: $on-secondary-link-hover; }
   }
   .deets p { font-weight: 700; }
   h2 {
@@ -538,14 +542,22 @@
   color: $on-secondary;
   text-align: center;
 
-  a { font-weight: 600; text-decoration: none; }
+  a,a:visited {
+    color: $on-secondary-link;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover,&:focus {
+      color: $on-secondary-link-hover;
+    }
+  }
   svg {
     display: block;
     margin-bottom: $spacing-unit*4;
     max-width: 300px;
     width: 100%;
 
-    path { fill: $primary-alt; }
+    path { fill: $tertiary; }
   }
   small {
     color: $on-secondary;
@@ -628,15 +640,15 @@
         display: block;
         font-size: initial;
 
-        .donor { display: inline; font-weight: 700; }
+        span { display: inline; font-weight: 700; }
       }
     }
   }
-  a {
-    color: $primary;
+  a,a:visited {
+    color: $on-secondary-link;
     text-decoration: none;
 
-    &:hover,&:focus { color: $on-secondary; }
+    &:hover,&:focus { color: $on-secondary-link-hover; }
   }
   table {
     border-color: $primary;

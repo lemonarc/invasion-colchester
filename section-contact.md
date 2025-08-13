@@ -4,7 +4,7 @@
 
 <h2>Get in Touch</h2>
 
-<p>Whether you're interested in joining the cast of costumed characters, want to help us raise as much as possible on the day, have some fantastic ideas on how we can raise even more money than before, or if you would just like a little more information, you can use the form below to get in touch with us.</p>
+<p>Want to join the cast, volunteer on the day, pitch a fundraising idea, or just ask a question? Use the form below and we’ll get back to you.</p>
 
 <form action="https://formzest.lemonarc.com/8fc21011-c1d5-40ac-b11f-1ea224b3b207" method="post" id="contact-form" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Privacy Policy'); return false; }">
 	<input type="text" name="_gotcha" style="display:none" />

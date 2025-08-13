@@ -163,14 +163,14 @@ h6 {
  * Links
  */
 a {
-  color: $link;
+  color: $on-primary-link;
 
   &:visited {
-    color: $link;
+    color: $on-primary-link;
   }
 
   &:hover {
-    color: $hover;
+    color: $on-primary-link-hover;
     text-decoration: none;
   }
 
@@ -317,10 +317,6 @@ pre {
   clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
   margin-bottom: 40px;
   @extend %clearfix;
-
-  h2 {
-    color: $secondary;
-  }
 
   a, a.visited {
     color: $secondary;

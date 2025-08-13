@@ -41,24 +41,20 @@ $yellow-300: #EDED00 !default;
 $yellow-400: #BDBD00 !default;
 $yellow-500: #939300 !default;
 
+$midnight-blue: #0B132B !default;
+$midnight-blue-hover: #001F3F !default;
+
 /* Semantic colors */
 $primary:       $green-300 !default;
-$primary-alt:   $green-200 !default;
-$primary-hover: $black !default;
-
 $secondary:       $purple-300 !default;
-$secondary-alt:   $purple-100 !default;
-$secondary-hover: $white !default;
-
 $tertiary:       $yellow-300 !default;
-$tertiary-alt:   $yellow-100 !default;
-$tertiary-hover: $yellow-100 !default;
 
 $on-primary:   $black !default;
+$on-primary-link: $midnight-blue !default;
+$on-primary-link-hover: $midnight-blue-hover !default;
 $on-secondary: $white !default;
-
-$link:  $primary-alt !default;
-$hover: $white !default;
+$on-secondary-link: $yellow-300 !default;
+$on-secondary-link-hover: $yellow-100 !default;
 
 $table-text-align: left !default;
 

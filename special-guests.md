@@ -13,10 +13,10 @@ lightbox: guests
     In the past we have featured Alan Flyng, Andrew Lawden, Bern Collaço, Chris Bunn, Clem So, Derek Lyons, Des Taylor, Harry 'Aitch' Fielder, John Simpkin, Jon Campling, Martin Ballantyne, Mick Fryer-Kelsey, Mike Edmonds, Nick Joseph, Pam Rose, Paul Warren, Ralph Morse, Ross Mullan, Ross Sambridge, Sandeep Mohan, Ted Western, Ty Hurley, and Victor Botha as Special Guests at previous Invasion Colchester events. Altogether, they have appeared in movies and TV shows such as the <strong>Star Wars</strong> saga, the <strong>Harry Potter</strong> series, <strong>Doctor Who</strong>, the <strong>Marvel Cinematic Universe</strong>, and more.
 </p>
 <p>
-    For 2025, we’re thrilled to introduce three exciting guests: <strong class="guest">Carl Newman</strong>, movement double for <strong>Michael Keaton</strong> in <strong>Batman</strong> (1989); <strong class="guest">James Taylor</strong>, screen double for <strong>Kylo Ren</strong> and frequent performer in <strong>Star Wars</strong> and <strong>Marvel</strong> titles; and legendary comic book artist <strong class="guest">Barry Kitson</strong>, known for his work on <strong>Spider-Man</strong>, <strong>Justice League</strong>, and <strong>The Avengers</strong>.
+    For 2025, we’re thrilled to introduce three exciting guests: <strong>Carl Newman</strong>, movement double for <strong>Michael Keaton</strong> in <strong>Batman</strong> (1989); <strong>James Taylor</strong>, screen double for <strong>Kylo Ren</strong> and frequent performer in <strong>Star Wars</strong> and <strong>Marvel</strong> titles; and legendary comic book artist <strong>Barry Kitson</strong>, known for his work on <strong>Spider-Man</strong>, <strong>Justice League</strong>, and <strong>The Avengers</strong>.
 </p>
 <p>
-    We also welcome back fan favourites <strong class="guest">Paul Warren</strong>, <strong class="guest">Clem So</strong>, <strong class="guest">Ty Hurley</strong>, and <strong class="guest">Ross Sambridge</strong> — each with impressive screen résumés across sci-fi, fantasy, and comic book universes.
+    We also welcome back fan favourites <strong>Paul Warren</strong>, <strong>Clem So</strong>, <strong>Ty Hurley</strong>, and <strong>Ross Sambridge</strong> — each with impressive screen résumés across sci-fi, fantasy, and comic book universes.
 </p>
 
 <br /><br />

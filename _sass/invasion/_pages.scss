@@ -88,11 +88,11 @@
 
   a.button:hover,
   a.button:focus {
-    background-color: $primary-alt;
+    background-color: $primary;
     color: $white;
   }
 
-  .guest { color: $primary-alt; }
+  .guest { color: $primary; }
 }
 
 /* Privacy Page */
@@ -117,11 +117,16 @@
         display: block;
         font-size: initial;
 
-        .donor { display: inline; font-weight: 700; }
+        span { display: inline; font-weight: 700; }
       }
     }
   }
-  a { text-decoration: none; }
+  a,a:visited {
+    color: $on-secondary-link;
+    text-decoration: none;
+
+    &:hover,&:focus { color: $on-secondary-link-hover; }
+  }
 
   table {
     border-color: $on-primary;

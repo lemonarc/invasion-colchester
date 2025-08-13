@@ -29,7 +29,7 @@
     font-weight: 900;
     text-decoration: none;
 
-    &:hover,&:focus { color: $primary-alt; }
+    &:hover,&:focus { color: $tertiary; }
   }
 }
 
@@ -39,7 +39,7 @@
 
   a,a:visited {
     color: $secondary;
-    &:hover,&:focus { color: $secondary-hover; }
+    &:hover,&:focus { color: $on-primary-link-hover; }
   }
 }
 
@@ -111,7 +111,7 @@
     text-decoration: none;
 
     &:not(:last-child) { margin-right: 20px; }
-    &:hover,&:focus { color: $primary-hover; text-decoration: none; }
+    &:hover,&:focus { color: $on-primary-link-hover; text-decoration: none; }
   }
 
   @include media-query($on-1000) {
@@ -277,9 +277,9 @@
   .page-link {
     color: $primary;
 
-    &:hover,&:focus { color: $primary-hover; }
+    &:hover,&:focus { color: $on-primary-link-hover; }
     @include media-query($on-1000) {
-      &:hover,&:focus { color: $primary-hover; }
+      &:hover,&:focus { color: $on-primary-link-hover; }
     }
   }
 

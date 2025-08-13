@@ -17,8 +17,10 @@
 
 <div class="wrapper wrapper-B">
 	<p>
-		Invasion Colchester has featured some famous Show Cars at previous events, from Batmobiles, Trandformers, and the Ecto-1, to Cop Cars, Mr. Bean's Mini, and the 'Back to the Future' Delorian.
+		<strong>Batmobiles</strong>. <strong>Transformers</strong>. <strong>Ecto-1</strong>. <strong>Mr Bean’s Mini</strong>. <strong>The Back to the Future DeLorean</strong>. Screen-famous wheels roll into Colchester every year—and this year’s lineup is just as epic.
 	</p><p>
-		This year will be no exception with reams of recognisable rides on display in St Nicholas Square, Culver Square, and on the High Street, So come along to Invasion Colchester on Saturday 6 September and get up close and personal with some magnificent machines!
-	</p>
+		Find them in <strong>St Nicholas Square</strong>, <strong>Culver Square</strong> and along the <strong>High Street</strong> on <strong>Saturday 6 September</strong>. Get close, grab a selfie, meet the icons!
+	</p><p>
+        Plus at the War Memorial: <strong>Coasters Scooter Club</strong> — featuring the scooter ridden by Phil Daniels in <strong>Quadrophenia</strong>, plenty of gear on display, and music.
+    </p>
 </div>

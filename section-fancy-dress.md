@@ -12,17 +12,23 @@
 <div class="wrapper wrapper-B">
 	<div class="block-left">
 		<p>
-			Fancy winning a cool prize just for dressing up as your favourite character from TV and film? Are you aged under 14? If so, you're in luck as the Invasion Colchester Children's Fancy Dress Competition is taking place in <a href="https://www.culversquare.co.uk/" rel="nofollow noopener noreferrer" alt="Culver Square Shopping" target="_blank">Culver Square Shopping Centre</a> on Saturday, 6 September!
+			Love dressing up? Under 14? Then this one’s for you. Step into <strong>Culver Square Shopping Centre</strong> on <strong>Saturday 6 September</strong> for the <strong>Invasion Colchester Children’s Fancy Dress Competition</strong>!
+		</p>
+		<h5>Age Categories</h5>
+		<p>
+			There will be three different age catergories... 4 and under, 5-8 and 9+ ...and <strong>1st</strong>, <strong>2nd</strong> and <strong>3rd</strong> placed prizes in each category.
+		</p>
+		<h5>How to Enter</h5>
+		<p>
+			Rock your best costume—store-bought or homemade—head to Colchester city centre for Invasion Colchester, and be by the <strong>judging area in Culver Square</strong> at the allotted time.
+		</p>
+		<h5>On the Day</h5>
+		<p>
+			The competition zone will be <strong>roped off</strong>. Only entrants inside, please. (Parents of very little ones can accompany them; otherwise, we ask grown-ups to stay behind the rope to avoid crowding.)
 		</p><p>
-			There will be three different age catergories - 4 and under, 5-8 and 9+ - and First, Second and Third placed prizes in each category.
+			Winners announced, prizes awarded… then a <strong>group photo</strong> to cap it off.
 		</p><p>
-			To get your hands on a prize, put on your best costume, bought or home-made, head in to Colchester city centre for Invasion Colchester, and make sure you’re near the judging area in Culver Square Shopping Centre at the alloted time.
-		</p><p>
-			The Fancy Dress Competition area will be roped off and only the children entering the competition will be permitted into the area - unless the children are really little, parents will be asked to stay behind the rope to avoid unecessary crowding.
-		</p><p>
-			Once the competitions have been judged and the winners have been awarded their prizes, a group photograph will be taken.
-		</p><p>
-			Good luck!
+			<strong>Good luck!</strong>
 		</p>
 	</div>
 	<div class="block-right">
