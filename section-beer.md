@@ -1,9 +1,11 @@
-<img src="/images/sponsors/OMB_LOCKUP.svg" alt="Other Monkey Brewing" />
-<h3>Invasion Ale</h3>
+<img src="/images/sponsors/OMB_LOCKUP_INVERSE.svg" alt="Other Monkey Brewing" />
+<h3>Hook & Ladder Ale</h3>
 <p>
-	You can wet your whistle during Invasion Colchester thanks to the fabulous Other Monkey Brewing, who have paired up with us once again to craft a special beer for the event
+	<strong><em>Bustin’ makes me feel… thirsty!</em></strong>
 </p><p>
-	The beer will be on tap at The Taproom with a portion of the proceeds going to Invasion Colchester!
+	Meet Hook & Ladder Ale — a one-off, Ghostbusters-themed collab with Other Monkey Brewing brewed just for Invasion Colchester.
+</p><p>
+	Pouring exclusively at The Taproom the week of Invasion Colchester, with limited-edition cans to take home. A portion of every pour supports Invasion Colchester. Once it’s gone, it’s gone!
 </p><p>
 	<a href="https://othermonkeybrewing.com/" rel="nofollow noopener noreferrer" alt="Other Monkey Brewing" target="_blank"><strong>othermonkeybrewing.com</strong></a>
 </p>
