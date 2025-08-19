@@ -363,12 +363,10 @@
   p  { margin-bottom: 18px }
 
   a,a.visited {
-    color: $primary;
     font-weight: 700;
     text-decoration: none;
 
     &.hover,&.visited {
-      color: $on-secondary;
       text-decoration: none;
     }
   }
