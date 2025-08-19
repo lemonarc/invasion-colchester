@@ -2022,12 +2022,10 @@ article header div img {
   margin-bottom: 18px;
 }
 .guide a, .guide a.visited {
-  color: #00A650;
   font-weight: 700;
   text-decoration: none;
 }
 .guide a.hover, .guide a.visited, .guide a.visited.hover, .guide a.visited.visited {
-  color: #fff;
   text-decoration: none;
 }
 
