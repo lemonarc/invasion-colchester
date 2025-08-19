@@ -34,6 +34,15 @@
 <h5>Lion Walk</h5>
 <p>Look out for... Our Special Guests, Comic Characters &amp; Super Heroes (including Deadpool), Doctor Who props, Predators, Steampunk, the Batmobile, DJ Fettdog, live music, Fragers Arcade Alley, and the Colchester &amp; Ipswich Hospitals Charity team!</p>
 
+<h4>Outside Methodist Church</h4>
+<h5>Lion Walk</h5>
+<p>
+  Look out for... the first Invasion Colchester <strong>Dog Fancy Dress Competition</strong> hosted by Poochios Pet Supplies.
+  Registration from <strong>1:30pm</strong>. Entry <strong>£2</strong> (donation to Invasion charities).<br/>
+  Heats: Small dogs <strong>2:00pm</strong>, Medium <strong>2:30pm</strong>, Large <strong>3:00pm</strong>.<br/>
+  Rosettes for 1st, 2nd &amp; 3rd in each category.
+</p>
+
 <h4>MP Galleries</h4>
 <h5>Sir Isaac's Walk</h5>
 <p>Look out for... Rob Bishop exhibition &amp; artist appearance — plus more characters.</p>
