@@ -66,6 +66,32 @@
 /* Home Blocks
 ------------------------------*/
 
+.auction {
+  background-color: $secondary;
+  background-image: url(/images/backgrounds/atc-auction-base-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $on-secondary;
+  text-align: center;
+  padding: $spacing-unit * 8;
+  width: auto;
+
+  img {
+    display: block;
+    margin: 0 auto 60px;
+    max-width: 400px;
+  }
+
+  a {
+    color: $on-secondary-link;
+    text-decoration: none;
+
+    &:hover,&:focus { color: $on-secondary; }
+  }
+}
+
 .batman-at-the-castle {
   position: relative;
   background: linear-gradient(to bottom, $purple-300 0%, $purple-300 59.999999999999%, $purple-500 60%, $purple-300 100%);
