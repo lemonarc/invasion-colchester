@@ -100,6 +100,32 @@ lightbox: guests
 </div>
 
 <div class="container">
+  <img src="/images/guests/ross-mullan.jpg" alt="Ross Mullan" class="guest-feature" />
+  <h3>Ross Mullan</h3>
+  <p>
+    <strong>Ross Mullan</strong> is a Canadian–British actor, creature performer, and puppeteer, best known as the
+    original <strong>White Walker</strong> in HBO’s <strong>Game of Thrones</strong> (Seasons 2–4). On
+    <strong>Doctor Who</strong> he embodied the terrifying <strong>The Silence</strong> and <strong>The Teller</strong>,
+    cementing his reputation for unforgettable full-prosthetic roles.
+  </p>
+  <p>
+    On the big screen, Mullan played one of the three <strong>Stygian Witches</strong> in Warner Bros.’
+    <strong>Clash of the Titans</strong>, the ill-fated <strong>Dr. Wobegone</strong> in
+    <strong>Sharknado 5: Global Swarming</strong>, and the fastidious <strong>Maître D'</strong> in Marvel’s
+    <strong>Ant-Man and the Wasp: Quantumania</strong>.
+  </p>
+  <p>
+    For younger audiences he’s instantly recognisable as the enigmatic <strong>Numbertaker</strong> in the BBC’s
+    <strong>Numberjacks</strong>. He also puppeteered and voiced <strong>Nev the Bear</strong> on
+    <strong>Bear Behaving Badly</strong>, showcasing range beyond creature suits.
+  </p>
+  <p>
+    Across film, television, commercials, and games, Mullan has portrayed countless werewolves, demons, and aliens, and
+    contributed motion-capture and voice work to multiple titles and documentaries.
+  </p>
+</div>
+
+<div class="container">
     <img src="/images/guests/ross-sambridge.jpg" alt="Ross Sambridge" class="guest-feature" />
     <h3>Ross Sambridge</h3>
     <p>
@@ -132,8 +158,8 @@ lightbox: guests
     <div class="gallery-item" data-description="Ty Hurley in Solo: A Star Wars Story">
         <img src="/images/guests/ty-hurley-04.jpg" alt="Ty Hurley in Solo: A Star Wars Story">
     </div>
-    <div class="gallery-item" data-description="Ross Sambridge in Star Wars: The Last Jedi">
-        <img src="/images/guests/ross-01.jpg" alt="Ross Sambridge in Star Wars: The Last Jedi">
+    <div class="gallery-item" data-description="Ross Mullan in Game of Thornes">
+        <img src="/images/guests/ross-mullan-1.jpg" alt="Ross Mullan in Game of Thornes">
     </div>
     <div class="gallery-item" data-description="James Taylor in Sherlock Holmes: A Game of Shadows">
         <img src="/images/guests/james-taylor-02.jpg" alt="James Taylor in Sherlock Holmes: A Game of Shadows">
