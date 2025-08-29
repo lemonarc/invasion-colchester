@@ -19,6 +19,12 @@
 <h5>Culver Square</h5>
 <p>Look out for... Ghostbusters HQ — big displays &amp; Ectomobiles — plus Dinosaurs, Movie Princesses, Props Dept display, Knight Rider, Lightning McQueen, Show Cars, stalls, the St Helena Hospice team, and the Fancy Dress Competition.</p>
 
+<h4>Curzon Colchester</h4>
+<h5>Queen Street</h5>
+<p>
+  Look out for... <strong>Quiz Night</strong> — <strong>Saturday 6 September, 7pm</strong>. Fancy dress encouraged. Teams of up to <strong>5</strong>. <strong>£2 per person</strong>, <strong>cash only</strong>. All ticket money is donated to Invasion Colchester. <a href="mailto:manager.colchester@curzon.com" target="_blank" rel="noopener">Book here</a>.
+</p>
+
 <h4>Fenwick</h4>
 <h5>High Street</h5>
 <p>Look out for... Optimus Prime, Bumblebee, the Mind (Mid &amp; North East Essex) team — and the
