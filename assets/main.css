@@ -2138,7 +2138,6 @@ article header div img {
   color: #fff;
 }
 .live h2 {
-  color: #fff;
   text-align: center;
 }
 @media screen and (max-width: 800px) {
@@ -2154,14 +2153,12 @@ article header div img {
   transform: rotate(-15deg);
 }
 .live table {
-  border-color: #fff;
-  color: #fff;
   margin: 0 0 40px;
 }
 .live table th, .live table td {
   background: none;
-  border-color: #fff;
-  color: #fff;
+  border-color: #000;
+  color: #000;
 }
 .live table tr:nth-child(even) {
   background: none;
@@ -2170,6 +2167,20 @@ article header div img {
   .live table {
     margin: 0 auto;
   }
+}
+.live .performers .performer {
+  text-align: center;
+}
+.live .performers .performer-img {
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  width: calc(33.333% - 20px);
+  padding-top: 33.333%;
+  clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
+}
+.live .performers .performer-01 {
+  background-image: url(/images/live/TJT-01.jpg);
 }
 
 .map {
