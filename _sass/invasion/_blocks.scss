@@ -477,13 +477,11 @@
   background-size: $spacing-unit*1.2;
   color: $on-secondary;
 
-  h2 { text-align: center; }
-
-  p {
-    @include media-query($on-800) { text-align: center; }
+  h2, p {
+    text-align: center;
   }
 
-  img {
+  .live-guitar {
     display: block;
     margin: 0 auto $spacing-unit*4;
     max-width: 300px;
@@ -491,30 +489,64 @@
     transform: rotate(-15deg);
   }
 
-  table {
-    margin: 0 0 40px;
-
-    th,td { background: none; border-color: $black; color: $black; }
-    tr:nth-child(even) { background: none; }
-
-    @include media-query($on-800) { margin: 0 auto; }
+  .container .wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .performers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: $spacing-unit*4;
 
-    .performer {
-      text-align: center;
-    }
-    .performer-img {
-      box-sizing: border-box;
-      overflow: hidden;
-      position: relative;
-      width: calc(33.333% - 20px);
-      padding-top: 33.333%;
-      clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
-    }
-    .performer-01 {
-      background-image: url(/images/live/TJT-01.jpg);
+    .container.performer {
+      background: $secondary;
+      padding: 30px;
+      width: calc(22% - 60px);
+
+      h4,h5 {
+        color: $on-secondary;
+        margin-bottom: 0;
+        text-align: center;
+        line-height: 1;
+      }
+      h4 {
+        margin-bottom: $spacing-unit;
+      }
+
+      .performer-img {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
+        margin-bottom: $spacing-unit*2;
+      }
+
+      .performer-01 {
+        background-image: url(/images/live/TJT-01.jpg);
+      }
+      .performer-02 {
+        background-image: url(/images/live/JW-01.jpg);
+      }
+      .performer-03 {
+        background-image: url(/images/live/JC-01.jpg);
+        background-position: top center;
+      }
+      .performer-04 {
+        background-image: url(/images/live/FM-01.jpg);
+      }
+
+      @include media-query($on-1200) {
+        width: calc(48% - 60px);
+      }
+      @include media-query($on-600) {
+        width: 100%;
+      }
     }
   }
 }
