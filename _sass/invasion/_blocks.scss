@@ -477,7 +477,7 @@
   background-size: $spacing-unit*1.2;
   color: $on-secondary;
 
-  h2 { color: $white; text-align: center; }
+  h2 { text-align: center; }
 
   p {
     @include media-query($on-800) { text-align: center; }
@@ -492,14 +492,30 @@
   }
 
   table {
-    border-color: $white;
-    color: $white;
     margin: 0 0 40px;
 
-    th,td { background: none; border-color: $white; color: $white; }
+    th,td { background: none; border-color: $black; color: $black; }
     tr:nth-child(even) { background: none; }
 
     @include media-query($on-800) { margin: 0 auto; }
+  }
+
+  .performers {
+
+    .performer {
+      text-align: center;
+    }
+    .performer-img {
+      box-sizing: border-box;
+      overflow: hidden;
+      position: relative;
+      width: calc(33.333% - 20px);
+      padding-top: 33.333%;
+      clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
+    }
+    .performer-01 {
+      background-image: url(/images/live/TJT-01.jpg);
+    }
   }
 }
 
