@@ -31,6 +31,12 @@
 				<h5>2:00pm</h5>
 			</div>
 		</div>
+		<div class="performers performers-full">
+		<div class="container performer performer-full">
+			<div class="performer-img performer-05"></div>
+			<h4>The Big Sing</h4>
+			<h5>3:00pm</h5>
+		</div></div>
 	</div>
 </div>
 

@@ -540,6 +540,9 @@
       .performer-04 {
         background-image: url(/images/live/FM-01.jpg);
       }
+      .performer-05 {
+        background-image: url(/images/live/TBS-01.jpg);
+      }
 
       @include media-query($on-1200) {
         width: calc(48% - 60px);
@@ -548,6 +551,14 @@
         width: 100%;
       }
     }
+  }
+
+  .performers-full {
+    margin-top: 0;
+
+    .container.performer-full {
+        width: 100%;
+      }
   }
 }
 
