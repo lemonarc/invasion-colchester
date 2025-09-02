@@ -2195,6 +2195,9 @@ article header div img {
 .live .performers .container.performer .performer-04 {
   background-image: url(/images/live/FM-01.jpg);
 }
+.live .performers .container.performer .performer-05 {
+  background-image: url(/images/live/TBS-01.jpg);
+}
 @media screen and (max-width: 1200px) {
   .live .performers .container.performer {
     width: calc(48% - 60px);
@@ -2204,6 +2207,12 @@ article header div img {
   .live .performers .container.performer {
     width: 100%;
   }
+}
+.live .performers-full {
+  margin-top: 0;
+}
+.live .performers-full .container.performer-full {
+  width: 100%;
 }
 
 .map {
