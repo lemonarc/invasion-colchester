@@ -3,8 +3,8 @@
 <p>
     We sold <strong>2,536 tickets</strong> — raising <strong>£2,536</strong> directly for <strong>St Helena Hospice</strong>. Thank you!
 </p><p>
-    Huge thanks to our generous <strong>sponsors</strong> for donating prizes, our amazing <strong>ticket sellers</strong> for doing the legwork, and every <strong>ticket buyer</strong> who got involved — you made this total possible.
-</p>
+    Huge thanks to our generous sponsors - including <strong>Bill & Berts</strong>, <strong>Colchester Castle</strong>, <strong>Colchester Events</strong>, <strong>Colchester Operatic Society</strong>, <strong>Culver Square</strong>, <strong>Curzon</strong>, <strong>Fairfield Crisps</strong>, <strong>Fenwick</strong>, <strong>Firstsite</strong>, <strong>Lion Walk</strong>, <strong>Mercury Theatre</strong>, <strong>Micro Scooter</strong>, <strong>Miller & Carter</strong>, <strong>MP Gallery</strong>, <strong>Other Monkey Brewery</strong>, <strong>Pressi</strong>, and <strong>The Wooden Fender</strong> - for donating prizes, our amazing <strong>ticket sellers</strong> for doing the legwork, and every <strong>ticket buyer</strong> who got involved — you made this total possible.
+</p><br/>
 <h4>Prizes</h4>
 <p>
     The prizes included...
@@ -54,8 +54,7 @@
         <span class="prize">Family Castle Museum Pass</span>
         <span class="donor">Donated by <a href="https://colchester.cimuseums.org.uk/visit/colchester-castle/" rel="nofollow noopener noreferrer" target="_blank"><span>Colchester Castle</span></a></span>
     </li>
-</ul>
-
+</ul><br/>
 <h4>Winning Numbers (20)</h4>
 <ul class="prize-winners">
 	<li>
