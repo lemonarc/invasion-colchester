@@ -719,6 +719,30 @@
   ul {
     text-align: center;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &.prize-list {
+      height: 70vh;
+
+      @include media-query($on-800) {
+        flex-wrap: nowrap;
+        height: auto;
+      }
+    }
+    &.prize-winners {
+      height: 30vh;
+
+      @include media-query($on-600) {
+        height: 40vh;
+      }
+
+      @include media-query($on-400) {
+        height: 80vh;
+      }
+    }
 
     li {
       .prize { font-size: 1.6em; font-weight: 700; }

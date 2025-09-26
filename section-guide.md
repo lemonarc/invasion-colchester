@@ -55,6 +55,9 @@
   Look out for... the first "Invasion Colchester Dog Fancy Dress Competition" hosted by Poochios Pet Supplies.
   Registration from 1:30pm. Entry £2 (donation to Invasion charities). Heats: Small dogs 2:00pm, Medium 2:30pm, Large 3:00pm. Rosettes for 1st, 2nd &amp; 3rd in each category.
 </p>
+<p>
+  Late addition... Live wrestling matches from School of Slam Wrestling — bouts at 11:00am, 12:00pm, 1:00pm and 3:00pm.
+</p>
 
 <h4>MP Galleries</h4>
 <h5>Sir Isaac's Walk</h5>
