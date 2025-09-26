@@ -2395,6 +2395,32 @@ article header div img {
 .prize-draw ul {
   text-align: center;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.prize-draw ul.prize-list {
+  height: 70vh;
+}
+@media screen and (max-width: 800px) {
+  .prize-draw ul.prize-list {
+    flex-wrap: nowrap;
+    height: auto;
+  }
+}
+.prize-draw ul.prize-winners {
+  height: 30vh;
+}
+@media screen and (max-width: 600px) {
+  .prize-draw ul.prize-winners {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .prize-draw ul.prize-winners {
+    height: 80vh;
+  }
 }
 .prize-draw ul li .prize {
   font-size: 1.6em;
