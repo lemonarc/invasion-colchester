@@ -832,17 +832,89 @@
   }
 }
 
-.total-container {
+.thankyou {
   background-color: $primary;
   background-image: url(/assets/svg/cirlces-light.svg);
   background-position: center;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 50vw;
+  color: $on-primary;
+  text-align: center;
 
-  h2,p { color: $on-primary; text-align: center; }
+  ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 800px;
+    margin: $spacing-unit auto;
+
+    &.thankyou-sponsors {
+      height: 25vh;
+
+      @include media-query($on-900) {
+        height: 35vh;
+      }
+
+      @include media-query($on-700) {
+        flex-wrap: nowrap;
+        height: auto;
+      }
+    }
+    &.thankyou-donators {
+      height: 20vh;
+
+      @include media-query($on-900) {
+        height: 30vh;
+      }
+
+      @include media-query($on-700) {
+        flex-wrap: nowrap;
+        height: auto;
+      }
+    }
+    &.thankyou-groups {
+      height: 25vh;
+
+      @include media-query($on-900) {
+        height: 35vh;
+      }
+
+      @include media-query($on-700) {
+        flex-wrap: nowrap;
+        height: auto;
+      }
+    }
+
+    li {
+      font-weight: 700;
+    }
+  }
+}
+
+.total-container {
+  background-color: $secondary;
+  background-image: url(/assets/svg/squares-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: $spacing-unit*40;
+  background-attachment: fixed;
+  color: $on-secondary;
+  text-align: center;
+  
+  a {
+    color: $on-secondary-link;
+    text-decoration: none;
+
+    &:hover {
+      color: $on-secondary-link-hover;
+    }
+  }
   p.total {
-    color: $white;
+    color: $on-secondary-link;
     font-size: 15vw;
     font-weight: 900;
   }

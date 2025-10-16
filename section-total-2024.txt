@@ -1,6 +1,6 @@
 <h2>Grand Total for 2024</h2>
 <p>Last year we raised...</p>
-<p class="total">£<span class="counter" id="financial-counter">0</span></p>
+<p class="total" alt="£15206.81">£<span class="counter" id="financial-counter">0</span></p>
 <br/><br/>
 
 <p>
