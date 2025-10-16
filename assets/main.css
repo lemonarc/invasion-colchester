@@ -2520,20 +2520,91 @@ article header div img {
   }
 }
 
-.total-container {
+.thankyou {
   background-color: #00A650;
   background-image: url(/assets/svg/cirlces-light.svg);
   background-position: center;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 50vw;
-}
-.total-container h2, .total-container p {
   color: #000;
   text-align: center;
 }
-.total-container p.total {
+.thankyou ul {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 800px;
+  margin: 10px auto;
+}
+.thankyou ul.thankyou-sponsors {
+  height: 25vh;
+}
+@media screen and (max-width: 900px) {
+  .thankyou ul.thankyou-sponsors {
+    height: 35vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .thankyou ul.thankyou-sponsors {
+    flex-wrap: nowrap;
+    height: auto;
+  }
+}
+.thankyou ul.thankyou-donators {
+  height: 20vh;
+}
+@media screen and (max-width: 900px) {
+  .thankyou ul.thankyou-donators {
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .thankyou ul.thankyou-donators {
+    flex-wrap: nowrap;
+    height: auto;
+  }
+}
+.thankyou ul.thankyou-groups {
+  height: 25vh;
+}
+@media screen and (max-width: 900px) {
+  .thankyou ul.thankyou-groups {
+    height: 35vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .thankyou ul.thankyou-groups {
+    flex-wrap: nowrap;
+    height: auto;
+  }
+}
+.thankyou ul li {
+  font-weight: 700;
+}
+
+.total-container {
+  background-color: #69089E;
+  background-image: url(/assets/svg/squares-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 400px;
+  background-attachment: fixed;
   color: #fff;
+  text-align: center;
+}
+.total-container a {
+  color: #EDED00;
+  text-decoration: none;
+}
+.total-container a:hover {
+  color: #FFFF5C;
+}
+.total-container p.total {
+  color: #EDED00;
   font-size: 15vw;
   font-weight: 900;
 }
