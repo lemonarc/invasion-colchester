@@ -1,5 +1,5 @@
 <h2>Grand Total for 2025...</h2><br/><br/>
-<p class="total" alt="£19534.64">£<span class="counter" id="financial-counter">0</span></p>
+<p class="total" alt="£19612.36">£<span class="counter" id="financial-counter">0</span></p>
 <br/><br/>
 <p>
     This spectacular total was made up of donations collected on the day, plus funds raised by the <strong>Film & TV Quiz</strong> nights, <strong>Mark Davies’</strong> charity art auction, the <strong>Prize Draw</strong>, and year-round fundraising — including <strong>Darth Vader’s Galactic Grotto</strong> and a <strong>North Primary School</strong> character visit.

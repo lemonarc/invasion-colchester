@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const counter = document.getElementById('financial-counter');
-  const targetValue = 19534.64;
+  const targetValue = 19612.36;
   const duration = 2000; // Duration of the animation in milliseconds
   
   let observer = new IntersectionObserver(entries => {
