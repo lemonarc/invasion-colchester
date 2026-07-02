@@ -51,5 +51,6 @@
                 </div>
             </div>
         </div>
+        <p>This is just the beginning… guests, attractions and surprises will be announced right here as they’re confirmed in the lead-up to the event</p>
     </div>
 </div>
