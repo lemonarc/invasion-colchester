@@ -11,9 +11,13 @@
 .title-image { max-height: 300px; }
 
 .post {
-  margin: $spacing-unit*6 0;
+  margin: $spacing-unit*10 0 $spacing-unit*6;
 
   @include media-query($on-1200) { padding: 0 $spacing-unit; }
+
+  h1 {
+    color: $secondary;
+  }
   .button { display: inline-block; margin-top: $spacing-unit*4; }
 
   .photos img { border-radius: $spacing-unit; }

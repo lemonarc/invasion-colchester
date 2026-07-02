@@ -167,11 +167,18 @@
 }
 
 .contact {
+  background-color: $primary;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
+
   a {
-    color: $secondary;
+    color: $on-secondary-link;
     text-decoration: none;
 
-    &:hover,&:focus { color: $on-primary; }
+    &:hover,&:focus { color: $on-secondary-link-hover; }
   }
   img {
     display: block;
@@ -180,16 +187,16 @@
     width: -webkit-fill-available;
   }
   h2 {
-    color: $secondary;
+    color: $primary;
     text-align: center;
   }
   p {
-    color: $on-primary;
+    color: $on-secondary;
     margin: 0 auto;
     max-width: 600px;
   }
   #contact-form {
-    color: $on-primary;
+    color: $on-secondary;
     margin: $spacing-unit*4 auto 0;
     max-width: 600px;
     width: 100%;
@@ -201,18 +208,18 @@
     }
 
     input, textarea {
-      background: $primary;
-      border: 1px solid $white;
+      background: $secondary;
+      border: 1px solid $primary;
       border-radius: $spacing-unit;
-      color: $white;
+      color: $on-secondary;
       max-width: calc(100% - 40px);
 
-      &::placeholder { color: $on-primary; opacity: 1; }
-      &:-ms-input-placeholder { color: $on-primary; }
-      &::-ms-input-placeholder { color: $on-primary; }
+      &::placeholder { color: $on-secondary; opacity: 1; }
+      &:-ms-input-placeholder { color: $on-secondary; }
+      &::-ms-input-placeholder { color: $on-secondary; }
     }
     input[type="submit"]{
-      background: $secondary;
+      background: $black;
       border: none;
       border-radius: 0;
       box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
@@ -225,22 +232,22 @@
       margin: $spacing-unit*4 0 0;
 
       &:hover,
-      &:focus { background: $black; }
+      &:focus { background: $primary; }
     }
   }
 
-  @include media-query($on-800) {
-    background-size: 800px;
-    background-position: left -400px top -400px, right -400px bottom -400px;
-  }
-  @include media-query($on-600) {
-    background-size: 600px;
-    background-position: left -300px top -300px, right -300px bottom -300px;
-  }
-  @include media-query($on-400) {
-    background-size: 400px;
-    background-position: left -200px top -200px, right -200px bottom -200px;
-  }
+  // @include media-query($on-800) {
+  //   background-size: 800px;
+  //   background-position: left -400px top -400px, right -400px bottom -400px;
+  // }
+  // @include media-query($on-600) {
+  //   background-size: 600px;
+  //   background-position: left -300px top -300px, right -300px bottom -300px;
+  // }
+  // @include media-query($on-400) {
+  //   background-size: 400px;
+  //   background-position: left -200px top -200px, right -200px bottom -200px;
+  // }
 }
 
 .dont-panic {
@@ -259,6 +266,31 @@
   p { 
   color: $on-primary; }
   img { margin-bottom: $spacing-unit*4; }
+}
+
+.expect {
+  background-color: $primary;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
+  text-align: center;
+
+  h3 { margin-bottom: $spacing-unit*4; }
+
+  a,a.visited {
+    font-weight: 700;
+    text-decoration: none;
+
+    &.hover,&.visited {
+      text-decoration: none;
+    }
+  }
+
+  .container-wrap-inner .container {
+    color: $secondary;
+  }
 }
 
 .fancy-dress {
@@ -381,6 +413,12 @@
 }
 
 .guide {
+  background-color: $primary;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
   text-align: center;
 
   h3 { margin-bottom: $spacing-unit*4; }
@@ -502,8 +540,7 @@
     justify-content: space-between;
     margin-top: $spacing-unit*4;
 
-    .container.performer {
-      background: $secondary;
+    .performer {
       padding: 30px;
       width: calc(22% - 60px);
 
@@ -643,7 +680,7 @@
     max-width: 300px;
     width: 100%;
 
-    path { fill: $tertiary; }
+    path { fill: $primary; }
   }
   small {
     color: $on-secondary;
@@ -788,6 +825,91 @@
   background-size: 340px auto;
   background-position: center top;
   width: 100%;
+}
+
+.save-the-date {
+  background-color: $secondary;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit * 1.2;
+  color: $on-secondary;
+  font-size: 1.5em;
+  text-align: center;
+
+  .main {
+    font-size: clamp(3rem, 11vw, 8rem);
+    line-height: 0.8;
+    margin-bottom: $spacing-unit * 2;
+  }
+
+  .date,
+  .location,
+  .time {
+    line-height: 0.9;
+    margin-bottom: $spacing-unit * 2;
+    text-transform: uppercase;
+  }
+
+  .date {
+    color: $primary;
+    font-size: clamp(2.5rem, 8vw, 6rem);
+  }
+
+  .time {
+    font-size: clamp(2rem, 6vw, 4rem);
+
+    span {
+      text-transform: none;
+    }
+  }
+
+  .location {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    margin-bottom: $spacing-unit * 4;
+  }
+
+  a {
+    color: $on-secondary-link;
+    text-decoration: none;
+
+    &:hover,&:focus { color: $on-secondary-link-hover; }
+  }
+
+  img {
+    display: block;
+    margin: 0 auto $spacing-unit*2;
+    max-width: 50vw;
+  }
+
+  .social {
+    margin: 0 auto;
+
+    a { margin: 0 10px; }
+    svg {
+      height: 40px;
+      width: auto;
+
+      g {
+        fill: $on-secondary-link;
+        fill-rule: nonzero;
+      }
+
+      &:hover,
+      &:focus {
+        g {
+          fill: $on-secondary-link-hover;
+          fill-rule: nonzero;
+        }
+      }
+    }
+  }
+
+  .wrapper {
+    padding-top: clamp(4rem, 12vw, #{$spacing-unit * 12});
+    padding-bottom: clamp(4rem, 12vw, #{$spacing-unit * 12});
+  }
 }
 
 .show-cars {

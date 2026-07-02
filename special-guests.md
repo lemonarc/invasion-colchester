@@ -5,7 +5,7 @@ title: "Invasion Colchester's Special Guests"
 excerpt: "For 2024, we were delighted to introduce Ty Hurley, and welcome back Clem So, Bern Collaço, Chris Bunn, and Martin Ballantyne."
 permalink: /special-guests/
 featured-image: SIL_BB8.svg
-socialimage: SOCIAL_1200x628_SPECIAL_GUESTS.png
+socialimage: INVASION_COLCHESTER_26_SOCIAL_GUESTS.png
 lightbox: guests
 ---
 

@@ -21,40 +21,52 @@ $h5: $spacing-unit * 1.8 !default;
 /* Core colors */
 $white: #fff !default;
 $black: #000 !default;
+$grey: #444 !default;
 
 /* Brand palette */
-$green-100: #46C182 !default;
-$green-200: #22B56A !default;
 $green-300: #00A650 !default;
-$green-400: #008441 !default;
 $green-500: #006733 !default;
 
-$purple-100: #9249BA !default;
-$purple-200: #7D28AC !default;
 $purple-300: #69089E !default;
-$purple-400: #53067E !default;
 $purple-500: #410462 !default;
 
-$yellow-100: #FFFF5C !default;
-$yellow-200: #FFFF30 !default;
-$yellow-300: #EDED00 !default;
-$yellow-400: #BDBD00 !default;
-$yellow-500: #939300 !default;
+$red-300: #FF0000 !default;
+$red-500: #B40000 !default;
+
+$yellow-100: #FFFBD6 !default;
+$yellow-300: #FFF000 !default;
+$yellow-500: #BFB300 !default;
+
+$blue-300: #0096FF !default;
+$blue-500: #006BB8 !default;
+
+$cyan-300: #00FFFF !default;
+$cyan-500: #00B3B3 !default;
 
 $midnight-blue: #0B132B !default;
 $midnight-blue-hover: #001F3F !default;
 
 /* Semantic colors */
-$primary:       $green-300 !default;
-$secondary:       $purple-300 !default;
+$primary:       $red-500 !default;
+$secondary:       $yellow-500 !default;
 $tertiary:       $yellow-300 !default;
 
 $on-primary:   $black !default;
-$on-primary-link: $midnight-blue !default;
-$on-primary-link-hover: $midnight-blue-hover !default;
-$on-secondary: $white !default;
-$on-secondary-link: $yellow-300 !default;
-$on-secondary-link-hover: $yellow-100 !default;
+$on-primary-link: $yellow-500 !default;
+$on-primary-link-hover: $yellow-300 !default;
+$on-secondary: $black !default;
+$on-secondary-link: $red-500 !default;
+$on-secondary-link-hover: $red-300 !default;
+
+$primary-button-base: $black !default;
+$primary-button-base-hover: $grey !default;
+$primary-button-text: $white !default;
+$primary-button-text-hover: $white !default;
+
+$secondary-button-base: $red-300 !default;
+$secondary-button-base-hover: $red-500 !default;
+$secondary-button-text: $white !default;
+$secondary-button-text-hover: $white !default;
 
 $table-text-align: left !default;
 

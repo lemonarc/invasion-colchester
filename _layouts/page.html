@@ -6,6 +6,9 @@ layout: default
         
   <article class="post">
 
+    <div class="container-wrap">
+      <div class="container">
+
     <header class="post-header {% if page.featured-image %}post-header-image{% endif %}">
         <div>
           <img class="title-image" src="/images/characters/{{ page.featured-image }}" alt="{{ page.title }}" />
@@ -17,6 +20,9 @@ layout: default
 
     <div class="post-content">
       {{ content }}
+    </div>
+
+      </div>
     </div>
 
   </article>

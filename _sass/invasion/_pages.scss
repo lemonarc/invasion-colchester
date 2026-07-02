@@ -3,8 +3,6 @@
 
 /* About Page */
 .about-page {
-  p { color: $on-secondary; }
-  h1 { color: $on-secondary; }
 
   img:nth-child(1) { margin-bottom: $spacing-unit*6; }
 
@@ -23,28 +21,6 @@
   }
 }
 
-/* Contact Success Page */
-.contact-success-page {
-  background-color: $secondary;
-  background-image: url(/images/backgrounds/BLAST_YELLOW.svg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  a {
-    display: inline-block;
-    margin: 40px auto;
-
-    &.button:hover,
-    &.button:focus {
-      background-color: $primary;
-      color: $on-primary;
-    }
-  }
-  p { color: #000; }
-  h1 { color: $primary; }
-}
-
 /* Charities Page */
 .charities-page {
   .post-content {
@@ -59,6 +35,11 @@
       width: 100%;
     }
   }
+}
+
+/* Contect Success & 404 Page */
+.contact-success, .page-404 {
+  text-align: center;
 }
 
 /* Gallery Page (Batman) */
@@ -141,17 +122,4 @@
     tr:nth-child(even) { background: none; }
   }
   li { margin-bottom: $spacing-unit; }
-}
-
-/* 404 Page */
-.page-404 {
-  background-color: $primary;
-  background-image: url(/images/backgrounds/BLAST_PINK.svg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  text-align: center;
-
-  p, h2 { color: $on-primary; }
-  h1 { color: $secondary; }
 }

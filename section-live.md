@@ -1,3 +1,4 @@
+<div class="container-wrap">
 <div class="container">
 	<img src="/assets/svg/sil_saul_bass_guitar.svg" class="live-guitar" alt="Guitar" />
 	<h2>Live Music & Entertainment</h2>
@@ -12,33 +13,45 @@
 			All performances are <strong>free to enjoy</strong> — bring your best crowd energy and, if you can, drop a donation in the buckets to <strong>support our charities</strong>.
 		</p>
 		<div class="performers">
-			<div class="container performer">
-				<div class="performer-img performer-01"></div>
-				<h4>Trevor Johnson-Thurston</h4>
-				<h5>10:30am</h5>
+			<div class="container-wrap">
+				<div class="container container-alt performer">
+					<div class="performer-img performer-01"></div>
+					<h4>Trevor Johnson-Thurston</h4>
+					<h5>10:30am</h5>
+				</div>
 			</div>
-			<div class="container performer">
-				<div class="performer-img performer-02"></div>
-				<h4>Jack Walsh</h4>
-				<h5>11:30am</h5>
+			<div class="container-wrap">
+				<div class="container container-alt performer">
+					<div class="performer-img performer-02"></div>
+					<h4>Jack Walsh</h4>
+					<h5>11:30am</h5>
+				</div>
 			</div>
-			<div class="container performer">
-				<div class="performer-img performer-03"></div>
-				<h4>Jake Cheek</h4>
-				<h5>1:00pm</h5>
+			<div class="container-wrap">
+				<div class="container container-alt performer">
+					<div class="performer-img performer-03"></div>
+					<h4>Jake Cheek</h4>
+					<h5>1:00pm</h5>
+				</div>
 			</div>
-			<div class="container performer">
-				<div class="performer-img performer-04"></div>
-				<h4>Fraser Morgan</h4>
-				<h5>2:00pm</h5>
+			<div class="container-wrap">
+				<div class="container container-alt performer">
+					<div class="performer-img performer-04"></div>
+					<h4>Fraser Morgan</h4>
+					<h5>2:00pm</h5>
+				</div>
 			</div>
 		</div>
 		<div class="performers performers-full">
-		<div class="container performer performer-full">
-			<div class="performer-img performer-05"></div>
-			<h4>The Big Sing</h4>
-			<h5>3:00pm</h5>
-		</div></div>
+			<div class="container-wrap">
+				<div class="container container-alt performer-full">
+					<div class="performer-img performer-05"></div>
+					<h4>The Big Sing</h4>
+					<h5>3:00pm</h5>
+				</div>
+			</div>
+		</div>
 	</div>
+</div>
 </div>
 

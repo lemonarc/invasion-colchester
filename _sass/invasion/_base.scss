@@ -206,7 +206,7 @@ submit,
 submitbutton,
 input.button,
 input[type=submit] {
-  background: $secondary;
+  background: $black;
   border: none;
   box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
   color: $white;
@@ -218,16 +218,17 @@ input[type=submit] {
 
   &:hover,
   &:focus {
-    background: $black;
+    background: $secondary;
+    color: $black;
   }
 }
 
 a.button-alt {
-  background: $secondary;
 
   &:hover,
   &:focus {
-    background: $black;
+    background: $primary;
+    color: $white;
   }
 }
 
@@ -310,30 +311,63 @@ pre {
 /**
  * Container
  */
+.container-wrap {
+  filter: drop-shadow(20px 20px 0 rgba(0, 0, 0, .33));
+  margin-bottom: 40px;
+
+  @include media-query($on-600) {
+    filter: drop-shadow(10px 10px 0 rgba(0, 0, 0, .33));
+  }
+}
+
+.container-wrap-inner {
+  filter: drop-shadow(10px 10px 0 rgba(0, 0, 0, .33));
+  margin-bottom: 20px;
+
+  @include media-query($on-600) {
+    filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, .33));
+  }
+}
+
 .container {
   background: $primary;
   color: $on-primary;
   padding: 40px;
-  clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
-  margin-bottom: 40px;
+  // clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
+  margin-bottom: 0px;
   @extend %clearfix;
 
+  --angle: 10px;
+
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--angle)) var(--angle),
+    calc(100% - var(--angle)) calc(100% - var(--angle)),
+    var(--angle) 100%
+  );
+
   a, a.visited {
-    color: $secondary;
+    color: $on-primary-link;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      color: $on-primary;
+      color: $on-primary-link-hover;
     }
   }
   a.button, a.button.visited {
+    background: $black;
     color: $white;
 
     &:hover,
     &:focus {
-      color: $white;
+      background: $secondary;
+      color: $on-secondary;
     }
+  }
+
+  .container {
+    padding: $spacing-unit*3;
   }
 
   @include media-query($on-800) {
@@ -349,6 +383,27 @@ pre {
   @include media-query($on-400) {
     background-size: 400px;
     background-position: left -200px top -200px, right -200px bottom -200px;
+  }
+}
+.container-alt {
+  background: $secondary;
+  color: $on-secondary;
+
+  a, a.visited {
+    color: $on-secondary-link;
+
+    &:hover,
+    &:focus {
+      color: $on-secondary-link-hover;
+    }
+  }
+  a.button, a.button.visited {
+    color: $secondary-button-text;
+
+    &:hover,
+    &:focus {
+      color: $secondary-button-text-hover;
+    }
   }
 }
 
@@ -401,7 +456,7 @@ pre {
   margin: 0 auto;
 
   &:hover, &:focus {
-    border-bottom: 15px solid $on-primary;
+    border-bottom: 15px solid $white;
   }
 }
 
@@ -528,4 +583,48 @@ li.last {
 }
 li img {
   min-width:100%;
+}
+
+.block-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3%;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .block-list-item {
+    margin-bottom: $spacing-unit*2;
+    width: 30%;
+
+    @include media-query($on-800) {
+      width: 44%;
+    }
+
+    @include media-query($on-500) {
+      width: 100%;
+    }
+  }
+
+  .block-list-bg {
+    background-image: url('/assets/svg/swirl-square-secondary.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.list-icon {
+  width: 100%;
+  height: auto;
+  margin: 0 auto $spacing-unit;
+  max-width: $spacing-unit*6;
+
+  @include media-query($on-600) {
+    max-width: $spacing-unit*4;
+  }
 }

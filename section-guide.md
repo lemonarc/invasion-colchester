@@ -1,4 +1,5 @@
-<div class="container">
+<div class="container-wrap">
+<div class="container container-alt">
 
 <h3>
 	What's On...</h3>
@@ -80,4 +81,5 @@
 <br/><br/>
 <img src="/assets/svg/deadpool-footer.svg" alt="Deadpool" />
 
+</div>
 </div>

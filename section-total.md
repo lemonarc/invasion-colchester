@@ -1,4 +1,4 @@
-<h2>Grand Total for 2025...</h2><br/><br/>
+<h2>Grand Total for last year (2025)</h2><br/><br/>
 <p class="total" alt="£19612.36">£<span class="counter" id="financial-counter">0</span></p>
 <br/><br/>
 <p>

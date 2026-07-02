@@ -358,7 +358,7 @@
                 'images/ownageLoader/loader5.gif',
                 'images/ownageLoader/loader6.gif',
                 'images/ownageLoader/loader7.gif',
-				'/images/rotating-shield-500.gif' //Adds default Invasion Colchester loading image
+				'images/ownageLoader/SPINNING_SHIELD_26_500.gif' //Adds default Invasion Colchester loading image
             ];
 
             var text = "";
@@ -461,7 +461,7 @@
   					fontSize: base.options.percentageFontSize,
             zIndex: '1000'
   				}).css({
-  					marginTop: -(base.options.progressBarHeight/2) - ($('#ownage_page_loader_text').height())
+  					marginTop: -(base.options.progressBarHeight/2) - ($('#ownage_page_loader_text').height()) - 10
   				});
   				$('#ownage_page_loader').css({
             position: 'absolute',
