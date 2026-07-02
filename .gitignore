@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 vendor
 _sass/invasion-old.txt
+*:Zone.Identifier
