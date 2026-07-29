@@ -290,6 +290,7 @@
 
   .container-wrap-inner .container {
     color: $secondary;
+    padding: $spacing-unit*2;
   }
 }
 
@@ -739,16 +740,16 @@
 }
 
 .prize-draw {
-  background-color: $secondary;
-  background-image: url(/assets/svg/squares-dark.svg);
+  background-color: $primary;
+  background-image: url(/assets/svg/halftone-dark.svg);
   background-position: center;
   background-repeat: repeat;
-  background-size: $spacing-unit*40;
   background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
   color: $on-secondary;
   text-align: center;
 
-  svg {
+  svg, img {
     width: 66vw;
     max-width: $spacing-unit*60;
     padding: $spacing-unit*3 $spacing-unit*2;

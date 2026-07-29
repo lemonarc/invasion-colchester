@@ -3,24 +3,29 @@ layout: default
 ---
 
 <div class="wrapper">
-        
+
   <article class="post">
 
     <div class="container-wrap">
       <div class="container">
 
-    <header class="post-header {% if page.featured-image %}post-header-image{% endif %}">
-        <div>
-          <img class="title-image" src="/images/characters/{{ page.featured-image }}" alt="{{ page.title }}" />
-          <h1 class="post-title">{{ page.title | escape }}</h1>
+        <header class="post-header {% if page.featured-image %}post-header-image{% endif %}">
+          <div>
+            <img
+              class="title-image"
+              src="/images/characters/{{ page.featured-image }}"
+              alt="{{ page.title }}"
+            />
+
+            <h1 class="post-title">
+              {{ page.title | escape }}
+            </h1>
+          </div>
+        </header>
+
+        <div class="post-content">
+          {{ content }}
         </div>
-        
-
-    </header>
-
-    <div class="post-content">
-      {{ content }}
-    </div>
 
       </div>
     </div>
@@ -28,3 +33,53 @@ layout: default
   </article>
 
 </div>
+
+{% if page.lightbox %}
+  <div
+    class="lightbox"
+    id="lightbox"
+    aria-hidden="true"
+  >
+    <div class="scrim"></div>
+
+    <div class="lightbox-content">
+      <button
+        type="button"
+        class="close"
+        aria-label="Close image"
+      >
+        &times;
+      </button>
+
+      <img
+        class="lightbox-image"
+        id="lightbox-image"
+        src=""
+        alt=""
+      />
+
+      <div
+        class="lightbox-description"
+        id="lightbox-description"
+      ></div>
+
+      <button
+        type="button"
+        class="prev"
+        id="prev"
+        aria-label="Previous image"
+      >
+        &#10094;
+      </button>
+
+      <button
+        type="button"
+        class="next"
+        id="next"
+        aria-label="Next image"
+      >
+        &#10095;
+      </button>
+    </div>
+  </div>
+{% endif %}

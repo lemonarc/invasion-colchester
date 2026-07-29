@@ -20,7 +20,9 @@ $h5: $spacing-unit * 1.8 !default;
 
 /* Core colors */
 $white: #fff !default;
+$off-white: #EEEEEE !default;
 $black: #000 !default;
+$off-black: #111111 !default;
 $grey: #444 !default;
 
 /* Brand palette */
@@ -48,15 +50,15 @@ $midnight-blue-hover: #001F3F !default;
 
 /* Semantic colors */
 $primary:       $red-500 !default;
-$secondary:       $yellow-500 !default;
+$secondary:       $yellow-300 !default;
 $tertiary:       $yellow-300 !default;
 
-$on-primary:   $black !default;
-$on-primary-link: $yellow-500 !default;
-$on-primary-link-hover: $yellow-300 !default;
-$on-secondary: $black !default;
+$on-primary:   $off-white !default;
+$on-primary-link: $yellow-300 !default;
+$on-primary-link-hover: $white !default;
+$on-secondary: $off-black !default;
 $on-secondary-link: $red-500 !default;
-$on-secondary-link-hover: $red-300 !default;
+$on-secondary-link-hover: $black !default;
 
 $primary-button-base: $black !default;
 $primary-button-base-hover: $grey !default;

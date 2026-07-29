@@ -1,41 +1,53 @@
 let slideIndex = 0;
-const slides = document.querySelector('.slides');
-const dots = document.querySelectorAll('.dot');
-const slideCount = dots.length;
+
+const slides = document.querySelector(".slides");
+const slideItems = document.querySelectorAll(".slide");
+const dots = document.querySelectorAll(".dot");
+
+const slideCount = slideItems.length;
 const slideInterval = 5000;
+const transitionDuration = 1000;
+
 let transitioning = false;
 
 function showSlides(n) {
-    if (transitioning) return;
-    transitioning = true;
+  if (transitioning) return;
 
-    // Clamp slideIndex
-    slideIndex = n % slideCount;
+  transitioning = true;
 
-    slides.style.transition = 'transform 1s ease-in-out';
-    slides.style.transform = `translateX(-${slideIndex * 100}vw)`;
+  slideIndex = ((n % slideCount) + slideCount) % slideCount;
 
-    updateDots();
+  slides.style.transition = `transform ${transitionDuration}ms ease-in-out`;
+  slides.style.transform = `translateX(-${slideIndex * 100}%)`;
 
-    setTimeout(() => {
-        transitioning = false;
-    }, 1000);
+  updateDots();
+
+  window.setTimeout(() => {
+    transitioning = false;
+  }, transitionDuration);
 }
 
 function currentSlide(n) {
-    showSlides(n - 1);
+  showSlides(n - 1);
 }
 
 function updateDots() {
-    dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === slideIndex);
-    });
+  dots.forEach((dot, index) => {
+    const isActive = index === slideIndex;
+
+    dot.classList.toggle("active", isActive);
+
+    if (isActive) {
+      dot.setAttribute("aria-current", "true");
+    } else {
+      dot.removeAttribute("aria-current");
+    }
+  });
 }
 
-// Auto-advance every 5 seconds
-setInterval(() => {
-    showSlides(slideIndex + 1);
+window.setInterval(() => {
+  showSlides(slideIndex + 1);
 }, slideInterval);
 
-// Init
-showSlides(slideIndex);
+slides.style.transform = "translateX(0)";
+updateDots();

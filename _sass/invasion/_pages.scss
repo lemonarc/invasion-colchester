@@ -102,12 +102,6 @@
       }
     }
   }
-  a,a:visited {
-    color: $on-secondary-link;
-    text-decoration: none;
-
-    &:hover,&:focus { color: $on-secondary-link-hover; }
-  }
 
   table {
     border-color: $on-primary;

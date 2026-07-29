@@ -9,9 +9,9 @@ socialimage: INVASION_COLCHESTER_26_SOCIAL_CHARITIES.png
 ---
 
 <p>Each year, Invasion Colchester proudly supports a selection of incredible local charities working to improve lives across our community. Through the generosity of our visitors, volunteers, and partners, we help raise vital funds and awareness for organisations providing care, comfort, and support to those who need it most. Below, you can learn more about the causes we champion and the life-changing work your contributions make possible.</p>
-
-<br /><br />
-
+<br />
+<hr>
+<br />
 <div class="container">
 	<img src="/images/charities/st-helena-logo-mono.png" class="charity-logo" alt="St Helena Hospice">
 	<h2>St Helena Hospice</h2>
@@ -25,7 +25,9 @@ socialimage: INVASION_COLCHESTER_26_SOCIAL_CHARITIES.png
 		<a href="//www.sthelena.org.uk/" class="button" rel="nofollow noopener noreferrer" target="_blank" alt="Find out more">Find out more</a>
 	</p>
 </div>
-
+<br />
+<hr>
+<br />
 <div class="container">
 	<img src="/images/charities/cohoc-logo-mono.png" class="charity-logo" alt="Colchester & Ipswich Hospitals Charity">
 	<h2>Colchester & Ipswich Hospitals Charity</h2>
@@ -37,7 +39,9 @@ socialimage: INVASION_COLCHESTER_26_SOCIAL_CHARITIES.png
 		<a href="//www.colchesteripswichcharity.org.uk/" class="button" rel="nofollow noopener noreferrer" target="_blank" alt="Find out more">Find out more</a>
 	</p>
 </div>
-
+<br />
+<hr>
+<br />
 <div class="container">
 	<img src="/images/charities/mind-logo-mono.png" class="charity-logo" alt="Mind (Mid & North East Essex)">
 	<h2>Mind (Mid & North East Essex)</h2>

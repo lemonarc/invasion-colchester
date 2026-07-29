@@ -1,88 +1,232 @@
 /* _sass/invasion/_slider.scss */
 @use "invasion/prelude" as *;
 
-/* Flex Slider
+/* Guest Slider
 --------------------------------------------------*/
 .slider {
-  height: 80vh;
-  min-height: 400px;
   position: relative;
   overflow: hidden;
+  padding: clamp(40px, 6vw, 80px) 0 30px;
 
   .slides {
     display: flex;
-    width: 700vw; /* 7 slides * 100vw */
-    height: 80vh;
-    min-height: 400px;
+    transform: translateX(0);
     transition: transform 1s ease-in-out;
-    transform: translateX(0); /* Fix initial load flicker */
   }
 
   .slide {
-    width: 100vw;
-    height: 80vh;
-    min-height: 400px;
-    background-size: cover;
-    background-position: top;
+    flex: 0 0 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+    box-sizing: border-box;
+
+    /* Room for the offset card shadow */
+    padding: 10px 30px 30px 18px;
+  }
+
+  .slide-card-wrap {
     position: relative;
+
+    /* Approximately 88% of the viewport on desktop */
+    width: min(88vw, 1200px);
   }
 
-  .text {
-    // background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
-    width: 400px;
-  }
-
-  .dots {
+  /*
+   * Angled shadow behind the card.
+   * This is separate from the clipped card itself,
+   * so it cannot disappear inside the clip-path.
+   */
+  .slide-card-wrap::before {
+    content: "";
     position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 10px;
+    inset: 0;
+
+    background-color: rgba(0, 0, 0, 0.28);
+
+    transform: translate(12px, 12px);
+
+    clip-path: polygon(
+      0% 0%,
+      99% 1%,
+      98% 98%,
+      1% 100%
+    );
   }
 
-  .dot {
-    width: 15px;
-    height: 15px;
+  .slide-card {
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+    box-sizing: border-box;
+
     background-color: $primary;
-    border-radius: 50%;
-    display: inline-block;
-    cursor: pointer;
+    padding: clamp(18px, 2.5vw, 30px);
+
+    clip-path: polygon(
+      0% 0%,
+      99% 1%,
+      98% 98%,
+      1% 100%
+    );
   }
-  .dot.active { background-color: $secondary; }
 
-  .hero1 { background-image: url('/images/guests/carl-newman-01.jpg'); }
-  .hero2 { background-image: url('/images/guests/james-taylor-07.jpg'); }
-  .hero3 { background-image: url('/images/guests/barry-kitson-02.jpg'); }
-  .hero4 { background-image: url('/images/guests/paul-warren-04.jpg'); }
-  .hero5 { background-image: url('/images/guests/clem-so-3.jpg'); }
-  .hero6 { background-image: url('/images/guests/ty-hurley-05.jpg'); }
-  .hero7 { background-image: url('/images/guests/ross-03.jpg'); }
+  .slide-image {
+    width: 100%;
+    aspect-ratio: 16 / 7;
 
-  h3,h4 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .slide-details {
+    padding: clamp(22px, 3vw, 36px) 15px 18px;
+    text-align: center;
+  }
+
+  .hero1 {
+    background-image: url("/images/guests/clem-so-3.jpg");
+  }
+
+  .hero2 {
+    background-image: url("/images/guests/ross-mullan-1.jpg");
+  }
+
+  .hero3 {
+    background-image: url("/images/guests/john-simpkin-2.jpg");
+  }
+
+  .hero4 {
+    background-image: url("/images/guests/ross-03.jpg");
+  }
+
+  .hero5 {
+    background-image: url("/images/guests/james-taylor-09.jpg");
+  }
+
+    .hero6 {
+    background-image: url("/images/guests/gary-pollard-1.jpg");
+  }
+
+  .hero7 {
+    background-image: url("/images/guests/steve-braund-2.jpg");
+  }
+
+  .hero8 {
+    background-image: url("/images/guests/keith-burns-4.jpg");
+  }
+
+  .hero9 {
+    background-image: url("/images/guests/rob-bishop-3.jpg");
+  }
+
+  h3,
+  h4 {
     color: $white;
-    margin-bottom: 4px;
+    margin: 0;
   }
+
   h3 {
     font-family: "Saira", sans-serif;
-    font-size: 1.4em;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+    font-size: clamp(1rem, 2vw, 1.35rem);
+    margin-bottom: 4px;
   }
+
   h4 {
-    font-size: 2.6em;
-    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.5);
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 1.05;
   }
 
   .button {
     display: inline-block;
     margin-top: $spacing-unit;
-    box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.35);
+  }
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .dot {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+
+    background-color: $primary;
+    box-shadow: none;
+    filter: none;
+
+    cursor: pointer;
+
+    transition:
+      background-color 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
+      background-color: $black;
+      transform: scale(1.2);
+    }
+
+    &:focus-visible {
+      outline: 3px solid $secondary;
+      outline-offset: 4px;
+    }
+
+    &.active {
+      background-color: $black;
+    }
+  }
+}
+
+@include media-query($on-800) {
+  .slider {
+    .slide-card-wrap {
+      width: 90vw;
+    }
+
+    .slide-image {
+      aspect-ratio: 16 / 9;
+    }
+  }
+}
+
+@include media-query($on-600) {
+  .slider {
+    padding-top: 30px;
+
+    .slide {
+      padding: 8px 22px 22px 10px;
+    }
+
+    .slide-card-wrap {
+      width: 94vw;
+    }
+
+    .slide-card-wrap::before {
+      transform: translate(7px, 7px);
+    }
+
+    .slide-card {
+      padding: 14px;
+    }
+
+    .slide-image {
+      aspect-ratio: 4 / 3;
+    }
+
+    .slide-details {
+      padding: 20px 10px 16px;
+    }
+
+    .dots {
+      margin-top: 24px;
+    }
   }
 }

@@ -15,10 +15,10 @@
 
   @include media-query($on-1200) { padding: 0 $spacing-unit; }
 
-  h1 {
+  h1,h2,h3,h4,h5,h6 {
     color: $secondary;
   }
-  .button { display: inline-block; margin-top: $spacing-unit*4; }
+  .button { display: inline-block; }
 
   .photos img { border-radius: $spacing-unit; }
 }

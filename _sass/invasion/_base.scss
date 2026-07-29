@@ -332,7 +332,7 @@ pre {
 .container {
   background: $primary;
   color: $on-primary;
-  padding: 40px;
+  padding: $spacing-unit*4;
   // clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
   margin-bottom: 0px;
   @extend %clearfix;
@@ -367,17 +367,19 @@ pre {
   }
 
   .container {
-    padding: $spacing-unit*3;
+    padding: $spacing-unit;
   }
 
   @include media-query($on-800) {
     background-size: 800px;
     background-position: left -400px top -400px, right -400px bottom -400px;
+    padding: $spacing-unit*3;
   }
 
   @include media-query($on-600) {
     background-size: 600px;
     background-position: left -300px top -300px, right -300px bottom -300px;
+    padding: $spacing-unit*2;
   }
 
   @include media-query($on-400) {
@@ -590,6 +592,7 @@ li img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: stretch;
   gap: 3%;
 
   p {
@@ -597,8 +600,20 @@ li img {
   }
 
   .block-list-item {
-    margin-bottom: $spacing-unit*2;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: $spacing-unit * 2;
     width: 30%;
+
+    .container-wrap-inner {
+      display: flex;
+      flex: 1;
+    }
+
+    .container {
+      flex: 1;
+    }
 
     @include media-query($on-800) {
       width: 44%;
@@ -610,7 +625,7 @@ li img {
   }
 
   .block-list-bg {
-    background-image: url('/assets/svg/swirl-square-secondary.svg');
+    background-image: url("/assets/svg/swirl-square-secondary.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
