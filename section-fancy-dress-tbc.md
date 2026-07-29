@@ -33,18 +33,17 @@
         <div class="block-left">
 
           <p>
-            Love dressing up? If you're planning to arrive in costume, why not
-            enter the <strong>Invasion Colchester Fancy Dress Competition</strong>?
-            Join us in <strong>Culver Square Shopping Centre</strong> on
-            <strong>Saturday 5 September</strong> and show off your creativity!
+            Love dressing up? If you're under 14, this one's for you! The
+            <strong>Invasion Colchester Children's Fancy Dress Competition</strong>
+            will be returning to <strong>Culver Square Shopping Centre</strong> on
+            <strong>Saturday 5 September</strong>.
           </p>
 
           <h5>Age Categories</h5>
 
           <p>
-            This year there are <strong>four</strong> competition categories:
-            <strong>4 and under</strong>, <strong>5&ndash;8 years</strong>,
-            <strong>9&ndash;18 years</strong> and <strong>18+</strong>, with
+            There will once again be three age categories&mdash;<strong>4 and under</strong>,
+            <strong>5&ndash;8</strong> and <strong>9+</strong>&mdash;with
             <strong>1st</strong>, <strong>2nd</strong> and <strong>3rd</strong>
             place prizes awarded in each.
           </p>
@@ -54,26 +53,20 @@
           <p>
             Simply come along in your favourite costume&mdash;whether it's
             homemade or shop-bought&mdash;and make your way to the
-            <strong>judging area in Culver Square</strong> shortly before your
-            category is due to begin.
+            <strong>judging area in Culver Square</strong>. Full entry details
+            and judging times will be announced closer to the event.
           </p>
 
-          <h5>On the Day</h5>
+          <h5>More Information Coming Soon</h5>
 
           <p>
-            The competition area will be <strong>roped off</strong>. Only
-            entrants should enter the judging area, although parents of very
-            young children are welcome to accompany them if needed.
-          </p>
-
-          <p>
-            Winners will be announced after each category, with prizes presented
-            before everyone comes together for a fantastic group photo.
+            Competition times are currently being finalised. We'll update this
+            page with the full timetable as soon as it's confirmed, so be sure
+            to check back before the event.
           </p>
 
           <p>
-            Whether you're a superhero, wizard, princess, monster or something
-            completely original, we'd love to see you there.
+            We can't wait to see all of your amazing costumes.
             <strong>Good luck!</strong>
           </p>
 
@@ -104,7 +97,7 @@
                   4 and under
                 </td>
                 <td>
-                  11.00am
+                  TBC
                 </td>
               </tr>
 
@@ -113,25 +106,23 @@
                   5&ndash;8 years
                 </td>
                 <td>
-                  12.30pm
+                  TBC
                 </td>
               </tr>
 
               <tr>
                 <td>
-                  9&ndash;18 years
+                  9+
                 </td>
                 <td>
-                  2.00pm
+                  TBC
                 </td>
               </tr>
 
               <tr>
-                <td>
-                  18+
-                </td>
-                <td>
-                  3.00pm
+                <td colspan="2">
+                  <strong>Competition timings will be announced closer to the event.</strong><br>
+                  Please check back for updates.
                 </td>
               </tr>
 

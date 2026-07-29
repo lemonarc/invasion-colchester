@@ -6,65 +6,88 @@ layout: landing
 
 	{% include_relative banner.md %}
 
-	<div class="block save-the-date">
+	<!--<div class="block save-the-date">
 		<div class="wrapper">
 			{% include_relative section-save-the-date.md %}
 		</div>
 	</div>
-
+	
 	<div id="guide"></div>
 	<div class="block expect">
 		<div class="wrapper">
 			{% include_relative section-expect.md %}
 		</div>
+	</div>-->
+
+	<div class="block intro">
+	<div class="wrapper">
+		{% include_relative intro.md %}
 	</div>
+</div>
 
-	<!-- <div class="block intro">
-		<div class="wrapper">
-			{% include_relative intro.md %}
-		</div>
+<div id="guide"></div>
+<div class="block guide">
+	<div class="wrapper">
+		{% include_relative section-guide.md %}
 	</div>
+</div>
 
-	<div id="guide"></div>
-	<div class="block guide">
-		<div class="wrapper">
-			{% include_relative section-guide.md %}
-		</div>
+<div id="guests"></div>
+{% include guestslider.html %}
+
+<div id="show-cars"></div>
+<div class="block show-cars">
+	{% include_relative section-cars.md %}
+</div>
+
+<div id="live"></div>
+<div class="block live">
+	<div class="wrapper">
+		{% include_relative section-live-tbc.md %}
 	</div>
+</div>
 
-	<div id="fancy-dress"></div>
-	<div class="block fancy-dress">
-		{% include_relative section-fancy-dress.md %}
+<div id="fancy-dress"></div>
+<div class="block fancy-dress">
+	{% include_relative section-fancy-dress.md %}
+</div>
+
+<div id="prize-draw"></div>
+<div class="block prize-draw">
+	<div class="wrapper">
+		{% include_relative section-prize-draw.md %}
 	</div>
+</div>
 
-	-->
-
-
-	<div id="guests"></div>
-	{% include guestslider.html %}
-
-	<div id="prize-draw"></div>
-	<div class="block prize-draw">
-		<div class="wrapper">
-			{% include_relative section-prize-draw.md %}
-		</div>
+<div id="gallery"></div>
+<div class="block photo-gallery">
+	<div class="wrapper">
+		{% include_relative section-gallery.md %}
 	</div>
+</div>
 
-	<!--<div id="live"></div>
-	<div class="block live">
-		<div class="wrapper">
-			{% include_relative section-live.md %}
-		</div>
+<div id="park-and-ride"></div>
+<div class="block park-ride">
+	<div class="wrapper">
+		{% include_relative section-park-and-ride.md %}
 	</div>
+</div>
+
+<div id="contact"></div>
+<div class="block contact">
+	<div class="wrapper">
+		{% include_relative section-contact.md %}
+	</div>
+	<div class="city-divider"></div>
+</div>
+
+	
+
+	<!--
 
 	<div id="auction"></div>
 	<div class="block auction">
 		{% include_relative section-mark-davies-ended.md %}
-	</div>
-
-	<div id="show-cars"></div>
-	<div class="block show-cars">
-		{% include_relative section-cars.md %}
 	</div>
 
 	<div id="othermonkey"></div>
@@ -74,21 +97,7 @@ layout: landing
 		</div>
 	</div> -->
 
-	<div id="park-and-ride"></div>
-	<div class="block park-ride">
-		<div class="wrapper">
-			{% include_relative section-park-and-ride.md %}
-		</div>
-	</div>
-
-	<!-- <div id="gallery"></div>
-	<div class="block photo-gallery">
-		<div class="shade">
-			<div class="wrapper">
-				{% include_relative section-gallery.md %}
-			</div>
-		</div>
-	</div>
+	<!-- 
 
 	<div id="total"></div>
 	<div class="block total-container">
@@ -116,14 +125,6 @@ layout: landing
 			{% include_relative section-batman-at-the-castle.md %}
 		</div>
 	</div> -->
-
-	<div id="contact"></div>
-	<div class="block contact">
-		<div class="wrapper">
-			{% include_relative section-contact.md %}
-		</div>
-		<div class="city-divider"></div>
-	</div>
 
 	<!-- Optional sections for future use:
 

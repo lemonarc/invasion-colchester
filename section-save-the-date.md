@@ -1,4 +1,3 @@
-<!-- <img src="/assets/logo/ic-logo.svg" alt="Invasion Colchester logo" /> -->
 <h3>
 	Save the date!
 </h3>

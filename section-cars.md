@@ -17,10 +17,10 @@
 
 <div class="wrapper wrapper-B">
 	<p>
-		<strong>Batmobiles</strong>. <strong>Transformers</strong>. <strong>Ecto-1</strong>. <strong>Mr Bean’s Mini</strong>. <strong>The Back to the Future DeLorean</strong>. Screen-famous wheels roll into Colchester every year—and this year’s lineup is just as epic.
+		<strong>Batmobiles</strong>. <strong>Transformers</strong>. <strong>Ecto-1</strong>. <strong>Mr Bean’s Mini</strong>. <strong>The A-Team van</strong>. <strong>Trotters Independent Traders' Reliant Robin</strong>. Screen-famous wheels roll into Colchester every year—and this year’s lineup is just as epic.
 	</p><p>
-		Find them in <strong>St Nicholas Square</strong>, <strong>Culver Square</strong> and along the <strong>High Street</strong> on <strong>Saturday 6 September</strong>. Get close, grab a selfie, meet the icons!
+		Find them in <strong>St Nicholas Square</strong>, <strong>Culver Square</strong> and outside <strong>Fenwick</strong> on <strong>Saturday 5 September</strong>. Get close, grab a selfie, meet the icons!
 	</p><p>
-        Plus at the War Memorial: <strong>Coasters Scooter Club</strong> — featuring the scooter ridden by Phil Daniels in <strong>Quadrophenia</strong>, plenty of gear on display, and music.
+        Plus at the War Memorial: <strong>Coasters Scooter Club</strong> — featuring plenty of gear on display, and music.
     </p>
 </div>

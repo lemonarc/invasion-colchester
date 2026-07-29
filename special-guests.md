@@ -13,13 +13,13 @@ lightbox: guests
     Invasion Colchester has welcomed an incredible line-up of actors, performers, artists, and behind-the-scenes talent over the years, with credits spanning the <strong>Star Wars</strong> saga, <strong>Doctor Who</strong>, <strong>Game of Thrones</strong>, the <strong>Marvel Cinematic Universe</strong>, <strong>Harry Potter</strong>, and many more.
 </p>
 <p>
-    For 2026, we’re delighted to welcome performers<strong>Clem So</strong>, <strong>Ross Mullan</strong>, <strong>John Simpkin</strong>, <strong>Ross Sambridge</strong>, and <strong>James Taylor</strong>.
+    For 2026, we’re delighted to welcome performers <strong>Clem So</strong>, <strong>Ross Mullan</strong>, <strong>John Simpkin</strong>, <strong>Ross Sambridge</strong>, and <strong>James Taylor</strong>.
 </p>
 <p>
-    Joining our screen guests this year are acclaimed movie sculptors <strong>Gary Pollard</strong> and <strong>Steve Braund</strong>, along with guest artist <strong>Keith Burns</strong> — bringing even more behind-the-scenes creativity to Invasion Colchester.
+    Joining our screen guests this year are acclaimed movie sculptors <strong>Gary Pollard</strong> and <strong>Steve Braund</strong>, and guest artist <strong>Keith Burns</strong>. With acclaimed mixed-media artist <strong>Rob Bishop</strong> making an appearance at <strong>MP Galleries</strong>, we're bringing even more behind-the-scenes creativity to Invasion Colchester.
 </p>
 <p>
-    From iconic creatures and background characters to stunt work, stand-ins, and unforgettable appearances across film and television, this year’s guests have helped bring some of the world’s biggest screen universes to life.
+    From iconic creatures and background characters to stunt work, stand-ins, and unforgettable appearances across film,television, and other media, this year’s guests have helped bring some of the world’s biggest universes to life.
 </p>
 <br />
 <hr>

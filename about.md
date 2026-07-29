@@ -10,12 +10,20 @@ socialimage: INVASION_COLCHESTER_26_SOCIAL_HISTORY.png
 
 <p>
 	<strong>Invasion Colchester</strong> began life in 2011 as a way to raise money for a Leicester hospital that saved a dear friend's life.
-</p><p>
-	Following the substantial success of the initial event, a decision was made there and then to continue <strong>Invasion Colchester</strong> every year, for as long as we can, raising money for various charities in the process.
-</p><p>
-	In order to do this, there's a lot of work involved, including speaking to officials, recruiting costumers, cars and staff, determining exactly what will happen and where, not to mention investigating alternate funding streams and the actual organisation on the day of the event!
-</p><p>
-	From the first year onwards, it has amazed us how brilliant the people of Colchester and everyone connected with this fabulous event can be. From asking local business and organisations for help in the beginning, we now have great great network of people and companies offering to support Invasion Colchester in some way each year. We've forged fantastic releationships not only with our charities, but also with some great folk in local government, town centre management, and the aforementioned businesses and other organisations in the area.
-</p><p>
-	The actual day of Invasion Colchester always seems to go a bit crazy, but we manage to pull it off thanks to the huge efforts of those involved. We have been breaking records for amounts raised at Invasion Colchester and for this we are not only incredibly grateful to the general public and businesses that have put their hands in their pockets for us, but also to everyone involved who generously donates their valuable time for free - Invasion Colchester is a not-for-profit event - and makes our event what it is!
+</p>
+
+<p>
+	Following the incredible success of that first event, we made the decision there and then to continue <strong>Invasion Colchester</strong> every year for as long as we can, raising money for a variety of charities while bringing something unique and exciting to the city.
+</p>
+
+<p>
+	Organising an event on this scale takes months of planning. From working with local authorities and securing permissions, to recruiting costumers, special guests, vehicle owners, exhibitors and volunteers, every detail is carefully planned to create an unforgettable day for visitors of all ages.
+</p>
+
+<p>
+	From that very first year, we've been amazed by the generosity and enthusiasm of the people of Colchester and everyone connected with the event. What started with approaching local businesses and organisations for support has grown into an incredible network of people who generously give their time, expertise and resources each year. Along the way we've built fantastic relationships with our charity partners, local government, Colchester BID, city centre management, sponsors, businesses and community organisations, all of whom help make Invasion Colchester possible.
+</p>
+
+<p>
+	Event day is always a whirlwind, but thanks to the dedication of our volunteers and supporters, everything comes together. Together we've continued to break fundraising records, and we're enormously grateful to everyone who attends, donates, volunteers or supports us behind the scenes. <strong>Invasion Colchester</strong> is proudly a not-for-profit event, and it's the passion, generosity and community spirit of everyone involved that makes it so special year after year.
 </p>

@@ -332,9 +332,9 @@ pre {
 .container {
   background: $primary;
   color: $on-primary;
-  padding: $spacing-unit*4;
-  // clip-path: polygon(0% 0%, 99% 1%, 98% 99%, 1% 100%);
-  margin-bottom: 0px;
+  padding: $spacing-unit * 4;
+  margin-bottom: 0;
+
   @extend %clearfix;
 
   --angle: 10px;
@@ -346,7 +346,8 @@ pre {
     var(--angle) 100%
   );
 
-  a, a.visited {
+  a,
+  a:visited {
     color: $on-primary-link;
     text-decoration: none;
 
@@ -355,7 +356,9 @@ pre {
       color: $on-primary-link-hover;
     }
   }
-  a.button, a.button.visited {
+
+  a.button,
+  a.button:visited {
     background: $black;
     color: $white;
 
@@ -372,26 +375,34 @@ pre {
 
   @include media-query($on-800) {
     background-size: 800px;
-    background-position: left -400px top -400px, right -400px bottom -400px;
-    padding: $spacing-unit*3;
+    background-position:
+      left -400px top -400px,
+      right -400px bottom -400px;
+    padding: $spacing-unit * 3;
   }
 
   @include media-query($on-600) {
     background-size: 600px;
-    background-position: left -300px top -300px, right -300px bottom -300px;
-    padding: $spacing-unit*2;
+    background-position:
+      left -300px top -300px,
+      right -300px bottom -300px;
+    padding: $spacing-unit * 2;
   }
 
   @include media-query($on-400) {
     background-size: 400px;
-    background-position: left -200px top -200px, right -200px bottom -200px;
+    background-position:
+      left -200px top -200px,
+      right -200px bottom -200px;
   }
 }
+
 .container-alt {
   background: $secondary;
   color: $on-secondary;
 
-  a, a.visited {
+  a,
+  a:visited {
     color: $on-secondary-link;
 
     &:hover,
@@ -399,12 +410,16 @@ pre {
       color: $on-secondary-link-hover;
     }
   }
-  a.button, a.button.visited {
-    color: $secondary-button-text;
+
+  a.button,
+  a.button:visited {
+    background: $primary;
+    color: $on-primary;
 
     &:hover,
     &:focus {
-      color: $secondary-button-text-hover;
+      background: $black;
+      color: $white;
     }
   }
 }

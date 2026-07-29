@@ -4,15 +4,15 @@
 		<h2>Live Music & Entertainment</h2>
 		<div class="wrapper">
 			<p>
-				Live music is back at <strong>Invasion Colchester</strong> with a day-long soundtrack in <strong>Lion Walk Courtyard</strong>. We’re championing brilliant local talent once again—perfect for a sing-along, a dance, or just soaking up the vibes between photo ops and star cars.
-			</p><p>
-				Kicking things off at <strong>10:30am</strong> is <strong>Trevor Johnson-Thurston</strong>, followed by <strong>Jack Walsh</strong> at <strong>11:30am</strong>. After lunch, <strong>Jake Cheek</strong> takes the stage at <strong>1:00pm</strong>, before <strong>Fraser Morgan</strong> closes the live sets at <strong>2:00pm</strong>. Threading it all together, <strong>DJ Fettdog</strong> spins hero anthems and feel-good tunes throughout the day.
-			</p><p>
-				Keep the music rolling — from <strong>4:00pm–10:00pm</strong>, <strong>Dutchy</strong> will be DJing and hosting the <strong>Invasion Colchester After Party</strong> at <strong>Popina in The Courtyard</strong>. Join us for end-of-day tunes and good vibes.
-			</p><p>
-				All performances are <strong>free to enjoy</strong> — bring your best crowd energy and, if you can, drop a donation in the buckets to <strong>support our charities</strong>.
+				Live music will once again be part of the <strong>Invasion Colchester</strong> experience, bringing extra atmosphere to the city centre throughout the day. We're currently putting together another fantastic line-up of talented local performers, with details to be announced soon.
 			</p>
-			<div class="block-list">
+			<p>
+				Expect a mix of live music, great entertainment and plenty of opportunities to stop, relax and soak up the atmosphere between meeting characters, exploring attractions and visiting our special guests.
+			</p>
+			<p>
+				We'll reveal this year's performers, performance times and locations as soon as they're confirmed, so be sure to check back for updates in the lead-up to the event.
+			</p>
+			<!-- <div class="block-list">
     			<div class="block-list-item">
         			<div class="container-wrap-inner">
         				<div class="container container-alt">
@@ -58,7 +58,7 @@
         	  			</div>
         			</div>
 	      		</div>
-		  	</div>
+		  	</div> -->
 		</div>
 	</div>
 </div>

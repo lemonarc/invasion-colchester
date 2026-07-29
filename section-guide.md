@@ -1,16 +1,64 @@
 <div class="container-wrap">
-<div class="container container-alt">
-
-<h3>
-	What's On...</h3>
+  <div class="container container-alt">
+    <h3>What's On...</h3>
+    <div class="block-list">
+      <div class="block-list-item">
+        <div class="container-wrap-inner">
+          <div class="container">
+            <div class="block-list-img block-list-bg"><img src="/assets/svg/block-list-sil-moana.svg" alt="Moana" /></div>
+            <p><strong>Characters from across sci-fi, fantasy & comics</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="block-list-item">
+        <div class="container-wrap-inner">
+          <div class="container">
+            <div class="block-list-img block-list-bg"><img src="/assets/svg/block-list-sil-herbie.svg" alt="Herbie" /></div>
+            <p><strong>Famous cars from TV and film</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="block-list-item">
+        <div class="container-wrap-inner">
+          <div class="container">
+            <div class="block-list-img block-list-bg"><img src="/assets/svg/block-list-sil-photos.svg" alt="Moana" /></div>
+            <p><strong>Special guests from comics, film & TV</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="block-list-item">
+        <div class="container-wrap-inner">
+          <div class="container">
+            <div class="block-list-img block-list-bg"><img src="/assets/svg/block-list-sil-guitar.svg" alt="Moana" /></div>
+            <p><strong>Live music and entertainment</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="block-list-item">
+        <div class="container-wrap-inner">
+          <div class="container">
+            <div class="block-list-img block-list-bg"><img src="/assets/svg/block-list-sil-medals.svg" alt="Moana" /></div>
+            <p><strong>Competitions, activities and interactive displays</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="block-list-item">
+        <div class="container-wrap-inner">
+          <div class="container">
+            <div class="block-list-img block-list-bg"><img src="/assets/svg/block-list-sil-hands.svg" alt="Heart Hands" /></div>
+            <p><strong>Charity fundraising across the day</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 <h4>ACE Comics</h4>
 <h5>Culver Street East</h5>
 <p>Look out for... TV, film &amp; fantasy favourites — plus the famous tombola.</p>
 
-<h4>Colchester Castle</h4>
+<!-- <h4>Colchester Castle</h4>
 <h5>Castle Park</h5>
-<p>Look out for... "Thunderbirds &amp; Co: The Joy of Puppetry" - Thunderbirds 60th Anniversary exhibition including live puppetry demonstrations.</p>
+<p>Look out for... "Thunderbirds &amp; Co: The Joy of Puppetry" - Thunderbirds 60th Anniversary exhibition including live puppetry demonstrations.</p> -->
 
 <h4>Colchester Market</h4>
 <h5>High Street</h5>
@@ -18,46 +66,40 @@
 
 <h4>Culver Square Shopping Centre</h4>
 <h5>Culver Square</h5>
-<p>Look out for... Ghostbusters HQ — big displays &amp; Ectomobiles — plus Dinosaurs, Movie Princesses, Props Dept display, Knight Rider, Lightning McQueen, Show Cars, stalls, the St Helena Hospice team, and the Fancy Dress Competition.</p>
+<p>Look out for... Ghostbusters HQ — big displays &amp; Ectomobiles — plus Dinosaurs, Movie Princesses, Props Dept display, Lightning McQueen, Show Cars, stalls, the St Helena Hospice team, and the Fancy Dress Competition.</p>
 
-<h4>Curzon Colchester</h4>
+<!-- <h4>Curzon Colchester</h4>
 <h5>Queen Street</h5>
 <p>
   Look out for... Quiz Night — Saturday 6 September, 7pm. Fancy dress encouraged. Teams of up to 5. £2 per person, cash only. All ticket money is donated to Invasion Colchester. <a href="mailto:manager.colchester@curzon.com" target="_blank" rel="noopener">Book here</a>.
-</p>
+</p> -->
 
 <h4>Dragonfly Lounge</h4>
 <h5>Long Wyre Street</h5>
-<p>Look out for... lightsaber lessons for adults &amp; children running all day — courtesy of the Star Saber Guild. Drop by to sign up, pose for a photo with our Jedi or Sith, or just say <em>"Hello there"</em>.</p>
+<p>Look out for... a packed programme of family-friendly entertainment at the Dragonfly Lounge, featuring creative workshops, comic quizzes, Dungeons & Dragons, spectacular drag performances and the official Invasion Colchester After Party. <a href="https://dragonflylounge.co.uk/events" target="_blank" rel="noopener">Details here</a>.</p>
 
 <h4>Fenwick</h4>
 <h5>High Street</h5>
-<p>Look out for... Optimus Prime, Bumblebee, the Mind (Mid &amp; North East Essex) team — and the
-  Mark Davies charity art auction inside Fenwick: custom-framed <em>"Among The Clouds"</em> (<em>Star Wars</em>), diamond-dusted &amp; hand-embellished, Limited Edition #1AP. <a href="https://markdaviesbritishartist.co.uk/products/invasionauction" target="_blank" rel="noopener">Bid here</a>.</p>
+<p>Look out for... Invasion Colchester fun with Optimus Prime, Bumblebee, and the Mind (Mid &amp; North East Essex) team.</p>
 
-<h4>Firstsite</h4>
+<!-- <h4>Firstsite</h4>
 <h5>High Street</h5>
 <p>
   Look out for... the Superhero Creative Station, the Folk &amp; Bespoke Market, the Festival of Rice and Spice, Relaxed Hours (low-sensory "Stealth Mode"), a Super Selfie Station, and the Big Screen Showdown — watch the brand-new "Superman" at Firstsite Cinema. <a href="https://firstsite.uk/event/invasion-colchester-at-firstsite/" target="_blank" rel="noopener">Details here</a>.
-</p>
+</p> -->
 
-<h4>Lion Walk</h4>
+<!-- <h4>Lion Walk</h4>
 <h5>Lion Walk</h5>
-<p>Look out for... an interactive history of "Dungeons &amp; Dragons" — quest cards and giant dice rolling.</p>
-
+<p>Look out for... an interactive history of "Dungeons &amp; Dragons" — quest cards and giant dice rolling.</p> -->
 
 <h4>Lion Walk Shopping Centre</h4>
 <h5>Lion Walk</h5>
-<p>Look out for... Our Special Guests, Comic Characters &amp; Super Heroes (including Deadpool), the Batmobile, Doctor Who TARDIS, Predators, Steampunk, DJ Fettdog, live music, Fragers Arcade Alley, and the Colchester &amp; Ipswich Hospitals Charity team.</p>
+<p>Look out for... Our Special Guests, Comic Characters &amp; Super Heroes (including Deadpool), the Batmobile, Doctor Who TARDIS, Steampunk, DJ Fettdog, live music, Fragers Arcade Alley, and the Colchester &amp; Ipswich Hospitals Charity team.</p>
 
 <h4>Outside Baptist Church</h4>
 <h5>Lion Walk</h5>
 <p>
-  Look out for... the first "Invasion Colchester Dog Fancy Dress Competition" hosted by Poochios Pet Supplies.
-  Registration from 1:30pm. Entry £2 (donation to Invasion charities). Heats: Small dogs 2:00pm, Medium 2:30pm, Large 3:00pm. Rosettes for 1st, 2nd &amp; 3rd in each category.
-</p>
-<p>
-  Late addition... Live wrestling matches from School of Slam Wrestling — bouts at 11:00am, 12:00pm, 1:00pm and 3:00pm.
+  Look out for... live wrestling matches from School of Slam Wrestling — times to follow.
 </p>
 
 <h4>MP Galleries</h4>
@@ -66,18 +108,24 @@
 
 <h4>Other Monkey Brewing</h4>
 <h5>St Nicholas Street</h5>
-<p>Look out for... "Hook &amp; Ladder" — a one-off event beer pouring at The Taproom, with limited cans to take home. A portion of proceeds supports Invasion Colchester.</p>
+<p>Look out for... this year's surprise Invasion Colchester ale - to be revealed in a one-off event beer pouring at The Taproom, with limited cans to take home. A portion of proceeds supports Invasion Colchester.</p>
 
 <h4>St Nicholas Square</h4>
 <h5>Off High Street</h5>
-<p>Look out for... Star Wars Central starring Stormtroopers, Jedi Sith, Mandalorians &amp; more, plus Star Cars — marvellous machines from TV &amp; film.</p>
+<p>Look out for... Star Wars Central starring Stormtroopers, Jedi, Sith, Mandalorians &amp; more, plus Star Cars — marvellous machines from TV &amp; film.</p>
+
+<h4>Trinity Street</h4>
+
+<p>
+  Look out for... Baka Itasha, the UK's first Itasha group, bringing a spectacular display of anime, manga, gaming and VTuber-themed vibrant custom cars to Invasion Colchester, combining a love of Japanese pop culture with automotive creativity.
+</p>
 
 <h4>War Memorial</h4>
 <h5>High Street</h5>
 <p>Look out for... Coasters Scooter Club — plenty of gear on display, plus music.</p>
 
 <br/>
-<a class="scroll" href="#fancy-dress">Scroll down for more details...</a>
+<a class="scroll" href="#guests">Scroll down for more details...</a>
 <br/><br/>
 <img src="/assets/svg/deadpool-footer.svg" alt="Deadpool" />
 

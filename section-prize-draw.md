@@ -1,5 +1,5 @@
 <div class="container-wrap">
-    <div class="container container-alt">
+    <div class="container">
         <h2>Prize Draw</h2>
         <img src="/images/prize-draw-ticket-26.png" alt="Prize Draw Ticket" />
         <p>
@@ -27,6 +27,10 @@
             <li>
                 <span class="prize">Subbuteo Table</span>
                 <span class="donor">Donated by <a href="https://www.sthelena.org.uk/" rel="nofollow noopener noreferrer" target="_blank"><span>St Helena Hospice</span></a></span>
+            </li>
+            <li>
+                <span class="prize">Roast Dinner for Two</span>
+                <span class="donor">Donated by <a href="https://www.suryahotels.co.uk/the-george-hotel/" rel="nofollow noopener noreferrer" target="_blank"><span>The Geroge Hotel</span></a></span>
             </li>
             <li>
                 <span class="prize">Wooden Fender Voucher</span>
