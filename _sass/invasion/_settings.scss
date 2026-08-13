@@ -61,14 +61,14 @@ $on-secondary-link: $red-500 !default;
 $on-secondary-link-hover: $black !default;
 
 $primary-button-base: $black !default;
-$primary-button-base-hover: $grey !default;
-$primary-button-text: $white !default;
-$primary-button-text-hover: $white !default;
+$primary-button-text: $on-primary !default;
+$primary-button-base-hover: $secondary !default;
+$primary-button-text-hover: $on-secondary !default;
 
-$secondary-button-base: $red-300 !default;
-$secondary-button-base-hover: $red-500 !default;
-$secondary-button-text: $white !default;
-$secondary-button-text-hover: $white !default;
+$secondary-button-base: $primary !default;
+$secondary-button-text: $on-primary !default;
+$secondary-button-base-hover: $on-secondary !default;
+$secondary-button-text-hover: $on-primary !default;
 
 $table-text-align: left !default;
 

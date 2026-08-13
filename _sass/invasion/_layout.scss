@@ -97,6 +97,13 @@ article header div {
   }
 }
 
+.rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .columns-2 {
   display: flex;
   flex-direction: row;
@@ -108,5 +115,76 @@ article header div {
   }
   .column-B {
     width: 60%;
+  }
+}
+
+form {
+  color: $on-primary;
+  margin: $spacing-unit*4 auto 0;
+  max-width: 600px;
+  width: 100%;
+
+  label {
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: half($spacing-unit);
+  }
+
+  input, textarea {
+    background: $primary;
+    border: 1px solid $secondary;
+    border-radius: $spacing-unit;
+    color: $on-primary;
+    max-width: calc(100% - 40px);
+
+    &::placeholder { color: $on-primary; opacity: 1; }
+    &:-ms-input-placeholder { color: $on-primary; }
+    &::-ms-input-placeholder { color: $on-primary; }
+  }
+  
+  input[type="submit"]{
+    background: $primary-button-base;
+    border: none;
+    border-radius: 0;
+    box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
+    color: $primary-button-text;
+    font-family: $base-font-family;
+    padding: ($spacing-unit * 1) ($spacing-unit * 2);
+    text-decoration: none;
+    text-transform: uppercase;
+    width: initial;
+    max-width: 100%;
+    margin: $spacing-unit*4 0 0;
+
+    &:hover,
+    &:focus {
+      background: $primary-button-base-hover;
+      color: $primary-button-text-hover;
+    }
+  }
+}
+
+.form-alt {
+  color: $on-secondary;
+
+  input, textarea {
+    background: $secondary;
+    border: 1px solid $primary;
+    color: $on-secondary;
+
+    &::placeholder { color: $on-secondary; opacity: 1; }
+    &:-ms-input-placeholder { color: $on-secondary; }
+    &::-ms-input-placeholder { color: $on-secondary; }
+  }
+  
+  input[type="submit"]{
+    background: $secondary-button-base;
+    color: $secondary-button-text;
+
+    &:hover,
+    &:focus {
+      background: $secondary-button-base-hover;
+      color: $secondary-button-text-hover;
+    }
   }
 }

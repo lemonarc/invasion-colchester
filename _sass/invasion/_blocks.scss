@@ -195,46 +195,6 @@
     margin: 0 auto;
     max-width: 600px;
   }
-  #contact-form {
-    color: $on-primary;
-    margin: $spacing-unit*4 auto 0;
-    max-width: 600px;
-    width: 100%;
-
-    label {
-      display: block;
-      font-size: 0.8em;
-      margin-bottom: half($spacing-unit);
-    }
-
-    input, textarea {
-      background: $primary;
-      border: 1px solid $secondary;
-      border-radius: $spacing-unit;
-      color: $on-primary;
-      max-width: calc(100% - 40px);
-
-      &::placeholder { color: $on-primary; opacity: 1; }
-      &:-ms-input-placeholder { color: $on-primary; }
-      &::-ms-input-placeholder { color: $on-primary; }
-    }
-    input[type="submit"]{
-      background: $black;
-      border: none;
-      border-radius: 0;
-      box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
-      color: $white;
-      font-family: $base-font-family;
-      padding: ($spacing-unit * 1) ($spacing-unit * 2);
-      text-decoration: none;
-      text-transform: uppercase;
-      width: initial;
-      margin: $spacing-unit*4 0 0;
-
-      &:hover,
-      &:focus { background: $secondary; }
-    }
-  }
 
   // @include media-query($on-800) {
   //   background-size: 800px;
@@ -1266,7 +1226,8 @@
       display: none;
     }  
   }
-    img.tink-sm {
+
+  img.tink-sm {
     display: none;
     height: 200px;
     width: auto;
@@ -1286,7 +1247,6 @@
     }
   }
 
-
   .container .wrapper {
     padding-top: 0;
     padding-bottom: 0;
@@ -1295,6 +1255,11 @@
   .container-wrap-inner .container {
     color: $on-secondary;
     padding: $spacing-unit*2;
+  }
+
+  .row-B {
+    width: stretch;
+    max-width: 600px;
   }
 }
 

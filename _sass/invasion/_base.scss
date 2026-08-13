@@ -206,10 +206,10 @@ submit,
 submitbutton,
 input.button,
 input[type=submit] {
-  background: $black;
+  background: $primary-button-base;
   border: none;
   box-shadow: 7px 7px 0 rgba(0,0,0,0.3);
-  color: $white;
+  color: $primary-button-text;
   font-family: $base-font-family;
   padding: ($spacing-unit * 1) ($spacing-unit * 2);
   text-decoration: none;
@@ -218,17 +218,19 @@ input[type=submit] {
 
   &:hover,
   &:focus {
-    background: $secondary;
-    color: $black;
+    background: $primary-button-base-hover;
+    color: $primary-button-text-hover;
   }
 }
 
 a.button-alt {
+  background: $secondary-button-base;
+  color: $secondary-button-text;
 
   &:hover,
   &:focus {
-    background: $primary;
-    color: $white;
+    background: $secondary-button-base-hover;
+    color: $secondary-button-text-hover;
   }
 }
 
