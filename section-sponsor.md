@@ -12,11 +12,13 @@
 				<p>
 					Whether you're taking on a challenge, organising an activity, dressing up for a good cause or coming up with a fundraising idea of your own, you can now get sponsored in support of <strong>Invasion Colchester</strong> and help us raise even more for our chosen charities.
 				</p><p>
-					Simply download our <strong>Sponsorship Form</strong>, gather as many sponsors as you can and get involved. Big challenge or small, every pound raised helps make a difference — and adds to the incredible total raised by the Invasion Colchester community.
+					Simply contanct us using the link below and we'll send you our <strong>Sponsorship Form</strong>. Then gather as many sponsors as you can and get involved. Big challenge or small, every pound raised helps make a difference — and adds to the incredible total raised by the Invasion Colchester community.
 				</p><p>
 					<strong>What will you do for Invasion?</strong>
 				</p><br/><p>
-					<a href="/downloads/Invasion-Colchester-Sponsor-Form-2026.pdf" class="button" alt="Download sponsorship form" target="_blank" rel="noopener">Get sponsored</a>
+					<a href="mailto:invasioncolchester.charity@gmail.com?subject=Invasion%20Colchester%202026%20Sponsor%20Form%20Request" class="button">
+						Request a Sponsor Form
+					</a>
 				</p>
 			</div>
 		</div>
