@@ -167,7 +167,7 @@
 }
 
 .contact {
-  background-color: $primary;
+  background-color: $secondary;
   background-image: url(/assets/svg/halftone-dark.svg);
   background-position: center;
   background-repeat: repeat;
@@ -175,10 +175,10 @@
   background-size: $spacing-unit*1.2;
 
   a {
-    color: $on-secondary-link;
+    color: $on-primary-link;
     text-decoration: none;
 
-    &:hover,&:focus { color: $on-secondary-link-hover; }
+    &:hover,&:focus { color: $on-primary-link-hover; }
   }
   img {
     display: block;
@@ -187,16 +187,16 @@
     width: -webkit-fill-available;
   }
   h2 {
-    color: $primary;
+    color: $secondary;
     text-align: center;
   }
   p {
-    color: $on-secondary;
+    color: $on-primary;
     margin: 0 auto;
     max-width: 600px;
   }
   #contact-form {
-    color: $on-secondary;
+    color: $on-primary;
     margin: $spacing-unit*4 auto 0;
     max-width: 600px;
     width: 100%;
@@ -208,15 +208,15 @@
     }
 
     input, textarea {
-      background: $secondary;
-      border: 1px solid $primary;
+      background: $primary;
+      border: 1px solid $secondary;
       border-radius: $spacing-unit;
-      color: $on-secondary;
+      color: $on-primary;
       max-width: calc(100% - 40px);
 
-      &::placeholder { color: $on-secondary; opacity: 1; }
-      &:-ms-input-placeholder { color: $on-secondary; }
-      &::-ms-input-placeholder { color: $on-secondary; }
+      &::placeholder { color: $on-primary; opacity: 1; }
+      &:-ms-input-placeholder { color: $on-primary; }
+      &::-ms-input-placeholder { color: $on-primary; }
     }
     input[type="submit"]{
       background: $black;
@@ -232,7 +232,7 @@
       margin: $spacing-unit*4 0 0;
 
       &:hover,
-      &:focus { background: $primary; }
+      &:focus { background: $secondary; }
     }
   }
 
@@ -810,18 +810,18 @@
 }
 
 .park-ride {
-  background-color: $secondary;
+  background-color: $primary;
   background-image: url("/assets/svg/halftone-dark.svg");
   background-position: center;
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: $spacing-unit * 1.2;
 
-  color: $on-secondary;
+  color: $on-primary;
   text-align: center;
 
   h2 {
-    color: $on-secondary;
+    color: $on-primary;
     margin-bottom: 0;
     text-align: center;
   }
@@ -841,8 +841,8 @@
   }
 
   .container {
-    background-color: $primary;
-    color: $on-primary;
+    background-color: $secondary;
+    color: $on-secondary;
     text-align: left;
   }
 
@@ -863,32 +863,32 @@
 
   .park-ride-copy {
     h3 {
-      color: $on-primary;
+      color: $on-secondary;
       margin-bottom: $spacing-unit * 2;
       text-align: left;
     }
 
     p {
-      color: $on-primary;
+      color: $on-secondary;
       text-align: left;
     }
 
     small {
       display: block;
-      color: $on-primary;
+      color: $on-secondary;
       margin-top: $spacing-unit * 2;
     }
   }
 
   a,
   a:visited {
-    color: $on-primary-link;
+    color: $on-secondary-link;
     font-weight: 600;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      color: $on-primary-link-hover;
+      color: $on-secondary-link-hover;
     }
   }
 
@@ -900,14 +900,14 @@
     width: 100%;
     margin: 0;
 
-    border-color: $on-primary;
-    color: $on-primary;
+    border-color: $on-secondary;
+    color: $on-secondary;
 
     th,
     td {
       background: none;
-      border-color: $on-primary;
-      color: $on-primary;
+      border-color: $on-secondary;
+      color: $on-secondary;
     }
 
     tr:nth-child(even) {
@@ -942,7 +942,7 @@
     }
 
     path {
-      fill: $primary;
+      fill: $secondary;
     }
   }
 
@@ -974,13 +974,13 @@
 // }
 
 .photo-gallery {
-  background-color: $primary;
+  background-color: $secondary;
   background-image: url(/assets/svg/halftone-dark.svg);
   background-position: center;
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: $spacing-unit * 1.2;
-  color: $on-primary;
+  color: $on-secondary;
 
   h2,
   p {
@@ -1245,6 +1245,56 @@
   @include media-query($on-600) {
     .show-car-slider-image-container { height: 180px; }
     .final-show-car { display: none; }
+  }
+}
+
+.sponsor {
+  background-color: $primary;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
+  color: $on-primary;
+
+  img.tink-lg {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+
+    @include media-query($on-500) {
+      display: none;
+    }  
+  }
+    img.tink-sm {
+    display: none;
+    height: 200px;
+    width: auto;
+
+    @include media-query($on-500) {
+      display: block;
+    }  
+  }
+
+  span {
+    @include media-query($on-500) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  }
+
+
+  .container .wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .container-wrap-inner .container {
+    color: $on-secondary;
+    padding: $spacing-unit*2;
   }
 }
 

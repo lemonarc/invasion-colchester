@@ -1,5 +1,5 @@
 <div class="container-wrap">
-	<div class="container container-alt">
+	<div class="container">
 		<h2>Gallery</h2>
 		<p>
 			Relive the magic of Invasion Colchester through hundreds of photos from previous events. From Stormtroopers and superheroes to show cars, special guests and unforgettable moments, take a look back at some of our favourite memories.

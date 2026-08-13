@@ -1,5 +1,5 @@
 <div class="container-wrap">
-	<div class="container container-alt">
+	<div class="container">
 		<img src="/images/characters/SIL_BATSIGNAL.svg" alt="Batsignal" />
 		<h2>Get in Touch</h2>
 		<p>Want to join the cast, volunteer on the day, pitch a fundraising idea, or just ask a question? Use the form below and we’ll get back to you.</p>

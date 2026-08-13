@@ -96,3 +96,17 @@ article header div {
     width: 100%;
   }
 }
+
+.columns-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .column-A {
+    width: 20%;
+  }
+  .column-B {
+    width: 60%;
+  }
+}
