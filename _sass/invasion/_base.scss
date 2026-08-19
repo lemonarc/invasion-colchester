@@ -486,24 +486,24 @@ table {
   margin-bottom: $spacing-unit;
   text-align: $table-text-align;
   border-collapse: collapse;
-  border: 1px solid $white;
+  border: 1px solid $on-primary;
   margin: $spacing-unit*4 auto;
 
   tr {
     &:nth-child(even) {
-      background-color: $white;
+      background-color: inherit;
     }
   }
   th, td {
     padding: $spacing-unit;
   }
   th {
-    background-color: $white;
-    border: 1px solid $white;
-    border-bottom-color: $white;
+    background-color: inherit;
+    border: 1px solid $on-primary;
+    border-bottom-color: inherit;
   }
   td {
-    border: 1px solid $white;
+    border: 1px solid $on-primary;
   }
 }
 

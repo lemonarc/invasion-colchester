@@ -76,7 +76,7 @@
 
 <h4>Dragonfly Lounge</h4>
 <h5>Long Wyre Street</h5>
-<p>Look out for... a packed programme of family-friendly entertainment at the Dragonfly Lounge, featuring creative workshops, comic quizzes, Dungeons & Dragons, spectacular drag performances and the official Invasion Colchester After Party. <a href="https://dragonflylounge.co.uk/events" target="_blank" rel="noopener">Details here</a>.</p>
+<p>Look out for... Saber Guild UK's Lightsaber Training, plus a packed programme of family-friendly entertainment at the Dragonfly Lounge, featuring creative workshops, comic quizzes, Dungeons & Dragons, spectacular drag performances and an Invasion Colchester After Party. <a href="https://dragonflylounge.co.uk/events" target="_blank" rel="noopener">Details here</a>.</p>
 
 <h4>Fenwick</h4>
 <h5>High Street</h5>
@@ -96,12 +96,6 @@
 <h5>Lion Walk</h5>
 <p>Look out for... Our Special Guests, Comic Characters &amp; Super Heroes (including Deadpool), the Batmobile, Doctor Who TARDIS, Steampunk, DJ Fettdog, live music, Fragers Arcade Alley, and the Colchester &amp; Ipswich Hospitals Charity team.</p>
 
-<h4>Outside Baptist Church</h4>
-<h5>Lion Walk</h5>
-<p>
-  Look out for... live wrestling matches from School of Slam Wrestling — times to follow.
-</p>
-
 <h4>MP Galleries</h4>
 <h5>Sir Isaac's Walk</h5>
 <p>Look out for... Rob Bishop exhibition &amp; artist appearance — plus more characters.</p>
@@ -109,6 +103,12 @@
 <h4>Other Monkey Brewing</h4>
 <h5>St Nicholas Street</h5>
 <p>Look out for... this year's surprise Invasion Colchester ale - to be revealed in a one-off event beer pouring at The Taproom, with limited cans to take home. A portion of proceeds supports Invasion Colchester.</p>
+
+<h4>Outside Baptist Church</h4>
+<h5>Eld Lane</h5>
+<p>
+  Look out for... Stars of Slam Wrestling step into the ring for a series of live wrestling demonstrations throughout the day.
+</p>
 
 <h4>St Nicholas Square</h4>
 <h5>Off High Street</h5>

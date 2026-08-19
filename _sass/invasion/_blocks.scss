@@ -414,7 +414,6 @@
   table {
     width: 100%;
     margin: 0;
-
     border-color: $on-secondary;
     color: $on-secondary;
 
@@ -563,6 +562,93 @@
     box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
 
     &:hover,&:focus { box-shadow: none; }
+  }
+}
+
+.lightsaber-training {
+  background-color: $primary;
+  background-image: url("/assets/svg/halftone-dark.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit * 1.2;
+  color: $on-primary;
+  text-align: center;
+  padding-top: $spacing-unit*8;
+
+  h2 {
+    color: $on-primary;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  table,tbody, th, tr, td {
+    border-color: $on-secondary;
+    color: $on-secondary;
+  }
+
+  .wrapper-A {
+    margin-bottom: $spacing-unit*2;
+    padding-bottom: 0;
+    padding-top: $spacing-unit*2;
+  }
+
+  .wrapper-B {
+    padding-top: 0;
+  }
+
+  .ls-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ls-image-row {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+    @include media-query($on-800) {
+      height: 300px;
+    }
+
+    @include media-query($on-600) {
+      height: 220px;
+    }
+  }
+
+  .ls-image {
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    max-width: 500px;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 1s ease-out;
+    will-change: transform;
+  }
+
+  /* Vader starts off-screen left */
+  .ls-left {
+    left: 50%;
+    transform: translate(-150vw, -50%);
+  }
+
+  /* Kid starts off-screen right */
+  .ls-right {
+    right: 50%;
+    transform: translate(150vw, -50%);
+  }
+
+  /* Final duel positions */
+  .ls-image-row.ls-scrolled {
+    .ls-left {
+      transform: translate(-70%, -50%);
+    }
+
+    .ls-right {
+      transform: translate(70%, -50%);
+    }
   }
 }
 
@@ -1205,6 +1291,132 @@
   @include media-query($on-600) {
     .show-car-slider-image-container { height: 180px; }
     .final-show-car { display: none; }
+  }
+}
+
+.wrestling {
+  background-color: $secondary;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
+  color: $on-secondary;
+  text-align: center;
+
+  .wrestling-columns {
+    display: grid;
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 1fr);
+    gap: $spacing-unit * 4;
+
+    .wrestling-copy,
+    .wrestling-times {
+      float: none;
+      width: auto;
+      margin: 0;
+    }
+
+    @include media-query($on-800) {
+      grid-template-columns: 1fr;
+      gap: $spacing-unit * 2;
+    }
+  }
+
+  .wrestling-times {
+    table {
+      width: 100%;
+      margin: 0;
+      border-color: $on-primary;
+      color: $on-primary;
+
+      th,
+      td {
+        background: none;
+        border-color: $on-primary;
+        color: $on-primary;
+      }
+
+      tr:nth-child(even) {
+        background: none;
+      }
+    }
+  }
+
+  .wrestlers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-unit * 2;
+    margin-bottom: $spacing-unit*4;
+
+    .wrestler-falling,
+    .wrestler-flying {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        display: block;
+        width: 100%;
+        opacity: 0;
+        transition:
+          transform 0.9s ease-out,
+          opacity 0.6s ease-out;
+        will-change: transform, opacity;
+      }
+    }
+
+    /* Portrait image */
+    .wrestler-falling {
+      width: 40%;
+    
+      img {
+        max-width: 275px;
+        transform: translateY(-60px) rotate(-8deg);
+      }
+
+      &.wrestler-scrolled {
+        img {
+          opacity: 1;
+          transform: translateY(0) rotate(8deg);
+        }
+      }
+    }
+
+    /* Landscape image */
+    .wrestler-flying {
+      width: 60%;
+    
+      img {
+        max-width: 450px;
+        transform: translateX(80px) rotate(12deg);
+      }
+
+      &.wrestler-scrolled {
+        img {
+          opacity: 1;
+          transform: translateX(0) rotate(-6deg);
+        }
+      }
+    }
+
+    @include media-query($on-600) {
+      gap: $spacing-unit;
+
+      .wrestler-falling {
+        img {
+          max-width: 220px;
+        }
+      }
+
+      .wrestler-flying {
+        img {
+          max-width: 320px;
+        }
+      }
+    }
   }
 }
 
