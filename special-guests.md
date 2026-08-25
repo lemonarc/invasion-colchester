@@ -88,7 +88,7 @@ lightbox: guests
     </div>
 </div>
 <br />
-<div class="container">
+<!-- <div class="container">
     <img src="/images/guests/john-simpkin-1.jpg" alt="John Simpkin" class="guest-feature" />
     <h3>John Simpkin</h3>
     <p>
@@ -110,7 +110,7 @@ lightbox: guests
         </div>
     </div>
 </div>
-<br />
+<br /> -->
 <div class="container">
     <img src="/images/guests/ross-sambridge.jpg" alt="Ross Sambridge" class="guest-feature" />
     <h3>Ross Sambridge</h3>
