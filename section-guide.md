@@ -56,9 +56,9 @@
 <h5>Culver Street East</h5>
 <p>Look out for... TV, film &amp; fantasy favourites — plus the famous tombola.</p>
 
-<!-- <h4>Colchester Castle</h4>
+<h4>Colchester Castle</h4>
 <h5>Castle Park</h5>
-<p>Look out for... "Thunderbirds &amp; Co: The Joy of Puppetry" - Thunderbirds 60th Anniversary exhibition including live puppetry demonstrations.</p> -->
+<p>Look out for... Roman costumers outside the Castle, half-price Castle admission for everyone on Invasion day, and a very special offer for Minions — come dressed as a Minion and get in FREE to see the moon!</p>
 
 <h4>Colchester Market</h4>
 <h5>High Street</h5>
