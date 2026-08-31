@@ -88,6 +88,35 @@ lightbox: guests
     </div>
 </div>
 <br />
+<div class="container">
+    <img src="/images/guests/tina-simmons-1.jpg" alt="Tina Simmons" class="guest-feature" />
+    <h2>Tina Simmons</h2>
+    <p>
+	    <strong>Tina Simmons</strong> is an actress, supporting artist, stand-in and double whose extensive screen career includes appearances in some of the biggest film franchises of the past four decades.
+    </p><p>
+	    <strong>Star Wars</strong> fans may recognise Tina from <strong>Return of the Jedi</strong>, where she appeared as a <strong>Rebel Technician</strong> aboard the Headquarters Frigate during the Main Briefing Room scenes.
+    </p><p>
+	    Her film credits also include several <strong>James Bond</strong> adventures, appearing in <strong>Octopussy</strong>, <strong>A View to a Kill</strong>, <strong>The Living Daylights</strong> and <strong>Die Another Day</strong>. Her other big-screen appearances include <strong>Superman III</strong>, <strong>Supergirl</strong>, <strong>Superman IV: The Quest for Peace</strong>, <strong>Who Framed Roger Rabbit</strong>, <strong>Little Shop of Horrors</strong>, <strong>The Dark Knight</strong> and <strong>Mission: Impossible</strong>.
+    </p><p>
+	    Tina has also enjoyed a long career in television, with appearances in programmes including <strong>EastEnders</strong>, <strong>Coronation Street</strong>, <strong>The Bill</strong>, <strong>Lewis</strong>, <strong>Inspector Morse</strong>, <strong>Little Britain</strong>, <strong>French and Saunders</strong>, <strong>Only Fools and Horses</strong>, <strong>Magnum, P.I.</strong>, <strong>Hart to Hart</strong>, <strong>Tales of the Unexpected</strong>, <strong>Minder</strong>, <strong>Are You Being Served?</strong> and <strong>Doctor Who</strong>.
+    </p><p>
+	    Behind the scenes, Tina's work as a stand-in and double has seen her work alongside some of cinema's best-known performers. She was <strong>Helen Mirren's stand-in and double on Red 2</strong> and has worked as a stand-in for <strong>Meryl Streep, Miranda Richardson, Amanda Redman, Gemma Jones</strong> and <strong>Celia Imrie</strong>. She was also <strong>Ellen Greene's stand-in and double on Little Shop of Horrors</strong>.
+    </p><p>
+	    With a career spanning film, television, commercials, modelling and performance, Tina has accumulated an extraordinary collection of stories from behind the scenes of some truly iconic productions. We're delighted to welcome her to <strong>Invasion Colchester 2026</strong>.
+    </p>
+    <div class="gallery">
+        <div class="gallery-item" data-description="Tina Simmons in Return of the Jedi">
+            <img src="/images/guests/tina-simmons-2.jpg" alt="Tina Simmons in Return of the Jedi">
+        </div>
+        <div class="gallery-item" data-description="Tina Simmons in Return of the Jedi">
+            <img src="/images/guests/tina-simmons-3.jpg" alt="Tina Simmons in Return of the Jedi">
+        </div>
+        <div class="gallery-item" data-description="Tina Simmons in Superman IV">
+            <img src="/images/guests/tina-simmons-4.jpg" alt="Tina Simmons in Superman IV">
+        </div>
+    </div>
+</div>
+<br />
 <!-- <div class="container">
     <img src="/images/guests/john-simpkin-1.jpg" alt="John Simpkin" class="guest-feature" />
     <h3>John Simpkin</h3>

@@ -102,7 +102,7 @@
 
 <h4>Other Monkey Brewing</h4>
 <h5>St Nicholas Street</h5>
-<p>Look out for... this year's surprise Invasion Colchester ale - to be revealed in a one-off event beer pouring at The Taproom, with limited cans to take home. A portion of proceeds supports Invasion Colchester.</p>
+<p>Look out for... this year's Invasion Colchester ale - Hoptimus Prime - in a one-off event beer pouring at The Taproom. A portion of proceeds supports Invasion Colchester.</p>
 
 <h4>Outside Baptist Church</h4>
 <h5>Eld Lane</h5>
