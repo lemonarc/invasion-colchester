@@ -96,7 +96,7 @@
 <h5>Lion Walk</h5>
 <p>Look out for... Our Special Guests, Comic Characters &amp; Super Heroes (including Deadpool), the Batmobile, Doctor Who TARDIS, Steampunk, DJ Fettdog, live music, Fragers Arcade Alley, and the Colchester &amp; Ipswich Hospitals Charity team.</p>
 
-<h4>MP Galleries</h4>
+<h4>MP Gallery</h4>
 <h5>Sir Isaac's Walk</h5>
 <p>Look out for... Rob Bishop exhibition &amp; artist appearance — plus more characters.</p>
 
@@ -115,7 +115,6 @@
 <p>Look out for... Star Wars Central starring Stormtroopers, Jedi, Sith, Mandalorians &amp; more, plus Star Cars — marvellous machines from TV &amp; film.</p>
 
 <h4>Trinity Street</h4>
-
 <p>
   Look out for... Baka Itasha, the UK's first Itasha group, bringing a spectacular display of anime, manga, gaming and VTuber-themed vibrant custom cars to Invasion Colchester, combining a love of Japanese pop culture with automotive creativity.
 </p>
