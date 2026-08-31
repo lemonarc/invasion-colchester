@@ -16,7 +16,7 @@ lightbox: guests
     For 2026, we’re delighted to welcome performers <strong>Clem So</strong>, <strong>Ross Mullan</strong>, <strong>Tina Simmons</strong>, <strong>Ross Sambridge</strong>, and <strong>James Taylor</strong>.
 </p>
 <p>
-    Joining our screen guests this year are acclaimed movie sculptors <strong>Gary Pollard</strong> and <strong>Steve Braund</strong>, and guest artist <strong>Keith Burns</strong>. With acclaimed mixed-media artist <strong>Rob Bishop</strong> making an appearance at <strong>MP Galleries</strong>, we're bringing even more behind-the-scenes creativity to Invasion Colchester.
+    Joining our screen guests this year are acclaimed movie sculptors <strong>Gary Pollard</strong> and <strong>Steve Braund</strong>, and guest artist <strong>Keith Burns</strong>. With acclaimed mixed-media artist <strong>Rob Bishop</strong> making an appearance at <strong>MP Gallery</strong>, we're bringing even more behind-the-scenes creativity to Invasion Colchester.
 </p>
 <p>
     From iconic creatures and background characters to stunt work, stand-ins, and unforgettable appearances across film,television, and other media, this year’s guests have helped bring some of the world’s biggest universes to life.
@@ -286,10 +286,10 @@ lightbox: guests
 <br />
 <hr>
 <br />
-<h4>MP Galleries</h4>
+<h4>MP Gallery</h4>
 <div class="container">
 <p>
-    Returning to <strong>MP Galleries</strong> this year is acclaimed mixed-media artist <strong>Rob Bishop</strong>, whose distinctive artwork combines digital illustration with etched maple wood to create stunning three-dimensional pieces inspired by film, television, comics and popular culture.
+    Returning to <strong>MP Gallery</strong> this year is acclaimed mixed-media artist <strong>Rob Bishop</strong>, whose distinctive artwork combines digital illustration with etched maple wood to create stunning three-dimensional pieces inspired by film, television, comics and popular culture.
 </p>
 <p>
     Each artwork is individually hand-finished, giving every piece its own unique character and texture. Visitors will have the opportunity to browse a selection of Rob's latest creations, chat with the artist throughout the day, and purchase original artwork and limited editions celebrating some of the world's most iconic characters and franchises.
