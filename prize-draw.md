@@ -44,6 +44,10 @@ socialimage: INVASION_COLCHESTER_26_SOCIAL_DRAW.png
         <span class="donor">Donated by <a href="https://www.woodenfendercolchester.co.uk/" rel="nofollow noopener noreferrer" target="_blank"><span>The Wooden Fender</span></a></span>
     </li>
     <li>
+        <span class="prize">Bottomless Pizza for Two</span>
+         <span class="donor">Donated by <a href="https://www.motopizza.co.uk/" rel="nofollow noopener noreferrer" target="_blank"><span>Moto Pizza</span></a></span>
+            </li>
+    <li>
         <span class="prize">Other Monkey Brewing Voucher</span>
         <span class="donor">Donated by <a href="https://othermonkeybrewing.com/" rel="nofollow noopener noreferrer" target="_blank"><span>Other Monkey Brewing</span></a></span>
     </li>

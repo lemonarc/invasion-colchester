@@ -239,7 +239,9 @@ lightbox: guests
         His film credits include the award-winning <em>Fluxx</em> and <em>ManFish</em>, where he created the lead amphibious creature, as well as <em>Member's Club</em>, <em>Bambi: The Reckoning</em>, and several upcoming productions, including work for a major fantasy streaming series. His creations have also appeared in advertising campaigns, themed attractions and live performances.
     </p><p>
         As both a sculptor and experienced costumer, Steve understands the importance of creating pieces that not only look incredible on screen but are also comfortable, expressive and practical to wear. Whether producing a screen-ready creature, a faithful replica or an original character design, his passion is bringing imagination to life through traditional craftsmanship and practical effects.
-    </p>
+    </p><p>
+        <a href="https://www.itv.com/watch/news/former-essex-it-worker-finds-dream-job-after-being-made-redundant/5s2j8mg" rel="noopener" target="_blank">Watch Steve's recent inteview with ITV</a>.
+    <p>
     <div class="gallery">
         <div class="gallery-item" data-description="Steve Braund">
             <img src="/images/guests/steve-braund-2.jpg" alt="Steve Braund">
