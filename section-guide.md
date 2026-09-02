@@ -55,6 +55,18 @@
 <h4>ACE Comics</h4>
 <h5>Culver Street East</h5>
 <p>Look out for... TV, film &amp; fantasy favourites — plus the famous tombola.</p>
+<div class="guide-feature">
+<h5>On Sale at ACE Comics: Movie Posters — £5 Each!</h5>
+<p>
+	<strong>Take a little piece of the movies home with you!</strong> Thanks to the fantastic team at <strong>Curzon Colchester</strong>, we'll have a selection of genuine cinema movie posters available to buy at Invasion Colchester for just <strong>£5 each</strong>.
+</p><p>
+	There are posters from a huge range of films, including <strong>Spider-Man, Supergirl, Avatar, Iron Man, The Mandalorian, Mario, Minions, Moana, Shrek, Toy Story</strong> and many more.
+</p><p>
+	Posters will be available on a <strong>first-come, first-served basis</strong> and quantities are limited, so if you spot one you want, grab it while you can!
+</p><p>
+	Best of all, <strong>every penny raised will go towards the charities supported by Invasion Colchester</strong>.
+</p>
+</div>
 
 <h4>Colchester Castle</h4>
 <h5>Castle Park</h5>

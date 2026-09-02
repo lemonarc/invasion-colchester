@@ -493,6 +493,13 @@
     color: $secondary;
     padding: $spacing-unit*2;
   }
+
+  .guide-feature {
+    border: 2px solid $on-secondary;
+    padding: $spacing-unit*2;
+    margin: 0 auto 18px;
+    max-width: 70%;
+  }
 }
 
 .scroll-background-section {
