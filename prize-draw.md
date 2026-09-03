@@ -36,8 +36,12 @@ socialimage: INVASION_COLCHESTER_26_SOCIAL_DRAW.png
         <span class="donor">Donated by <a href="https://www.sthelena.org.uk/" rel="nofollow noopener noreferrer" target="_blank"><span>St Helena Hospice</span></a></span>
     </li>
     <li>
+        <span class="prize">Gel Manicure, Gel Pedicure & Wash and Blow-Dry</span>
+        <span class="donor">Donated by <a href="https://rawrbeauty.co.uk/" rel="nofollow noopener noreferrer" target="_blank"><span>Rawr Beauty</span></a></span>
+    </li>
+    <li>
         <span class="prize">Roast Dinner for Two</span>
-        <span class="donor">Donated by <a href="https://www.suryahotels.co.uk/the-george-hotel/" rel="nofollow noopener noreferrer" target="_blank"><span>The Geroge Hotel</span></a></span>
+        <span class="donor">Donated by <a href="https://www.suryahotels.co.uk/the-george-hotel/" rel="nofollow noopener noreferrer" target="_blank"><span>The George Hotel</span></a></span>
     </li>
     <li>
         <span class="prize">Wooden Fender Voucher</span>
