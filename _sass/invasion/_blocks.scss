@@ -1357,6 +1357,8 @@
     justify-content: center;
     gap: $spacing-unit * 2;
     margin-bottom: $spacing-unit*4;
+    overflow: hidden;
+    overflow-x: clip;
 
     .wrestler-falling,
     .wrestler-flying {
