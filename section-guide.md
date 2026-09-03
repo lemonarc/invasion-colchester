@@ -76,9 +76,9 @@
 <h5>Trinity Square</h5>
 <p>Look out for... Make Your Own Comic, Design Your Own Character and Become Your Own Superhero arts and crafts, plus readings of <em>The Gruffalo</em> at 10am and <em>Room on the Broom</em> at 11am.</p>
 
-<h4>Colchester Market</h4>
+<!-- <h4>Colchester Market</h4>
 <h5>High Street</h5>
-<p>Look out for... A street full of familiar faces from TV &amp; film.</p>
+<p>Look out for... A street full of familiar faces from TV &amp; film.</p> -->
 
 <h4>Culver Square Shopping Centre</h4>
 <h5>Culver Square</h5>
