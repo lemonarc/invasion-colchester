@@ -54,7 +54,7 @@
 
 <h4>ACE Comics</h4>
 <h5>Culver Street East</h5>
-<p>Look out for... TV, film &amp; fantasy favourites — plus the famous tombola.</p>
+<p>Look out for... TV, film & fantasy favourites, including the legendary Mando2Hire and his incredible Mandalorian speeder bike — plus the famous tombola!</p>
 <div class="guide-feature">
 <h5>On Sale at ACE Comics: Movie Posters — £5 Each!</h5>
 <p>
