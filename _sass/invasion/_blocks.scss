@@ -836,29 +836,40 @@
 }
 
 .othermonkey {
-  background-color: $secondary;
-  background-image: url(/assets/svg/diamonds-dark.svg);
+  background-color: $primary;
+  background-image: url(/assets/svg/halftone-dark.svg);
   background-position: center;
   background-repeat: repeat;
-  background-size: $spacing-unit*4;
   background-attachment: fixed;
-  background-image: url(/images/backgrounds/HOOK+LADDER-PROMO-BASE.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: $on-secondary;
+  background-size: $spacing-unit*1.2;
   text-align: center;
 
-  img {
-    display: block;
-    margin: 0 auto 60px;
-    max-width: 400px;
+  .images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto 40px;
+
+    img {
+      width: 40%;
+
+      @include media-query($on-600) {
+        width: 80%;
+      }
+    }
+
+    @include media-query($on-600) {
+      flex-direction: column;
+    }
   }
 
   a {
-    color: $primary;
+    color: $on-secondary-link;
     text-decoration: none;
 
-    &:hover,&:focus { color: $on-secondary; }
+    &:hover,&:focus { color: $on-secondary-link-hover; }
   }
 }
 
@@ -1152,6 +1163,29 @@
     tr:nth-child(even) { background: none; }
   }
   li { margin-bottom: $spacing-unit; }
+}
+
+.quiz {
+  background-color: $secondary;
+  background-image: url(/assets/svg/halftone-dark.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: $spacing-unit*1.2;
+  text-align: center;
+
+  img {
+    display: block;
+    margin: 0 auto 60px;
+    max-width: 400px;
+  }
+
+  a {
+    color: $on-primary-link;
+    text-decoration: none;
+
+    &:hover,&:focus { color: $on-primary-link-hover; }
+  }
 }
 
 .road-intro {
