@@ -138,7 +138,10 @@
 <h4>War Memorial</h4>
 <h5>High Street</h5>
 <p>Look out for... Coasters Scooter Club — plenty of gear on display, plus music.</p>
-
+<br/><br/>
+<p>
+<a href="/images/INVASIONB-COLCHESTER-2026-GUIDE-MOBILE.png" class="button" target="_blank" rel="noopener">View the Quick Guide<a>
+</p>
 <br/>
 <a class="scroll" href="#guests">Scroll down for more details...</a>
 <br/><br/>
