@@ -140,7 +140,7 @@
 <p>Look out for... Coasters Scooter Club — plenty of gear on display, plus music.</p>
 <br/><br/>
 <p>
-<a href="/images/INVASIONB-COLCHESTER-2026-GUIDE-MOBILE.png" class="button" target="_blank" rel="noopener">View the Quick Guide<a>
+<a href="/images/INVASION-COLCHESTER-2026-GUIDE-MOBILE.png" class="button" target="_blank" rel="noopener">View the Quick Guide<a>
 </p>
 <br/>
 <a class="scroll" href="#guests">Scroll down for more details...</a>
