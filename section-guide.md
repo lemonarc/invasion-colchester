@@ -135,9 +135,14 @@
   Look out for... Baka Itasha, the UK's first Itasha group, bringing a spectacular display of anime, manga, gaming and VTuber-themed vibrant custom cars to Invasion Colchester, combining a love of Japanese pop culture with automotive creativity.
 </p>
 
-<h4>War Memorial</h4>
+<h4>Bottom of the High Street</h4>
+<h5>Near St Nicholas Square</h5>
+<p>
+    Look out for... a fantastic display of motorbikes joining the Invasion!
+</p>
+<!-- <h4>War Memorial</h4>
 <h5>High Street</h5>
-<p>Look out for... Coasters Scooter Club — plenty of gear on display, plus music.</p>
+<p>Look out for... Coasters Scooter Club — plenty of gear on display, plus music.</p> -->
 <br/><br/>
 <p>
 <a href="/images/INVASION-COLCHESTER-2026-GUIDE-MOBILE.png" class="button" target="_blank" rel="noopener">View the Quick Guide<a>
