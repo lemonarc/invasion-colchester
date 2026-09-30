@@ -1118,33 +1118,27 @@
     flex-wrap: wrap;
     align-items: center;
 
-    &.prize-list {
-      height: 70vh;
-
-      @include media-query($on-800) {
-        flex-wrap: nowrap;
-        height: auto;
-      }
-    }
-    &.prize-winners {
-      height: 30vh;
-
-      @include media-query($on-600) {
-        height: 40vh;
-      }
-
-      @include media-query($on-400) {
-        height: 80vh;
-      }
-    }
-
     li {
-      .prize { font-size: 1.6em; font-weight: 700; }
+      .prize {
+        font-size: 1.6em;
+        font-weight: 700;
+      }
       .donor {
         display: block;
         font-size: initial;
 
-        span { display: inline; font-weight: 700; }
+        span {
+          display: inline;
+          font-weight: 700;
+        }
+      }
+      .winner {
+        display: block;
+        font-size: 1.2em;
+        border:1px solid $on-primary;
+        padding: $spacing-unit/2;
+        width: fit-content;
+        margin: $spacing-unit*2 auto $spacing-unit/2;
       }
     }
   }
@@ -1184,7 +1178,7 @@
     color: $on-primary-link;
     text-decoration: none;
 
-    &:hover,&:focus { color: $on-primary-link-hover; }
+    &:hover,&:focus { color: $on-primary-link-hover ; }
   }
 }
 

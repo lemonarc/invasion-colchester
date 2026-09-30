@@ -89,7 +89,6 @@
 /* Prize Draw Page */
 .prize-draw-page {
   ul {
-    text-align: center;
     list-style: none;
 
     li {
@@ -99,6 +98,14 @@
         font-size: initial;
 
         span { display: inline; font-weight: 700; }
+      }
+      .winner {
+        display: block;
+        font-size: 1.2em;
+        border:1px solid $on-primary;
+        padding: $spacing-unit/2;
+        width: fit-content;
+        margin: $spacing-unit*2 0 $spacing-unit/2;
       }
     }
   }
